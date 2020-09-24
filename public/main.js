@@ -146,8 +146,105 @@ const infoDiv = document.getElementById("infoCard")
 const imgDiv = document.getElementById("image")
 
 network.on("click", (params) => {
-	infoDiv.style.display = "block"
-	closeCard.style.display = "block"
+	if(params.nodes.length > 0) {
+		const selId = params.nodes[0]
+		console.log(selId)
+		const selEdge = params.edges
+		let relatedPeople = []
+
+		const selPerson = people.find(people => people.id == selId)
+		for (let i = 0; i < selEdge.length; i++) {
+			const relatedNode = network.getConnectedNodes(selEdge[i], "to")[1]
+			if(relatedNode !== selId) {
+				const relatedPerson = people.find(people => people.id == relatedNode)
+				const relationship = relatedPerson.relationship
+				const relationObj = relationship.find(relationship => relationship.id == selId)
+				const personObj = {
+					name: `${relatedPerson.name.first} ${relatedPerson.name.last}, ${relationObj.type}`,
+					source: {}
+				}
+				if(relationObj.type.slice(-1) === "]") {
+					const firstIndex = relationObj.type.indexOf("[")
+					const lastIndex = relationObj.type.indexOf("]")
+					personObj.source = relatedPerson.source[Number(relationObj.type.substring(firstIndex + 1, lastIndex))]
+				}
+				relatedPeople.push(personObj)
+			}
+		}
+
+		infoDiv.style.display = "block"
+		closeCard.style.display = "block"
+
+		const nameDiv = document.getElementById("name")
+		const altDiv = document.getElementById("alt")
+		const birthDiv = document.getElementById("birth")
+		const occupationDiv = document.getElementById("occupation")
+		const relationDiv = document.getElementById("relation")
+		const sourceDiv = document.getElementById("source")
+
+		nameDiv.innerHTML = ""
+		nameDiv.innerHTML = `${selPerson.name.first} ${selPerson.name.last}`
+
+		altDiv.innerHTML = ""
+		if(selPerson.name.alt !== ""){
+			altDiv.style.paddingBottom = "10px"
+			altDiv.innerHTML = selPerson.name.alt
+		} else {
+			altDiv.style.paddingBottom = "0px"
+		}
+
+		birthDiv.innerHTML = ""
+		birthDiv.innerHTML = `${selPerson.dateBirth.yyyy}/${selPerson.dateBirth.mm}/${selPerson.dateBirth.dd} ${selPerson.placeBirth} ~ ${selPerson.dateDeath.yyyy}/${selPerson.dateDeath.mm}/${selPerson.dateDeath.dd} ${selPerson.placeDeath}`
+
+		occupationDiv.innerHTML = ""
+		for (let i = 0; i < selPerson.group.length; i++) {
+			if(i !== 0) occupationDiv.innerHTML += `, ${selPerson.group[i]}`
+			else occupationDiv.innerHTML = selPerson.group[i]
+		}
+
+		relationDiv.innerHTML = ""
+		if(relatedPeople.length > 0) {
+			relationDiv.style.paddingBottom = "5px"
+			for (let i = 0; i < relatedPeople.length; i++) {
+				const node = document.createElement("div")
+				node.innerHTML = relatedPeople[i].name
+				relationDiv.appendChild(node)
+			}
+		} else {
+			relationDiv.style.paddingBottom = "0px"
+		}
+
+		sourceDiv.innerHTML = ""
+		for (let i = 0; i < selPerson.source.length; i++) {
+			const citation = document.createElement("div")
+			const extract = document.createElement("div")
+			citation.innerHTML = selPerson.source[i].citation
+			extract.innerHTML = selPerson.source[i].extract
+			sourceDiv.appendChild(citation)
+			sourceDiv.appendChild(extract)
+		}
+
+		imgDiv.innerHTML = ""
+		if(selPerson.picture !== "") {
+			const imgEl = document.createElement("img")
+			imgEl.src = selPerson.picture
+			imgEl.alt = `Image of ${selPerson.name.first} ${selPerson.name.last}`
+			imgDiv.appendChild(imgEl)
+
+			const total = Math.floor(infoDiv.clientWidth / 2) - 15
+			imgDiv.style.right = `${total}px`
+			imgDiv.style.display = "block"
+
+			closeCard.style.top = "78px"
+			infoDiv.style.top = "80px"
+			nameDiv.style.paddingTop = "20px"
+		} else {
+			imgDiv.style.display = "none"
+			closeCard.style.top = "33px"
+			infoCard.style.top = "35px"
+			nameDiv.style.paddingTop = "0px"
+		}
+	}
 })
 
 helpButton.addEventListener("click", () => {
