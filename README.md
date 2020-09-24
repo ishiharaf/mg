@@ -67,6 +67,8 @@ You can contribute by adding more musicians to `people.json`, reviewing existing
 		- A **musician** is anyone who is well-known for making a living by playing an instrument. People who are known solely for being a composer should not be in this category (even if they can play an instrument). The color is `mus`.
 		- **Royalty** is as the name suggests, a king, queen, duke, etc. It usually implies a financial relationship, and should be added sparingly. People who are known for being musicians and are also nobles/royalty should not be in this category. The color is `roy`.
 		- **Regular** people is anyone who does not fit the categories above. The color is `reg`.
+- Edit the `group` field.
+	- Add an occupation separated by comma.
 - Edit the `sources` field.
 	- This part is still under construction...
 - Edit the `picture` field.
