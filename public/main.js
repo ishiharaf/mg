@@ -137,3 +137,20 @@ const data = {
 	edges: edges
 }
 const network = new Network(container, data, options)
+const closeHelp = document.getElementById("closeHelp")
+const helpText = document.getElementById("helpText")
+const helpLegend = document.getElementById("helpLegend")
+const helpButton = document.getElementById("help")
+
+helpButton.addEventListener("click", () => {
+	helpButton.style.display = "none"
+	helpText.style.display = "block"
+	helpLegend.style.display = "block"
+	closeHelp.style.display = "block"
+})
+closeHelp.addEventListener("click", () => {
+	helpButton.style.display = "block"
+	helpText.style.display = "none"
+	helpLegend.style.display = "none"
+	closeHelp.style.display = "none"
+})
