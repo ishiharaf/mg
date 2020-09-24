@@ -101,4 +101,3564 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Giovanni-battista-somis.jpg"
+},
+{
+	"id": 4,
+	"name": {
+		"first": "Jean-Marie",
+		"last": "Leclair",
+		"alt": "Jean-Marie Leclair the Elder"
+	},
+	"dateBirth": {
+		"yyyy": "1697",
+		"mm": "05",
+		"dd": "10"
+	},
+	"dateDeath": {
+		"yyyy": "1764",
+		"mm": "10",
+		"dd": "22"
+	},
+	"placeBirth": "Lyon, France",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": 3,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "mus",
+	"group": ["Violinist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://lastfm.freetls.fastly.net/i/u/ar0/33e7845dd89ae97578fa8941a2ca5b48.jpg"
+},
+{
+	"id": 5,
+	"name": {
+		"first": "Felice",
+		"last": "Giardini",
+		"alt": "Felice de Giardini"
+	},
+	"dateBirth": {
+		"yyyy": "1716",
+		"mm": "04",
+		"dd": "12"
+	},
+	"dateDeath": {
+		"yyyy": "1796",
+		"mm": "06",
+		"dd": "08"
+	},
+	"placeBirth": "Turin, Italy",
+	"placeDeath": "Moscow, Russia",
+	"relationship": [{
+		"id": 3,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "mus",
+	"group": ["Violinist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Felice_Giardini_after_Giovanni_Battista_Cipriani.jpg/768px-Felice_Giardini_after_Giovanni_Battista_Cipriani.jpg"
+},
+{
+	"id": 6,
+	"name": {
+		"first": "Louis-Gabriel",
+		"last": "Guillemain",
+		"alt": ""
+	},
+	"dateBirth": {
+		"yyyy": "1705",
+		"mm": "11",
+		"dd": "05"
+	},
+	"dateDeath": {
+		"yyyy": "1770",
+		"mm": "10",
+		"dd": "01"
+	},
+	"placeBirth": "Paris, France",
+	"placeDeath": "Chaville, France",
+	"relationship": [{
+		"id": 3,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "mus",
+	"group": ["Violinist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "http://img0.liveinternet.ru/images/attach/c/1/50/756/50756931_Heraskov.jpg"
+},
+{
+	"id": 7,
+	"name": {
+		"first": "Gaetano",
+		"last": "Pugnani",
+		"alt": "Giulio Gaetano Gerolamo Pugnani"
+	},
+	"dateBirth": {
+		"yyyy": "1731",
+		"mm": "11",
+		"dd": "27"
+	},
+	"dateDeath": {
+		"yyyy": "1798",
+		"mm": "07",
+		"dd": "15"
+	},
+	"placeBirth": "Turin, Italy",
+	"placeDeath": "Turin, Italy",
+	"relationship": [{
+		"id": 3,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "imp",
+	"group": ["Violinist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Gaetano_Pugnani_%281754%29.jpg"
+},
+{
+	"id": 8,
+	"name": {
+		"first": "Pietro",
+		"last": "Locatelli",
+		"alt": "Pietro Antonio Locatelli"
+	},
+	"dateBirth": {
+		"yyyy": "1695",
+		"mm": "09",
+		"dd": "03"
+	},
+	"dateDeath": {
+		"yyyy": "1764",
+		"mm": "03",
+		"dd": "30"
+	},
+	"placeBirth": "Bergamo, Italy",
+	"placeDeath": "Amsterdam, Netherlands",
+	"relationship": [{
+		"id": 1,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "mus",
+	"group": ["Violinist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Locatelli.png/1200px-Locatelli.png"
+},
+{
+	"id": 9,
+	"name": {
+		"first": "Pietro",
+		"last": "Castrucci",
+		"alt": ""
+	},
+	"dateBirth": {
+		"yyyy": "1679",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1752",
+		"mm": "03",
+		"dd": "07"
+	},
+	"placeBirth": "Rome, Italy",
+	"placeDeath": "Dublin, Ireland",
+	"relationship": [{
+		"id": 1,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "mus",
+	"group": ["Violinist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "sfems.org/wp-content/uploads/2015/04/Geminiani-square.jpg"
+},
+{
+	"id": 10,
+	"name": {
+		"first": "Francesco Antonio",
+		"last": "Bonporti",
+		"alt": ""
+	},
+	"dateBirth": {
+		"yyyy": "1672",
+		"mm": "06",
+		"dd": "11"
+	},
+	"dateDeath": {
+		"yyyy": "1749",
+		"mm": "12",
+		"dd": "19"
+	},
+	"placeBirth": "Trento, Italy",
+	"placeDeath": "Padua, Italy",
+	"relationship": [{
+		"id": 1,
+		"type": "Student?",
+		"color": "black"
+	}],
+	"color": "reg",
+	"group": ["Priest", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Bonporti.jpg"
+},
+{
+	"id": 11,
+	"name": {
+		"first": "Giovanni Stefano",
+		"last": "Carbonelli",
+		"alt": ""
+	},
+	"dateBirth": {
+		"yyyy": "1694",
+		"mm": "03",
+		"dd": "09"
+	},
+	"dateDeath": {
+		"yyyy": "1772",
+		"mm": "??",
+		"dd": "??"
+	},
+	"placeBirth": "Livorno, Italy",
+	"placeDeath": "London, England",
+	"relationship": [{
+		"id": 1,
+		"type": "Student?",
+		"color": "black"
+	}],
+	"color": "reg",
+	"group": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 12,
+	"name": {
+		"first": "Francesco",
+		"last": "Gasparini",
+		"alt": ""
+	},
+	"dateBirth": {
+		"yyyy": "1661",
+		"mm": "03",
+		"dd": "19"
+	},
+	"dateDeath": {
+		"yyyy": "1727",
+		"mm": "03",
+		"dd": "22"
+	},
+	"placeBirth": "Camaiore, Italy",
+	"placeDeath": "Rome, Italy",
+	"relationship": [{
+		"id": 1,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "reg",
+	"group": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Francesco_Gasparini%2C_compositor.png"
+},
+{
+	"id": 13,
+	"name": {
+		"first": "Alessandro",
+		"last": "Scarlatti",
+		"alt": "Pietro Alessandro Gaspare Scarlatti"
+	},
+	"dateBirth": {
+		"yyyy": "1660",
+		"mm": "05",
+		"dd": "02"
+	},
+	"dateDeath": {
+		"yyyy": "1725",
+		"mm": "10",
+		"dd": "22"
+	},
+	"placeBirth": "Palermo, Italy",
+	"placeDeath": "Naples, Italy",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "reg",
+	"group": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "http://www.bach-cantatas.com/Pic-Lib-BIG/Scarlatti-Alessandro-09.jpg"
+},
+{
+	"id": 14,
+	"name": {
+		"first": "Carlo Ambrogio",
+		"last": "Lonati",
+		"alt": "Giovanni Ambrogio Leinati/Lunati"
+	},
+	"dateBirth": {
+		"yyyy": "c1645",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "c1712",
+		"mm": "??",
+		"dd": "??"
+	},
+	"placeBirth": "Milan, Italy",
+	"placeDeath": "???",
+	"relationship": [{
+		"id": 88,
+		"type": "Friend",
+		"color": "blue"
+	}],
+	"color": "imp",
+	"group": ["Violinist", "Composer", "Singer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "http://hakkindabilgial.com/wp-content/uploads/2016/11/Carlo_Ambrogio_Lonati_761288389.jpg"
+},
+{
+	"id": 15,
+	"name": {
+		"first": "Charles",
+		"last": "Avison",
+		"alt": ""
+	},
+	"dateBirth": {
+		"yyyy": "1709",
+		"mm": "02",
+		"dd": "16"
+	},
+	"dateDeath": {
+		"yyyy": "1770",
+		"mm": "05",
+		"dd": "10"
+	},
+	"placeBirth": "Newcastle, England",
+	"placeDeath": "Newcastle, England?",
+	"relationship": [{
+		"id": 2,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "reg",
+	"group": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "http://www.avisonensemble.com/userfiles/images/charles-two.jpg"
+},
+{
+	"id": 16,
+	"name": {
+		"first": "Matthew",
+		"last": "Dubourg",
+		"alt": ""
+	},
+	"dateBirth": {
+		"yyyy": "1703",
+		"mm": "06",
+		"dd": "03"
+	},
+	"dateDeath": {
+		"yyyy": "1767",
+		"mm": "06",
+		"dd": "03"
+	},
+	"placeBirth": "London, England",
+	"placeDeath": "London, England",
+	"relationship": [{
+		"id": 2,
+		"type": "Student",
+		"color": "blue"
+	}],
+	"color": "mus",
+	"group": ["Violinist", "Composer", "Conductor"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 17,
+	"name": {
+		"first": "Michael Christian",
+		"last": "Festing",
+		"alt": ""
+	},
+	"dateBirth": {
+		"yyyy": "1705",
+		"mm": "11",
+		"dd": "29"
+	},
+	"dateDeath": {
+		"yyyy": "1752",
+		"mm": "06",
+		"dd": "24"
+	},
+	"placeBirth": "London, England",
+	"placeDeath": "London, England",
+	"relationship": [{
+		"id": 2,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "mus",
+	"group": ["Violinist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 18,
+	"name": {
+		"first": "Bernhard Joachim",
+		"last": "Hagen",
+		"alt": ""
+	},
+	"dateBirth": {
+		"yyyy": "1720",
+		"mm": "04",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1787",
+		"mm": "12",
+		"dd": "09"
+	},
+	"placeBirth": "Hamburg, Germany",
+	"placeDeath": "Ansbach, Germany",
+	"relationship": [{
+		"id": 19,
+		"type": "Older Brother",
+		"color": "red"
+	}],
+	"color": "mus",
+	"group": ["Violinist", "Lutenist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "http://photos.geni.com/p13/6c/81/6f/9d/5344483977629f55/bernhard_hagen_large.jpg"
+},
+{
+	"id": 19,
+	"name": {
+		"first": "Peter Albrecht",
+		"last": "Hagen",
+		"alt": "Peter Albert van Hagen"
+	},
+	"dateBirth": {
+		"yyyy": "1714",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1777",
+		"mm": "09",
+		"dd": "12"
+	},
+	"placeBirth": "Hamburg, Germany?",
+	"placeDeath": "???",
+	"relationship": [{
+		"id": 2,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "mus",
+	"group": ["Violinist", "Lutenist", "Organist"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 20,
+	"name": {
+		"first": "Cecilia",
+		"last": "Arne",
+		"alt": "Cecilia Young"
+	},
+	"dateBirth": {
+		"yyyy": "1712",
+		"mm": "01",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1789",
+		"mm": "10",
+		"dd": "06"
+	},
+	"placeBirth": "London, England",
+	"placeDeath": "London, England",
+	"relationship": [{
+		"id": 2,
+		"type": "Student",
+		"color": "gray"
+	},{
+		"id": 71,
+		"type": "Spouse",
+		"color": "red"
+	},{
+		"id": 73,
+		"type": "Daughter",
+		"color": "red"
+	}],
+	"color": "mus",
+	"group": ["Singer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 21,
+	"name": {
+		"first": "Henry",
+		"last": "Carey",
+		"alt": ""
+	},
+	"dateBirth": {
+		"yyyy": "1687",
+		"mm": "08",
+		"dd": "26"
+	},
+	"dateDeath": {
+		"yyyy": "1743",
+		"mm": "10",
+		"dd": "05"
+	},
+	"placeBirth": "London, England",
+	"placeDeath": "London, England",
+	"relationship": [{
+		"id": 2,
+		"type": "Student?",
+		"color": "black"
+	}],
+	"color": "reg",
+	"group": ["Poet", "Dramatist", "Songwriter"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Henry_Carey.jpg"
+},
+{
+	"id": 22,
+	"name": {
+		"first": "William",
+		"last": "Shield",
+		"alt": ""
+	},
+	"dateBirth": {
+		"yyyy": "1748",
+		"mm": "03",
+		"dd": "05"
+	},
+	"dateDeath": {
+		"yyyy": "1829",
+		"mm": "01",
+		"dd": "25"
+	},
+	"placeBirth": "Swalwell, England",
+	"placeDeath": "London, England",
+	"relationship": [{
+		"id": 15,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "mus",
+	"group": ["Violinist", "Violist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/William_Shield_.png/718px-William_Shield_.png"
+},
+{
+	"id": 23,
+	"name": {
+		"first": "Benedetto",
+		"last": "Marcello",
+		"alt": "Benedetto Giacomo Marcello"
+	},
+	"dateBirth": {
+		"yyyy": "1686",
+		"mm": "10",
+		"dd": "31"
+	},
+	"dateDeath": {
+		"yyyy": "1739",
+		"mm": "06",
+		"dd": "24"
+	},
+	"placeBirth": "Venice, Italy",
+	"placeDeath": "Brescia, Italy",
+	"relationship": [{
+		"id": 12,
+		"type": "Student",
+		"color": "gray"
+	},{
+		"id": 24,
+		"type": "Student",
+		"color": "gray"
+	},{
+		"id": 25,
+		"type": "Brother",
+		"color": "red"
+	}],
+	"color": "reg",
+	"group": ["Composer", "Writer", "Advocate", "Magistrate", "Teacher"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Benedetto_Marcello_by_Vincenzo_Roscioni.jpg/677px-Benedetto_Marcello_by_Vincenzo_Roscioni.jpg"
+},
+{
+	"id": 24,
+	"name": {
+		"first": "Antonio",
+		"last": "Lotti",
+		"alt": ""
+	},
+	"dateBirth": {
+		"yyyy": "1667",
+		"mm": "01",
+		"dd": "05"
+	},
+	"dateDeath": {
+		"yyyy": "1740",
+		"mm": "01",
+		"dd": "05"
+	},
+	"placeBirth": "Venice, Italy",
+	"placeDeath": "Venice, Italy",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "reg",
+	"group": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/en/3/34/AntonioLottiImage.jpg"
+},
+{
+	"id": 25,
+	"name": {
+		"first": "Alessandro",
+		"last": "Marcello",
+		"alt": "Alessandro Ignazio Marcello"
+	},
+	"dateBirth": {
+		"yyyy": "1673",
+		"mm": "02",
+		"dd": "01"
+	},
+	"dateDeath": {
+		"yyyy": "1747",
+		"mm": "06",
+		"dd": "19"
+	},
+	"placeBirth": "Venice, Italy",
+	"placeDeath": "Venice, Italy",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "reg",
+	"group": ["Composer", "Nobleman"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "http://myfavoriteclassical.com/wp-content/uploads/2018/03/alessandro-marcello.jpg"
+},
+{
+	"id": 26,
+	"name": {
+		"first": "Tomasso",
+		"last": "Albioni",
+		"alt": "Tomaso Giovanni Albinoni"
+	},
+	"dateBirth": {
+		"yyyy": "1671",
+		"mm": "06",
+		"dd": "08"
+	},
+	"dateDeath": {
+		"yyyy": "1751",
+		"mm": "01",
+		"dd": "17"
+	},
+	"placeBirth": "Venice, Italy",
+	"placeDeath": "Venice, Italy",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "imp",
+	"group": ["Violinist", "Singer", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "http://www.baroquemusic.org/albinoni.jpg"
+},
+{
+	"id": 27,
+	"name": {
+		"first": "Rosanna Scalfi",
+		"last": "Marcello",
+		"alt": ""
+	},
+	"dateBirth": {
+		"yyyy": "1704",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1742",
+		"mm": "??",
+		"dd": "??"
+	},
+	"placeBirth": "Venice, Italy?",
+	"placeDeath": "Venice, Italy?",
+	"relationship": [{
+		"id": 23,
+		"type": "Spouse",
+		"color": "pink"
+	}],
+	"color": "imp",
+	"group": ["Singer", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 28,
+	"name": {
+		"first": "Johann Joachim",
+		"last": "Quantz",
+		"alt": "Hanß Jochim Quantz"
+	},
+	"dateBirth": {
+		"yyyy": "1697",
+		"mm": "01",
+		"dd": "30"
+	},
+	"dateDeath": {
+		"yyyy": "1773",
+		"mm": "06",
+		"dd": "12"
+	},
+	"placeBirth": "Oberscheden, Germany",
+	"placeDeath": "Potsdam, Germany",
+	"relationship": [{
+		"id": 12,
+		"type": "Student",
+		"color": "gray"
+	},{
+		"id": 85,
+		"type": "Student",
+		"color": "gray"
+	},{
+		"id": 32,
+		"type": "Friend",
+		"color": "blue"
+	},{
+		"id": 13,
+		"type": "Acquaintance",
+		"color": "black"
+	},{
+		"id": 63,
+		"type": "Acquaintance",
+		"color": "black"
+	},{
+		"id": 36,
+		"type": "Employee",
+		"color": "green"
+	}],
+	"color": "imp",
+	"group": ["Flutist", "Flute maker", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Quantz_by_Gerhard.jpg/220px-Quantz_by_Gerhard.jpg"
+},
+{
+	"id": 29,
+	"name": {
+		"first": "Domenico",
+		"last": "Scarlatti",
+		"alt": "Giuseppe Domenico Scarlatti, Domingo/Doménico Scarlatti"
+	},
+	"dateBirth": {
+		"yyyy": "1685",
+		"mm": "10",
+		"dd": "26"
+	},
+	"dateDeath": {
+		"yyyy": "1757",
+		"mm": "07",
+		"dd": "23"
+	},
+	"placeBirth": "Naples, Italy",
+	"placeDeath": "Madrid, Spain",
+	"relationship": [{
+		"id": 12,
+		"type": "Student",
+		"color": "gray"
+	},{
+		"id": 13,
+		"type": "Son",
+		"color": "red"
+	},{
+		"id": 71,
+		"type": "Brother",
+		"color": "red"
+	}],
+	"color": "imp",
+	"group": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "http://4.bp.blogspot.com/-J0A4ntz_uuI/Tdyfr09dTEI/AAAAAAAAAEA/0u8SnU2JWm8/s1600/domenico_scarlatti.jpg"
+},
+{
+	"id": 30,
+	"name": {
+		"first": "Antonio",
+		"last": "Vivaldi",
+		"alt": "Antonio Lucio Vivaldi, Il Prete Rosso"
+	},
+	"dateBirth": {
+		"yyyy": "1678",
+		"mm": "03",
+		"dd": "04"
+	},
+	"dateDeath": {
+		"yyyy": "1741",
+		"mm": "07",
+		"dd": "28"
+	},
+	"placeBirth": "Venice, Italy",
+	"placeDeath": "Vienna, Austria",
+	"relationship": [{
+		"id": 12,
+		"type": "Employee",
+		"color": "green"
+	},{
+		"id": 31,
+		"type": "Son, Student",
+		"color": "red"
+	}],
+	"color": "imp",
+	"group": ["Violinist", "Composer", "Teacher", "Impresario", "Priest"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/9/98/Antonio_Vivaldi_portrait.jpg"
+},
+{
+	"id": 31,
+	"name": {
+		"first": "Giovanni Battista",
+		"last": "Vivaldi",
+		"alt": ""
+	},
+	"dateBirth": {
+		"yyyy": "1655",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1736",
+		"mm": "??",
+		"dd": "??"
+	},
+	"placeBirth": "Brescia, Italy",
+	"placeDeath": "Venezia, Austria",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "mus",
+	"group": ["Violinist"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 32,
+	"name": {
+		"first": "Johann Georg",
+		"last": "Pisendel",
+		"alt": ""
+	},
+	"dateBirth": {
+		"yyyy": "1688",
+		"mm": "01",
+		"dd": "05"
+	},
+	"dateDeath": {
+		"yyyy": "1755",
+		"mm": "11",
+		"dd": "25"
+	},
+	"placeBirth": "Cadolzburg, Germany",
+	"placeDeath": "?",
+	"relationship": [{
+		"id": 30,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "mus",
+	"group": ["Violinist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/6/61/Johann_Georg_Pisendel.jpg"
+},
+{
+	"id": 33,
+	"name": {
+		"first": "Franz",
+		"last": "Benda",
+		"alt": ""
+	},
+	"dateBirth": {
+		"yyyy": "1709",
+		"mm": "11",
+		"dd": "22"
+	},
+	"dateDeath": {
+		"yyyy": "1786",
+		"mm": "03",
+		"dd": "07"
+	},
+	"placeBirth": "Benátky nad Jizerou, Czech Republic",
+	"placeDeath": "Potsdam, Germany",
+	"relationship": [{
+		"id": 32,
+		"type": "Student",
+		"color": "gray"
+	},{
+		"id": 36,
+		"type": "Employee",
+		"color": "green"
+	}],
+	"color": "mus",
+	"group": ["Violinist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://www.jeffersonbaroque.org/images/Franz-Benda.jpg"
+},
+{
+	"id": 34,
+	"name": {
+		"first": "Johann Gottlieb",
+		"last": "Graun",
+		"alt": ""
+	},
+	"dateBirth": {
+		"yyyy": "1703",
+		"mm": "10",
+		"dd": "27"
+	},
+	"dateDeath": {
+		"yyyy": "1771",
+		"mm": "10",
+		"dd": "28"
+	},
+	"placeBirth": "Uebigau-Wahrenbrück, Germany",
+	"placeDeath": "?",
+	"relationship": [{
+		"id": 32,
+		"type": "Student",
+		"color": "gray"
+	},{
+		"id": 35,
+		"type": "Student",
+		"color": "gray"
+	},{
+		"id": 36,
+		"type": "Employee",
+		"color": "green"
+	}],
+	"color": "mus",
+	"group": ["Violinist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Johann_Gottlieb_Graun.jpg"
+},
+{
+	"id": 35,
+	"name": {
+		"first": "Giuseppe",
+		"last": "Tartini",
+		"alt": ""
+	},
+	"dateBirth": {
+		"yyyy": "1692",
+		"mm": "03",
+		"dd": "08"
+	},
+	"dateDeath": {
+		"yyyy": "1770",
+		"mm": "02",
+		"dd": "26"
+	},
+	"placeBirth": "Piran, Slovenia",
+	"placeDeath": "Padua, Italy",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "imp",
+	"group": ["Violinist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "http://aviolinslife.frankalmond.com/wp-content/uploads/sites/2/2013/03/Tartini1.png"
+},
+{
+	"id": 36,
+	"name": {
+		"first": "Frederick",
+		"last": "William II",
+		"alt": "Frederick the Great"
+	},
+	"dateBirth": {
+		"yyyy": "1712",
+		"mm": "01",
+		"dd": "24"
+	},
+	"dateDeath": {
+		"yyyy": "1786",
+		"mm": "10",
+		"dd": "17"
+	},
+	"placeBirth": "Berlin, Germany",
+	"placeDeath": "Postdam, Germany",
+	"relationship": [{
+		"id": 28,
+		"type": "Student",
+		"color": "green"
+	}],
+	"color": "roy",
+	"group": ["King of Prussia", "Elector of Brandenburg"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/9/90/Friedrich_Zweite_Alt.jpg"
+},
+{
+	"id": 37,
+	"name": {
+		"first": "Wilhelm Friedemann",
+		"last": "Bach",
+		"alt": ""
+	},
+	"dateBirth": {
+		"yyyy": "1710",
+		"mm": "11",
+		"dd": "22"
+	},
+	"dateDeath": {
+		"yyyy": "1784",
+		"mm": "07",
+		"dd": "01"
+	},
+	"placeBirth": "Weimar, Germany",
+	"placeDeath": "Berlin, Germany",
+	"relationship": [{
+		"id": 34,
+		"type": "Student",
+		"color": "gray"
+	},{
+		"id": 38,
+		"type": "Son",
+		"color": "red"
+	}],
+	"color": "mus",
+	"group": ["Organist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://cps-static.rovicorp.com/3/JPG_400/MI0002/861/MI0002861368.jpg?partner=allrovi.com"
+},
+{
+	"id": 38,
+	"name": {
+		"first": "Johann Sebastian",
+		"last": "Bach",
+		"alt": ""
+	},
+	"dateBirth": {
+		"yyyy": "1685",
+		"mm": "03",
+		"dd": "31"
+	},
+	"dateDeath": {
+		"yyyy": "1750",
+		"mm": "07",
+		"dd": "28"
+	},
+	"placeBirth": "Eisenach, Germany",
+	"placeDeath": "Leipzig, Germany",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": "gray"
+	}],
+	"color": "imp",
+	"group": ["Organist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Johann_Sebastian_Bach.jpg"
+},
+{
+	"id": 39,
+	"name": {
+		"first": "Charles-Antoine",
+		"last": "Campion",
+		"alt": "Carlo Antonio Campioni"
+	},
+	"dateBirth": {
+		"yyyy": "1720",
+		"mm": "11",
+		"dd": "16"
+	},
+	"dateDeath": {
+		"yyyy": "1788",
+		"mm": "03",
+		"dd": "12"
+	},
+	"placeBirth": "Lorraine, France",
+	"placeDeath": "Florence, Italy",
+	"relationship": [{
+		"id": 35,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "reg",
+	"group": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 40,
+	"name": {
+		"first": "Domenico",
+		"last": "dall'Oglio",
+		"alt": ""
+	},
+	"dateBirth": {
+		"yyyy": "c1700",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1764",
+		"mm": "??",
+		"dd": "??"
+	},
+	"placeBirth": "Padua, Italy",
+	"placeDeath": "Narva, Estonia",
+	"relationship": [{
+		"id": 35,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "mus",
+	"group": ["Violinist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 41,
+	"name": {
+		"first": "Pietro",
+		"last": "Nardini",
+		"alt": ""
+	},
+	"dateBirth": {
+		"yyyy": "1722",
+		"mm": "03",
+		"dd": "12"
+	},
+	"dateDeath": {
+		"yyyy": "1793",
+		"mm": "05",
+		"dd": "07"
+	},
+	"placeBirth": "Livorno, Italy",
+	"placeDeath": "Florence, Italy",
+	"relationship": [{
+		"id": 35,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "imp",
+	"group": ["Violinist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 42,
+	"name": {
+		"first": "Maddalena Laura",
+		"last": "Sirmen",
+		"alt": "Maddalena Laura Lombardini"
+	},
+	"dateBirth": {
+		"yyyy": "1745",
+		"mm": "12",
+		"dd": "09"
+	},
+	"dateDeath": {
+		"yyyy": "1818",
+		"mm": "05",
+		"dd": "18"
+	},
+	"placeBirth": "Venice, Italy",
+	"placeDeath": "Venice, Italy",
+	"relationship": [{
+		"id": 35,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "mus",
+	"group": ["Violinist", "Singer", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 43,
+	"name": {
+		"first": "Johann Gottlieb",
+		"last": "Naumann",
+		"alt": ""
+	},
+	"dateBirth": {
+		"yyyy": "1741",
+		"mm": "03",
+		"dd": "17"
+	},
+	"dateDeath": {
+		"yyyy": "1801",
+		"mm": "10",
+		"dd": "23"
+	},
+	"placeBirth": "Blasewitz, Germany",
+	"placeDeath": "Dresden, Germany",
+	"relationship": [{
+		"id": 35,
+		"type": "Student",
+		"color": "gray"
+	},{
+		"id": 44,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "reg",
+	"group": ["Composer", "Conductor", "Kapellmeister"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 44,
+	"name": {
+		"first": "Gottfried August",
+		"last": "Homilius",
+		"alt": ""
+	},
+	"dateBirth": {
+		"yyyy": "1714",
+		"mm": "02",
+		"dd": "02"
+	},
+	"dateDeath": {
+		"yyyy": "1785",
+		"mm": "06",
+		"dd": "02"
+	},
+	"placeBirth": "Rosenthal, Germany",
+	"placeDeath": "Dresden, Germany",
+	"relationship": [{
+		"id": 38,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "mus",
+	"group": ["Organist", "Cantor", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 45,
+	"name": {
+		"first": "Anders",
+		"last": "Wesström",
+		"alt": ""
+	},
+	"dateBirth": {
+		"yyyy": "1720",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1781",
+		"mm": "05",
+		"dd": "07"
+	},
+	"placeBirth": "Uppsala, Sweden",
+	"placeDeath": "Hudiksvall, Sweden",
+	"relationship": [{
+		"id": 35,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "reg",
+	"group": ["Organist", "Violinist", "Composer", "Teacher"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 46,
+	"name": {
+		"first": "Francesco Maria",
+		"last": "Veracini",
+		"alt": ""
+	},
+	"dateBirth": {
+		"yyyy": "1690",
+		"mm": "02",
+		"dd": "01"
+	},
+	"dateDeath": {
+		"yyyy": "1768",
+		"mm": "10",
+		"dd": "31"
+	},
+	"placeBirth": "Florence, Italy",
+	"placeDeath": "Florence, Italy",
+	"relationship": [{
+		"id": 47,
+		"type": "Nephew, Student",
+		"color": "red"
+	}],
+	"color": "imp",
+	"group": ["Violinist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 47,
+	"name": {
+		"first": "Antonio",
+		"last": "Veracini",
+		"alt": ""
+	},
+	"dateBirth": {
+		"yyyy": "1659",
+		"mm": "01",
+		"dd": "17"
+	},
+	"dateDeath": {
+		"yyyy": "1733",
+		"mm": "10",
+		"dd": "26"
+	},
+	"placeBirth": "Florence, Italy",
+	"placeDeath": "Florence, Italy",
+	"relationship": [{
+		"id": 48,
+		"type": "Son, Student",
+		"color": "red"
+	}],
+	"color": "mus",
+	"group": ["Violinist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 48,
+	"name": {
+		"first": "Francesco di Niccolò",
+		"last": "Veracini",
+		"alt": ""
+	},
+	"dateBirth": {
+		"yyyy": "1638",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1720",
+		"mm": "??",
+		"dd": "??"
+	},
+	"placeBirth": "Florence, Italy",
+	"placeDeath": "Florence, Italy",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "mus",
+	"group": ["Violinist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 49,
+	"name": {
+		"first": "Giovanni Francesco",
+		"last": "Giuliani",
+		"alt": ""
+	},
+	"dateBirth": {
+		"yyyy": "1760",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1820",
+		"mm": "??",
+		"dd": "??"
+	},
+	"placeBirth": "Livorno, Italy",
+	"placeDeath": "Florence, Italy",
+	"relationship": [{
+		"id": 41,
+		"type": "Student",
+		"color": "gray"
+	},{
+		"id": 50,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "mus",
+	"group": ["Harpist", "Composer", "Orchestra Director"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 50,
+	"name": {
+		"first": "Bartolomeo",
+		"last": "Felici",
+		"alt": ""
+	},
+	"dateBirth": {
+		"yyyy": "1695",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1776",
+		"mm": "??",
+		"dd": "??"
+	},
+	"placeBirth": "Florence, Italy",
+	"placeDeath": "Florence, Italy",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "mus",
+	"group": ["Organist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 51,
+	"name": {
+		"first": "Luigi",
+		"last": "Cherubini",
+		"alt": ""
+	},
+	"dateBirth": {
+		"yyyy": "1760",
+		"mm": "09",
+		"dd": "14"
+	},
+	"dateDeath": {
+		"yyyy": "1842",
+		"mm": "03",
+		"dd": "15"
+	},
+	"placeBirth": "Florence, Italy",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": 50,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "reg",
+	"group": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 52,
+	"name": {
+		"first": "Alessandro",
+		"last": "Felici",
+		"alt": ""
+	},
+	"dateBirth": {
+		"yyyy": "1742",
+		"mm": "11",
+		"dd": "21"
+	},
+	"dateDeath": {
+		"yyyy": "1772",
+		"mm": "08",
+		"dd": "21"
+	},
+	"placeBirth": "Florence, Italy",
+	"placeDeath": "Florence, Italy",
+	"relationship": [{
+		"id": 50,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "mus",
+	"group": ["Violinist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 53,
+	"name": {
+		"first": "Bartolomeo",
+		"last": "Campagnoli",
+		"alt": ""
+	},
+	"dateBirth": {
+		"yyyy": "1751",
+		"mm": "09",
+		"dd": "10"
+	},
+	"dateDeath": {
+		"yyyy": "1827",
+		"mm": "11",
+		"dd": "06"
+	},
+	"placeBirth": "Cento, Italy",
+	"placeDeath": "Neustrelitz, Germany",
+	"relationship": [{
+		"id": 41,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "mus",
+	"group": ["Violinist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 54,
+	"name": {
+		"first": "Leopold",
+		"last": "Mozart",
+		"alt": "Johann Georg Leopold Mozart"
+	},
+	"dateBirth": {
+		"yyyy": "1719",
+		"mm": "11",
+		"dd": "14"
+	},
+	"dateDeath": {
+		"yyyy": "1787",
+		"mm": "05",
+		"dd": "28"
+	},
+	"placeBirth": "Augsburg, Germany",
+	"placeDeath": "Salzburg, Austria",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "mus",
+	"group": ["Violinist", "Composer", "Conductor"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 55,
+	"name": {
+		"first": "Maria Anna",
+		"last": "Mozart",
+		"alt": "Maria Anna Walburga Ignatia Mozart, Marianne/Nannerl"
+	},
+	"dateBirth": {
+		"yyyy": "1751",
+		"mm": "07",
+		"dd": "30"
+	},
+	"dateDeath": {
+		"yyyy": "1829",
+		"mm": "10",
+		"dd": "29"
+	},
+	"placeBirth": "Salzburg, Austria",
+	"placeDeath": "Salzburg, Austria",
+	"relationship": [{
+		"id": 54,
+		"type": "Daughter, Student",
+		"color": "red"
+	}],
+	"color": "mus",
+	"group": ["Harpsichordist", "Fortepianist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 56,
+	"name": {
+		"first": "Wolfgang Amadeus",
+		"last": "Mozart",
+		"alt": "Johannes Chrysostomus Wolfgangus Theophilus Mozart"
+	},
+	"dateBirth": {
+		"yyyy": "1756",
+		"mm": "01",
+		"dd": "27"
+	},
+	"dateDeath": {
+		"yyyy": "1791",
+		"mm": "12",
+		"dd": "05"
+	},
+	"placeBirth": "Salzburg, Austria",
+	"placeDeath": "Vienna, Austria",
+	"relationship": [{
+		"id": 54,
+		"type": "Son, Student",
+		"color": "red"
+	},{
+		"id": 55,
+		"type": "Sister",
+		"color": "red"
+	},{
+		"id": 57,
+		"type": "Friend",
+		"color": "blue"
+	},{
+		"id": 59,
+		"type": "Acquaintance",
+		"color": "black"
+	}],
+	"color": "imp",
+	"group": ["Violinist", "Fortepianist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 57,
+	"name": {
+		"first": "Joseph",
+		"last": "Haydn",
+		"alt": ""
+	},
+	"dateBirth": {
+		"yyyy": "1732",
+		"mm": "03",
+		"dd": "31"
+	},
+	"dateDeath": {
+		"yyyy": "1809",
+		"mm": "05",
+		"dd": "31"
+	},
+	"placeBirth": "Rohrau, Austria",
+	"placeDeath": "Vienna, Austria",
+	"relationship": [{
+		"id": 60,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "imp",
+	"group": ["Harpsichordist", "Violinist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 58,
+	"name": {
+		"first": "Michael",
+		"last": "Kelly",
+		"alt": "O'Kelly, Signor Ochelli"
+	},
+	"dateBirth": {
+		"yyyy": "1762",
+		"mm": "12",
+		"dd": "25"
+	},
+	"dateDeath": {
+		"yyyy": "1826",
+		"mm": "10",
+		"dd": "09"
+	},
+	"placeBirth": "Dublin, Ireland",
+	"placeDeath": "Margate, England",
+	"relationship": [{
+		"id": 56,
+		"type": "Friend",
+		"color": "blue"
+	},{
+		"id": 59,
+		"type": "Friend",
+		"color": "blue"
+	},{
+		"id": 72,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "mus",
+	"group": ["Singer", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 59,
+	"name": {
+		"first": "Giovanni",
+		"last": "Paisiello",
+		"alt": "Giovanni Paesiello"
+	},
+	"dateBirth": {
+		"yyyy": "1740",
+		"mm": "05",
+		"dd": "09"
+	},
+	"dateDeath": {
+		"yyyy": "1816",
+		"mm": "06",
+		"dd": "05"
+	},
+	"placeBirth": "Taranto, Italy",
+	"placeDeath": "Naples, Italy?",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "reg",
+	"group": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 60,
+	"name": {
+		"first": "Nicola",
+		"last": "Porpora",
+		"alt": "Nicola Antonio Porpora, Niccolò Porpora"
+	},
+	"dateBirth": {
+		"yyyy": "1686",
+		"mm": "09",
+		"dd": "17"
+	},
+	"dateDeath": {
+		"yyyy": "1768",
+		"mm": "03",
+		"dd": "03"
+	},
+	"placeBirth": "Naples, Italy",
+	"placeDeath": "Naples, Italy",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "imp",
+	"group": ["Composer", "Teacher"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 61,
+	"name": {
+		"first": "Carlo Maria Michelangelo Nicola",
+		"last": "Broschi",
+		"alt": "Farinelli"
+	},
+	"dateBirth": {
+		"yyyy": "1705",
+		"mm": "01",
+		"dd": "24"
+	},
+	"dateDeath": {
+		"yyyy": "1782",
+		"mm": "09",
+		"dd": "16"
+	},
+	"placeBirth": "Andria, Italy",
+	"placeDeath": "Bologna, Italy",
+	"relationship": [{
+		"id": 60,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "imp",
+	"group": ["Singer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 62,
+	"name": {
+		"first": "Gaetano",
+		"last": "Majorano",
+		"alt": "Gaetano Carmine Francesco Paolo Majorano, Caffarelli"
+	},
+	"dateBirth": {
+		"yyyy": "1710",
+		"mm": "03",
+		"dd": "12"
+	},
+	"dateDeath": {
+		"yyyy": "1783",
+		"mm": "01",
+		"dd": "31"
+	},
+	"placeBirth": "Bitonto, Italy",
+	"placeDeath": "Naples, Italy",
+	"relationship": [{
+		"id": 60,
+		"type": "Student",
+		"color": "gray"
+	},{
+		"id": 63,
+		"type": "Employee",
+		"color": "green"
+	}],
+	"color": "mus",
+	"group": ["Singer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 63,
+	"name": {
+		"first": "George Frideric",
+		"last": "Handel",
+		"alt": "George Frederick Handel, Georg Friederich Händel"
+	},
+	"dateBirth": {
+		"yyyy": "1685",
+		"mm": "02",
+		"dd": "23"
+	},
+	"dateDeath": {
+		"yyyy": "1759",
+		"mm": "03",
+		"dd": "14"
+	},
+	"placeBirth": "Halle, Germany",
+	"placeDeath": "London, England",
+	"relationship": [{
+		"id": 64,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "imp",
+	"group": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 64,
+	"name": {
+		"first": "Friedrich Wilhelm",
+		"last": "Zachow",
+		"alt": ""
+	},
+	"dateBirth": {
+		"yyyy": "1663",
+		"mm": "11",
+		"dd": "14"
+	},
+	"dateDeath": {
+		"yyyy": "1712",
+		"mm": "08",
+		"dd": "07"
+	},
+	"placeBirth": "Leipzig, Germany",
+	"placeDeath": "Halle, Germany",
+	"relationship": [{
+		"id": 65,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "reg",
+	"group": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 65,
+	"name": {
+		"first": "Johann",
+		"last": "Schelle",
+		"alt": ""
+	},
+	"dateBirth": {
+		"yyyy": "1648",
+		"mm": "09",
+		"dd": "06"
+	},
+	"dateDeath": {
+		"yyyy": "1701",
+		"mm": "03",
+		"dd": "10"
+	},
+	"placeBirth": "Geising, Germany",
+	"placeDeath": "Leipzig, Germany",
+	"relationship": [{
+		"id": 66,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "reg",
+	"group": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 66,
+	"name": {
+		"first": "Heinrich",
+		"last": "Schütz",
+		"alt": ""
+	},
+	"dateBirth": {
+		"yyyy": "1585",
+		"mm": "10",
+		"dd": "08"
+	},
+	"dateDeath": {
+		"yyyy": "1672",
+		"mm": "11",
+		"dd": "06"
+	},
+	"placeBirth": "Köstritz, Germany",
+	"placeDeath": "Dresden, Germany",
+	"relationship": [{
+		"id": 67,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "imp",
+	"group": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 67,
+	"name": {
+		"first": "Giovanni",
+		"last": "Gabrieli",
+		"alt": ""
+	},
+	"dateBirth": {
+		"yyyy": "c1554",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1612",
+		"mm": "08",
+		"dd": "12"
+	},
+	"placeBirth": "Venice, Italy",
+	"placeDeath": "Venice, Italy",
+	"relationship": [{
+		"id": 68,
+		"type": "Nephew, Student",
+		"color": "gray"
+	},{
+		"id": 69,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "reg",
+	"group": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 68,
+	"name": {
+		"first": "Andrea",
+		"last": "Gabrieli",
+		"alt": ""
+	},
+	"dateBirth": {
+		"yyyy": "c1532",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1585",
+		"mm": "08",
+		"dd": "30"
+	},
+	"placeBirth": "Venice, Italy",
+	"placeDeath": "Venice, Italy",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "reg",
+	"group": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 69,
+	"name": {
+		"first": "Orlande de",
+		"last": "Lassus",
+		"alt": "Roland de Lassus, Orlando di Lasso, Orlandus Lassus, Orlande de Lattre or Roland de Lattre"
+	},
+	"dateBirth": {
+		"yyyy": "c1532",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1594",
+		"mm": "06",
+		"dd": "14"
+	},
+	"placeBirth": "Mons, Belgium",
+	"placeDeath": "Munich, Germany",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "imp",
+	"group": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 70,
+	"name": {
+		"first": "Pietro Filippo",
+		"last": "Scarlatti",
+		"alt": "Pietro Alessandro Gaspare Scarlatti"
+	},
+	"dateBirth": {
+		"yyyy": "1679",
+		"mm": "01",
+		"dd": "05"
+	},
+	"dateDeath": {
+		"yyyy": "1750",
+		"mm": "02",
+		"dd": "22"
+	},
+	"placeBirth": "Rome, Italy",
+	"placeDeath": "Naples, Italy",
+	"relationship": [{
+		"id": 13,
+		"type": "Son",
+		"color": ""
+	}],
+	"color": "mus",
+	"group": ["Organist", "Composer", "Choirmaster"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 71,
+	"name": {
+		"first": "Thomas",
+		"last": "Arne",
+		"alt": "Thomas Augustine Arne"
+	},
+	"dateBirth": {
+		"yyyy": "1710",
+		"mm": "03",
+		"dd": "12"
+	},
+	"dateDeath": {
+		"yyyy": "1778",
+		"mm": "03",
+		"dd": "05"
+	},
+	"placeBirth": "London, England",
+	"placeDeath": "London, England",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "reg",
+	"group": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 72,
+	"name": {
+		"first": "Michael",
+		"last": "Arne",
+		"alt": ""
+	},
+	"dateBirth": {
+		"yyyy": "c1740",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1786",
+		"mm": "01",
+		"dd": "14"
+	},
+	"placeBirth": "London, England",
+	"placeDeath": "London, England",
+	"relationship": [{
+		"id": 71,
+		"type": "Son",
+		"color": "red"
+	},{
+		"id": 20,
+		"type": "Son",
+		"color": "red"
+	}],
+	"color": "mus",
+	"group": ["Harpsichordist", "Organist", "Singer", "Composer", "Actor"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 73,
+	"name": {
+		"first": "Charles",
+		"last": "Young",
+		"alt": ""
+	},
+	"dateBirth": {
+		"yyyy": "1686",
+		"mm": "09",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1758",
+		"mm": "12",
+		"dd": "12"
+	},
+	"placeBirth": "London, England",
+	"placeDeath": "London, England",
+	"relationship": [{
+		"id": 76,
+		"type": "Brother",
+		"color": "red"
+	}],
+	"color": "mus",
+	"group": ["Organist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 74,
+	"name": {
+		"first": "Isabella Lampe",
+		"last": "Lampe",
+		"alt": "Isabella Young"
+	},
+	"dateBirth": {
+		"yyyy": "1715",
+		"mm": "12",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1795",
+		"mm": "01",
+		"dd": "05"
+	},
+	"placeBirth": "London, England",
+	"placeDeath": "London, England",
+	"relationship": [{
+		"id": 73,
+		"type": "Daughter, Student",
+		"color": "red"
+	},{
+		"id": 77,
+		"type": "Spouse",
+		"color": "pink"
+	}],
+	"color": "mus",
+	"group": ["Singer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 75,
+	"name": {
+		"first": "Esther",
+		"last": "Jones",
+		"alt": "Esther Young, Hester Jones"
+	},
+	"dateBirth": {
+		"yyyy": "1717",
+		"mm": "02",
+		"dd": "14"
+	},
+	"dateDeath": {
+		"yyyy": "1795",
+		"mm": "06",
+		"dd": "06"
+	},
+	"placeBirth": "London, England",
+	"placeDeath": "London, England",
+	"relationship": [{
+		"id": 73,
+		"type": "Daughter, Student",
+		"color": "red"
+	}],
+	"color": "mus",
+	"group": ["Singer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 76,
+	"name": {
+		"first": "Anthony",
+		"last": "Young",
+		"alt": ""
+	},
+	"dateBirth": {
+		"yyyy": "1683",
+		"mm": "01",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1745",
+		"mm": "05",
+		"dd": "08"
+	},
+	"placeBirth": "London, England",
+	"placeDeath": "London, England",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "mus",
+	"group": ["Organist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 77,
+	"name": {
+		"first": "John Frederick",
+		"last": "Lampe",
+		"alt": "Johann Friedrich Lampe"
+	},
+	"dateBirth": {
+		"yyyy": "c1703",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1751",
+		"mm": "07",
+		"dd": "25"
+	},
+	"placeBirth": "Saxony, Germany",
+	"placeDeath": "Edinburgh, Scotland",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "mus",
+	"group": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 78,
+	"name": {
+		"first": "Charles John Frederick",
+		"last": "Lampe",
+		"alt": ""
+	},
+	"dateBirth": {
+		"yyyy": "1739",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1767",
+		"mm": "09",
+		"dd": "10"
+	},
+	"placeBirth": "London, England",
+	"placeDeath": "London, England",
+	"relationship": [{
+		"id": 77,
+		"type": "Son",
+		"color": "red"
+	},{
+		"id": 74,
+		"type": "Son",
+		"color": "red"
+	}],
+	"color": "mus",
+	"group": ["Organist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 79,
+	"name": {
+		"first": "Susannah Maria",
+		"last": "Cibber",
+		"alt": "Susannah Maria Arne"
+	},
+	"dateBirth": {
+		"yyyy": "1714",
+		"mm": "02",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1766",
+		"mm": "01",
+		"dd": "30"
+	},
+	"placeBirth": "London, England",
+	"placeDeath": "London, England",
+	"relationship": [{
+		"id": 71,
+		"type": "Sister",
+		"color": "red"
+	},{
+		"id": 63,
+		"type": "Employee",
+		"color": "green"
+	}],
+	"color": "mus",
+	"group": ["Singer", "Actress"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 80,
+	"name": {
+		"first": "Isabella",
+		"last": "Scott",
+		"alt": "Isabella Young"
+	},
+	"dateBirth": {
+		"yyyy": "c1720",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1791",
+		"mm": "08",
+		"dd": "12"
+	},
+	"placeBirth": "London, England",
+	"placeDeath": "London, England",
+	"relationship": [{
+		"id": 73,
+		"type": "Granddaughter",
+		"color": "red"
+	},{
+		"id": 63,
+		"type": "Employee",
+		"color": "green"
+	}],
+	"color": "mus",
+	"group": ["Singer", "Organist"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 81,
+	"name": {
+		"first": "Elizabeth",
+		"last": "Young",
+		"alt": ""
+	},
+	"dateBirth": {
+		"yyyy": "c1730",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1773",
+		"mm": "03",
+		"dd": "12"
+	},
+	"placeBirth": "London, England",
+	"placeDeath": "London, England",
+	"relationship": [{
+		"id": 73,
+		"type": "Granddaughter",
+		"color": "red"
+	}],
+	"color": "mus",
+	"group": ["Singer", "Actress"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 82,
+	"name": {
+		"first": "Polly",
+		"last": "Barthélemon",
+		"alt": "Polly/Mary/Maria Young, Maria Barthélemon"
+	},
+	"dateBirth": {
+		"yyyy": "1749",
+		"mm": "07",
+		"dd": "07"
+	},
+	"dateDeath": {
+		"yyyy": "1799",
+		"mm": "09",
+		"dd": "20"
+	},
+	"placeBirth": "London, England",
+	"placeDeath": "London, England",
+	"relationship": [{
+		"id": 73,
+		"type": "Granddaughter",
+		"color": "red"
+	},{
+		"id": 57,
+		"type": "Friend",
+		"color": "blue"
+	},{
+		"id": 83,
+		"type": "Spouse",
+		"color": "pink"
+	}],
+	"color": "mus",
+	"group": ["Singer", "Actress"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 83,
+	"name": {
+		"first": "François-Hippolyte",
+		"last": "Barthélemon",
+		"alt": ""
+	},
+	"dateBirth": {
+		"yyyy": "1741",
+		"mm": "07",
+		"dd": "27"
+	},
+	"dateDeath": {
+		"yyyy": "1808",
+		"mm": "07",
+		"dd": "20"
+	},
+	"placeBirth": "Bordeaux, France",
+	"placeDeath": "Surrey, England",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "mus",
+	"group": ["Violinist", "Pedagogue", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 84,
+	"name": {
+		"first": "Cecilia Maria",
+		"last": "Barthélemon",
+		"alt": ""
+	},
+	"dateBirth": {
+		"yyyy": "1767",
+		"mm": "09",
+		"dd": "01"
+	},
+	"dateDeath": {
+		"yyyy": "1859",
+		"mm": "12",
+		"dd": "05"
+	},
+	"placeBirth": "???, England",
+	"placeDeath": "???",
+	"relationship": [{
+		"id": 82,
+		"type": "Daughter",
+		"color": "red"
+	},{
+		"id": 83,
+		"type": "Daughter",
+		"color": "red"
+	}],
+	"color": "mus",
+	"group": ["Singer", "Pianist", "Organist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 85,
+	"name": {
+		"first": "Jan Dismas",
+		"last": "Zelenka",
+		"alt": "Jan Lukáš Zelenka, Johann Dismas Zelenka, Johannes Lucas Ignatius Dismas Zelenka"
+	},
+	"dateBirth": {
+		"yyyy": "1679",
+		"mm": "10",
+		"dd": "16"
+	},
+	"dateDeath": {
+		"yyyy": "1745",
+		"mm": "12",
+		"dd": "23"
+	},
+	"placeBirth": "Louňovice pod Blaníkem, Czech Republic",
+	"placeDeath": "Dresden, Germany",
+	"relationship": [{
+		"id": 87,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "mus",
+	"group": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 86,
+	"name": {
+		"first": "Michel",
+		"last": "Blavet",
+		"alt": ""
+	},
+	"dateBirth": {
+		"yyyy": "1700",
+		"mm": "03",
+		"dd": "13"
+	},
+	"dateDeath": {
+		"yyyy": "1768",
+		"mm": "10",
+		"dd": "28"
+	},
+	"placeBirth": "Besançon, France",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": 28,
+		"type": "Friend",
+		"color": "blue"
+	}],
+	"color": "mus",
+	"group": ["Flutist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 87,
+	"name": {
+		"first": "Johann Joseph",
+		"last": "Fux",
+		"alt": ""
+	},
+	"dateBirth": {
+		"yyyy": "c1660",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1741",
+		"mm": "02",
+		"dd": "13"
+	},
+	"placeBirth": "Hirtenfed, Austria",
+	"placeDeath": "Vienna, Austria",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "mus",
+	"group": ["Composer", "Music Theorist", "Pedagogue"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 88,
+	"name": {
+		"first": "Alessandro",
+		"last": "Stradella",
+		"alt": ""
+	},
+	"dateBirth": {
+		"yyyy": "1643",
+		"mm": "07",
+		"dd": "03"
+	},
+	"dateDeath": {
+		"yyyy": "1682",
+		"mm": "02",
+		"dd": "25"
+	},
+	"placeBirth": "Bologna, Italy",
+	"placeDeath": "Genoa, Italy",
+	"relationship": [{
+		"id": 89,
+		"type": "Employee",
+		"color": "green"
+	},{
+		"id": 90,
+		"type": "Employee",
+		"color": "green"
+	}],
+	"color": "reg",
+	"group": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 89,
+	"name": {
+		"first": "Francesco",
+		"last": "Cavalli",
+		"alt": "Pietro Francesco Caletti-Bruni"
+	},
+	"dateBirth": {
+		"yyyy": "1602",
+		"mm": "02",
+		"dd": "14"
+	},
+	"dateDeath": {
+		"yyyy": "1676",
+		"mm": "02",
+		"dd": "14"
+	},
+	"placeBirth": "Crema, Italy",
+	"placeDeath": "Venice, Italy",
+	"relationship": [{
+		"id": 91,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "reg",
+	"group": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 90,
+	"name": {
+		"first": "Antonio",
+		"last": "Cesti",
+		"alt": "Pietro Marc'Antonio Cesti"
+	},
+	"dateBirth": {
+		"yyyy": "1623",
+		"mm": "09",
+		"dd": "05"
+	},
+	"dateDeath": {
+		"yyyy": "1669",
+		"mm": "10",
+		"dd": "14"
+	},
+	"placeBirth": "Arezzo, Italy",
+	"placeDeath": "Venice, Italy",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "mus",
+	"group": ["Singer", "Organist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 91,
+	"name": {
+		"first": "Claudio",
+		"last": "Monteverdi",
+		"alt": "Claudio Giovanni Antonio Monteverdi"
+	},
+	"dateBirth": {
+		"yyyy": "1567",
+		"mm": "05",
+		"dd": "15"
+	},
+	"dateDeath": {
+		"yyyy": "1643",
+		"mm": "11",
+		"dd": "29"
+	},
+	"placeBirth": "Cremona, Italy",
+	"placeDeath": "Venice, Italy",
+	"relationship": [{
+		"id": 92,
+		"type": "Student",
+		"color": "gray"
+	},{
+		"id": 94,
+		"type": "Employee",
+		"color": "green"
+	}],
+	"color": "mus",
+	"group": ["String Player", "Choirmaster", "Composer", "Priest"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 92,
+	"name": {
+		"first": "Marc'Antonio",
+		"last": "Ingegneri",
+		"alt": "Marc'Antonio Ingegnieri/Ingignieri/Ingignero/Inzegneri"
+	},
+	"dateBirth": {
+		"yyyy": "c1535",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1592",
+		"mm": "07",
+		"dd": "01"
+	},
+	"placeBirth": "Verona, Italy",
+	"placeDeath": "Cremona, Italy",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "mus",
+	"group": ["String Player", "Organist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 93,
+	"name": {
+		"first": "Giulio Cesare",
+		"last": "Monteverdi",
+		"alt": ""
+	},
+	"dateBirth": {
+		"yyyy": "1573",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "c1630",
+		"mm": "??",
+		"dd": "??"
+	},
+	"placeBirth": "Cremona, Italy",
+	"placeDeath": "Italy",
+	"relationship": [{
+		"id": 91,
+		"type": "Brother",
+		"color": "red"
+	}],
+	"color": "mus",
+	"group": ["Organist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 94,
+	"name": {
+		"first": "Vincenzo",
+		"last": "Gonzaga",
+		"alt": "Vincenzo I Gonzaga, Duke of Mantua"
+	},
+	"dateBirth": {
+		"yyyy": "1562",
+		"mm": "09",
+		"dd": "21"
+	},
+	"dateDeath": {
+		"yyyy": "1612",
+		"mm": "02",
+		"dd": "09"
+	},
+	"placeBirth": "Mantua, Italy",
+	"placeDeath": "Mantua, Italy",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "roy",
+	"group": ["Duke"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 95,
+	"name": {
+		"first": "Giaches de",
+		"last": "Wert",
+		"alt": "Jacques/Jaches de Wert, Giaches de Vuert"
+	},
+	"dateBirth": {
+		"yyyy": "1535",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1596",
+		"mm": "05",
+		"dd": "06"
+	},
+	"placeBirth": "Flanders, Belgium",
+	"placeDeath": "Mantua, Italy",
+	"relationship": [{
+		"id": 94,
+		"type": "Employee",
+		"color": "green"
+	}],
+	"color": "reg",
+	"group": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 96,
+	"name": {
+		"first": "Salamone",
+		"last": "Rossi",
+		"alt": "Salomone Rossi, Salamon, Schlomo, de' Rossi"
+	},
+	"dateBirth": {
+		"yyyy": "c1570",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1630",
+		"mm": "??",
+		"dd": "??"
+	},
+	"placeBirth": "Mantua, Italy",
+	"placeDeath": "Mantua, Italy",
+	"relationship": [{
+		"id": 94,
+		"type": "Employee",
+		"color": "green"
+	}],
+	"color": "mus",
+	"group": ["Violinist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 97,
+	"name": {
+		"first": "Europa",
+		"last": "Rossi",
+		"alt": "Madama Europa"
+	},
+	"dateBirth": {
+		"yyyy": "c1571",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1630",
+		"mm": "??",
+		"dd": "??"
+	},
+	"placeBirth": "Mantua, Italy",
+	"placeDeath": "Mantua, Italy",
+	"relationship": [{
+		"id": 94,
+		"type": "Employee",
+		"color": "green"
+	},{
+		"id": 96,
+		"type": "Sister",
+		"color": "red"
+	}],
+	"color": "mus",
+	"group": ["Singer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 98,
+	"name": {
+		"first": "Francesco",
+		"last": "Rasi",
+		"alt": ""
+	},
+	"dateBirth": {
+		"yyyy": "1574",
+		"mm": "05",
+		"dd": "15"
+	},
+	"dateDeath": {
+		"yyyy": "1621",
+		"mm": "11",
+		"dd": "30"
+	},
+	"placeBirth": "Arezzo, Italy",
+	"placeDeath": "Italy",
+	"relationship": [{
+		"id": 94,
+		"type": "Employee",
+		"color": "green"
+	},{
+		"id": 99,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "mus",
+	"group": ["Singer", "Chitarrone Player", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 99,
+	"name": {
+		"first": "Giulio",
+		"last": "Caccini",
+		"alt": "Giulio Romolo Caccini, Giulio Romano"
+	},
+	"dateBirth": {
+		"yyyy": "1551",
+		"mm": "10",
+		"dd": "08"
+	},
+	"dateDeath": {
+		"yyyy": "1618",
+		"mm": "12",
+		"dd": "10"
+	},
+	"placeBirth": "Tivoli, Italy",
+	"placeDeath": "Firenze, Italy",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "imp",
+	"group": ["Singer", "Harpist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 100,
+	"name": {
+		"first": "Benedetto",
+		"last": "Pallavicino",
+		"alt": ""
+	},
+	"dateBirth": {
+		"yyyy": "c1551",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1601",
+		"mm": "11",
+		"dd": "26"
+	},
+	"placeBirth": "Cremona, Italy",
+	"placeDeath": "Mantua, Italy",
+	"relationship": [{
+		"id": 94,
+		"type": "Employee",
+		"color": "green"
+	},{
+		"id": 92,
+		"type": "Student",
+		"color": "black"
+	}],
+	"color": "mus",
+	"group": ["Organist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 101,
+	"name": {
+		"first": "Francesco",
+		"last": "Soriano",
+		"alt": ""
+	},
+	"dateBirth": {
+		"yyyy": "c1548",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1621",
+		"mm": "07",
+		"dd": "19"
+	},
+	"placeBirth": "Soriano nel Cimino, Italy",
+	"placeDeath": "Mantua, Italy",
+	"relationship": [{
+		"id": 94,
+		"type": "Employee",
+		"color": "green"
+	},{
+		"id": 102,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "reg",
+	"group": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 102,
+	"name": {
+		"first": "Giovanni Pierluigi da",
+		"last": "Palestrina",
+		"alt": ""
+	},
+	"dateBirth": {
+		"yyyy": "c1525",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1594",
+		"mm": "02",
+		"dd": "02"
+	},
+	"placeBirth": "Palestrina, Italy",
+	"placeDeath": "Rome, Italy",
+	"relationship": [{
+		"id": 103,
+		"type": "Student",
+		"color": "gray"
+	},{
+		"id": 104,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "reg",
+	"group": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 103,
+	"name": {
+		"first": "Firmin",
+		"last": "Lebel",
+		"alt": ""
+	},
+	"dateBirth": {
+		"yyyy": "c1500",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1573",
+		"mm": "12",
+		"dd": "27"
+	},
+	"placeBirth": "Noyon, France",
+	"placeDeath": "Rome, Italy",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "reg",
+	"group": ["Choir Director", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 104,
+	"name": {
+		"first": "Robin",
+		"last": "Mallapert",
+		"alt": ""
+	},
+	"dateBirth": {
+		"yyyy": "c1500",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "c1553",
+		"mm": "??",
+		"dd": "??"
+	},
+	"placeBirth": "France",
+	"placeDeath": "Rome, Italy",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "reg",
+	"group": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 105,
+	"name": {
+		"first": "Giovanni Giacomo",
+		"last": "Gastoldi",
+		"alt": ""
+	},
+	"dateBirth": {
+		"yyyy": "c1554",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1609",
+		"mm": "01",
+		"dd": "04"
+	},
+	"placeBirth": "Caravaggio, Italy",
+	"placeDeath": "Mantua, Italy",
+	"relationship": [{
+		"id": 94,
+		"type": "Employee",
+		"color": "green"
+	}],
+	"color": "reg",
+	"group": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 106,
+	"name": {
+		"first": "Francesco",
+		"last": "Rovigo",
+		"alt": ""
+	},
+	"dateBirth": {
+		"yyyy": "c1540",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1597",
+		"mm": "10",
+		"dd": "07"
+	},
+	"placeBirth": "Italy",
+	"placeDeath": "Mantua, Italy",
+	"relationship": [{
+		"id": 94,
+		"type": "Employee",
+		"color": "green"
+	},{
+		"id": 107,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "mus",
+	"group": ["Organist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 107,
+	"name": {
+		"first": "Claudio",
+		"last": "Merulo",
+		"alt": "Claudio Merlotti"
+	},
+	"dateBirth": {
+		"yyyy": "1533",
+		"mm": "03",
+		"dd": "08"
+	},
+	"dateDeath": {
+		"yyyy": "1604",
+		"mm": "05",
+		"dd": "04"
+	},
+	"placeBirth": "Coreggio, Italy",
+	"placeDeath": "Parma, Italy",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "mus",
+	"group": ["Organist", "Composer", "Publisher"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 108,
+	"name": {
+		"first": "Alessandro",
+		"last": "Striggio",
+		"alt": "Striggio Senior"
+	},
+	"dateBirth": {
+		"yyyy": "c1536",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1592",
+		"mm": "02",
+		"dd": "29"
+	},
+	"placeBirth": "Mantua, Italy",
+	"placeDeath": "Mantua, Italy",
+	"relationship": [{
+		"id": 94,
+		"type": "Employee",
+		"color": "green"
+	}],
+	"color": "mus",
+	"group": ["Instrumentalist", "Composer", "Diplomat"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 109,
+	"name": {
+		"first": "Alessandro",
+		"last": "Striggio",
+		"alt": "Striggio the Younger"
+	},
+	"dateBirth": {
+		"yyyy": "c1573",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1630",
+		"mm": "06",
+		"dd": "08"
+	},
+	"placeBirth": "Mantua, Italy",
+	"placeDeath": "Venice, Italy",
+	"relationship": [{
+		"id": 91,
+		"type": "Employee",
+		"color": "green"
+	},{
+		"id": 108,
+		"type": "Son",
+		"color": "red"
+	}],
+	"color": "reg",
+	"group": ["Librettist"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
