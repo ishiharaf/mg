@@ -11,3 +11,72 @@ body {
 	height: 100%;
 	background-color: #0a0908;
 }
+
+#help {
+	position: absolute;
+	top: 20px;
+	left: 23px;
+	color: #f9f9f9;
+	opacity: 0.9;
+	font-family: Cambria;
+	font-size: 35px;
+	cursor: pointer;
+	text-shadow: 0px 0px 2px #0a090881;
+}
+#closeHelp {
+	position: absolute;
+	top: 33px;
+	left: 346px;
+	color: #adadad;
+	opacity: 0.9;
+	font-family: Cambria;
+	font-size: 35px;
+	cursor: pointer;
+	z-index: 1;
+	text-shadow: 0px 0px 2px #0a090881;
+}
+#closeHelp:hover {
+	color: #f9f9f9;
+}
+#helpText {
+	width: 300px;
+	height: auto;
+	background-color: #403d39;
+	position: absolute;
+	top: 35px;
+	left: 35px;
+	padding: 19px;
+	font-family: Cambria;
+	color: #f9f9f9;
+	opacity: 0.95;
+	box-shadow: 5px 5px 3px #0a090881;
+	overflow-wrap: normal;
+}
+#helpLegend {
+	width: auto;
+	height: auto;
+	background-color: #403d39;
+	position: absolute;
+	top: 35px;
+	left: 375px;
+	padding: 19px;
+	font-family: Cambria;
+	color: #f9f9f9;
+	opacity: 0.95;
+	box-shadow: 5px 5px 3px #0a090881;
+}
+#helpLegend > p {
+	padding: 0;
+	margin: 0;
+	font-size: 13px;
+}
+.arrow.red {color: #be301a}
+.arrow.pink {color: #ffc2d4}
+.arrow.green {color: #aad576}
+.arrow.blue {color: #386fa4}
+.arrow.gray {color: #d3d3d3}
+.arrow.black {color: #50514f}
+.person.imp {color: #be301a}
+.person.mus {color: #386fa4}
+.person.roy {color: #679436}
+.person.reg {color: #625556}
