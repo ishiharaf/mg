@@ -1,0 +1,23 @@
+{
+  "name": "musgen",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/f.ishihara/musgen.git"
+  },
+  "author": "Ishihara",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://gitlab.com/f.ishihara/musgen/issues"
+  },
+  "homepage": "https://gitlab.com/f.ishihara/musgen#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
