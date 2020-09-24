@@ -19,7 +19,7 @@ After years of reading about music history, I became interested in how the music
 ## How to Use
 - Use the mouse wheel to **zoom in & out**.
 - Click in an empty spot and hold to **drag the graph** around.
-- Click in a box to **display information** about a person.
+- Click on a box to **display information** about a person.
 - Click on a box and hold to **drag it** horizontally.
 - Click the `?` button to display a legend.
 
