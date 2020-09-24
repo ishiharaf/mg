@@ -141,6 +141,14 @@ const closeHelp = document.getElementById("closeHelp")
 const helpText = document.getElementById("helpText")
 const helpLegend = document.getElementById("helpLegend")
 const helpButton = document.getElementById("help")
+const closeCard = document.getElementById("closeCard")
+const infoDiv = document.getElementById("infoCard")
+const imgDiv = document.getElementById("image")
+
+network.on("click", (params) => {
+	infoDiv.style.display = "block"
+	closeCard.style.display = "block"
+})
 
 helpButton.addEventListener("click", () => {
 	helpButton.style.display = "none"
@@ -153,4 +161,13 @@ closeHelp.addEventListener("click", () => {
 	helpText.style.display = "none"
 	helpLegend.style.display = "none"
 	closeHelp.style.display = "none"
+})
+closeCard.addEventListener("click", () => {
+	imgDiv.style.display = "none"
+	infoDiv.style.display = "none"
+	closeCard.style.display = "none"
+})
+imgDiv.addEventListener("click", () => {
+	const imgSrc = imgDiv.lastChild.src
+	window.open(imgSrc)
 })
