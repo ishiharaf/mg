@@ -148,9 +148,9 @@ const imgDiv = document.getElementById("image")
 const checkSource = (el) => {
 	if(el.slice(-1) === "]") {
 		let sourceStr = {
-			firstIndex = el.indexOf("["),
-			lastIndex = el.indexOf("]"),
-			value = Number(el.substring(firstIndex + 1, lastIndex))
+			firstIndex: el.indexOf("["),
+			lastIndex: el.indexOf("]"),
+			value: Number(el.substring(firstIndex + 1, lastIndex))
 		}
 		return sourceStr
 	} else {
