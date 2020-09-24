@@ -145,6 +145,19 @@ const closeCard = document.getElementById("closeCard")
 const infoDiv = document.getElementById("infoCard")
 const imgDiv = document.getElementById("image")
 
+const checkSource = (el) => {
+	if(el.slice(-1) === "]") {
+		let sourceStr = {
+			firstIndex = el.indexOf("["),
+			lastIndex = el.indexOf("]"),
+			value = Number(el.substring(firstIndex + 1, lastIndex))
+		}
+		return sourceStr
+	} else {
+		return false
+	}
+}
+
 network.on("click", (params) => {
 	if(params.nodes.length > 0) {
 		const selId = params.nodes[0]
