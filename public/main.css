@@ -157,3 +157,10 @@ body {
 	text-align: center;
 	font-size: 13px;
 }
+
+a {
+	color: #f9f9f9;
+}
+a:visited {
+	color: #adadad;
+}
