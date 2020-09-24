@@ -7,8 +7,8 @@ This project aims to display in a visual way how musicians of the past were conn
 - [How to Use](#how-to-use)
 - [Setup](#setup)
 - [Contributing](#contributing)
-	- [How to edit](##how-to-edit)
 	- [Who NOT to add](##who-not-to-add)
+	- [How to edit](##how-to-edit)
 - [To do](#to-do)
 - [Changelog](#changelog)
 - [License](#license)
@@ -47,6 +47,13 @@ hierarchical: {
 
 ## Contributing
 You can contribute by adding more musicians to `people.json`, reviewing existing data to verify its correctness and consistency, or by adding sources and missing information. Suggestions are also welcome. You can do this by creating a pull request or by filing an issue.
+
+### Who NOT to add
+- **People who don't have a date of birth**. Because the position of said person on the graph is calculated using the date of birth.
+- **Non-musicians**. There is a reason to include Vivaldi's father, because not only he was a musician, he was also Vivaldi's teacher. But there is no reason to include Vivaldi's mother, for example.
+- **Modern-day musicians**. By modern-day musicians I mean, living and under a certain age. This is to avoid people claiming to be "*part of the* (insert musician here) *lineage*".
+
+Exceptions are allowed, but unless said person is extremely relevant to the history of music, he/she will be rejected.
 
 ### How to edit
 - Edit the `id` field.
@@ -87,13 +94,6 @@ You can contribute by adding more musicians to `people.json`, reviewing existing
 	- This part is still under construction...
 - Edit the `picture` field.
 	- Add an external URL to a **portrait** picture of the person.
-
-### Who NOT to add
-- **People who don't have a date of birth**. Because the position of said person on the graph is calculated using the date of birth.
-- **Non-musicians**. There is a reason to include Vivaldi's father, because not only he was a musician, he was also Vivaldi's teacher. But there is no reason to include Vivaldi's mother, for example.
-- **Modern-day musicians**. By modern-day musicians I mean, living and under a certain age. This is to avoid people claiming to be "*part of the* (insert musician here) *lineage*".
-
-Exceptions are allowed, but unless said person is extremely relevant to the history of music, he/she will be rejected.
 
 ## To do
 - Display sources on-screen.
