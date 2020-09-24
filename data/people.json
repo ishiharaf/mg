@@ -1,0 +1,32 @@
+[{
+	"id": 1,
+	"name": {
+		"first": "",
+		"last": "",
+		"alt": ""
+	},
+	"dateBirth": {
+		"yyyy": "",
+		"mm": "",
+		"dd": ""
+	},
+	"dateDeath": {
+		"yyyy": "",
+		"mm": "",
+		"dd": ""
+	},
+	"placeBirth": "",
+	"placeDeath": "",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "",
+	"group": [""],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+}]
