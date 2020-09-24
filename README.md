@@ -29,7 +29,17 @@ To run this project, clone the repository and install it locally using npm:
 	$ npm install
 	$ node app.js
 
-You can also modify `package.json` to run with `npm start` by removing the `nodemon` part.
+You can  modify `package.json` to run with `npm start` by removing the `nodemon` part.
+
+Also, you can change the layout to a random generated one by editing this part of `main.js` and changing `enabled: true` to `false`:
+
+	hierarchical: {
+		enabled: true,
+		direction: "UD",
+		levelSeparation: 10,
+		sortMethod: "hubsize"
+		// shakeTowards: "leaves"
+	}
 
 ## Contributing
 You can contribute by adding more musicians to `people.json`, reviewing existing data to verify its correctness and consistency, or by adding sources and missing information. Suggestions are also welcome. You can do this by creating a pull request or by filing an issue.
