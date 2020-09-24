@@ -1,32 +1,104 @@
 [{
 	"id": 1,
 	"name": {
-		"first": "",
-		"last": "",
+		"first": "Arcangelo",
+		"last": "Corelli",
 		"alt": ""
 	},
 	"dateBirth": {
-		"yyyy": "",
-		"mm": "",
-		"dd": ""
+		"yyyy": "1653",
+		"mm": "02",
+		"dd": "17"
 	},
 	"dateDeath": {
-		"yyyy": "",
-		"mm": "",
-		"dd": ""
+		"yyyy": "1713",
+		"mm": "01",
+		"dd": "08"
 	},
-	"placeBirth": "",
-	"placeDeath": "",
+	"placeBirth": "Fusignano, Italy",
+	"placeDeath": "Rome, Italy",
 	"relationship": [{
 		"id": "",
 		"type": "",
 		"color": ""
 	}],
-	"color": "",
-	"group": [""],
+	"color": "imp",
+	"group": ["Violinist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
 	}],
-	"picture": ""
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Arcangelo_Corelli%2C_portrait_by_Hugh_Howard_%281697%29.jpg"
+},
+{
+	"id": 2,
+	"name": {
+		"first": "Francesco",
+		"last": "Geminiani",
+		"alt": "Francesco Saverio Geminiani"
+	},
+	"dateBirth": {
+		"yyyy": "1687",
+		"mm": "12",
+		"dd": "05"
+	},
+	"dateDeath": {
+		"yyyy": "1762",
+		"mm": "09",
+		"dd": "17"
+	},
+	"placeBirth": "Lucca, Italy",
+	"placeDeath": "Dublin, Ireland",
+	"relationship": [{
+		"id": 1,
+		"type": "Student",
+		"color": "gray"
+	},{
+		"id": 13,
+		"type": "Student",
+		"color": "gray"
+	},{
+		"id": 14,
+		"type": "Student?",
+		"color": "black"
+	}],
+	"color": "imp",
+	"group": ["Violinist", "Composer", "Music Theorist"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Francesco_Geminiani.jpg"
+},
+{
+	"id": 3,
+	"name": {
+		"first": "Giovanni Battista",
+		"last": "Somis",
+		"alt": ""
+	},
+	"dateBirth": {
+		"yyyy": "1686",
+		"mm": "12",
+		"dd": "25"
+	},
+	"dateDeath": {
+		"yyyy": "1763",
+		"mm": "10",
+		"dd": "14"
+	},
+	"placeBirth": "Turin, Italy",
+	"placeDeath": "Turin, Italy",
+	"relationship": [{
+		"id": 1,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "imp",
+	"group": ["Violinist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Giovanni-battista-somis.jpg"
 }]
