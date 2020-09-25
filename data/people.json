@@ -1286,9 +1286,9 @@
 	"placeBirth": "Eisenach, Germany",
 	"placeDeath": "Leipzig, Germany",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": "gray"
+		"id": 38,
+		"type": "Friend",
+		"color": "blue"
 	}],
 	"color": "imp",
 	"group": ["Organist", "Composer"],
