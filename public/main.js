@@ -189,14 +189,10 @@ network.on("click", (params) => {
 		closeCard.style.display = "block"
 
 		const nameDiv = document.getElementById("name")
-		const altDiv = document.getElementById("alt")
-		const occupationDiv = document.getElementById("occupation")
-		const relationDiv = document.getElementById("relation")
-		const sourceDiv = document.getElementById("source")
-
 		nameDiv.innerHTML = ""
 		nameDiv.innerHTML = `${selPerson.name.first} ${selPerson.name.last}`
 
+		const altDiv = document.getElementById("alt")
 		altDiv.innerHTML = ""
 		if(selPerson.name.alt !== ""){
 			altDiv.style.paddingBottom = "10px"
@@ -223,12 +219,14 @@ network.on("click", (params) => {
 		birthDiv.appendChild(deathDateNode)
 		birthDiv.appendChild(deathPlaceNode)
 
+		const occupationDiv = document.getElementById("occupation")
 		occupationDiv.innerHTML = ""
 		for (let i = 0; i < selPerson.group.length; i++) {
 			if(i !== 0) occupationDiv.innerHTML += `, ${selPerson.group[i]}`
 			else occupationDiv.innerHTML = selPerson.group[i]
 		}
 
+		const relationDiv = document.getElementById("relation")
 		relationDiv.innerHTML = ""
 		if(relatedPeople.length > 0) {
 			relationDiv.style.paddingBottom = "5px"
@@ -241,6 +239,7 @@ network.on("click", (params) => {
 			relationDiv.style.paddingBottom = "0px"
 		}
 
+		const sourceDiv = document.getElementById("source")
 		sourceDiv.innerHTML = ""
 		for (let i = 0; i < selPerson.source.length; i++) {
 			const citation = document.createElement("div")
