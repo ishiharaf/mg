@@ -106,19 +106,30 @@ let edges = new DataSet()
 
 for (let item = 0; item < people.length; item++) {
 	const el = people[item]
+
+	let lastName
+	if(el.name.last.slice(-1) === "]") {
+		const firstIndex = el.name.last.indexOf("[")
+		lastName = el.name.last.substring(0, firstIndex - 1)
+	} else {
+		lastName = el.name.last
+	}
+
 	let dateBirth
 	if(el.dateBirth.yyyy.substring(0, 1) === "c") {
 		dateBirth = el.dateBirth.yyyy.substring(1)
 	} else {
 		dateBirth = el.dateBirth.yyyy
 	}
+
 	nodes.add({
 		id: el.id,
-		label: el.name.last,
-		title: `${el.name.first} ${el.name.last}`,
+		label: lastName,
+		title: `${el.name.first} ${lastName}`,
 		level: Number(dateBirth),
 		color: palette[el.color]
 	})
+
 	const relation = el.relationship
 	for (let parent = 0; parent < relation.length; parent++) {
 		if (relation[parent].id !== "") {
@@ -144,12 +155,37 @@ const helpButton = document.getElementById("help")
 const closeCard = document.getElementById("closeCard")
 const infoDiv = document.getElementById("infoCard")
 const imgDiv = document.getElementById("image")
+const sourceDiv = document.getElementById("sourceCard")
+
+const openSource = (sourceId) => {
+	const personId = infoDiv.getAttribute("data-id")
+	const selPerson = people.find(people => people.id == personId)
+	const cardWidth = Math.floor(infoDiv.clientWidth) + 40
+
+	const citationDiv = document.getElementById("citation")
+	citationDiv.innerHTML = ""
+	citationDiv.innerHTML = `[${sourceId}] ${selPerson.source[sourceId - 1].citation}`
+
+	const extractDiv = document.getElementById("extract")
+	extractDiv.innerHTML = ""
+	extractDiv.innerHTML = selPerson.source[sourceId - 1].extract
+	if (extractDiv.innerHTML !== "") extractDiv.style.marginTop = "10px"
+
+	sourceDiv.style.display = "block"
+	sourceDiv.style.right = `${cardWidth}px`
+	if(imgDiv.innerHTML !== "") {
+		sourceDiv.style.top = "80px"
+	} else {
+		sourceDiv.style.top = "35px"
+	}
+}
 
 const checkSource = (el) => {
 	if(el.slice(-1) === "]") {
-		let sourceStr = {
-			firstIndex: el.indexOf("["),
-			lastIndex: el.indexOf("]"),
+		const firstIndex = el.indexOf("[")
+		const lastIndex = el.indexOf("]")
+		const sourceStr = {
+			string: el.substring(0, firstIndex - 1),
 			value: Number(el.substring(firstIndex + 1, lastIndex))
 		}
 		return sourceStr
@@ -187,7 +223,25 @@ const assignName = (person) => {
 	const nameDiv = document.getElementById("name")
 	nameDiv.innerHTML = ""
 
-	nameDiv.innerHTML = `${person.name.first} ${person.name.last}`
+	const personName = `${person.name.first} ${person.name.last}`
+	const source = checkSource(personName)
+	if(source !== false) {
+		const nameNode = document.createElement("span")
+		const sourceNode = document.createElement("sup")
+
+		nameNode.innerHTML = `${source.string}`
+		sourceNode.innerHTML = `[${source.value}]`
+
+		sourceNode.className = "source"
+		sourceNode.addEventListener("click", () => {
+			openSource(source.value)
+		})
+
+		nameDiv.appendChild(nameNode)
+		nameDiv.appendChild(sourceNode)
+	} else {
+		nameDiv.innerHTML = `${person.name.first} ${person.name.last}`
+	}
 }
 
 const assignAlt = (person) => {
@@ -286,6 +340,7 @@ network.on("click", (params) => {
 		const selPerson = people.find(people => people.id == selId)
 		const relatedPeople = getRelated(selId, selEdge)
 
+		sourceDiv.style.display = "none"
 		infoDiv.setAttribute("data-id", selId)
 		infoDiv.style.display = "block"
 		closeCard.style.display = "block"
@@ -315,6 +370,7 @@ closeCard.addEventListener("click", () => {
 	imgDiv.style.display = "none"
 	infoDiv.style.display = "none"
 	closeCard.style.display = "none"
+	sourceDiv.style.display = "none"
 })
 imgDiv.addEventListener("click", () => {
 	const imgSrc = imgDiv.lastChild.src
