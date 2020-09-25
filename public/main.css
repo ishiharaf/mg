@@ -158,6 +158,21 @@ body {
 	font-size: 13px;
 }
 
+#sourceCard {
+	width: auto;
+	height: auto;
+	background-color: #403d39;
+	position: absolute;
+	right: 35px;
+	padding: 25px 32px 25px 32px;
+	font-family: Cambria;
+	color: #f9f9f9;
+	opacity: 0.95;
+	box-shadow: 5px 5px 3px #0a090881;
+	overflow-wrap: normal;
+	display: none;
+}
+
 a {
 	color: #f9f9f9;
 }
