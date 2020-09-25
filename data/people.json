@@ -3821,4 +3821,36 @@
 		"extract": ""
 	}],
 	"picture": ""
+},
+{
+	"id": 115,
+	"name": {
+		"first": "Francesco",
+		"last": "Manfredini",
+		"alt": ["Francesco Onofrio Manfredini"]
+	},
+	"dateBirth": {
+		"yyyy": "1684",
+		"mm": "06",
+		"dd": "22"
+	},
+	"dateDeath": {
+		"yyyy": "1762",
+		"mm": "10",
+		"dd": "06"
+	},
+	"placeBirth": "Pistoia, Italy",
+	"placeDeath": "Pistoia, Italy",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "mus",
+	"group": ["Violinist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
