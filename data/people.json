@@ -3981,4 +3981,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Jean-Baptiste_Lully.jpeg/411px-Jean-Baptiste_Lully.jpeg"
+},
+{
+	"id": 120,
+	"name": {
+		"first": "Georg Philipp",
+		"last": "Telemann",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1681",
+		"mm": "03",
+		"dd": "24"
+	},
+	"dateDeath": {
+		"yyyy": "1767",
+		"mm": "06",
+		"dd": "25"
+	},
+	"placeBirth": "Magdeburg, Germany",
+	"placeDeath": "Hamburg, Germany",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "imp",
+	"group": ["Instrumentalist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Telemann.jpg"
 }]
