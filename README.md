@@ -54,14 +54,14 @@ You can contribute by adding more musicians to `people.json`, reviewing existing
 
 Exceptions are allowed, but unless said person is extremely relevant to the history of music, he/she will be rejected.
 
-To see detailed instructions on how to edit see the [CONTRIBUTING](CONTRIBUTING.MD) file.
+To see detailed instructions on how to edit see the [CONTRIBUTING](CONTRIBUTING.md) file.
 
 ## To do
 - Test on different displays.
 - Tweak the graph display options.
 
 ## Changelog
-- See [CHANGELOG](CHANGELOG.MD) file.
+- See [CHANGELOG](CHANGELOG.md) file.
 
 ## License
-- See [LICENSE](LICENSE.MD) file.
+- See [LICENSE](LICENSE.md) file.
