@@ -1286,7 +1286,7 @@
 	"placeBirth": "Eisenach, Germany",
 	"placeDeath": "Leipzig, Germany",
 	"relationship": [{
-		"id": 38,
+		"id": 120,
 		"type": "Friend",
 		"color": "blue"
 	}],
@@ -4101,4 +4101,44 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Charles_Burney.jpg"
+},
+{
+	"id": 123,
+	"name": {
+		"first": "Carl Philipp Emanuel",
+		"last": "Bach",
+		"alt": ["Karl Philipp Emmanuel Bach"]
+	},
+	"dateBirth": {
+		"yyyy": "1714",
+		"mm": "03",
+		"dd": "08"
+	},
+	"dateDeath": {
+		"yyyy": "1788",
+		"mm": "12",
+		"dd": "14"
+	},
+	"placeBirth": "Weimar, Germany",
+	"placeDeath": "Hamburg, Germany",
+	"relationship": [{
+		"id": 38,
+		"type": "Son, Student",
+		"color": "red"
+	},{
+		"id": 36,
+		"type": "Employee",
+		"color": "green"
+	},{
+		"id": 120,
+		"type": "Godchild",
+		"color": "blue"
+	}],
+	"color": "imp",
+	"group": ["Musician", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/1/19/CPEB_by_L%C3%B6hr.jpg"
 }]
