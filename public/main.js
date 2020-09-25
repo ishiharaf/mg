@@ -161,12 +161,14 @@ const checkSource = (el) => {
 const assignName = (person) => {
 	const nameDiv = document.getElementById("name")
 	nameDiv.innerHTML = ""
+
 	nameDiv.innerHTML = `${person.name.first} ${person.name.last}`
 }
 
 const assignAlt = (person) => {
 	const altDiv = document.getElementById("alt")
 	altDiv.innerHTML = ""
+
 	if(person.name.alt.length > 0){
 		altDiv.style.paddingBottom = "10px"
 		for (let i = 0; i < person.name.alt.length; i++) {
@@ -176,6 +178,29 @@ const assignAlt = (person) => {
 	} else {
 		altDiv.style.paddingBottom = "0px"
 	}
+}
+
+const assignBirth = (person) => {
+	const birthDiv = document.getElementById("birth")
+	birthDiv.innerHTML = ""
+
+	const birthDateNode = document.createElement("span")
+	const birthPlaceNode = document.createElement("span")
+	const separatorNode = document.createElement("span")
+	const deathDateNode = document.createElement("span")
+	const deathPlaceNode = document.createElement("span")
+
+	birthDateNode.innerHTML = `${person.dateBirth.yyyy}/${person.dateBirth.mm}/${person.dateBirth.dd} `
+	birthPlaceNode.innerHTML = person.placeBirth
+	separatorNode.innerHTML = " ~ "
+	deathDateNode.innerHTML = `${person.dateDeath.yyyy}/${person.dateDeath.mm}/${person.dateDeath.dd} `
+	deathPlaceNode.innerHTML = person.placeDeath
+
+	birthDiv.appendChild(birthDateNode)
+	birthDiv.appendChild(birthPlaceNode)
+	birthDiv.appendChild(separatorNode)
+	birthDiv.appendChild(deathDateNode)
+	birthDiv.appendChild(deathPlaceNode)
 }
 
 network.on("click", (params) => {
@@ -210,24 +235,7 @@ network.on("click", (params) => {
 
 		assignName(selPerson)
 		assignAlt(selPerson)
-
-		const birthDiv = document.getElementById("birth")
-		birthDiv.innerHTML = ""
-		const birthDateNode = document.createElement("span")
-		const birthPlaceNode = document.createElement("span")
-		const separatorNode = document.createElement("span")
-		const deathDateNode = document.createElement("span")
-		const deathPlaceNode = document.createElement("span")
-		birthDateNode.innerHTML = `${selPerson.dateBirth.yyyy}/${selPerson.dateBirth.mm}/${selPerson.dateBirth.dd} `
-		birthPlaceNode.innerHTML = selPerson.placeBirth
-		separatorNode.innerHTML = " ~ "
-		deathDateNode.innerHTML = `${selPerson.dateDeath.yyyy}/${selPerson.dateDeath.mm}/${selPerson.dateDeath.dd} `
-		deathPlaceNode.innerHTML = selPerson.placeDeath
-		birthDiv.appendChild(birthDateNode)
-		birthDiv.appendChild(birthPlaceNode)
-		birthDiv.appendChild(separatorNode)
-		birthDiv.appendChild(deathDateNode)
-		birthDiv.appendChild(deathPlaceNode)
+		assignBirth(selPerson)
 
 		const occupationDiv = document.getElementById("occupation")
 		occupationDiv.innerHTML = ""
