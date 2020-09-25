@@ -158,6 +158,12 @@ const checkSource = (el) => {
 	}
 }
 
+const assignName = (person) => {
+	const nameDiv = document.getElementById("name")
+	nameDiv.innerHTML = ""
+	nameDiv.innerHTML = `${person.name.first} ${person.name.last}`
+}
+
 const assignAlt = (person) => {
 	const altDiv = document.getElementById("alt")
 	altDiv.innerHTML = ""
@@ -202,10 +208,7 @@ network.on("click", (params) => {
 		infoDiv.style.display = "block"
 		closeCard.style.display = "block"
 
-		const nameDiv = document.getElementById("name")
-		nameDiv.innerHTML = ""
-		nameDiv.innerHTML = `${selPerson.name.first} ${selPerson.name.last}`
-
+		assignName(selPerson)
 		assignAlt(selPerson)
 
 		const birthDiv = document.getElementById("birth")
