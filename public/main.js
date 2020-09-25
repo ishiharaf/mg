@@ -251,8 +251,25 @@ const assignAlt = (person) => {
 	if(person.name.alt.length > 0){
 		altDiv.style.paddingBottom = "10px"
 		for (let i = 0; i < person.name.alt.length; i++) {
-			if(i !== 0) altDiv.innerHTML += `, ${person.name.alt[i]}`
-			else altDiv.innerHTML = person.name.alt[i]
+			const altNode = document.createElement("span")
+			const altName = person.name.alt[i]
+			const source = checkSource(altName)
+			if(source !== false) {
+				const sourceNode = document.createElement("sup")
+				if(i !== 0) altNode.innerHTML = `, ${source.string}`
+				else altNode.innerHTML = source.string
+				sourceNode.innerHTML = "?"
+				sourceNode.className = "source"
+				sourceNode.addEventListener("click", () => {
+					openSource(source.value)
+				})
+				altDiv.appendChild(altNode)
+				altDiv.appendChild(sourceNode)
+			} else {
+				if(i !== 0) altNode.innerHTML = `, ${altName}`
+				else altNode.innerHTML = altName
+				altDiv.appendChild(altNode)
+			}
 		}
 	} else {
 		altDiv.style.paddingBottom = "0px"
