@@ -207,7 +207,21 @@ network.on("click", (params) => {
 		}
 
 		birthDiv.innerHTML = ""
-		birthDiv.innerHTML = `${selPerson.dateBirth.yyyy}/${selPerson.dateBirth.mm}/${selPerson.dateBirth.dd} ${selPerson.placeBirth} ~ ${selPerson.dateDeath.yyyy}/${selPerson.dateDeath.mm}/${selPerson.dateDeath.dd} ${selPerson.placeDeath}`
+		const birthDateNode = document.createElement("span")
+			birthDateNode.innerHTML = `${selPerson.dateBirth.yyyy}/${selPerson.dateBirth.mm}/${selPerson.dateBirth.dd} `
+		const birthPlaceNode = document.createElement("span")
+			birthPlaceNode.innerHTML = selPerson.placeBirth
+		const separatorNode = document.createElement("span")
+			separatorNode.innerHTML = " ~ "
+		const deathDateNode = document.createElement("span")
+			deathDateNode.innerHTML = `${selPerson.dateDeath.yyyy}/${selPerson.dateDeath.mm}/${selPerson.dateDeath.dd} `
+		const deathPlaceNode = document.createElement("span")
+			deathPlaceNode.innerHTML = selPerson.placeDeath
+		birthDiv.appendChild(birthDateNode)
+		birthDiv.appendChild(birthPlaceNode)
+		birthDiv.appendChild(separatorNode)
+		birthDiv.appendChild(deathDateNode)
+		birthDiv.appendChild(deathPlaceNode)
 
 		occupationDiv.innerHTML = ""
 		for (let i = 0; i < selPerson.group.length; i++) {
