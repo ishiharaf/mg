@@ -164,7 +164,7 @@ const openSource = (sourceId) => {
 
 	const citationDiv = document.getElementById("citation")
 	citationDiv.innerHTML = ""
-	citationDiv.innerHTML = `[${sourceId}] ${selPerson.source[sourceId - 1].citation}`
+	citationDiv.innerHTML = selPerson.source[sourceId - 1].citation
 
 	const extractDiv = document.getElementById("extract")
 	extractDiv.innerHTML = ""
@@ -230,7 +230,7 @@ const assignName = (person) => {
 		const sourceNode = document.createElement("sup")
 
 		nameNode.innerHTML = `${source.string}`
-		sourceNode.innerHTML = `[${source.value}]`
+		sourceNode.innerHTML = "?"
 
 		sourceNode.className = "source"
 		sourceNode.addEventListener("click", () => {
