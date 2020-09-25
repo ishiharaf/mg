@@ -194,6 +194,7 @@ const checkSource = (el) => {
 		})
 		const source = {
 			string: sourceStr,
+			value: sourceVal - 1,
 			node: sourceNode
 		}
 		return source
@@ -211,14 +212,25 @@ const getRelated = (id, edge) => {
 			const relPerson = people.find(people => people.id == relNode)
 			const relationship = relPerson.relationship
 			const relObject = relationship.find(relationship => relationship.id == id)
-			const personObj = {
-				name: `${relPerson.name.first} ${relPerson.name.last}, ${relObject.type}`,
-				source: {}
+
+			let lastName
+			if(relPerson.name.last.slice(-1) === "]") {
+				const firstIndex = relPerson.name.last.indexOf("[")
+				lastName = relPerson.name.last.substring(0, firstIndex - 1)
+			} else {
+				lastName = relPerson.name.last
 			}
-			if(relObject.type.slice(-1) === "]") {
-				const firstIndex = relObject.type.indexOf("[")
-				const lastIndex = relObject.type.indexOf("]")
-				personObj.source = relPerson.source[Number(relObject.type.substring(firstIndex + 1, lastIndex))]
+
+			const personObj = {
+				name: "",
+				source: []
+			}
+			const source = checkSource(relObject.type)
+			if(source !== false) {
+				personObj.name = `${relPerson.name.first} ${lastName}, ${source.string}`
+				personObj.source.push(relPerson.source[source.value])
+			} else {
+				personObj.name = `${relPerson.name.first} ${lastName}, ${relObject.type}`
 			}
 			relPeople.push(personObj)
 		}
@@ -315,16 +327,36 @@ const assignOccupation = (person) => {
 	}
 }
 
-const assignRelation = (people) => {
+const assignRelation = (person, people) => {
 	const relationDiv = document.getElementById("relation")
 	relationDiv.innerHTML = ""
 
+	console.log(people)
 	if(people.length > 0) {
 		relationDiv.style.paddingBottom = "5px"
 		for (let i = 0; i < people.length; i++) {
-			const node = document.createElement("div")
-			node.innerHTML = people[i].name
-			relationDiv.appendChild(node)
+			const personNode = document.createElement("div")
+			const relNode = document.createElement("span")
+			relNode.innerHTML = people[i].name
+
+			if(people[i].source.length > 0) {
+				const index = person.source.length + 1
+				person.source.push(people[i].source[0])
+
+				const sourceNode = document.createElement("span")
+				sourceNode.innerHTML = "?"
+				sourceNode.className = "source"
+				sourceNode.addEventListener("click", () => {
+					openSource(index)
+				})
+
+				personNode.appendChild(relNode)
+				personNode.appendChild(sourceNode)
+			} else {
+				personNode.appendChild(relNode)
+			}
+
+			relationDiv.appendChild(personNode)
 		}
 	} else {
 		relationDiv.style.paddingBottom = "0px"
@@ -372,7 +404,7 @@ network.on("click", (params) => {
 		assignAlt(selPerson)
 		assignBirth(selPerson)
 		assignOccupation(selPerson)
-		assignRelation(relatedPeople)
+		assignRelation(selPerson, relatedPeople)
 		assignImg(selPerson)
 	}
 })
