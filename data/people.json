@@ -3789,4 +3789,36 @@
 		"extract": ""
 	}],
 	"picture": ""
+},
+{
+	"id": 114,
+	"name": {
+		"first": "Carlo",
+		"last": "Farina",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "c1600",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1639",
+		"mm": "07",
+		"dd": "??"
+	},
+	"placeBirth": "Mantua, Italy",
+	"placeDeath": "Vienna, Austria",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "mus",
+	"group": ["Violinist", "Conductor", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
