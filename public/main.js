@@ -158,6 +158,20 @@ const checkSource = (el) => {
 	}
 }
 
+const assignAlt = (person) => {
+	const altDiv = document.getElementById("alt")
+	altDiv.innerHTML = ""
+	if(person.name.alt.length > 0){
+		altDiv.style.paddingBottom = "10px"
+		for (let i = 0; i < person.name.alt.length; i++) {
+			if(i !== 0) altDiv.innerHTML += `, ${person.name.alt[i]}`
+			else altDiv.innerHTML = person.name.alt[i]
+		}
+	} else {
+		altDiv.style.paddingBottom = "0px"
+	}
+}
+
 network.on("click", (params) => {
 	if(params.nodes.length > 0) {
 		const selId = params.nodes[0]
@@ -192,14 +206,7 @@ network.on("click", (params) => {
 		nameDiv.innerHTML = ""
 		nameDiv.innerHTML = `${selPerson.name.first} ${selPerson.name.last}`
 
-		const altDiv = document.getElementById("alt")
-		altDiv.innerHTML = ""
-		if(selPerson.name.alt !== ""){
-			altDiv.style.paddingBottom = "10px"
-			altDiv.innerHTML = selPerson.name.alt
-		} else {
-			altDiv.style.paddingBottom = "0px"
-		}
+		assignAlt(selPerson)
 
 		const birthDiv = document.getElementById("birth")
 		birthDiv.innerHTML = ""
