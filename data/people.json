@@ -3911,10 +3911,42 @@
 		"color": ""
 	}],
 	"color": "mus",
-	"group": ["Clockmaker","Composer"],
+	"group": ["Clockmaker", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
 	}],
 	"picture": ""
+},
+{
+	"id": 118,
+	"name": {
+		"first": "Jean-Joseph de",
+		"last": "Mondonville",
+		"alt": ["Jean-Joseph Cassanéa de Mondonville"]
+	},
+	"dateBirth": {
+		"yyyy": "1711",
+		"mm": "12",
+		"dd": "25"
+	},
+	"dateDeath": {
+		"yyyy": "1772",
+		"mm": "10",
+		"dd": "08"
+	},
+	"placeBirth": "Narbonne, France",
+	"placeDeath": "Belleville, France",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "mus",
+	"group": ["Violinist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Jean-Joseph_Cassan%C3%A9a_de_Mondonville_%28original_replica%29_by_Maurice_Quentin_de_La_Tour.jpg"
 }]
