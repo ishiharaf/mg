@@ -4,7 +4,7 @@ let sessionStorage = window.sessionStorage
 
 const fetchData = async() => {
 	try {
-		const res = await fetch("/data", {method: "POST"})
+		const res = await fetch("/data", {method: "GET"})
 		return res.json()
 	} catch(error) {
 		console.log(error)
