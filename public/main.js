@@ -190,7 +190,6 @@ network.on("click", (params) => {
 
 		const nameDiv = document.getElementById("name")
 		const altDiv = document.getElementById("alt")
-		const birthDiv = document.getElementById("birth")
 		const occupationDiv = document.getElementById("occupation")
 		const relationDiv = document.getElementById("relation")
 		const sourceDiv = document.getElementById("source")
@@ -206,17 +205,18 @@ network.on("click", (params) => {
 			altDiv.style.paddingBottom = "0px"
 		}
 
+		const birthDiv = document.getElementById("birth")
 		birthDiv.innerHTML = ""
 		const birthDateNode = document.createElement("span")
-			birthDateNode.innerHTML = `${selPerson.dateBirth.yyyy}/${selPerson.dateBirth.mm}/${selPerson.dateBirth.dd} `
 		const birthPlaceNode = document.createElement("span")
-			birthPlaceNode.innerHTML = selPerson.placeBirth
 		const separatorNode = document.createElement("span")
-			separatorNode.innerHTML = " ~ "
 		const deathDateNode = document.createElement("span")
-			deathDateNode.innerHTML = `${selPerson.dateDeath.yyyy}/${selPerson.dateDeath.mm}/${selPerson.dateDeath.dd} `
 		const deathPlaceNode = document.createElement("span")
-			deathPlaceNode.innerHTML = selPerson.placeDeath
+		birthDateNode.innerHTML = `${selPerson.dateBirth.yyyy}/${selPerson.dateBirth.mm}/${selPerson.dateBirth.dd} `
+		birthPlaceNode.innerHTML = selPerson.placeBirth
+		separatorNode.innerHTML = " ~ "
+		deathDateNode.innerHTML = `${selPerson.dateDeath.yyyy}/${selPerson.dateDeath.mm}/${selPerson.dateDeath.dd} `
+		deathPlaceNode.innerHTML = selPerson.placeDeath
 		birthDiv.appendChild(birthDateNode)
 		birthDiv.appendChild(birthPlaceNode)
 		birthDiv.appendChild(separatorNode)
