@@ -3725,4 +3725,36 @@
 		"extract": ""
 	}],
 	"picture": "https://lastfm.freetls.fastly.net/i/u/300x300/bf75f0eeac834efaced0bb0c32cf5ddd.jpg"
+},
+{
+	"id": 112,
+	"name": {
+		"first": "Evaristo Felice",
+		"last": "Dall'Abaco",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1675",
+		"mm": "07",
+		"dd": "12"
+	},
+	"dateDeath": {
+		"yyyy": "1742",
+		"mm": "07",
+		"dd": "12"
+	},
+	"placeBirth": "Verona, Italy",
+	"placeDeath": "Munich, Germany",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "imp",
+	"group": ["Violinist", "Cellist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/8/8d/EvaristoFeliceDall%27Abaco.jpg"
 }]
