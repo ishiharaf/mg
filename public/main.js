@@ -286,6 +286,7 @@ network.on("click", (params) => {
 		const selPerson = people.find(people => people.id == selId)
 		const relatedPeople = getRelated(selId, selEdge)
 
+		infoDiv.setAttribute("data-id", selId)
 		infoDiv.style.display = "block"
 		closeCard.style.display = "block"
 
