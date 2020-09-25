@@ -3677,10 +3677,42 @@
 	"dateDeath": {
 		"yyyy": "1704",
 		"mm": "05",
-		"dd": "1704"
+		"dd": "03"
 	},
 	"placeBirth": "Wartenberg, Czech Republic",
 	"placeDeath": "Salzburg, Germany",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "imp",
+	"group": ["Violinist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 111,
+	"name": {
+		"first": "Thomas",
+		"last": "Baltzar",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "c1630",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1662",
+		"mm": "07",
+		"dd": "24"
+	},
+	"placeBirth": "Lübeck, Germany",
+	"placeDeath": "London, England",
 	"relationship": [{
 		"id": "",
 		"type": "",
