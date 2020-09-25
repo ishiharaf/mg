@@ -184,11 +184,19 @@ const checkSource = (el) => {
 	if(el.slice(-1) === "]") {
 		const firstIndex = el.indexOf("[")
 		const lastIndex = el.indexOf("]")
-		const sourceStr = {
-			string: el.substring(0, firstIndex - 1),
-			value: Number(el.substring(firstIndex + 1, lastIndex))
+		const sourceStr = el.substring(0, firstIndex - 1)
+		const sourceVal = Number(el.substring(firstIndex + 1, lastIndex))
+		const sourceNode = document.createElement("sup")
+		sourceNode.innerHTML = "?"
+		sourceNode.className = "source"
+		sourceNode.addEventListener("click", () => {
+			openSource(sourceVal)
+		})
+		const source = {
+			string: sourceStr,
+			node: sourceNode
 		}
-		return sourceStr
+		return source
 	} else {
 		return false
 	}
@@ -227,18 +235,9 @@ const assignName = (person) => {
 	const source = checkSource(personName)
 	if(source !== false) {
 		const nameNode = document.createElement("span")
-		const sourceNode = document.createElement("sup")
-
 		nameNode.innerHTML = `${source.string}`
-		sourceNode.innerHTML = "?"
-
-		sourceNode.className = "source"
-		sourceNode.addEventListener("click", () => {
-			openSource(source.value)
-		})
-
 		nameDiv.appendChild(nameNode)
-		nameDiv.appendChild(sourceNode)
+		nameDiv.appendChild(source.node)
 	} else {
 		nameDiv.innerHTML = `${person.name.first} ${person.name.last}`
 	}
@@ -255,16 +254,10 @@ const assignAlt = (person) => {
 			const altName = person.name.alt[i]
 			const source = checkSource(altName)
 			if(source !== false) {
-				const sourceNode = document.createElement("sup")
 				if(i !== 0) altNode.innerHTML = `, ${source.string}`
 				else altNode.innerHTML = source.string
-				sourceNode.innerHTML = "?"
-				sourceNode.className = "source"
-				sourceNode.addEventListener("click", () => {
-					openSource(source.value)
-				})
 				altDiv.appendChild(altNode)
-				altDiv.appendChild(sourceNode)
+				altDiv.appendChild(source.node)
 			} else {
 				if(i !== 0) altNode.innerHTML = `, ${altName}`
 				else altNode.innerHTML = altName
