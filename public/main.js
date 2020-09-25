@@ -299,8 +299,19 @@ const assignOccupation = (person) => {
 	occupationDiv.innerHTML = ""
 
 	for (let i = 0; i < person.group.length; i++) {
-		if(i !== 0) occupationDiv.innerHTML += `, ${person.group[i]}`
-		else occupationDiv.innerHTML = person.group[i]
+		const occNode = document.createElement("span")
+		const occName = person.group[i]
+		const source = checkSource(occName)
+		if(source !== false) {
+			if(i !== 0) occNode.innerHTML = `, ${source.string}`
+			else occNode.innerHTML = source.string
+			occupationDiv.appendChild(occNode)
+			occupationDiv.appendChild(source.node)
+		} else {
+			if(i !== 0) occNode.innerHTML += `, ${occName}`
+			else occNode.innerHTML = occName
+			occupationDiv.appendChild(occNode)
+		}
 	}
 }
 
