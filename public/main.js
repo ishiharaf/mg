@@ -203,6 +203,16 @@ const assignBirth = (person) => {
 	birthDiv.appendChild(deathPlaceNode)
 }
 
+const assignOccupation = (person) => {
+	const occupationDiv = document.getElementById("occupation")
+	occupationDiv.innerHTML = ""
+
+	for (let i = 0; i < person.group.length; i++) {
+		if(i !== 0) occupationDiv.innerHTML += `, ${person.group[i]}`
+		else occupationDiv.innerHTML = person.group[i]
+	}
+}
+
 network.on("click", (params) => {
 	if(params.nodes.length > 0) {
 		const selId = params.nodes[0]
@@ -236,13 +246,7 @@ network.on("click", (params) => {
 		assignName(selPerson)
 		assignAlt(selPerson)
 		assignBirth(selPerson)
-
-		const occupationDiv = document.getElementById("occupation")
-		occupationDiv.innerHTML = ""
-		for (let i = 0; i < selPerson.group.length; i++) {
-			if(i !== 0) occupationDiv.innerHTML += `, ${selPerson.group[i]}`
-			else occupationDiv.innerHTML = selPerson.group[i]
-		}
+		assignOccupation(selPerson)
 
 		const relationDiv = document.getElementById("relation")
 		relationDiv.innerHTML = ""
