@@ -273,23 +273,25 @@ const assignBirth = (person) => {
 	const birthDiv = document.getElementById("birth")
 	birthDiv.innerHTML = ""
 
-	const birthDateNode = document.createElement("span")
-	const birthPlaceNode = document.createElement("span")
-	const separatorNode = document.createElement("span")
-	const deathDateNode = document.createElement("span")
-	const deathPlaceNode = document.createElement("span")
-
-	birthDateNode.innerHTML = `${person.dateBirth.yyyy}/${person.dateBirth.mm}/${person.dateBirth.dd} `
-	birthPlaceNode.innerHTML = person.placeBirth
-	separatorNode.innerHTML = " ~ "
-	deathDateNode.innerHTML = `${person.dateDeath.yyyy}/${person.dateDeath.mm}/${person.dateDeath.dd} `
-	deathPlaceNode.innerHTML = person.placeDeath
-
-	birthDiv.appendChild(birthDateNode)
-	birthDiv.appendChild(birthPlaceNode)
-	birthDiv.appendChild(separatorNode)
-	birthDiv.appendChild(deathDateNode)
-	birthDiv.appendChild(deathPlaceNode)
+	const birthStr = [
+		`${person.dateBirth.yyyy}/${person.dateBirth.mm}/${person.dateBirth.dd}`,
+		` ${person.placeBirth}`,
+		" ~ ",
+		`${person.dateDeath.yyyy}/${person.dateDeath.mm}/${person.dateDeath.dd}`,
+		` ${person.placeDeath}`
+	]
+	for (let i = 0; i < birthStr.length; i++) {
+		const node = document.createElement("span")
+		const source = checkSource(birthStr[i])
+		if(source !== false) {
+			node.innerHTML = source.string
+			birthDiv.appendChild(node)
+			birthDiv.appendChild(source.node)
+		} else {
+			node.innerHTML = birthStr[i]
+			birthDiv.appendChild(node)
+		}
+	}
 }
 
 const assignOccupation = (person) => {
