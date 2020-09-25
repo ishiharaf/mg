@@ -8,7 +8,6 @@ This project aims to display in a visual way how musicians of the past were conn
 - [Setup](#setup)
 - [Contributing](#contributing)
 	- [Who NOT to add](#who-not-to-add)
-	- [How to edit](#how-to-edit)
 - [To do](#to-do)
 - [Changelog](#changelog)
 - [License](#license)
