@@ -3757,4 +3757,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/8/8d/EvaristoFeliceDall%27Abaco.jpg"
+},
+{
+	"id": 113,
+	"name": {
+		"first": "André-Joseph",
+		"last": "Exaudet",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1710",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1762",
+		"mm": "??",
+		"dd": "??"
+	},
+	"placeBirth": "France",
+	"placeDeath": "France",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "mus",
+	"group": ["Violinist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
