@@ -281,15 +281,15 @@ const assignBirth = (person) => {
 		` ${person.placeDeath}`
 	]
 	for (let i = 0; i < birthStr.length; i++) {
-		const node = document.createElement("span")
+		const birthNode = document.createElement("span")
 		const source = checkSource(birthStr[i])
 		if(source !== false) {
-			node.innerHTML = source.string
-			birthDiv.appendChild(node)
+			birthNode.innerHTML = source.string
+			birthDiv.appendChild(birthNode)
 			birthDiv.appendChild(source.node)
 		} else {
-			node.innerHTML = birthStr[i]
-			birthDiv.appendChild(node)
+			birthNode.innerHTML = birthStr[i]
+			birthDiv.appendChild(birthNode)
 		}
 	}
 }
