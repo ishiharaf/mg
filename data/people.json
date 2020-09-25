@@ -3853,4 +3853,36 @@
 		"extract": ""
 	}],
 	"picture": ""
+},
+{
+	"id": 116,
+	"name": {
+		"first": "Vincenzo",
+		"last": "Manfredini",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1737",
+		"mm": "10",
+		"dd": "22"
+	},
+	"dateDeath": {
+		"yyyy": "1799",
+		"mm": "08",
+		"dd": "05"
+	},
+	"placeBirth": "Pistoia, Italy",
+	"placeDeath": "St. Petersburg, Russia",
+	"relationship": [{
+		"id": 115,
+		"type": "Son, Student",
+		"color": "red"
+	}],
+	"color": "mus",
+	"group": ["Harpsichordist", "Music Theorist","Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
