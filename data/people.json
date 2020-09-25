@@ -4093,6 +4093,10 @@
 		"id": 36,
 		"type": "Acquaintance",
 		"color": "blue"
+	},{
+		"id": 123,
+		"type": "Acquaintance",
+		"color": "blue"
 	}],
 	"color": "imp",
 	"group": ["Music historian", "Musician", "Composer"],
