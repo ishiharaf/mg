@@ -1067,8 +1067,20 @@
 	"placeDeath": "?",
 	"relationship": [{
 		"id": 30,
-		"type": "Student",
-		"color": "gray"
+		"type": "Friend",
+		"color": "blue"
+	},{
+		"id": 38,
+		"type": "Acquaintance",
+		"color": "blue"
+	},{
+		"id": 120,
+		"type": "Friend",
+		"color": "blue"
+	},{
+		"id": 85,
+		"type": "Friend",
+		"color": "blue"
 	}],
 	"color": "mus",
 	"group": ["Violinist", "Composer"],
