@@ -3949,4 +3949,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Jean-Joseph_Cassan%C3%A9a_de_Mondonville_%28original_replica%29_by_Maurice_Quentin_de_La_Tour.jpg"
+},
+{
+	"id": 119,
+	"name": {
+		"first": "Jean-Baptiste",
+		"last": "Lully",
+		"alt": ["Giovanni Battista Lulli"]
+	},
+	"dateBirth": {
+		"yyyy": "1632",
+		"mm": "11",
+		"dd": "28"
+	},
+	"dateDeath": {
+		"yyyy": "1687",
+		"mm": "03",
+		"dd": "22"
+	},
+	"placeBirth": "Florence, Italy",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "imp",
+	"group": ["Instrumentalist", "Dancer", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Jean-Baptiste_Lully.jpeg/411px-Jean-Baptiste_Lully.jpeg"
 }]
