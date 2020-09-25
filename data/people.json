@@ -4057,4 +4057,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Giuseppe_Torelli.jpg/375px-Giuseppe_Torelli.jpg"
+},
+{
+	"id": 122,
+	"name": {
+		"first": "Charles",
+		"last": "Burney",
+		"alt": ["Charles Burney FRS"]
+	},
+	"dateBirth": {
+		"yyyy": "1726",
+		"mm": "03",
+		"dd": "07"
+	},
+	"dateDeath": {
+		"yyyy": "1814",
+		"mm": "03",
+		"dd": "12"
+	},
+	"placeBirth": "Shropshire, England",
+	"placeDeath": "London, England",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "imp",
+	"group": ["Music historian", "Musician", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Charles_Burney.jpg"
 }]
