@@ -294,18 +294,6 @@ network.on("click", (params) => {
 		assignBirth(selPerson)
 		assignOccupation(selPerson)
 		assignRelation(relatedPeople)
-
-		const sourceDiv = document.getElementById("source")
-		sourceDiv.innerHTML = ""
-		for (let i = 0; i < selPerson.source.length; i++) {
-			const citation = document.createElement("div")
-			const extract = document.createElement("div")
-			citation.innerHTML = selPerson.source[i].citation
-			extract.innerHTML = selPerson.source[i].extract
-			sourceDiv.appendChild(citation)
-			sourceDiv.appendChild(extract)
-		}
-
 		assignImg(selPerson)
 	}
 })
