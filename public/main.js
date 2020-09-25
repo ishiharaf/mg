@@ -238,6 +238,22 @@ const assignOccupation = (person) => {
 	}
 }
 
+const assignRelation = (people) => {
+	const relationDiv = document.getElementById("relation")
+	relationDiv.innerHTML = ""
+
+	if(people.length > 0) {
+		relationDiv.style.paddingBottom = "5px"
+		for (let i = 0; i < people.length; i++) {
+			const node = document.createElement("div")
+			node.innerHTML = people[i].name
+			relationDiv.appendChild(node)
+		}
+	} else {
+		relationDiv.style.paddingBottom = "0px"
+	}
+}
+
 const assignImg = (person) => {
 	const nameDiv = document.getElementById("name")
 	imgDiv.innerHTML = ""
@@ -266,10 +282,7 @@ const assignImg = (person) => {
 network.on("click", (params) => {
 	if(params.nodes.length > 0) {
 		const selId = params.nodes[0]
-		console.log(selId)
 		const selEdge = params.edges
-
-
 		const selPerson = people.find(people => people.id == selId)
 		const relatedPeople = getRelated(selId, selEdge)
 
@@ -280,19 +293,7 @@ network.on("click", (params) => {
 		assignAlt(selPerson)
 		assignBirth(selPerson)
 		assignOccupation(selPerson)
-
-		const relationDiv = document.getElementById("relation")
-		relationDiv.innerHTML = ""
-		if(relatedPeople.length > 0) {
-			relationDiv.style.paddingBottom = "5px"
-			for (let i = 0; i < relatedPeople.length; i++) {
-				const node = document.createElement("div")
-				node.innerHTML = relatedPeople[i].name
-				relationDiv.appendChild(node)
-			}
-		} else {
-			relationDiv.style.paddingBottom = "0px"
-		}
+		assignRelation(relatedPeople)
 
 		const sourceDiv = document.getElementById("source")
 		sourceDiv.innerHTML = ""
