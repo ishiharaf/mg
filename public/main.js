@@ -158,6 +158,31 @@ const checkSource = (el) => {
 	}
 }
 
+const getRelated = (id, edge) => {
+	let relPeople = []
+
+	for (let i = 0; i < edge.length; i++) {
+		const relNode = network.getConnectedNodes(edge[i], "to")[1]
+		if(relNode !== id) {
+			const relPerson = people.find(people => people.id == relNode)
+			const relationship = relPerson.relationship
+			const relObject = relationship.find(relationship => relationship.id == id)
+			const personObj = {
+				name: `${relPerson.name.first} ${relPerson.name.last}, ${relObject.type}`,
+				source: {}
+			}
+			if(relObject.type.slice(-1) === "]") {
+				const firstIndex = relObject.type.indexOf("[")
+				const lastIndex = relObject.type.indexOf("]")
+				personObj.source = relPerson.source[Number(relObject.type.substring(firstIndex + 1, lastIndex))]
+			}
+			relPeople.push(personObj)
+		}
+	}
+
+	return relPeople
+}
+
 const assignName = (person) => {
 	const nameDiv = document.getElementById("name")
 	nameDiv.innerHTML = ""
@@ -243,27 +268,10 @@ network.on("click", (params) => {
 		const selId = params.nodes[0]
 		console.log(selId)
 		const selEdge = params.edges
-		let relatedPeople = []
+
 
 		const selPerson = people.find(people => people.id == selId)
-		for (let i = 0; i < selEdge.length; i++) {
-			const relatedNode = network.getConnectedNodes(selEdge[i], "to")[1]
-			if(relatedNode !== selId) {
-				const relatedPerson = people.find(people => people.id == relatedNode)
-				const relationship = relatedPerson.relationship
-				const relationObj = relationship.find(relationship => relationship.id == selId)
-				const personObj = {
-					name: `${relatedPerson.name.first} ${relatedPerson.name.last}, ${relationObj.type}`,
-					source: {}
-				}
-				if(relationObj.type.slice(-1) === "]") {
-					const firstIndex = relationObj.type.indexOf("[")
-					const lastIndex = relationObj.type.indexOf("]")
-					personObj.source = relatedPerson.source[Number(relationObj.type.substring(firstIndex + 1, lastIndex))]
-				}
-				relatedPeople.push(personObj)
-			}
-		}
+		const relatedPeople = getRelated(selId, selEdge)
 
 		infoDiv.style.display = "block"
 		closeCard.style.display = "block"
