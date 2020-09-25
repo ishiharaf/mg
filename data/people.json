@@ -3970,9 +3970,9 @@
 	"placeBirth": "Florence, Italy",
 	"placeDeath": "Paris, France",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 89,
+		"type": "Acquaintance",
+		"color": "blue"
 	}],
 	"color": "imp",
 	"group": ["Instrumentalist", "Dancer", "Composer"],
