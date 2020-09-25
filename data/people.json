@@ -3,7 +3,7 @@
 	"name": {
 		"first": "Arcangelo",
 		"last": "Corelli",
-		"alt": ""
+		"alt": [""]
 	},
 	"dateBirth": {
 		"yyyy": "1653",
@@ -35,7 +35,7 @@
 	"name": {
 		"first": "Francesco",
 		"last": "Geminiani",
-		"alt": "Francesco Saverio Geminiani"
+		"alt": ["Francesco Saverio Geminiani"]
 	},
 	"dateBirth": {
 		"yyyy": "1687",
@@ -75,7 +75,7 @@
 	"name": {
 		"first": "Giovanni Battista",
 		"last": "Somis",
-		"alt": ""
+		"alt": [""]
 	},
 	"dateBirth": {
 		"yyyy": "1686",
@@ -107,7 +107,7 @@
 	"name": {
 		"first": "Jean-Marie",
 		"last": "Leclair",
-		"alt": "Jean-Marie Leclair the Elder"
+		"alt": ["Jean-Marie Leclair the Elder"]
 	},
 	"dateBirth": {
 		"yyyy": "1697",
@@ -139,7 +139,7 @@
 	"name": {
 		"first": "Felice",
 		"last": "Giardini",
-		"alt": "Felice de Giardini"
+		"alt": ["Felice de Giardini"]
 	},
 	"dateBirth": {
 		"yyyy": "1716",
@@ -171,7 +171,7 @@
 	"name": {
 		"first": "Louis-Gabriel",
 		"last": "Guillemain",
-		"alt": ""
+		"alt": [""]
 	},
 	"dateBirth": {
 		"yyyy": "1705",
@@ -203,7 +203,7 @@
 	"name": {
 		"first": "Gaetano",
 		"last": "Pugnani",
-		"alt": "Giulio Gaetano Gerolamo Pugnani"
+		"alt": ["Giulio Gaetano Gerolamo Pugnani"]
 	},
 	"dateBirth": {
 		"yyyy": "1731",
@@ -235,7 +235,7 @@
 	"name": {
 		"first": "Pietro",
 		"last": "Locatelli",
-		"alt": "Pietro Antonio Locatelli"
+		"alt": ["Pietro Antonio Locatelli"]
 	},
 	"dateBirth": {
 		"yyyy": "1695",
@@ -267,7 +267,7 @@
 	"name": {
 		"first": "Pietro",
 		"last": "Castrucci",
-		"alt": ""
+		"alt": [""]
 	},
 	"dateBirth": {
 		"yyyy": "1679",
@@ -299,7 +299,7 @@
 	"name": {
 		"first": "Francesco Antonio",
 		"last": "Bonporti",
-		"alt": ""
+		"alt": [""]
 	},
 	"dateBirth": {
 		"yyyy": "1672",
@@ -331,7 +331,7 @@
 	"name": {
 		"first": "Giovanni Stefano",
 		"last": "Carbonelli",
-		"alt": ""
+		"alt": [""]
 	},
 	"dateBirth": {
 		"yyyy": "1694",
@@ -363,7 +363,7 @@
 	"name": {
 		"first": "Francesco",
 		"last": "Gasparini",
-		"alt": ""
+		"alt": [""]
 	},
 	"dateBirth": {
 		"yyyy": "1661",
@@ -395,7 +395,7 @@
 	"name": {
 		"first": "Alessandro",
 		"last": "Scarlatti",
-		"alt": "Pietro Alessandro Gaspare Scarlatti"
+		"alt": ["Pietro Alessandro Gaspare Scarlatti"]
 	},
 	"dateBirth": {
 		"yyyy": "1660",
@@ -427,7 +427,7 @@
 	"name": {
 		"first": "Carlo Ambrogio",
 		"last": "Lonati",
-		"alt": "Giovanni Ambrogio Leinati/Lunati"
+		"alt": ["Giovanni Ambrogio Leinati/Lunati"]
 	},
 	"dateBirth": {
 		"yyyy": "c1645",
@@ -459,7 +459,7 @@
 	"name": {
 		"first": "Charles",
 		"last": "Avison",
-		"alt": ""
+		"alt": [""]
 	},
 	"dateBirth": {
 		"yyyy": "1709",
@@ -491,7 +491,7 @@
 	"name": {
 		"first": "Matthew",
 		"last": "Dubourg",
-		"alt": ""
+		"alt": [""]
 	},
 	"dateBirth": {
 		"yyyy": "1703",
@@ -523,7 +523,7 @@
 	"name": {
 		"first": "Michael Christian",
 		"last": "Festing",
-		"alt": ""
+		"alt": [""]
 	},
 	"dateBirth": {
 		"yyyy": "1705",
@@ -555,7 +555,7 @@
 	"name": {
 		"first": "Bernhard Joachim",
 		"last": "Hagen",
-		"alt": ""
+		"alt": [""]
 	},
 	"dateBirth": {
 		"yyyy": "1720",
@@ -587,7 +587,7 @@
 	"name": {
 		"first": "Peter Albrecht",
 		"last": "Hagen",
-		"alt": "Peter Albert van Hagen"
+		"alt": ["Peter Albert van Hagen"]
 	},
 	"dateBirth": {
 		"yyyy": "1714",
@@ -619,7 +619,7 @@
 	"name": {
 		"first": "Cecilia",
 		"last": "Arne",
-		"alt": "Cecilia Young"
+		"alt": ["Cecilia Young"]
 	},
 	"dateBirth": {
 		"yyyy": "1712",
@@ -659,7 +659,7 @@
 	"name": {
 		"first": "Henry",
 		"last": "Carey",
-		"alt": ""
+		"alt": [""]
 	},
 	"dateBirth": {
 		"yyyy": "1687",
@@ -691,7 +691,7 @@
 	"name": {
 		"first": "William",
 		"last": "Shield",
-		"alt": ""
+		"alt": [""]
 	},
 	"dateBirth": {
 		"yyyy": "1748",
@@ -723,7 +723,7 @@
 	"name": {
 		"first": "Benedetto",
 		"last": "Marcello",
-		"alt": "Benedetto Giacomo Marcello"
+		"alt": ["Benedetto Giacomo Marcello"]
 	},
 	"dateBirth": {
 		"yyyy": "1686",
@@ -763,7 +763,7 @@
 	"name": {
 		"first": "Antonio",
 		"last": "Lotti",
-		"alt": ""
+		"alt": [""]
 	},
 	"dateBirth": {
 		"yyyy": "1667",
@@ -795,7 +795,7 @@
 	"name": {
 		"first": "Alessandro",
 		"last": "Marcello",
-		"alt": "Alessandro Ignazio Marcello"
+		"alt": ["Alessandro Ignazio Marcello"]
 	},
 	"dateBirth": {
 		"yyyy": "1673",
@@ -827,7 +827,7 @@
 	"name": {
 		"first": "Tomasso",
 		"last": "Albioni",
-		"alt": "Tomaso Giovanni Albinoni"
+		"alt": ["Tomaso Giovanni Albinoni"]
 	},
 	"dateBirth": {
 		"yyyy": "1671",
@@ -859,7 +859,7 @@
 	"name": {
 		"first": "Rosanna Scalfi",
 		"last": "Marcello",
-		"alt": ""
+		"alt": [""]
 	},
 	"dateBirth": {
 		"yyyy": "1704",
@@ -891,7 +891,7 @@
 	"name": {
 		"first": "Johann Joachim",
 		"last": "Quantz",
-		"alt": "Hanß Jochim Quantz"
+		"alt": ["Hanß Jochim Quantz"]
 	},
 	"dateBirth": {
 		"yyyy": "1697",
@@ -943,7 +943,7 @@
 	"name": {
 		"first": "Domenico",
 		"last": "Scarlatti",
-		"alt": "Giuseppe Domenico Scarlatti, Domingo/Doménico Scarlatti"
+		"alt": ["Giuseppe Domenico Scarlatti", "Domingo/Doménico Scarlatti"]
 	},
 	"dateBirth": {
 		"yyyy": "1685",
@@ -983,7 +983,7 @@
 	"name": {
 		"first": "Antonio",
 		"last": "Vivaldi",
-		"alt": "Antonio Lucio Vivaldi, Il Prete Rosso"
+		"alt": ["Antonio Lucio Vivaldi", "Il Prete Rosso"]
 	},
 	"dateBirth": {
 		"yyyy": "1678",
@@ -1019,7 +1019,7 @@
 	"name": {
 		"first": "Giovanni Battista",
 		"last": "Vivaldi",
-		"alt": ""
+		"alt": [""]
 	},
 	"dateBirth": {
 		"yyyy": "1655",
@@ -1051,7 +1051,7 @@
 	"name": {
 		"first": "Johann Georg",
 		"last": "Pisendel",
-		"alt": ""
+		"alt": [""]
 	},
 	"dateBirth": {
 		"yyyy": "1688",
@@ -1083,7 +1083,7 @@
 	"name": {
 		"first": "Franz",
 		"last": "Benda",
-		"alt": ""
+		"alt": [""]
 	},
 	"dateBirth": {
 		"yyyy": "1709",
@@ -1119,7 +1119,7 @@
 	"name": {
 		"first": "Johann Gottlieb",
 		"last": "Graun",
-		"alt": ""
+		"alt": [""]
 	},
 	"dateBirth": {
 		"yyyy": "1703",
@@ -1159,7 +1159,7 @@
 	"name": {
 		"first": "Giuseppe",
 		"last": "Tartini",
-		"alt": ""
+		"alt": [""]
 	},
 	"dateBirth": {
 		"yyyy": "1692",
@@ -1191,7 +1191,7 @@
 	"name": {
 		"first": "Frederick",
 		"last": "William II",
-		"alt": "Frederick the Great"
+		"alt": ["Frederick the Great"]
 	},
 	"dateBirth": {
 		"yyyy": "1712",
@@ -1223,7 +1223,7 @@
 	"name": {
 		"first": "Wilhelm Friedemann",
 		"last": "Bach",
-		"alt": ""
+		"alt": [""]
 	},
 	"dateBirth": {
 		"yyyy": "1710",
@@ -1259,7 +1259,7 @@
 	"name": {
 		"first": "Johann Sebastian",
 		"last": "Bach",
-		"alt": ""
+		"alt": [""]
 	},
 	"dateBirth": {
 		"yyyy": "1685",
@@ -1291,7 +1291,7 @@
 	"name": {
 		"first": "Charles-Antoine",
 		"last": "Campion",
-		"alt": "Carlo Antonio Campioni"
+		"alt": ["Carlo Antonio Campioni"]
 	},
 	"dateBirth": {
 		"yyyy": "1720",
@@ -1323,7 +1323,7 @@
 	"name": {
 		"first": "Domenico",
 		"last": "dall'Oglio",
-		"alt": ""
+		"alt": [""]
 	},
 	"dateBirth": {
 		"yyyy": "c1700",
@@ -1355,7 +1355,7 @@
 	"name": {
 		"first": "Pietro",
 		"last": "Nardini",
-		"alt": ""
+		"alt": [""]
 	},
 	"dateBirth": {
 		"yyyy": "1722",
@@ -1387,7 +1387,7 @@
 	"name": {
 		"first": "Maddalena Laura",
 		"last": "Sirmen",
-		"alt": "Maddalena Laura Lombardini"
+		"alt": ["Maddalena Laura Lombardini"]
 	},
 	"dateBirth": {
 		"yyyy": "1745",
@@ -1419,7 +1419,7 @@
 	"name": {
 		"first": "Johann Gottlieb",
 		"last": "Naumann",
-		"alt": ""
+		"alt": [""]
 	},
 	"dateBirth": {
 		"yyyy": "1741",
@@ -1455,7 +1455,7 @@
 	"name": {
 		"first": "Gottfried August",
 		"last": "Homilius",
-		"alt": ""
+		"alt": [""]
 	},
 	"dateBirth": {
 		"yyyy": "1714",
@@ -1487,7 +1487,7 @@
 	"name": {
 		"first": "Anders",
 		"last": "Wesström",
-		"alt": ""
+		"alt": [""]
 	},
 	"dateBirth": {
 		"yyyy": "1720",
@@ -1519,7 +1519,7 @@
 	"name": {
 		"first": "Francesco Maria",
 		"last": "Veracini",
-		"alt": ""
+		"alt": [""]
 	},
 	"dateBirth": {
 		"yyyy": "1690",
@@ -1551,7 +1551,7 @@
 	"name": {
 		"first": "Antonio",
 		"last": "Veracini",
-		"alt": ""
+		"alt": [""]
 	},
 	"dateBirth": {
 		"yyyy": "1659",
@@ -1583,7 +1583,7 @@
 	"name": {
 		"first": "Francesco di Niccolò",
 		"last": "Veracini",
-		"alt": ""
+		"alt": [""]
 	},
 	"dateBirth": {
 		"yyyy": "1638",
@@ -1615,7 +1615,7 @@
 	"name": {
 		"first": "Giovanni Francesco",
 		"last": "Giuliani",
-		"alt": ""
+		"alt": [""]
 	},
 	"dateBirth": {
 		"yyyy": "1760",
@@ -1651,7 +1651,7 @@
 	"name": {
 		"first": "Bartolomeo",
 		"last": "Felici",
-		"alt": ""
+		"alt": [""]
 	},
 	"dateBirth": {
 		"yyyy": "1695",
@@ -1683,7 +1683,7 @@
 	"name": {
 		"first": "Luigi",
 		"last": "Cherubini",
-		"alt": ""
+		"alt": [""]
 	},
 	"dateBirth": {
 		"yyyy": "1760",
@@ -1715,7 +1715,7 @@
 	"name": {
 		"first": "Alessandro",
 		"last": "Felici",
-		"alt": ""
+		"alt": [""]
 	},
 	"dateBirth": {
 		"yyyy": "1742",
@@ -1747,7 +1747,7 @@
 	"name": {
 		"first": "Bartolomeo",
 		"last": "Campagnoli",
-		"alt": ""
+		"alt": [""]
 	},
 	"dateBirth": {
 		"yyyy": "1751",
@@ -1779,7 +1779,7 @@
 	"name": {
 		"first": "Leopold",
 		"last": "Mozart",
-		"alt": "Johann Georg Leopold Mozart"
+		"alt": ["Johann Georg Leopold Mozart"]
 	},
 	"dateBirth": {
 		"yyyy": "1719",
@@ -1811,7 +1811,7 @@
 	"name": {
 		"first": "Maria Anna",
 		"last": "Mozart",
-		"alt": "Maria Anna Walburga Ignatia Mozart, Marianne/Nannerl"
+		"alt": ["Maria Anna Walburga Ignatia Mozart", "Marianne/Nannerl"]
 	},
 	"dateBirth": {
 		"yyyy": "1751",
@@ -1843,7 +1843,7 @@
 	"name": {
 		"first": "Wolfgang Amadeus",
 		"last": "Mozart",
-		"alt": "Johannes Chrysostomus Wolfgangus Theophilus Mozart"
+		"alt": ["Johannes Chrysostomus Wolfgangus Theophilus Mozart"]
 	},
 	"dateBirth": {
 		"yyyy": "1756",
@@ -1887,7 +1887,7 @@
 	"name": {
 		"first": "Joseph",
 		"last": "Haydn",
-		"alt": ""
+		"alt": [""]
 	},
 	"dateBirth": {
 		"yyyy": "1732",
@@ -1919,7 +1919,7 @@
 	"name": {
 		"first": "Michael",
 		"last": "Kelly",
-		"alt": "O'Kelly, Signor Ochelli"
+		"alt": ["O'Kelly", "Signor Ochelli"]
 	},
 	"dateBirth": {
 		"yyyy": "1762",
@@ -1959,7 +1959,7 @@
 	"name": {
 		"first": "Giovanni",
 		"last": "Paisiello",
-		"alt": "Giovanni Paesiello"
+		"alt": ["Giovanni Paesiello"]
 	},
 	"dateBirth": {
 		"yyyy": "1740",
@@ -1991,7 +1991,7 @@
 	"name": {
 		"first": "Nicola",
 		"last": "Porpora",
-		"alt": "Nicola Antonio Porpora, Niccolò Porpora"
+		"alt": ["Nicola Antonio Porpora", "Niccolò Porpora"]
 	},
 	"dateBirth": {
 		"yyyy": "1686",
@@ -2023,7 +2023,7 @@
 	"name": {
 		"first": "Carlo Maria Michelangelo Nicola",
 		"last": "Broschi",
-		"alt": "Farinelli"
+		"alt": ["Farinelli"]
 	},
 	"dateBirth": {
 		"yyyy": "1705",
@@ -2055,7 +2055,7 @@
 	"name": {
 		"first": "Gaetano",
 		"last": "Majorano",
-		"alt": "Gaetano Carmine Francesco Paolo Majorano, Caffarelli"
+		"alt": ["Gaetano Carmine Francesco Paolo Majorano", "Caffarelli"]
 	},
 	"dateBirth": {
 		"yyyy": "1710",
@@ -2091,7 +2091,7 @@
 	"name": {
 		"first": "George Frideric",
 		"last": "Handel",
-		"alt": "George Frederick Handel, Georg Friederich Händel"
+		"alt": ["George Frederick Handel", "Georg Friederich Händel"]
 	},
 	"dateBirth": {
 		"yyyy": "1685",
@@ -2123,7 +2123,7 @@
 	"name": {
 		"first": "Friedrich Wilhelm",
 		"last": "Zachow",
-		"alt": ""
+		"alt": [""]
 	},
 	"dateBirth": {
 		"yyyy": "1663",
@@ -2155,7 +2155,7 @@
 	"name": {
 		"first": "Johann",
 		"last": "Schelle",
-		"alt": ""
+		"alt": [""]
 	},
 	"dateBirth": {
 		"yyyy": "1648",
@@ -2187,7 +2187,7 @@
 	"name": {
 		"first": "Heinrich",
 		"last": "Schütz",
-		"alt": ""
+		"alt": [""]
 	},
 	"dateBirth": {
 		"yyyy": "1585",
@@ -2219,7 +2219,7 @@
 	"name": {
 		"first": "Giovanni",
 		"last": "Gabrieli",
-		"alt": ""
+		"alt": [""]
 	},
 	"dateBirth": {
 		"yyyy": "c1554",
@@ -2255,7 +2255,7 @@
 	"name": {
 		"first": "Andrea",
 		"last": "Gabrieli",
-		"alt": ""
+		"alt": [""]
 	},
 	"dateBirth": {
 		"yyyy": "c1532",
@@ -2287,7 +2287,7 @@
 	"name": {
 		"first": "Orlande de",
 		"last": "Lassus",
-		"alt": "Roland de Lassus, Orlando di Lasso, Orlandus Lassus, Orlande de Lattre or Roland de Lattre"
+		"alt": ["Roland de Lassus", "Orlando di Lasso", "Orlandus Lassus", "Orlande de Lattre", "Roland de Lattre"]
 	},
 	"dateBirth": {
 		"yyyy": "c1532",
@@ -2319,7 +2319,7 @@
 	"name": {
 		"first": "Pietro Filippo",
 		"last": "Scarlatti",
-		"alt": "Pietro Alessandro Gaspare Scarlatti"
+		"alt": ["Pietro Alessandro Gaspare Scarlatti"]
 	},
 	"dateBirth": {
 		"yyyy": "1679",
@@ -2351,7 +2351,7 @@
 	"name": {
 		"first": "Thomas",
 		"last": "Arne",
-		"alt": "Thomas Augustine Arne"
+		"alt": ["Thomas Augustine Arne"]
 	},
 	"dateBirth": {
 		"yyyy": "1710",
@@ -2383,7 +2383,7 @@
 	"name": {
 		"first": "Michael",
 		"last": "Arne",
-		"alt": ""
+		"alt": [""]
 	},
 	"dateBirth": {
 		"yyyy": "c1740",
@@ -2419,7 +2419,7 @@
 	"name": {
 		"first": "Charles",
 		"last": "Young",
-		"alt": ""
+		"alt": [""]
 	},
 	"dateBirth": {
 		"yyyy": "1686",
@@ -2451,7 +2451,7 @@
 	"name": {
 		"first": "Isabella",
 		"last": "Lampe",
-		"alt": "Isabella Young"
+		"alt": ["Isabella Young"]
 	},
 	"dateBirth": {
 		"yyyy": "1715",
@@ -2487,7 +2487,7 @@
 	"name": {
 		"first": "Esther",
 		"last": "Jones",
-		"alt": "Esther Young, Hester Jones"
+		"alt": ["Esther Young", "Hester Jones"]
 	},
 	"dateBirth": {
 		"yyyy": "1717",
@@ -2519,7 +2519,7 @@
 	"name": {
 		"first": "Anthony",
 		"last": "Young",
-		"alt": ""
+		"alt": [""]
 	},
 	"dateBirth": {
 		"yyyy": "1683",
@@ -2551,7 +2551,7 @@
 	"name": {
 		"first": "John Frederick",
 		"last": "Lampe",
-		"alt": "Johann Friedrich Lampe"
+		"alt": ["Johann Friedrich Lampe"]
 	},
 	"dateBirth": {
 		"yyyy": "c1703",
@@ -2583,7 +2583,7 @@
 	"name": {
 		"first": "Charles John Frederick",
 		"last": "Lampe",
-		"alt": ""
+		"alt": [""]
 	},
 	"dateBirth": {
 		"yyyy": "1739",
@@ -2619,7 +2619,7 @@
 	"name": {
 		"first": "Susannah Maria",
 		"last": "Cibber",
-		"alt": "Susannah Maria Arne"
+		"alt": ["Susannah Maria Arne"]
 	},
 	"dateBirth": {
 		"yyyy": "1714",
@@ -2655,7 +2655,7 @@
 	"name": {
 		"first": "Isabella",
 		"last": "Scott",
-		"alt": "Isabella Young"
+		"alt": ["Isabella Young"]
 	},
 	"dateBirth": {
 		"yyyy": "c1720",
@@ -2691,7 +2691,7 @@
 	"name": {
 		"first": "Elizabeth",
 		"last": "Young",
-		"alt": ""
+		"alt": [""]
 	},
 	"dateBirth": {
 		"yyyy": "c1730",
@@ -2723,7 +2723,7 @@
 	"name": {
 		"first": "Polly",
 		"last": "Barthélemon",
-		"alt": "Polly/Mary/Maria Young, Maria Barthélemon"
+		"alt": ["Polly/Mary/Maria Young", "Maria Barthélemon"]
 	},
 	"dateBirth": {
 		"yyyy": "1749",
@@ -2763,7 +2763,7 @@
 	"name": {
 		"first": "François-Hippolyte",
 		"last": "Barthélemon",
-		"alt": ""
+		"alt": [""]
 	},
 	"dateBirth": {
 		"yyyy": "1741",
@@ -2795,7 +2795,7 @@
 	"name": {
 		"first": "Cecilia Maria",
 		"last": "Barthélemon",
-		"alt": ""
+		"alt": [""]
 	},
 	"dateBirth": {
 		"yyyy": "1767",
@@ -2831,7 +2831,7 @@
 	"name": {
 		"first": "Jan Dismas",
 		"last": "Zelenka",
-		"alt": "Jan Lukáš Zelenka, Johann Dismas Zelenka, Johannes Lucas Ignatius Dismas Zelenka"
+		"alt": ["Jan Lukáš Zelenka", "Johann Dismas Zelenka", "Johannes Lucas Ignatius Dismas Zelenka"]
 	},
 	"dateBirth": {
 		"yyyy": "1679",
@@ -2863,7 +2863,7 @@
 	"name": {
 		"first": "Michel",
 		"last": "Blavet",
-		"alt": ""
+		"alt": [""]
 	},
 	"dateBirth": {
 		"yyyy": "1700",
@@ -2895,7 +2895,7 @@
 	"name": {
 		"first": "Johann Joseph",
 		"last": "Fux",
-		"alt": ""
+		"alt": [""]
 	},
 	"dateBirth": {
 		"yyyy": "c1660",
@@ -2927,7 +2927,7 @@
 	"name": {
 		"first": "Alessandro",
 		"last": "Stradella",
-		"alt": ""
+		"alt": [""]
 	},
 	"dateBirth": {
 		"yyyy": "1643",
@@ -2963,7 +2963,7 @@
 	"name": {
 		"first": "Francesco",
 		"last": "Cavalli",
-		"alt": "Pietro Francesco Caletti-Bruni"
+		"alt": ["Pietro Francesco Caletti-Bruni"]
 	},
 	"dateBirth": {
 		"yyyy": "1602",
@@ -2995,7 +2995,7 @@
 	"name": {
 		"first": "Antonio",
 		"last": "Cesti",
-		"alt": "Pietro Marc'Antonio Cesti"
+		"alt": ["Pietro Marc'Antonio Cesti"]
 	},
 	"dateBirth": {
 		"yyyy": "1623",
@@ -3027,7 +3027,7 @@
 	"name": {
 		"first": "Claudio",
 		"last": "Monteverdi",
-		"alt": "Claudio Giovanni Antonio Monteverdi"
+		"alt": ["Claudio Giovanni Antonio Monteverdi"]
 	},
 	"dateBirth": {
 		"yyyy": "1567",
@@ -3063,7 +3063,7 @@
 	"name": {
 		"first": "Marc'Antonio",
 		"last": "Ingegneri",
-		"alt": "Marc'Antonio Ingegnieri/Ingignieri/Ingignero/Inzegneri"
+		"alt": ["Marc'Antonio Ingegnieri/Ingignieri/Ingignero/Inzegneri"]
 	},
 	"dateBirth": {
 		"yyyy": "c1535",
@@ -3095,7 +3095,7 @@
 	"name": {
 		"first": "Giulio Cesare",
 		"last": "Monteverdi",
-		"alt": ""
+		"alt": [""]
 	},
 	"dateBirth": {
 		"yyyy": "1573",
@@ -3127,7 +3127,7 @@
 	"name": {
 		"first": "Vincenzo",
 		"last": "Gonzaga",
-		"alt": "Vincenzo I Gonzaga, Duke of Mantua"
+		"alt": ["Vincenzo I Gonzaga", "Duke of Mantua"]
 	},
 	"dateBirth": {
 		"yyyy": "1562",
@@ -3159,7 +3159,7 @@
 	"name": {
 		"first": "Giaches de",
 		"last": "Wert",
-		"alt": "Jacques/Jaches de Wert, Giaches de Vuert"
+		"alt": ["Jacques/Jaches de Wert", "Giaches de Vuert"]
 	},
 	"dateBirth": {
 		"yyyy": "1535",
@@ -3191,7 +3191,7 @@
 	"name": {
 		"first": "Salamone",
 		"last": "Rossi",
-		"alt": "Salomone Rossi, Salamon, Schlomo, de' Rossi"
+		"alt": ["Salomone Rossi", "Salamon", "Schlomo", "de' Rossi"]
 	},
 	"dateBirth": {
 		"yyyy": "c1570",
@@ -3223,7 +3223,7 @@
 	"name": {
 		"first": "Europa",
 		"last": "Rossi",
-		"alt": "Madama Europa"
+		"alt": ["Madama Europa"]
 	},
 	"dateBirth": {
 		"yyyy": "c1571",
@@ -3259,7 +3259,7 @@
 	"name": {
 		"first": "Francesco",
 		"last": "Rasi",
-		"alt": ""
+		"alt": [""]
 	},
 	"dateBirth": {
 		"yyyy": "1574",
@@ -3295,7 +3295,7 @@
 	"name": {
 		"first": "Giulio",
 		"last": "Caccini",
-		"alt": "Giulio Romolo Caccini, Giulio Romano"
+		"alt": ["Giulio Romolo Caccini", "Giulio Romano"]
 	},
 	"dateBirth": {
 		"yyyy": "1551",
@@ -3327,7 +3327,7 @@
 	"name": {
 		"first": "Benedetto",
 		"last": "Pallavicino",
-		"alt": ""
+		"alt": [""]
 	},
 	"dateBirth": {
 		"yyyy": "c1551",
@@ -3363,7 +3363,7 @@
 	"name": {
 		"first": "Francesco",
 		"last": "Soriano",
-		"alt": ""
+		"alt": [""]
 	},
 	"dateBirth": {
 		"yyyy": "c1548",
@@ -3399,7 +3399,7 @@
 	"name": {
 		"first": "Giovanni Pierluigi da",
 		"last": "Palestrina",
-		"alt": ""
+		"alt": [""]
 	},
 	"dateBirth": {
 		"yyyy": "c1525",
@@ -3435,7 +3435,7 @@
 	"name": {
 		"first": "Firmin",
 		"last": "Lebel",
-		"alt": ""
+		"alt": [""]
 	},
 	"dateBirth": {
 		"yyyy": "c1500",
@@ -3467,7 +3467,7 @@
 	"name": {
 		"first": "Robin",
 		"last": "Mallapert",
-		"alt": ""
+		"alt": [""]
 	},
 	"dateBirth": {
 		"yyyy": "c1500",
@@ -3499,7 +3499,7 @@
 	"name": {
 		"first": "Giovanni Giacomo",
 		"last": "Gastoldi",
-		"alt": ""
+		"alt": [""]
 	},
 	"dateBirth": {
 		"yyyy": "c1554",
@@ -3531,7 +3531,7 @@
 	"name": {
 		"first": "Francesco",
 		"last": "Rovigo",
-		"alt": ""
+		"alt": [""]
 	},
 	"dateBirth": {
 		"yyyy": "c1540",
@@ -3567,7 +3567,7 @@
 	"name": {
 		"first": "Claudio",
 		"last": "Merulo",
-		"alt": "Claudio Merlotti"
+		"alt": ["Claudio Merlotti"]
 	},
 	"dateBirth": {
 		"yyyy": "1533",
@@ -3599,7 +3599,7 @@
 	"name": {
 		"first": "Alessandro",
 		"last": "Striggio",
-		"alt": "Striggio Senior"
+		"alt": ["Striggio Senior"]
 	},
 	"dateBirth": {
 		"yyyy": "c1536",
@@ -3631,7 +3631,7 @@
 	"name": {
 		"first": "Alessandro",
 		"last": "Striggio",
-		"alt": "Striggio the Younger"
+		"alt": ["Striggio the Younger"]
 	},
 	"dateBirth": {
 		"yyyy": "c1573",
