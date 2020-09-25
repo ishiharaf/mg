@@ -217,7 +217,7 @@ const assignImg = (person) => {
 	const nameDiv = document.getElementById("name")
 	imgDiv.innerHTML = ""
 
-	if(selPerson.picture !== "") {
+	if(person.picture !== "") {
 		const imgEl = document.createElement("img")
 		imgEl.src = person.picture
 		imgEl.alt = `Image of ${nameDiv.innerHTML}`
