@@ -3661,4 +3661,36 @@
 		"extract": ""
 	}],
 	"picture": ""
+},
+{
+	"id": 110,
+	"name": {
+		"first": "Heinrich Ignaz Franz",
+		"last": "Biber",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1644",
+		"mm": "08",
+		"dd": "12"
+	},
+	"dateDeath": {
+		"yyyy": "1704",
+		"mm": "05",
+		"dd": "1704"
+	},
+	"placeBirth": "Wartenberg, Czech Republic",
+	"placeDeath": "Salzburg, Germany",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "imp",
+	"group": ["Violinist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
