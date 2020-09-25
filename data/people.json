@@ -3758,14 +3758,14 @@
 	"placeBirth": "Verona, Italy",
 	"placeDeath": "Munich, Germany",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 121,
+		"type": "Student [1]",
+		"color": "black"
 	}],
 	"color": "imp",
 	"group": ["Violinist", "Cellist", "Composer"],
 	"source": [{
-		"citation": "",
+		"citation": "Randel (1996), p.192",
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/8/8d/EvaristoFeliceDall%27Abaco.jpg"
@@ -3854,9 +3854,9 @@
 	"placeBirth": "Pistoia, Italy",
 	"placeDeath": "Pistoia, Italy",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 121,
+		"type": "Student",
+		"color": "gray"
 	}],
 	"color": "mus",
 	"group": ["Violinist", "Composer"],
