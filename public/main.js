@@ -213,6 +213,31 @@ const assignOccupation = (person) => {
 	}
 }
 
+const assignImg = (person) => {
+	const nameDiv = document.getElementById("name")
+	imgDiv.innerHTML = ""
+
+	if(selPerson.picture !== "") {
+		const imgEl = document.createElement("img")
+		imgEl.src = person.picture
+		imgEl.alt = `Image of ${nameDiv.innerHTML}`
+		imgDiv.appendChild(imgEl)
+
+		const cardWidth = Math.floor(infoDiv.clientWidth / 2) - 15
+		imgDiv.style.right = `${cardWidth}px`
+		imgDiv.style.display = "block"
+
+		closeCard.style.top = "78px"
+		infoDiv.style.top = "80px"
+		nameDiv.style.paddingTop = "20px"
+	} else {
+		imgDiv.style.display = "none"
+		closeCard.style.top = "33px"
+		infoCard.style.top = "35px"
+		nameDiv.style.paddingTop = "0px"
+	}
+}
+
 network.on("click", (params) => {
 	if(params.nodes.length > 0) {
 		const selId = params.nodes[0]
@@ -272,26 +297,7 @@ network.on("click", (params) => {
 			sourceDiv.appendChild(extract)
 		}
 
-		imgDiv.innerHTML = ""
-		if(selPerson.picture !== "") {
-			const imgEl = document.createElement("img")
-			imgEl.src = selPerson.picture
-			imgEl.alt = `Image of ${selPerson.name.first} ${selPerson.name.last}`
-			imgDiv.appendChild(imgEl)
-
-			const total = Math.floor(infoDiv.clientWidth / 2) - 15
-			imgDiv.style.right = `${total}px`
-			imgDiv.style.display = "block"
-
-			closeCard.style.top = "78px"
-			infoDiv.style.top = "80px"
-			nameDiv.style.paddingTop = "20px"
-		} else {
-			imgDiv.style.display = "none"
-			closeCard.style.top = "33px"
-			infoCard.style.top = "35px"
-			nameDiv.style.paddingTop = "0px"
-		}
+		assignImg(selPerson)
 	}
 })
 
