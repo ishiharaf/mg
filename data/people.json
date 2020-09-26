@@ -4501,4 +4501,36 @@
 		"extract": ""
 	}],
 	"picture": ""
+},
+{
+	"id": 135,
+	"name": {
+		"first": "Ludwig van",
+		"last": "Beethoven",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1770",
+		"mm": "12",
+		"dd": "17"
+	},
+	"dateDeath": {
+		"yyyy": "1827",
+		"mm": "03",
+		"dd": "26"
+	},
+	"placeBirth": "Bonn, Germany",
+	"placeDeath": "Vienna, Austria",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "imp",
+	"group": ["Pianist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Beethoven.jpg/499px-Beethoven.jpg"
 }]
