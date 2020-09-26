@@ -4565,4 +4565,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Johann_von_Beethoven.jpg"
+},
+{
+	"id": 137,
+	"name": {
+		"first": "Ludwig van",
+		"last": "Beethoven",
+		"alt": ["Ludwig van Beethoven the Elder", "Ludovicus van Beethoven", "Lodewijk van Beethoven"]
+	},
+	"dateBirth": {
+		"yyyy": "1712",
+		"mm": "01",
+		"dd": "05"
+	},
+	"dateDeath": {
+		"yyyy": "1773",
+		"mm": "12",
+		"dd": "24"
+	},
+	"placeBirth": "Mechelen, Belgium?",
+	"placeDeath": "Bonn, Germany",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "mus",
+	"group": ["Singer", "Music director"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Lodewijck_van_Beethoven_-_Die_Gartenlaube_%281879%29_b_613.jpg/698px-Lodewijck_van_Beethoven_-_Die_Gartenlaube_%281879%29_b_613.jpg"
 }]
