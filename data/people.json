@@ -4605,4 +4605,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Lodewijck_van_Beethoven_-_Die_Gartenlaube_%281879%29_b_613.jpg/698px-Lodewijck_van_Beethoven_-_Die_Gartenlaube_%281879%29_b_613.jpg"
+},
+{
+	"id": 137,
+	"name": {
+		"first": "Joseph",
+		"last": "Abaco",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1710",
+		"mm": "03",
+		"dd": "27"
+	},
+	"dateDeath": {
+		"yyyy": "1805",
+		"mm": "08",
+		"dd": "31"
+	},
+	"placeBirth": "Brussels, Belgium",
+	"placeDeath": "Valpolicelia, Italy",
+	"relationship": [{
+		"id": 112,
+		"type": "Son, Student",
+		"color": "red"
+	}],
+	"color": "mus",
+	"group": ["Cellist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
