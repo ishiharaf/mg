@@ -4145,4 +4145,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/1/19/CPEB_by_L%C3%B6hr.jpg"
+},
+{
+	"id": 124,
+	"name": {
+		"first": "Johann Heinrich",
+		"last": "Schmelzer",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "c1620",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1680",
+		"mm": "02",
+		"dd": "29"
+	},
+	"placeBirth": "Scheibbs, Austria",
+	"placeDeath": "Prague, Czech Republic",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "mus",
+	"group": ["Violinist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Schmelzer.jpg/412px-Schmelzer.jpg"
 }]
