@@ -4369,4 +4369,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Pierre_Baillot.jpg/432px-Pierre_Baillot.jpg"
+},
+{
+	"id": 131,
+	"name": {
+		"first": "Charles Frederick",
+		"last": "Baumgarten",
+		"alt": ["Karl Friedrich Baumgarten"]
+	},
+	"dateBirth": {
+		"yyyy": "c1739",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1824",
+		"mm": "??",
+		"dd": "??"
+	},
+	"placeBirth": "Lübeck, Germany",
+	"placeDeath": "London, England",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "mus",
+	"group": ["Violinist", "Organist", "Teacher", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
