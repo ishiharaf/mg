@@ -4241,4 +4241,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Carlo_Tessarini.jpg/477px-Carlo_Tessarini.jpg"
+},
+{
+	"id": 127,
+	"name": {
+		"first": "Tomaso Antonio",
+		"last": "Vitali",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1663",
+		"mm": "03",
+		"dd": "07"
+	},
+	"dateDeath": {
+		"yyyy": "1745",
+		"mm": "05",
+		"dd": "09"
+	},
+	"placeBirth": "Bologna, Italy",
+	"placeDeath": "Modena, Italy",
+	"relationship": [{
+		"id": 126,
+		"type": "Son",
+		"color": "red"
+	}],
+	"color": "mus",
+	"group": ["Violinist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Tomaso_Antonio_Vitali.jpg"
 }]
