@@ -4661,6 +4661,10 @@
 		"id": 126,
 		"type": "Student",
 		"color": "gray"
+	},{
+		"id": 87,
+		"type": "Assistant",
+		"color": "green"
 	}],
 	"color": "mus",
 	"group": ["Violinist", "Composer"],
