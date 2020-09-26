@@ -4401,4 +4401,36 @@
 		"extract": ""
 	}],
 	"picture": ""
+},
+{
+	"id": 132,
+	"name": {
+		"first": "Antonio Bartolomeo",
+		"last": "Bruni",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1757",
+		"mm": "01",
+		"dd": "28"
+	},
+	"dateDeath": {
+		"yyyy": "1821",
+		"mm": "08",
+		"dd": "06"
+	},
+	"placeBirth": "Cuneo, Italy",
+	"placeDeath": "Cuneo, Italy",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "mus",
+	"group": ["Violinist", "Conductor", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Antonio_Bartolomeo_Bruni.jpg/691px-Antonio_Bartolomeo_Bruni.jpg"
 }]
