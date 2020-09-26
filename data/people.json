@@ -3773,6 +3773,10 @@
 		"id": 121,
 		"type": "Student [1]",
 		"color": "black"
+	},{
+		"id": 126,
+		"type": "Student",
+		"color": "gray"
 	}],
 	"color": "imp",
 	"group": ["Violinist", "Cellist", "Composer"],
