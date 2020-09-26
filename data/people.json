@@ -4437,4 +4437,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Antonio_Bartolomeo_Bruni.jpg/691px-Antonio_Bartolomeo_Bruni.jpg"
+},
+{
+	"id": 133,
+	"name": {
+		"first": "Christian",
+		"last": "Cannabich",
+		"alt": ["Johann Christian Innocenz Bonaventura Cannabich"]
+	},
+	"dateBirth": {
+		"yyyy": "1731",
+		"mm": "12",
+		"dd": "28"
+	},
+	"dateDeath": {
+		"yyyy": "1798",
+		"mm": "01",
+		"dd": "20"
+	},
+	"placeBirth": "Mannheim, Germany",
+	"placeDeath": "Frankfurt am Main, Germany",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "mus",
+	"group": ["Violinist", "Kapellmeister", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Egid_Verhelst_-_Portrait_of_Christian_Cannabich.jpg/484px-Egid_Verhelst_-_Portrait_of_Christian_Cannabich.jpg"
 }]
