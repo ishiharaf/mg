@@ -4305,4 +4305,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Leopold_August_Abel.jpg"
+},
+{
+	"id": 129,
+	"name": {
+		"first": "Jean",
+		"last": "Ancot",
+		"alt": ["Jean Ancot Jnr"]
+	},
+	"dateBirth": {
+		"yyyy": "1799",
+		"mm": "07",
+		"dd": "06"
+	},
+	"dateDeath": {
+		"yyyy": "0829",
+		"mm": "06",
+		"dd": "05"
+	},
+	"placeBirth": "Bruges, Belgium",
+	"placeDeath": "Boulogne-sur-Mer, Belgium",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "mus",
+	"group": ["Violinist", "Pianist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
