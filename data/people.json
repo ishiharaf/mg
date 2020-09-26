@@ -4525,6 +4525,10 @@
 		"id": 136,
 		"type": "Son, Student",
 		"color": "red"
+	},{
+		"id": 57,
+		"type": "Student",
+		"color": "gray"
 	}],
 	"color": "imp",
 	"group": ["Pianist", "Composer"],
