@@ -4273,4 +4273,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Tomaso_Antonio_Vitali.jpg"
+},
+{
+	"id": 128,
+	"name": {
+		"first": "Leopold August",
+		"last": "Abel",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1718",
+		"mm": "03",
+		"dd": "24"
+	},
+	"dateDeath": {
+		"yyyy": "1794",
+		"mm": "08",
+		"dd": "25"
+	},
+	"placeBirth": "Köthen, Germany",
+	"placeDeath": "Ludwigslust, Germany",
+	"relationship": [{
+		"id": 33,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "mus",
+	"group": ["Violinist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Leopold_August_Abel.jpg"
 }]
