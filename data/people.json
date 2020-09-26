@@ -4177,4 +4177,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Schmelzer.jpg/412px-Schmelzer.jpg"
+},
+{
+	"id": 125,
+	"name": {
+		"first": "Carlo",
+		"last": "Tessarini",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1690",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1766",
+		"mm": "12",
+		"dd": "15"
+	},
+	"placeBirth": "Rimini, Italy",
+	"placeDeath": "Amsterdam, Netherlands",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "mus",
+	"group": ["Violinist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Carlo_Tessarini.jpg/477px-Carlo_Tessarini.jpg"
 }]
