@@ -4673,4 +4673,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/1/15/Luca_Antonio_Predieri_%28enhanced%29.jpg"
+},
+{
+	"id": 140,
+	"name": {
+		"first": "Jean-Baptiste",
+		"last": "Senaillé",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1687",
+		"mm": "12",
+		"dd": "23"
+	},
+	"dateDeath": {
+		"yyyy": "1730",
+		"mm": "10",
+		"dd": "15"
+	},
+	"placeBirth": "France",
+	"placeDeath": "France",
+	"relationship": [{
+		"id": 126,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "mus",
+	"group": ["Violinist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
