@@ -4522,9 +4522,9 @@
 	"placeBirth": "Bonn, Germany",
 	"placeDeath": "Vienna, Austria",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 136,
+		"type": "Son, Student",
+		"color": "red"
 	}],
 	"color": "imp",
 	"group": ["Pianist", "Composer"],
@@ -4533,4 +4533,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Beethoven.jpg/499px-Beethoven.jpg"
+},
+{
+	"id": 136,
+	"name": {
+		"first": "Johann van",
+		"last": "Beethoven",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "c1739",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1792",
+		"mm": "12",
+		"dd": "18"
+	},
+	"placeBirth": "Mechelen, Belgium",
+	"placeDeath": "Bonn, Germany",
+	"relationship": [{
+		"id": 137,
+		"type": "Son",
+		"color": "red"
+	}],
+	"color": "mus",
+	"group": ["Musician", "Teacher", "Singer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Johann_von_Beethoven.jpg"
 }]
