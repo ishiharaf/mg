@@ -4209,4 +4209,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Carlo_Tessarini.jpg/477px-Carlo_Tessarini.jpg"
+},
+{
+	"id": 126,
+	"name": {
+		"first": "Giovanni Battista",
+		"last": "Vitali",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1632",
+		"mm": "02",
+		"dd": "18"
+	},
+	"dateDeath": {
+		"yyyy": "1692",
+		"mm": "10",
+		"dd": "12"
+	},
+	"placeBirth": "Bologna, Italy",
+	"placeDeath": "Bologna, Italy",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "mus",
+	"group": ["Violone player", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Carlo_Tessarini.jpg/477px-Carlo_Tessarini.jpg"
 }]
