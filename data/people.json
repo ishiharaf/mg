@@ -4319,7 +4319,7 @@
 		"dd": "06"
 	},
 	"dateDeath": {
-		"yyyy": "0829",
+		"yyyy": "1829",
 		"mm": "06",
 		"dd": "05"
 	},
@@ -4337,4 +4337,36 @@
 		"extract": ""
 	}],
 	"picture": ""
+},
+{
+	"id": 130,
+	"name": {
+		"first": "Pierre",
+		"last": "Baillot",
+		"alt": ["Pierre Marie François de Sales Baillot"]
+	},
+	"dateBirth": {
+		"yyyy": "1771",
+		"mm": "10",
+		"dd": "01"
+	},
+	"dateDeath": {
+		"yyyy": "1842",
+		"mm": "09",
+		"dd": "15"
+	},
+	"placeBirth": "Passy, France",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "mus",
+	"group": ["Violinist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Pierre_Baillot.jpg/432px-Pierre_Baillot.jpg"
 }]
