@@ -4978,6 +4978,10 @@
 		"type": "Acquaintance",
 		"color": "blue"
 	},{
+		"id": 150,
+		"type": "Acquaintance",
+		"color": "blue"
+	},{
 		"id": 149,
 		"type": "Student",
 		"color": "gray"
@@ -5021,4 +5025,36 @@
 		"extract": ""
 	}],
 	"picture": ""
+},
+{
+	"id": 150,
+	"name": {
+		"first": "Martin",
+		"last": "Berteau",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1691",
+		"mm": "02",
+		"dd": "02"
+	},
+	"dateDeath": {
+		"yyyy": "1771",
+		"mm": "01",
+		"dd": "22"
+	},
+	"placeBirth": "Valenciennes, France",
+	"placeDeath": "Angers, France",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "imp",
+	"group": ["Cellist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Martin_Bertaud%2C_by_Michel-Nicolas-Bernard_L%C3%A9pici%C3%A9.jpg/760px-Martin_Bertaud%2C_by_Michel-Nicolas-Bernard_L%C3%A9pici%C3%A9.jpg"
 }]
