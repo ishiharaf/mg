@@ -4865,4 +4865,44 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Jean-Jacques_Rousseau_%28painted_portrait%29.jpg/431px-Jean-Jacques_Rousseau_%28painted_portrait%29.jpg"
+},
+{
+	"id": 146,
+	"name": {
+		"first": "Jacques",
+		"last": "Duphly",
+		"alt": ["Jacques Dufly/Du Phly"]
+	},
+	"dateBirth": {
+		"yyyy": "1715",
+		"mm": "01",
+		"dd": "12"
+	},
+	"dateDeath": {
+		"yyyy": "1789",
+		"mm": "07",
+		"dd": "15"
+	},
+	"placeBirth": "Rouen, France",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": 141,
+		"type": "Acquaintance",
+		"color": "blue"
+	},{
+		"id": 145,
+		"type": "Student",
+		"color": "gray"
+	},{
+		"id": 143,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "mus",
+	"group": ["Harpsichordist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
