@@ -3991,7 +3991,7 @@
 	"name": {
 		"first": "Jean-Baptiste",
 		"last": "Lully",
-		"alt": ["Giovanni Battista Lulli"]
+		"alt": ["Giovanni Battista Lulli", "Baptiste", "Le grand baladin"]
 	},
 	"dateBirth": {
 		"yyyy": "1632",
@@ -4009,6 +4009,18 @@
 		"id": 89,
 		"type": "Acquaintance",
 		"color": "blue"
+	},{
+		"id": 151,
+		"type": "Student",
+		"color": "gray"
+	},{
+		"id": 152,
+		"type": "Student",
+		"color": "gray"
+	},{
+		"id": 153,
+		"type": "Student",
+		"color": "gray"
 	}],
 	"color": "imp",
 	"group": ["Instrumentalist", "Dancer", "Composer"],
