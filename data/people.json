@@ -5057,4 +5057,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Martin_Bertaud%2C_by_Michel-Nicolas-Bernard_L%C3%A9pici%C3%A9.jpg/760px-Martin_Bertaud%2C_by_Michel-Nicolas-Bernard_L%C3%A9pici%C3%A9.jpg"
+},
+{
+	"id": 151,
+	"name": {
+		"first": "Nicolas",
+		"last": "Métru",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "c1610",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1668",
+		"mm": "??",
+		"dd": "??"
+	},
+	"placeBirth": "Bar-sur-Aube, France",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "mus",
+	"group": ["Viol player", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
