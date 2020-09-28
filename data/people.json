@@ -5229,4 +5229,36 @@
 		"extract": ""
 	}],
 	"picture": ""
+},
+{
+	"id": 156,
+	"name": {
+		"first": "Jean-Louis",
+		"last": "Lully",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1667",
+		"mm": "09",
+		"dd": "24"
+	},
+	"dateDeath": {
+		"yyyy": "1688",
+		"mm": "12",
+		"dd": "23"
+	},
+	"placeBirth": "Paris, France",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "mus",
+	"group": ["Musician"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
