@@ -5197,4 +5197,36 @@
 		"extract": ""
 	}],
 	"picture": ""
+},
+{
+	"id": 155,
+	"name": {
+		"first": "Jean-Baptiste",
+		"last": "Lully",
+		"alt": ["Jean-Baptiste Lully fils"]
+	},
+	"dateBirth": {
+		"yyyy": "1665",
+		"mm": "08",
+		"dd": "06"
+	},
+	"dateDeath": {
+		"yyyy": "1743",
+		"mm": "03",
+		"dd": "09"
+	},
+	"placeBirth": "Paris, France",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "mus",
+	"group": ["Musician"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
