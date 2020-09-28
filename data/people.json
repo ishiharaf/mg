@@ -4726,9 +4726,9 @@
 	"placeBirth": "France",
 	"placeDeath": "France",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 141,
+		"type": "Acquaintance",
+		"color": "blue"
 	}],
 	"color": "mus",
 	"group": ["Harpsichordist", "Composer", "Pastellist"],
@@ -4737,4 +4737,36 @@
 		"extract": ""
 	}],
 	"picture": "http://www.claviantica.com/Franco-Flemish_harpsichord_files/Anne-Jeanne%20Boucon.jpg"
+},
+{
+	"id": 142,
+	"name": {
+		"first": "Jean-Philippe",
+		"last": "Rameau",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1683",
+		"mm": "09",
+		"dd": "25"
+	},
+	"dateDeath": {
+		"yyyy": "1764",
+		"mm": "09",
+		"dd": "12"
+	},
+	"placeBirth": "Dijon, France",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "mus",
+	"group": ["Composer", "Music Theorist"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/9/98/Attribu%C3%A9_%C3%A0_Joseph_Aved%2C_Portrait_de_Jean-Philippe_Rameau_%28vers_1728%29_-_001.jpg"
 }]
