@@ -94,7 +94,7 @@ const drawNetwork = () => {
 			hierarchical: {
 				enabled: true,
 				direction: "UD",
-				levelSeparation: 25,
+				levelSeparation: 21,
 				sortMethod: "hubsize"
 				// shakeTowards: "leaves"
 			}
