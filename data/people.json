@@ -5165,4 +5165,36 @@
 		"extract": ""
 	}],
 	"picture": ""
+},
+{
+	"id": 154,
+	"name": {
+		"first": "Louis",
+		"last": "Lully",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1664",
+		"mm": "08",
+		"dd": "04"
+	},
+	"dateDeath": {
+		"yyyy": "1734",
+		"mm": "04",
+		"dd": "01"
+	},
+	"placeBirth": "Paris, France",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "mus",
+	"group": ["Musician"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
