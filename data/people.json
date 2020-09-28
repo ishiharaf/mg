@@ -5186,9 +5186,9 @@
 	"placeBirth": "Paris, France",
 	"placeDeath": "Paris, France",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 119,
+		"type": "Son",
+		"color": "red"
 	}],
 	"color": "mus",
 	"group": ["Musician"],
@@ -5218,9 +5218,9 @@
 	"placeBirth": "Paris, France",
 	"placeDeath": "Paris, France",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 119,
+		"type": "Son",
+		"color": "red"
 	}],
 	"color": "mus",
 	"group": ["Musician"],
@@ -5250,9 +5250,9 @@
 	"placeBirth": "Paris, France",
 	"placeDeath": "Paris, France",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 119,
+		"type": "Son",
+		"color": "red"
 	}],
 	"color": "mus",
 	"group": ["Musician"],
