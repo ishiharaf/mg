@@ -403,7 +403,7 @@ const highlightRel = (selId, selLen) => {
 	if(selLen > 0) {
 		const relNodes = network.getConnectedNodes(selId)
 		const relEdges = network.getConnectedEdges(selId)
-		let allRelNodes = []
+		let allRelNodes = relNodes
 		let allRelEdges = []
 		let degrees = 3
 		highlight = true
@@ -421,14 +421,25 @@ const highlightRel = (selId, selLen) => {
 		}
 
 		for (let i = 1; i < degrees; i++) {
-			for (let j = 0; j < relNodes.length; j++) {
+			allRelNodes.forEach(node => {
 				allRelNodes = allRelNodes.concat(
-					network.getConnectedNodes(relNodes[j])
+					network.getConnectedNodes(node)
 					)
 				allRelEdges = allRelEdges.concat(
-					network.getConnectedEdges(relNodes[j])
-					)
-			}
+					network.getConnectedEdges(node, "from")
+				)
+			})
+		}
+
+		allRelNodes = Array.from(new Set(allRelNodes))
+		allRelEdges = Array.from(new Set(allRelEdges))
+
+		console.log(allRelNodes)
+		console.log(allRelEdges)
+
+		for (let i = 0; i < relNodes.length; i++) {
+			nodeData[relNodes[i]].opacity = 1
+			nodeData[relNodes[i]].label = nodeData[relNodes[i]].hiddenLabel
 		}
 
 		for (let i = 0; i < allRelNodes.length; i++) {
@@ -437,11 +448,6 @@ const highlightRel = (selId, selLen) => {
 		}
 		for (let i = 0; i < allRelEdges.length; i++) {
 			edgeData[allRelEdges[i]].color = edgeColor[allRelEdges[i]]
-		}
-
-		for (let i = 0; i < relNodes.length; i++) {
-			nodeData[relNodes[i]].opacity = 1
-			nodeData[relNodes[i]].label = nodeData[relNodes[i]].hiddenLabel
 		}
 
 		network.selectEdges(allRelEdges)
