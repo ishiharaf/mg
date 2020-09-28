@@ -5089,4 +5089,36 @@
 		"extract": ""
 	}],
 	"picture": ""
+},
+{
+	"id": 152,
+	"name": {
+		"first": "François",
+		"last": "Roberday",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1624",
+		"mm": "03",
+		"dd": "24"
+	},
+	"dateDeath": {
+		"yyyy": "1680",
+		"mm": "10",
+		"dd": "13"
+	},
+	"placeBirth": "Paris, France",
+	"placeDeath": "Auffargis, France",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "mus",
+	"group": ["Organist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
