@@ -5121,4 +5121,36 @@
 		"extract": ""
 	}],
 	"picture": ""
+},
+{
+	"id": 153,
+	"name": {
+		"first": "Nicolas",
+		"last": "Gigault",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "c1627",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1707",
+		"mm": "10",
+		"dd": "20"
+	},
+	"placeBirth": "Paris, France",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "mus",
+	"group": ["Organist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
