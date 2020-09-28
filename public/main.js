@@ -402,7 +402,6 @@ const assignImg = (person) => {
 const highlightRel = (selId, selLen) => {
 	if(selLen > 0) {
 		const relNodes = network.getConnectedNodes(selId)
-		const relEdges = network.getConnectedEdges(selId)
 		let allRelNodes = relNodes
 		let allRelEdges = []
 		let degrees = 3
@@ -433,9 +432,6 @@ const highlightRel = (selId, selLen) => {
 
 		allRelNodes = Array.from(new Set(allRelNodes))
 		allRelEdges = Array.from(new Set(allRelEdges))
-
-		console.log(allRelNodes)
-		console.log(allRelEdges)
 
 		for (let i = 0; i < relNodes.length; i++) {
 			nodeData[relNodes[i]].opacity = 1
