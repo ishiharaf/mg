@@ -1,7 +1,5 @@
 import {DataSet, Network} from "./vis-network.js"
 
-let sessionStorage = window.sessionStorage
-
 const fetchData = async() => {
 	try {
 		const res = await fetch("/data", {method: "GET"})
@@ -11,24 +9,21 @@ const fetchData = async() => {
 	}
 }
 
-window.onload = async() => {
-	const people = await fetchData()
-	const color = {
-		"black": "50514f",
-		"white": "f9f9f9",
-		"red": "be301a",
-		"pink": "ffc2d4",
-		"green": "aad576",
-		"blue": "386fa4",
-		"gray": "d3d3d3"
-	}
+let network
+let people
+let nodeData
+let highlight = false
+const sessionStorage = window.sessionStorage
 
-	sessionStorage.setItem("people", JSON.stringify(people))
-	sessionStorage.setItem("color", JSON.stringify(color))
+const color = {
+	black: "50514f",
+	white: "f9f9f9",
+	red: "be301a",
+	pink: "ffc2d4",
+	green: "aad576",
+	blue: "386fa4",
+	gray: "d3d3d3"
 }
-
-const people = JSON.parse(sessionStorage.getItem("people"))
-const color = JSON.parse(sessionStorage.getItem("color"))
 const palette = {
 	imp: {
 		border: "#be301a",
@@ -64,90 +59,97 @@ const palette = {
 	}
 }
 
-const options = {
-	edges: {
-		smooth: {
-			enabled: true,
-			type: "horizontal",
-			forceDirection: "vertical",
-			roundness: 0.5
+const drawNetwork = () => {
+	const options = {
+		edges: {
+			smooth: {
+				enabled: true,
+				type: "horizontal",
+				forceDirection: "vertical",
+				roundness: 0.5
+			},
+			arrows: {
+				to: {
+					enabled: true
+				}
+			},
+			physics: false
 		},
-		arrows: {
-			to: {
-				enabled: true
+		nodes: {
+			font: {
+				color: `#${color.white}`
+			},
+			shape: "box",
+			shapeProperties: {
+				borderRadius: 0
 			}
 		},
-		physics: false
-	},
-	nodes: {
-		font: {
-			color: `#${color.white}`
+		layout: {
+			hierarchical: {
+				enabled: true,
+				direction: "UD",
+				levelSeparation: 25,
+				sortMethod: "hubsize"
+				// shakeTowards: "leaves"
+			}
 		},
-		shape: "box",
-		shapeProperties: {
-			borderRadius: 0
-		}
-	},
-	layout: {
-		hierarchical: {
-			enabled: true,
-			direction: "UD",
-			levelSeparation: 25,
-			sortMethod: "hubsize"
-			// shakeTowards: "leaves"
-		}
-	},
-	physics:{
-		enabled: true
-	}
-}
-let nodes = new DataSet()
-let edges = new DataSet()
-
-for (let item = 0; item < people.length; item++) {
-	const el = people[item]
-
-	let lastName
-	if(el.name.last.slice(-1) === "]") {
-		const firstIndex = el.name.last.indexOf("[")
-		lastName = el.name.last.substring(0, firstIndex - 1)
-	} else {
-		lastName = el.name.last
-	}
-
-	let dateBirth
-	if(el.dateBirth.yyyy.substring(0, 1) === "c") {
-		dateBirth = el.dateBirth.yyyy.substring(1)
-	} else {
-		dateBirth = el.dateBirth.yyyy
-	}
-
-	nodes.add({
-		id: el.id,
-		label: lastName,
-		title: `${el.name.first} ${lastName}`,
-		level: Number(dateBirth),
-		color: palette[el.color]
-	})
-
-	const relation = el.relationship
-	for (let parent = 0; parent < relation.length; parent++) {
-		if (relation[parent].id !== "") {
-			edges.add({
-				from: relation[parent].id,
-				to: el.id,
-				color: `#${color[relation[parent].color]}`
-			})
+		physics:{
+			enabled: true
 		}
 	}
+	let nodes = new DataSet()
+	let edges = new DataSet()
+	people = JSON.parse(sessionStorage.getItem("people"))
+
+	for (let item = 0; item < people.length; item++) {
+		const el = people[item]
+
+		let lastName
+		if(el.name.last.slice(-1) === "]") {
+			const firstIndex = el.name.last.indexOf("[")
+			lastName = el.name.last.substring(0, firstIndex - 1)
+		} else {
+			lastName = el.name.last
+		}
+
+		let dateBirth
+		if(el.dateBirth.yyyy.substring(0, 1) === "c") {
+			dateBirth = el.dateBirth.yyyy.substring(1)
+		} else {
+			dateBirth = el.dateBirth.yyyy
+		}
+
+		nodes.add({
+			id: el.id,
+			label: lastName,
+			title: `${el.name.first} ${lastName}`,
+			level: Number(dateBirth),
+			color: palette[el.color]
+		})
+
+		const relation = el.relationship
+		for (let parent = 0; parent < relation.length; parent++) {
+			if (relation[parent].id !== "") {
+				edges.add({
+					from: relation[parent].id,
+					to: el.id,
+					color: `#${color[relation[parent].color]}`
+				})
+			}
+		}
+	}
+
+	const container = document.getElementById("network")
+	const data = {
+		nodes: nodes,
+		edges: edges
+	}
+
+	nodeData = nodes.get({returnType: "Object"})
+	network = new Network(container, data, options)
+	network.on("click", displayCard)
 }
 
-const container = document.getElementById("network")
-const data = {
-	nodes: nodes,
-	edges: edges
-}
-const network = new Network(container, data, options)
 const closeHelp = document.getElementById("closeHelp")
 const helpText = document.getElementById("helpText")
 const helpLegend = document.getElementById("helpLegend")
@@ -331,7 +333,6 @@ const assignRelation = (person, people) => {
 	const relationDiv = document.getElementById("relation")
 	relationDiv.innerHTML = ""
 
-	console.log(people)
 	if(people.length > 0) {
 		relationDiv.style.paddingBottom = "5px"
 		for (let i = 0; i < people.length; i++) {
@@ -388,7 +389,7 @@ const assignImg = (person) => {
 	}
 }
 
-network.on("click", (params) => {
+const displayCard = (params) => {
 	if(params.nodes.length > 0) {
 		const selId = params.nodes[0]
 		const selEdge = params.edges
@@ -407,7 +408,7 @@ network.on("click", (params) => {
 		assignRelation(selPerson, relatedPeople)
 		assignImg(selPerson)
 	}
-})
+}
 
 helpButton.addEventListener("click", () => {
 	helpButton.style.display = "none"
@@ -431,3 +432,9 @@ imgDiv.addEventListener("click", () => {
 	const imgSrc = imgDiv.lastChild.src
 	window.open(imgSrc)
 })
+
+window.onload = async() => {
+	const people = await fetchData()
+	sessionStorage.setItem("people", JSON.stringify(people))
+	drawNetwork()
+}
