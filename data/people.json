@@ -4929,6 +4929,42 @@
 		"id": 141,
 		"type": "Acquaintance",
 		"color": "blue"
+	},{
+		"id": 148,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "mus",
+	"group": ["Cellist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 148,
+	"name": {
+		"first": "Francesco",
+		"last": "Alborea",
+		"alt": ["Franciscello/Francischello"]
+	},
+	"dateBirth": {
+		"yyyy": "1691",
+		"mm": "03",
+		"dd": "07"
+	},
+	"dateDeath": {
+		"yyyy": "1739",
+		"mm": "07",
+		"dd": "20"
+	},
+	"placeBirth": "Naples, Italy",
+	"placeDeath": "Vienna, Austria",
+	"relationship": [{
+		"id": 13,
+		"type": "Acquaintance",
+		"color": "blue"
 	}],
 	"color": "mus",
 	"group": ["Cellist", "Composer"],
