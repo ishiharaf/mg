@@ -4965,6 +4965,10 @@
 		"id": 13,
 		"type": "Acquaintance",
 		"color": "blue"
+	},{
+		"id": 149,
+		"type": "Student",
+		"color": "gray"
 	}],
 	"color": "mus",
 	"group": ["Cellist", "Composer"],
@@ -4973,4 +4977,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Francesco_Alborea.jpg/441px-Francesco_Alborea.jpg"
+},
+{
+	"id": 149,
+	"name": {
+		"first": "Gian Carlo",
+		"last": "Cailò",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1659",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1722",
+		"mm": "05",
+		"dd": "02"
+	},
+	"placeBirth": "Rome, Italy",
+	"placeDeath": "Naples, Italy",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "mus",
+	"group": ["Violinist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
