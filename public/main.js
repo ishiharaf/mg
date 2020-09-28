@@ -11,7 +11,11 @@ const fetchData = async() => {
 
 let network
 let people
+let nodes
 let nodeData
+let edges
+let edgeData
+let edgeColor = {}
 let highlight = false
 const sessionStorage = window.sessionStorage
 
@@ -31,7 +35,8 @@ const palette = {
 		highlight: {
 			border: "#f25f5c",
 			background: "#f25f5c"
-		}
+		},
+		opacity: 1
 	},
 	mus: {
 		border: "#386fa4",
@@ -39,7 +44,8 @@ const palette = {
 		highlight: {
 			border: "#59a5d8",
 			background: "#59a5d8"
-		}
+		},
+		opacity: 1
 	},
 	reg: {
 		border: "#625556",
@@ -47,7 +53,8 @@ const palette = {
 		highlight: {
 			border: "#b0abac",
 			background: "#b0abac"
-		}
+		},
+		opacity: 1
 	},
 	roy: {
 		border: "#679436",
@@ -55,7 +62,8 @@ const palette = {
 		highlight: {
 			border: "#8cb369",
 			background: "#8cb369"
-		}
+		},
+		opacity: 1
 	}
 }
 
@@ -97,8 +105,8 @@ const drawNetwork = () => {
 			enabled: true
 		}
 	}
-	let nodes = new DataSet()
-	let edges = new DataSet()
+	nodes = new DataSet()
+	edges = new DataSet()
 	people = JSON.parse(sessionStorage.getItem("people"))
 
 	for (let item = 0; item < people.length; item++) {
@@ -122,6 +130,7 @@ const drawNetwork = () => {
 		nodes.add({
 			id: el.id,
 			label: lastName,
+			hiddenLabel: lastName,
 			title: `${el.name.first} ${lastName}`,
 			level: Number(dateBirth),
 			color: palette[el.color]
@@ -146,6 +155,7 @@ const drawNetwork = () => {
 	}
 
 	nodeData = nodes.get({returnType: "Object"})
+	edgeData = edges.get({returnType: "Object"})
 	network = new Network(container, data, options)
 	network.on("click", displayCard)
 }
@@ -389,6 +399,82 @@ const assignImg = (person) => {
 	}
 }
 
+const highlightRel = (selId, selLen) => {
+	if(selLen > 0) {
+		const relNodes = network.getConnectedNodes(selId)
+		const relEdges = network.getConnectedEdges(selId)
+		let allRelNodes = []
+		let allRelEdges = []
+		let degrees = 3
+		highlight = true
+
+		for (let nodeId in nodeData) {
+			nodeData[nodeId].opacity = 0.3
+			nodeData[nodeId].label = undefined
+		}
+		for (let edgeId in edgeData) {
+			edgeColor[edgeId] = edgeData[edgeId].color
+			edgeData[edgeId].color = {
+				color: edgeColor[edgeId],
+				opacity: 0.3
+			}
+		}
+
+		for (let i = 1; i < degrees; i++) {
+			for (let j = 0; j < relNodes.length; j++) {
+				allRelNodes = allRelNodes.concat(
+					network.getConnectedNodes(relNodes[j])
+					)
+				allRelEdges = allRelEdges.concat(
+					network.getConnectedEdges(relNodes[j])
+					)
+			}
+		}
+
+		for (let i = 0; i < allRelNodes.length; i++) {
+			nodeData[allRelNodes[i]].opacity = 1
+			nodeData[allRelNodes[i]].label = nodeData[allRelNodes[i]].hiddenLabel
+		}
+		for (let i = 0; i < allRelEdges.length; i++) {
+			edgeData[allRelEdges[i]].color = edgeColor[allRelEdges[i]]
+		}
+
+		for (let i = 0; i < relNodes.length; i++) {
+			nodeData[relNodes[i]].opacity = 1
+			nodeData[relNodes[i]].label = nodeData[relNodes[i]].hiddenLabel
+		}
+
+		network.selectEdges(allRelEdges)
+		nodeData[selId].opacity = 1
+		nodeData[selId].label = nodeData[selId].hiddenLabel
+
+	} else {
+		for (let nodeId in nodeData) {
+			nodeData[nodeId].opacity = 1
+			nodeData[nodeId].label = nodeData[nodeId].hiddenLabel
+		}
+		for (let edgeId in edgeData) {
+			edgeData[edgeId].color = edgeColor[edgeId]
+		}
+		highlight = false
+	}
+
+	let updateNodes = []
+	for (let nodeId in nodeData) {
+		if (nodeData.hasOwnProperty(nodeId)) {
+			updateNodes.push(nodeData[nodeId])
+		}
+	}
+	let updateEdges = []
+	for (let edgeId in edgeData) {
+		if (edgeData.hasOwnProperty(edgeId)) {
+			updateEdges.push(edgeData[edgeId])
+		}
+	}
+	nodes.update(updateNodes)
+	edges.update(updateEdges)
+}
+
 const displayCard = (params) => {
 	if(params.nodes.length > 0) {
 		const selId = params.nodes[0]
@@ -407,6 +493,15 @@ const displayCard = (params) => {
 		assignOccupation(selPerson)
 		assignRelation(selPerson, relatedPeople)
 		assignImg(selPerson)
+
+		if(highlight === false) {
+			highlightRel(selId, params.nodes.length)
+		} else {
+			highlightRel(0, 0)
+			highlightRel(selId, params.nodes.length)
+		}
+	} else {
+		highlightRel(0, 0)
 	}
 }
 
