@@ -4769,4 +4769,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/9/98/Attribu%C3%A9_%C3%A0_Joseph_Aved%2C_Portrait_de_Jean-Philippe_Rameau_%28vers_1728%29_-_001.jpg"
+},
+{
+	"id": 143,
+	"name": {
+		"first": "François",
+		"last": "d'Agincourt",
+		"alt": ["d'Agincour/Dagincourt/Dagincour"]
+	},
+	"dateBirth": {
+		"yyyy": "1684",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1758",
+		"mm": "03",
+		"dd": "30"
+	},
+	"placeBirth": "Rouen, France",
+	"placeDeath": "Rouen, France?",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "mus",
+	"group": ["Harpsichordist", "Organist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
