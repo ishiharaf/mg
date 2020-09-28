@@ -4790,6 +4790,38 @@
 	"placeBirth": "Rouen, France",
 	"placeDeath": "Rouen, France?",
 	"relationship": [{
+		"id": 144,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "mus",
+	"group": ["Harpsichordist", "Organist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 144,
+	"name": {
+		"first": "Nicolas",
+		"last": "Lebègue",
+		"alt": ["Nicolas Le Bègue"]
+	},
+	"dateBirth": {
+		"yyyy": "c1631",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1702",
+		"mm": "07",
+		"dd": "06"
+	},
+	"placeBirth": "Laon, France",
+	"placeDeath": "Paris, France",
+	"relationship": [{
 		"id": "",
 		"type": "",
 		"color": ""
