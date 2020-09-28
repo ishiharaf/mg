@@ -92,7 +92,7 @@ const options = {
 		hierarchical: {
 			enabled: true,
 			direction: "UD",
-			levelSeparation: 10,
+			levelSeparation: 25,
 			sortMethod: "hubsize"
 			// shakeTowards: "leaves"
 		}
