@@ -4905,4 +4905,36 @@
 		"extract": ""
 	}],
 	"picture": ""
+},
+{
+	"id": 147,
+	"name": {
+		"first": "Jean-Baptiste",
+		"last": "Barrière",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1707",
+		"mm": "05",
+		"dd": "02"
+	},
+	"dateDeath": {
+		"yyyy": "1747",
+		"mm": "06",
+		"dd": "06"
+	},
+	"placeBirth": "Bordeaux, France",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": 141,
+		"type": "Acquaintance",
+		"color": "blue"
+	}],
+	"color": "mus",
+	"group": ["Cellist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
