@@ -30,37 +30,29 @@ const color = {
 }
 const palette = {
 	imp: {
-		border: "#be301a",
 		background: "#be301a",
 		highlight: {
-			border: "#f25f5c",
 			background: "#f25f5c"
 		},
 		opacity: 1
 	},
 	mus: {
-		border: "#386fa4",
 		background: "#386fa4",
 		highlight: {
-			border: "#59a5d8",
 			background: "#59a5d8"
 		},
 		opacity: 1
 	},
 	reg: {
-		border: "#625556",
 		background: "#625556",
 		highlight: {
-			border: "#b0abac",
 			background: "#b0abac"
 		},
 		opacity: 1
 	},
 	roy: {
-		border: "#679436",
 		background: "#679436",
 		highlight: {
-			border: "#8cb369",
 			background: "#8cb369"
 		},
 		opacity: 1
@@ -70,21 +62,27 @@ const palette = {
 const drawNetwork = () => {
 	const options = {
 		edges: {
+			arrowStrikethrough: false,
+			arrows: {
+				to: {
+					enabled: true
+				}
+			},
 			smooth: {
 				enabled: true,
 				type: "horizontal",
 				forceDirection: "vertical",
 				roundness: 0.5
 			},
-			arrows: {
-				to: {
-					enabled: true
-				}
-			},
-			physics: false
+			physics: false,
+			selectionWidth: 2,
+			width: 2
 		},
 		nodes: {
+			borderWidth: 0,
+			borderWidthSelected: 0,
 			font: {
+				face: "Cambria",
 				color: `#${color.white}`
 			},
 			shape: "box",
@@ -404,7 +402,7 @@ const highlightRel = (selId, selLen) => {
 		const relNodes = network.getConnectedNodes(selId)
 		let allRelNodes = relNodes
 		let allRelEdges = []
-		let degrees = 3
+		let degrees = 2
 		highlight = true
 
 		for (let nodeId in nodeData) {
@@ -417,6 +415,7 @@ const highlightRel = (selId, selLen) => {
 				color: edgeColor[edgeId],
 				opacity: 0.3
 			}
+			edgeData[edgeId].width = 1
 		}
 
 		for (let i = 1; i < degrees; i++) {
@@ -444,6 +443,7 @@ const highlightRel = (selId, selLen) => {
 		}
 		for (let i = 0; i < allRelEdges.length; i++) {
 			edgeData[allRelEdges[i]].color = edgeColor[allRelEdges[i]]
+			edgeData[allRelEdges[i]].width = 2
 		}
 
 		network.selectEdges(allRelEdges)
@@ -457,6 +457,7 @@ const highlightRel = (selId, selLen) => {
 		}
 		for (let edgeId in edgeData) {
 			edgeData[edgeId].color = edgeColor[edgeId]
+			edgeData[edgeId].width = 2
 		}
 		highlight = false
 	}
@@ -475,6 +476,7 @@ const highlightRel = (selId, selLen) => {
 	}
 	nodes.update(updateNodes)
 	edges.update(updateEdges)
+	network.unselectAll()
 }
 
 const displayCard = (params) => {
@@ -524,6 +526,7 @@ closeCard.addEventListener("click", () => {
 	infoDiv.style.display = "none"
 	closeCard.style.display = "none"
 	sourceDiv.style.display = "none"
+	highlightRel(0, 0)
 })
 imgDiv.addEventListener("click", () => {
 	const imgSrc = imgDiv.lastChild.src
