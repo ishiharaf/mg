@@ -4833,4 +4833,36 @@
 		"extract": ""
 	}],
 	"picture": ""
+},
+{
+	"id": 145,
+	"name": {
+		"first": "Jean-Jacques",
+		"last": "Rousseau",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1712",
+		"mm": "06",
+		"dd": "28"
+	},
+	"dateDeath": {
+		"yyyy": "1778",
+		"mm": "07",
+		"dd": "02"
+	},
+	"placeBirth": "Geneva, Switzerland",
+	"placeDeath": "Ermenonville, France",
+	"relationship": [{
+		"id": 36,
+		"type": "Acquaintance",
+		"color": "blue"
+	}],
+	"color": "reg",
+	"group": ["Philosopher", "Writer", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Jean-Jacques_Rousseau_%28painted_portrait%29.jpg/431px-Jean-Jacques_Rousseau_%28painted_portrait%29.jpg"
 }]
