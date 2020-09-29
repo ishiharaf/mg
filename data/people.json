@@ -5261,4 +5261,36 @@
 		"extract": ""
 	}],
 	"picture": ""
+},
+{
+	"id": 157,
+	"name": {
+		"first": "Jacques-Martin",
+		"last": "Hotteterre",
+		"alt": ["Jacques Martin", "Jacques Hotteterre", "Le Romain"]
+	},
+	"dateBirth": {
+		"yyyy": "1674",
+		"mm": "09",
+		"dd": "29"
+	},
+	"dateDeath": {
+		"yyyy": "1763",
+		"mm": "07",
+		"dd": "16"
+	},
+	"placeBirth": "Paris, France",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "imp",
+	"group": ["Flautist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Hotteterre.jpg/475px-Hotteterre.jpg"
 }]
