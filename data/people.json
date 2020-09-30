@@ -5549,4 +5549,36 @@
 		"extract": ""
 	}],
 	"picture": ""
+},
+{
+	"id": 165,
+	"name": {
+		"first": "Alessandro",
+		"last": "Melani",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1639",
+		"mm": "02",
+		"dd": "04"
+	},
+	"dateDeath": {
+		"yyyy": "1703",
+		"mm": "10",
+		"dd": "03"
+	},
+	"placeBirth": "Pistoia, Italy",
+	"placeDeath": "Rome, Italy",
+	"relationship": [{
+		"id": 162,
+		"type": "Patronee",
+		"color": "green"
+	}],
+	"color": "reg",
+	"group": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
