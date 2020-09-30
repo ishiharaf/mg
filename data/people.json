@@ -5337,4 +5337,36 @@
 		"extract": ""
 	}],
 	"picture": ""
+},
+{
+	"id": 159,
+	"name": {
+		"first": "Giovanni",
+		"last": "Bononcini",
+		"alt": ["Giovanni Buononcini", "Giovanni Battista Bononcini"]
+	},
+	"dateBirth": {
+		"yyyy": "1670",
+		"mm": "07",
+		"dd": "18"
+	},
+	"dateDeath": {
+		"yyyy": "1747",
+		"mm": "07",
+		"dd": "09"
+	},
+	"placeBirth": "Modena, Italy",
+	"placeDeath": "Vienna, Austria",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "mus",
+	"group": ["Cellist", "Singer", "Teacher", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Anthoni_Schoonjans_-_Portrait_of_the_composer_Giovanni_Bononcini.jpg"
 }]
