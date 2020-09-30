@@ -5893,4 +5893,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Karl_Stamitz.jpg"
+},
+{
+	"id": 175,
+	"name": {
+		"first": "Anton",
+		"last": "Stamitz",
+		"alt": ["Anton Thadäus Johann Nepomuk Stamitz"]
+	},
+	"dateBirth": {
+		"yyyy": "1750",
+		"mm": "11",
+		"dd": "27"
+	},
+	"dateDeath": {
+		"yyyy": "c1798",
+		"mm": "??",
+		"dd": "??"
+	},
+	"placeBirth": "Deutschbrod, Czech Republic",
+	"placeDeath": "Paris, France?",
+	"relationship": [{
+		"id": 173,
+		"type": "Son, Student",
+		"color": "red"
+	}],
+	"color": "mus",
+	"group": ["Violinist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
