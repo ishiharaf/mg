@@ -5573,6 +5573,10 @@
 		"id": 162,
 		"type": "Patronee",
 		"color": "green"
+	},{
+		"id": 167,
+		"type": "Brother",
+		"color": "red"
 	}],
 	"color": "reg",
 	"group": ["Composer"],
@@ -5612,6 +5616,38 @@
 	}],
 	"color": "reg",
 	"group": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 167,
+	"name": {
+		"first": "Jacopo",
+		"last": "Melani",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1623",
+		"mm": "07",
+		"dd": "06"
+	},
+	"dateDeath": {
+		"yyyy": "1676",
+		"mm": "08",
+		"dd": "18"
+	},
+	"placeBirth": "Pistoia, Italy",
+	"placeDeath": "Pistoia, Italy",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "mus",
+	"group": ["Violinist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
