@@ -5823,10 +5823,10 @@
 		"color": "red"
 	}],
 	"color": "reg",
-	"group": ["Conductor", "Composer"],
+	"group": ["Conductor", "Composer [1]"],
 	"source": [{
-		"citation": "",
-		"extract": ""
+		"citation": "Casaglia, Gherardo (2005)",
+		"extract": "'Francesco Basili'. L'Almanacco di Gherardo Casaglia (in Italian)."
 	}],
 	"picture": ""
 }]
