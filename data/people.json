@@ -5358,9 +5358,9 @@
 	"placeBirth": "Modena, Italy",
 	"placeDeath": "Vienna, Austria",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 160,
+		"type": "Son",
+		"color": "red"
 	}],
 	"color": "mus",
 	"group": ["Cellist", "Singer", "Teacher", "Composer"],
@@ -5369,4 +5369,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Anthoni_Schoonjans_-_Portrait_of_the_composer_Giovanni_Bononcini.jpg"
+},
+{
+	"id": 160,
+	"name": {
+		"first": "Giovanni Maria",
+		"last": "Bononcini",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1642",
+		"mm": "09",
+		"dd": "23"
+	},
+	"dateDeath": {
+		"yyyy": "1678",
+		"mm": "11",
+		"dd": "18"
+	},
+	"placeBirth": "Modena, Italy?",
+	"placeDeath": "Modena, Italy?",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "mus",
+	"group": ["Violinist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
