@@ -29,7 +29,7 @@
 	"color": "imp",
 	"group": ["Violinist", "Composer"],
 	"source": [{
-		"citation": "",
+		"citation": "https://en.wikipedia.org/wiki/Bernardo_Pasquini",
 		"extract": "Together with Arcangelo Corelli and Alessandro Scarlatti, in 1706 Pasquini became member of the Academy of Arcadia."
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Arcangelo_Corelli%2C_portrait_by_Hugh_Howard_%281697%29.jpg"
@@ -425,7 +425,7 @@
 	"color": "reg",
 	"group": ["Composer"],
 	"source": [{
-		"citation": "",
+		"citation": "https://en.wikipedia.org/wiki/Bernardo_Pasquini",
 		"extract": "Together with Arcangelo Corelli and Alessandro Scarlatti, in 1706 Pasquini became member of the Academy of Arcadia."
 	}],
 	"picture": "http://www.bach-cantatas.com/Pic-Lib-BIG/Scarlatti-Alessandro-09.jpg"
