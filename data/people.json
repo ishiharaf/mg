@@ -5797,4 +5797,36 @@
 		"extract": ""
 	}],
 	"picture": ""
+},
+{
+	"id": 172,
+	"name": {
+		"first": "Francesco",
+		"last": "Basili",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1767",
+		"mm": "01",
+		"dd": "31"
+	},
+	"dateDeath": {
+		"yyyy": "1850",
+		"mm": "08",
+		"dd": "28"
+	},
+	"placeBirth": "Loreto, Italy",
+	"placeDeath": "Rome, Italy",
+	"relationship": [{
+		"id": 171,
+		"type": "Son",
+		"color": "red"
+	}],
+	"color": "reg",
+	"group": ["Conductor", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
