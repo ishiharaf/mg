@@ -5416,7 +5416,7 @@
 		"citation": "",
 		"extract": ""
 	}],
-	"picture": ""
+	"picture": "http://4.bp.blogspot.com/-QWMq1j43_TM/Ul7RzQ7MaFI/AAAAAAAAAJ0/PZA9ISF2ouk/s0/wmrii_rcmu_pphc000036_large.jpg=s0?imgmax=0"
 },
 {
 	"id": 161,
@@ -5456,7 +5456,7 @@
 		"citation": "",
 		"extract": ""
 	}],
-	"picture": ""
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Antonio_Maria_Bononcini.jpg"
 },
 {
 	"id": 162,
@@ -5488,7 +5488,7 @@
 		"citation": "",
 		"extract": ""
 	}],
-	"picture": ""
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/7/71/Benedetto_Pamphilj.jpg"
 },
 {
 	"id": 163,
@@ -5520,7 +5520,7 @@
 		"citation": "",
 		"extract": ""
 	}],
-	"picture": ""
+	"picture": "http://www.hoasm.org/VG/colonna.jpg"
 },
 {
 	"id": 164,
@@ -5660,12 +5660,12 @@
 		"citation": "",
 		"extract": ""
 	}],
-	"picture": ""
+	"picture": "https://alchetron.com/cdn/jacopo-melani-e9bc260c-7edc-4cc5-89fd-4c3b0bf2ad7-resize-750.jpeg"
 },
 {
 	"id": 168,
 	"name": {
-		"first": "Jacopo",
+		"first": "Atto",
 		"last": "Melani",
 		"alt": [""]
 	},
@@ -5692,7 +5692,7 @@
 		"citation": "",
 		"extract": ""
 	}],
-	"picture": ""
+	"picture": "http://www.quellusignolo.fr/photos/melani.jpg"
 },
 {
 	"id": 169,
@@ -5732,7 +5732,7 @@
 		"citation": "The Art of Partimento: History, Theory, and Practice - Page 23, Giorgio Sanguinetti - 2012",
 		"extract": "One student of Pasquini was Tommaso Bernardo Gaffi, who has left us a manuscript treatise on accompaniment, Regole per sonare su la parte. [...]"
 	}],
-	"picture": ""
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Tommaso_Bernardo_Gaffi%2C_compositor.png"
 },
 {
 	"id": 170,
@@ -5764,7 +5764,7 @@
 		"citation": "",
 		"extract": ""
 	}],
-	"picture": ""
+	"picture": "https://www.musicologie.org/Biographies/p/pasquani_02.jpg"
 },
 {
 	"id": 171,
@@ -5803,7 +5803,7 @@
 	"name": {
 		"first": "Francesco",
 		"last": "Basili",
-		"alt": [""]
+		"alt": ["Francesco Basily/Basilj"]
 	},
 	"dateBirth": {
 		"yyyy": "1767",
@@ -5828,5 +5828,5 @@
 		"citation": "Casaglia, Gherardo (2005)",
 		"extract": "'Francesco Basili'. L'Almanacco di Gherardo Casaglia (in Italian)."
 	}],
-	"picture": ""
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/0/0b/FrancescoBasily.jpg"
 }]
