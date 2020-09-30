@@ -5365,6 +5365,10 @@
 		"id": 160,
 		"type": "Son",
 		"color": "red"
+	},{
+		"id": 163,
+		"type": "Student",
+		"color": "gray"
 	}],
 	"color": "mus",
 	"group": ["Cellist", "Singer", "Teacher", "Composer"],
@@ -5433,6 +5437,10 @@
 		"id": 162,
 		"type": "Patronee",
 		"color": "green"
+	},{
+		"id": 163,
+		"type": "Student",
+		"color": "gray"
 	}],
 	"color": "mus",
 	"group": ["Cellist", "Composer"],
@@ -5468,6 +5476,38 @@
 	}],
 	"color": "reg",
 	"group": ["Cardinal", "Patron", "Librettist"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 163,
+	"name": {
+		"first": "Giovanni Paolo",
+		"last": "Colonna",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1637",
+		"mm": "06",
+		"dd": "16"
+	},
+	"dateDeath": {
+		"yyyy": "1695",
+		"mm": "11",
+		"dd": "28"
+	},
+	"placeBirth": "Bologna, Italy",
+	"placeDeath": "Bologna, Italy",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "mus",
+	"group": ["Organist", "Teacher", "Composer", "Organ builder"],
 	"source": [{
 		"citation": "",
 		"extract": ""
