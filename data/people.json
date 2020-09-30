@@ -5581,4 +5581,40 @@
 		"extract": ""
 	}],
 	"picture": ""
+},
+{
+	"id": 166,
+	"name": {
+		"first": "Carlo Francesco",
+		"last": "Cesarini",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "c1666",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1741",
+		"mm": "09",
+		"dd": "02"
+	},
+	"placeBirth": "San Martino al Cimino, Italy",
+	"placeDeath": "Rome, Italy",
+	"relationship": [{
+		"id": 162,
+		"type": "Patronee",
+		"color": "green"
+	},{
+		"id": 164,
+		"type": "Co-worker",
+		"color": "green"
+	}],
+	"color": "reg",
+	"group": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
