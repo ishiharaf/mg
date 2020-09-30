@@ -5433,4 +5433,36 @@
 		"extract": ""
 	}],
 	"picture": ""
+},
+{
+	"id": 162,
+	"name": {
+		"first": "Benedetto",
+		"last": "Pamphili",
+		"alt": ["Benedetto Pamphilj"]
+	},
+	"dateBirth": {
+		"yyyy": "1653",
+		"mm": "04",
+		"dd": "25"
+	},
+	"dateDeath": {
+		"yyyy": "1730",
+		"mm": "03",
+		"dd": "22"
+	},
+	"placeBirth": "Rome, Italy",
+	"placeDeath": "Rome, Italy",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "reg",
+	"group": ["Cardinal", "Patron", "Librettist"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
