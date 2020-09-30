@@ -5765,4 +5765,36 @@
 		"extract": ""
 	}],
 	"picture": ""
+},
+{
+	"id": 171,
+	"name": {
+		"first": "Andrea",
+		"last": "Basili",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1705",
+		"mm": "12",
+		"dd": "16"
+	},
+	"dateDeath": {
+		"yyyy": "1777",
+		"mm": "08",
+		"dd": "28"
+	},
+	"placeBirth": "Citta della Pieve, Italy",
+	"placeDeath": "Loreto, Italy",
+	"relationship": [{
+		"id": 169,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "reg",
+	"group": ["Music Theorist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
