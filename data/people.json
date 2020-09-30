@@ -5861,4 +5861,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/3/32/Jan_V%C3%A1clav_Stamic_%281717-1757%29.jpg"
+},
+{
+	"id": 174,
+	"name": {
+		"first": "Carl",
+		"last": "Stamitz",
+		"alt": ["Carl Philipp Stamitz", "Karel Stamic"]
+	},
+	"dateBirth": {
+		"yyyy": "1745",
+		"mm": "05",
+		"dd": "08"
+	},
+	"dateDeath": {
+		"yyyy": "1801",
+		"mm": "11",
+		"dd": "09"
+	},
+	"placeBirth": "Mannheim, Germany",
+	"placeDeath": "Jena, Germany",
+	"relationship": [{
+		"id": 173,
+		"type": "Son, Student",
+		"color": "red"
+	}],
+	"color": "mus",
+	"group": ["Violinist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Karl_Stamitz.jpg"
 }]
