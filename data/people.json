@@ -5401,4 +5401,36 @@
 		"extract": ""
 	}],
 	"picture": ""
+},
+{
+	"id": 161,
+	"name": {
+		"first": "Antonio Maria",
+		"last": "Bononcini",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1677",
+		"mm": "06",
+		"dd": "18"
+	},
+	"dateDeath": {
+		"yyyy": "1726",
+		"mm": "07",
+		"dd": "08"
+	},
+	"placeBirth": "Modena, Italy",
+	"placeDeath": "Modena, Italy",
+	"relationship": [{
+		"id": 160,
+		"type": "Son",
+		"color": "red"
+	}],
+	"color": "mus",
+	"group": ["Cellist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
