@@ -5689,4 +5689,40 @@
 		"extract": ""
 	}],
 	"picture": ""
+},
+{
+	"id": 169,
+	"name": {
+		"first": "Tomaso Bernardo",
+		"last": "Gaffi",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1667",
+		"mm": "12",
+		"dd": "04"
+	},
+	"dateDeath": {
+		"yyyy": "1744",
+		"mm": "02",
+		"dd": "11"
+	},
+	"placeBirth": "Rome, Italy",
+	"placeDeath": "Rome, Italy",
+	"relationship": [{
+		"id": 166,
+		"type": "Co-worker",
+		"color": "green"
+	},{
+		"id": 162,
+		"type": "Patronee",
+		"color": "green"
+	}],
+	"color": "reg",
+	"group": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
