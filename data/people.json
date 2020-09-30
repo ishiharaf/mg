@@ -5301,4 +5301,40 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Hotteterre.jpg/475px-Hotteterre.jpg"
+},
+{
+	"id": 158,
+	"name": {
+		"first": "Giuseppe",
+		"last": "Valentini",
+		"alt": ["Straccioncino (Little Ragamuffin)"]
+	},
+	"dateBirth": {
+		"yyyy": "1681",
+		"mm": "12",
+		"dd": "14"
+	},
+	"dateDeath": {
+		"yyyy": "1753",
+		"mm": "11",
+		"dd": "??"
+	},
+	"placeBirth": "Italy",
+	"placeDeath": "Italy",
+	"relationship": [{
+		"id": 1,
+		"type": "Student?",
+		"color": "black"
+	},{
+		"id": 159,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "mus",
+	"group": ["Violinist", "Painter", "Poet", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
