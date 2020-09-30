@@ -18,9 +18,9 @@
 	"placeBirth": "Fusignano, Italy",
 	"placeDeath": "Rome, Italy",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 162,
+		"type": "Patronee",
+		"color": "green"
 	}],
 	"color": "imp",
 	"group": ["Violinist", "Composer"],
@@ -2149,6 +2149,10 @@
 		"id": 64,
 		"type": "Student",
 		"color": "gray"
+	},{
+		"id": 162,
+		"type": "Friend",
+		"color": "blue"
 	}],
 	"color": "imp",
 	"group": ["Composer"],
@@ -5425,6 +5429,10 @@
 		"id": 160,
 		"type": "Son",
 		"color": "red"
+	},{
+		"id": 162,
+		"type": "Patronee",
+		"color": "green"
 	}],
 	"color": "mus",
 	"group": ["Cellist", "Composer"],
@@ -5454,9 +5462,9 @@
 	"placeBirth": "Rome, Italy",
 	"placeDeath": "Rome, Italy",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 13,
+		"type": "Librettist",
+		"color": "green"
 	}],
 	"color": "reg",
 	"group": ["Cardinal", "Patron", "Librettist"],
