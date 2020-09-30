@@ -5723,14 +5723,14 @@
 		"color": "green"
 	},{
 		"id": 170,
-		"type": "Student",
+		"type": "Student [1]",
 		"color": "gray"
 	}],
 	"color": "reg",
 	"group": ["Composer"],
 	"source": [{
-		"citation": "",
-		"extract": ""
+		"citation": "The Art of Partimento: History, Theory, and Practice - Page 23, Giorgio Sanguinetti - 2012",
+		"extract": "One student of Pasquini was Tommaso Bernardo Gaffi, who has left us a manuscript treatise on accompaniment, Regole per sonare su la parte. [...]"
 	}],
 	"picture": ""
 },
@@ -5787,14 +5787,14 @@
 	"placeDeath": "Loreto, Italy",
 	"relationship": [{
 		"id": 169,
-		"type": "Student",
+		"type": "Student [1]",
 		"color": "gray"
 	}],
 	"color": "reg",
 	"group": ["Music Theorist", "Composer"],
 	"source": [{
-		"citation": "",
-		"extract": ""
+		"citation": "The Art of Partimento: History, Theory, and Practice - Page 23, Giorgio Sanguinetti - 2012",
+		"extract": "[...] Gaffi taught Andrea Basili, author of an Italian counterpart of the Well Tempered Clavier, the Musica universale armonico-pratica...1736"
 	}],
 	"picture": ""
 },
