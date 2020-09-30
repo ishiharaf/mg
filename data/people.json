@@ -4498,9 +4498,9 @@
 	"placeBirth": "Mannheim, Germany",
 	"placeDeath": "Frankfurt am Main, Germany",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 173,
+		"type": "Student",
+		"color": "gray"
 	}],
 	"color": "mus",
 	"group": ["Violinist", "Kapellmeister", "Composer"],
@@ -5829,4 +5829,36 @@
 		"extract": "'Francesco Basili'. L'Almanacco di Gherardo Casaglia (in Italian)."
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/0/0b/FrancescoBasily.jpg"
+},
+{
+	"id": 173,
+	"name": {
+		"first": "Johann",
+		"last": "Stamitz",
+		"alt": ["Johann Wenzel Anton Stamitz", "Jan Václav Antonín Stamic"]
+	},
+	"dateBirth": {
+		"yyyy": "1717",
+		"mm": "06",
+		"dd": "18"
+	},
+	"dateDeath": {
+		"yyyy": "1757",
+		"mm": "03",
+		"dd": "27"
+	},
+	"placeBirth": "Deutschbrod, Czech Republic",
+	"placeDeath": "Mannheim, Germany",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "mus",
+	"group": ["Violinist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/3/32/Jan_V%C3%A1clav_Stamic_%281717-1757%29.jpg"
 }]
