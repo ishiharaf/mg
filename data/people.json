@@ -5513,4 +5513,40 @@
 		"extract": ""
 	}],
 	"picture": ""
+},
+{
+	"id": 164,
+	"name": {
+		"first": "Giovanni Lorenzo",
+		"last": "Lulier",
+		"alt": ["Giovannino del Violone (Little John of the Violone)"]
+	},
+	"dateBirth": {
+		"yyyy": "c1662",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1700",
+		"mm": "03",
+		"dd": "29"
+	},
+	"placeBirth": "Rome, Italy",
+	"placeDeath": "Rome, Italy",
+	"relationship": [{
+		"id": 162,
+		"type": "Patronee",
+		"color": "green"
+	},{
+		"id": 1,
+		"type": "Acquaintance",
+		"color": "blue"
+	}],
+	"color": "mus",
+	"group": ["Cellist", "Trombone player", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
