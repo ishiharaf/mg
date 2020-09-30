@@ -21,12 +21,16 @@
 		"id": 162,
 		"type": "Patronee",
 		"color": "green"
+	},{
+		"id": 170,
+		"type": "Acquaintance [1]",
+		"color": "blue"
 	}],
 	"color": "imp",
 	"group": ["Violinist", "Composer"],
 	"source": [{
 		"citation": "",
-		"extract": ""
+		"extract": "Together with Arcangelo Corelli and Alessandro Scarlatti, in 1706 Pasquini became member of the Academy of Arcadia."
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Arcangelo_Corelli%2C_portrait_by_Hugh_Howard_%281697%29.jpg"
 },
@@ -414,15 +418,15 @@
 	"placeBirth": "Palermo, Italy",
 	"placeDeath": "Naples, Italy",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 170,
+		"type": "Acquaintance [1]",
+		"color": "blue"
 	}],
 	"color": "reg",
 	"group": ["Composer"],
 	"source": [{
 		"citation": "",
-		"extract": ""
+		"extract": "Together with Arcangelo Corelli and Alessandro Scarlatti, in 1706 Pasquini became member of the Academy of Arcadia."
 	}],
 	"picture": "http://www.bach-cantatas.com/Pic-Lib-BIG/Scarlatti-Alessandro-09.jpg"
 },
@@ -5717,9 +5721,45 @@
 		"id": 162,
 		"type": "Patronee",
 		"color": "green"
+	},{
+		"id": 170,
+		"type": "Student",
+		"color": "gray"
 	}],
 	"color": "reg",
 	"group": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 170,
+	"name": {
+		"first": "Bernardo",
+		"last": "Pasquini",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1637",
+		"mm": "12",
+		"dd": "07"
+	},
+	"dateDeath": {
+		"yyyy": "1710",
+		"mm": "11",
+		"dd": "21"
+	},
+	"placeBirth": "Massa e Cozzile, Italy",
+	"placeDeath": "Rome, Italy",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "reg",
+	"group": ["Keyboard player", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
