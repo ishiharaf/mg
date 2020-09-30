@@ -161,7 +161,7 @@ body {
 #sourceCard {
 	width: auto;
 	height: auto;
-	max-width: 450px;
+	max-width: 350px;
 	background-color: #403d39;
 	position: absolute;
 	right: 35px;
@@ -174,10 +174,10 @@ body {
 	display: none;
 }
 #citation {
-	font-size: 13px;
+	font-size: 12px;
 }
 #extract {
-	font-size: 16px;
+	font-size: 14px;
 }
 .source {
 	font-size: 11px;
