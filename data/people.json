@@ -4242,9 +4242,9 @@
 	"placeBirth": "Rimini, Italy",
 	"placeDeath": "Amsterdam, Netherlands",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 30,
+		"type": "Acquaintance?",
+		"color": "blue"
 	}],
 	"color": "mus",
 	"group": ["Violinist", "Composer"],
