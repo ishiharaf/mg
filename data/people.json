@@ -6561,4 +6561,36 @@
 		"extract": ""
 	}],
 	"picture": "//"
+},
+{
+	"id": 194,
+	"name": {
+		"first": "Jascha",
+		"last": "Heifetz",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1901",
+		"mm": "02",
+		"dd": "02"
+	},
+	"dateDeath": {
+		"yyyy": "1987",
+		"mm": "12",
+		"dd": "10"
+	},
+	"placeBirth": "Vilna, Lithuania",
+	"placeDeath": "Los Angeles, California",
+	"relationship": [{
+		"id": 176,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "imp",
+	"group": ["Violinist"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "//"
 }]
