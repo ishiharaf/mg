@@ -5989,6 +5989,10 @@
 		"id": 190,
 		"type": "Acquaintance",
 		"color": "blue"
+	},{
+		"id": 191,
+		"type": "Acquaintance",
+		"color": "blue"
 	}],
 	"color": "imp",
 	"group": ["Violinist", "Teacher", "Academic", "Conductor", "Composer"],
@@ -6444,6 +6448,38 @@
 	}],
 	"color": "mus",
 	"group": ["Pianist", "Conductor", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "//"
+},
+{
+	"id": 191,
+	"name": {
+		"first": "Antonio",
+		"last": "Bazzini",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1818",
+		"mm": "03",
+		"dd": "11"
+	},
+	"dateDeath": {
+		"yyyy": "1897",
+		"mm": "02",
+		"dd": "10"
+	},
+	"placeBirth": "Brescia, Italy",
+	"placeDeath": "Milan, Italy",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "mus",
+	"group": ["Violinist", "Teacher", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
