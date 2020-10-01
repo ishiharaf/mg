@@ -5946,9 +5946,9 @@
 	"placeBirth": "Veszprém, Hungary",
 	"placeDeath": "Dresden, Germany",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 177,
+		"type": "Student",
+		"color": "gray"
 	}],
 	"color": "imp",
 	"group": ["Violinist", "Teacher", "Academic", "Conductor", "Composer"],
@@ -5957,4 +5957,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Leopold_Auer.jpg/504px-Leopold_Auer.jpg"
+},
+{
+	"id": 177,
+	"name": {
+		"first": "Dávid",
+		"last": "Ridley-Kohne",
+		"alt": ["Ridley-Kohne Dávid"]
+	},
+	"dateBirth": {
+		"yyyy": "1812",
+		"mm": "04",
+		"dd": "05"
+	},
+	"dateDeath": {
+		"yyyy": "1930",
+		"mm": "12",
+		"dd": "??"
+	},
+	"placeBirth": "Veszprém, Hungary",
+	"placeDeath": "Maglód, Hungary",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "mus",
+	"group": ["Violinist", "Teacher", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
