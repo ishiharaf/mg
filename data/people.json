@@ -6339,7 +6339,7 @@
 	"name": {
 		"first": "Pyotr Ilyich",
 		"last": "Tchaikovsky",
-		"alt": ["//"]
+		"alt": [""]
 	},
 	"dateBirth": {
 		"yyyy": "1840",
@@ -6364,7 +6364,7 @@
 		"citation": "",
 		"extract": ""
 	}],
-	"picture": ""
+	"picture": "https://www.biography.com/.image/MTE5NTU2MzE2Mzg0OTUzODY3/piotr-ilyich-tchaikovsky-9503375-1-402.jpg"
 },
 {
 	"id": 188,
