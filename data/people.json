@@ -6305,4 +6305,36 @@
 		"extract": ""
 	}],
 	"picture": ""
+},
+{
+	"id": 187,
+	"name": {
+		"first": "Pyotr Ilyich",
+		"last": "Tchaikovsky",
+		"alt": ["//"]
+	},
+	"dateBirth": {
+		"yyyy": "1840",
+		"mm": "05",
+		"dd": "07"
+	},
+	"dateDeath": {
+		"yyyy": "1893",
+		"mm": "11",
+		"dd": "06"
+	},
+	"placeBirth": "Udmurtia, Russia",
+	"placeDeath": "St. Petersburg, Russia",
+	"relationship": [{
+		"id": 186,
+		"type": "Friend",
+		"color": "blue"
+	}],
+	"color": "imp",
+	"group": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
