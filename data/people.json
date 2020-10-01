@@ -5925,4 +5925,36 @@
 		"extract": ""
 	}],
 	"picture": ""
+},
+{
+	"id": 176,
+	"name": {
+		"first": "Leopold",
+		"last": "Auer",
+		"alt": ["Leopold von Auer", "Auer Lipót"]
+	},
+	"dateBirth": {
+		"yyyy": "1845",
+		"mm": "06",
+		"dd": "07"
+	},
+	"dateDeath": {
+		"yyyy": "1930",
+		"mm": "07",
+		"dd": "15"
+	},
+	"placeBirth": "Veszprém, Hungary",
+	"placeDeath": "Dresden, Germany",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "imp",
+	"group": ["Violinist", "Teacher", "Academic", "Conductor", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
