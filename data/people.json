@@ -5977,6 +5977,10 @@
 		"id": 186,
 		"type": "Acquaintance",
 		"color": "blue"
+	},{
+		"id": 188,
+		"type": "Acquaintance",
+		"color": "blue"
 	}],
 	"color": "imp",
 	"group": ["Violinist", "Teacher", "Academic", "Conductor", "Composer"],
@@ -6337,4 +6341,36 @@
 		"extract": ""
 	}],
 	"picture": ""
+},
+{
+	"id": 188,
+	"name": {
+		"first": "Clara",
+		"last": "Schumann",
+		"alt": ["Clara Josephine Schumann", "Clara Josephine Wieck"]
+	},
+	"dateBirth": {
+		"yyyy": "1819",
+		"mm": "09",
+		"dd": "13"
+	},
+	"dateDeath": {
+		"yyyy": "1896",
+		"mm": "05",
+		"dd": "20"
+	},
+	"placeBirth": "Leipzig, Germany",
+	"placeDeath": "Frankfurt, Germany",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "mus",
+	"group": ["Pianist", "Teacher", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "//"
 }]
