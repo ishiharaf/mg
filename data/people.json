@@ -6275,7 +6275,7 @@
 	"name": {
 		"first": "Anton",
 		"last": "Rubinstein",
-		"alt": ["//"]
+		"alt": ["Anton Grigoryevich Rubinstein"]
 	},
 	"dateBirth": {
 		"yyyy": "1829",
@@ -6300,7 +6300,7 @@
 		"citation": "",
 		"extract": ""
 	}],
-	"picture": ""
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Rubinstein_repin.jpg/351px-Rubinstein_repin.jpg"
 },
 {
 	"id": 186,
