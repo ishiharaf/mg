@@ -6388,7 +6388,7 @@
 	"relationship": [{
 		"id": 195,
 		"type": "Spouse",
-		"color": "Pink"
+		"color": "pink"
 	}],
 	"color": "mus",
 	"group": ["Pianist", "Teacher", "Composer"],
