@@ -5949,6 +5949,10 @@
 		"id": 177,
 		"type": "Student",
 		"color": "gray"
+	},{
+		"id": 180,
+		"type": "Student",
+		"color": "gray"
 	}],
 	"color": "imp",
 	"group": ["Violinist", "Teacher", "Academic", "Conductor", "Composer"],
@@ -6048,6 +6052,38 @@
 	}],
 	"color": "mus",
 	"group": ["Violinist", "Teacher", "Conductor", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 180,
+	"name": {
+		"first": "Jakob",
+		"last": "Dont",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1815",
+		"mm": "03",
+		"dd": "02"
+	},
+	"dateDeath": {
+		"yyyy": "1888",
+		"mm": "12",
+		"dd": "17"
+	},
+	"placeBirth": "Vienna, Austria",
+	"placeDeath": "Vienna, Austria",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "imp",
+	"group": ["Violinist", "Teacher", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
