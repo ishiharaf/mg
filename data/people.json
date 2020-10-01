@@ -6021,4 +6021,36 @@
 		"extract": ""
 	}],
 	"picture": ""
+},
+{
+	"id": 179,
+	"name": {
+		"first": "Alois",
+		"last": "Gobbi",
+		"alt": ["Gobbi Alajos"]
+	},
+	"dateBirth": {
+		"yyyy": "1842",
+		"mm": "12",
+		"dd": "20"
+	},
+	"dateDeath": {
+		"yyyy": "1932",
+		"mm": "07",
+		"dd": "27"
+	},
+	"placeBirth": "Budapest, Hungary",
+	"placeDeath": "Budapest, Hungary",
+	"relationship": [{
+		"id": 177,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "mus",
+	"group": ["Violinist", "Teacher", "Conductor", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
