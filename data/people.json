@@ -6386,9 +6386,9 @@
 	"placeBirth": "Leipzig, Germany",
 	"placeDeath": "Frankfurt, Germany",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 195,
+		"type": "Spouse",
+		"color": "Pink"
 	}],
 	"color": "mus",
 	"group": ["Pianist", "Teacher", "Composer"],
@@ -6588,6 +6588,38 @@
 	}],
 	"color": "imp",
 	"group": ["Violinist"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "//"
+},
+{
+	"id": 195,
+	"name": {
+		"first": "Robert",
+		"last": "Schumann",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1810",
+		"mm": "06",
+		"dd": "08"
+	},
+	"dateDeath": {
+		"yyyy": "1856",
+		"mm": "07",
+		"dd": "29"
+	},
+	"placeBirth": "Zwickau, Germany",
+	"placeDeath": "Bonn, Germany",
+	"relationship": [{
+		"id": 176,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "mus",
+	"group": ["Pianist", "Composer", "Music critic"],
 	"source": [{
 		"citation": "",
 		"extract": ""
