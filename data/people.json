@@ -6614,9 +6614,9 @@
 	"placeBirth": "Zwickau, Germany",
 	"placeDeath": "Bonn, Germany",
 	"relationship": [{
-		"id": 176,
-		"type": "Student",
-		"color": "gray"
+		"id": "",
+		"type": "",
+		"color": ""
 	}],
 	"color": "mus",
 	"group": ["Pianist", "Composer", "Music critic"],
