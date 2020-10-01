@@ -5965,6 +5965,10 @@
 		"id": 183,
 		"type": "Student",
 		"color": "gray"
+	},{
+		"id": 184,
+		"type": "Acquaintance",
+		"color": "blue"
 	}],
 	"color": "imp",
 	"group": ["Violinist", "Teacher", "Academic", "Conductor", "Composer"],
@@ -6197,4 +6201,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Joseph_Joachim%2C_by_Philip_Alexius_de_L%C3%A1szl%C3%B3%2C_1903.jpg/493px-Joseph_Joachim%2C_by_Philip_Alexius_de_L%C3%A1szl%C3%B3%2C_1903.jpg"
+},
+{
+	"id": 184,
+	"name": {
+		"first": "Henryk",
+		"last": "Wieniawski",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1835",
+		"mm": "07",
+		"dd": "10"
+	},
+	"dateDeath": {
+		"yyyy": "1880",
+		"mm": "03",
+		"dd": "31"
+	},
+	"placeBirth": "Lublin, Poland",
+	"placeDeath": "Moscow, Russia",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "imp",
+	"group": ["Violinist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
