@@ -5978,12 +5978,44 @@
 	"placeBirth": "Veszprém, Hungary",
 	"placeDeath": "Maglód, Hungary",
 	"relationship": [{
+		"id": 178,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "mus",
+	"group": ["Violinist", "Teacher", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 178,
+	"name": {
+		"first": "Ignác",
+		"last": "Ruzitska",
+		"alt": ["Ruzitska Ignác"]
+	},
+	"dateBirth": {
+		"yyyy": "1777",
+		"mm": "04",
+		"dd": "18"
+	},
+	"dateDeath": {
+		"yyyy": "1833",
+		"mm": "12",
+		"dd": "??"
+	},
+	"placeBirth": "Pezinok, Slovakia",
+	"placeDeath": "Veszprém, Hungary",
+	"relationship": [{
 		"id": "",
 		"type": "",
 		"color": ""
 	}],
 	"color": "mus",
-	"group": ["Violinist", "Teacher", "Composer"],
+	"group": ["Conductor", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
