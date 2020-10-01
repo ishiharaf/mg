@@ -5969,6 +5969,10 @@
 		"id": 184,
 		"type": "Acquaintance",
 		"color": "blue"
+	},{
+		"id": 185,
+		"type": "Acquaintance",
+		"color": "blue"
 	}],
 	"color": "imp",
 	"group": ["Violinist", "Teacher", "Academic", "Conductor", "Composer"],
@@ -6228,6 +6232,38 @@
 	}],
 	"color": "imp",
 	"group": ["Violinist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 185,
+	"name": {
+		"first": "Anton",
+		"last": "Rubinstein",
+		"alt": ["//"]
+	},
+	"dateBirth": {
+		"yyyy": "1829",
+		"mm": "11",
+		"dd": "28"
+	},
+	"dateDeath": {
+		"yyyy": "1894",
+		"mm": "11",
+		"dd": "20"
+	},
+	"placeBirth": "Transnistria, Republic of Moldova",
+	"placeDeath": "St. Petersburg, Russia",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "mus",
+	"group": ["Pianist", "Conductor", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
