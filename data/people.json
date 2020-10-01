@@ -5953,6 +5953,10 @@
 		"id": 180,
 		"type": "Student",
 		"color": "gray"
+	},{
+		"id": 181,
+		"type": "Student",
+		"color": "gray"
 	}],
 	"color": "imp",
 	"group": ["Violinist", "Teacher", "Academic", "Conductor", "Composer"],
@@ -6089,4 +6093,36 @@
 		"extract": ""
 	}],
 	"picture": ""
+},
+{
+	"id": 180,
+	"name": {
+		"first": "Joseph",
+		"last": "Hellmesberger Sr.",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1828",
+		"mm": "11",
+		"dd": "03"
+	},
+	"dateDeath": {
+		"yyyy": "1893",
+		"mm": "10",
+		"dd": "24"
+	},
+	"placeBirth": "Vienna, Austria",
+	"placeDeath": "Vienna, Austria",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "imp",
+	"group": ["Violinist", "Conductor", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/d/de/Josef_Hellmesberger_senior.jpg"
 }]
