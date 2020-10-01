@@ -5961,6 +5961,10 @@
 		"id": 182,
 		"type": "Acquaintance",
 		"color": "blue"
+	},{
+		"id": 183,
+		"type": "Student",
+		"color": "gray"
 	}],
 	"color": "imp",
 	"group": ["Violinist", "Teacher", "Academic", "Conductor", "Composer"],
@@ -6161,4 +6165,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Henri_Vieuxtemps_1842_Litho.jpg/511px-Henri_Vieuxtemps_1842_Litho.jpg"
+},
+{
+	"id": 183,
+	"name": {
+		"first": "Joseph",
+		"last": "Joachim",
+		"alt": ["Joachim József"]
+	},
+	"dateBirth": {
+		"yyyy": "1831",
+		"mm": "06",
+		"dd": "28"
+	},
+	"dateDeath": {
+		"yyyy": "1907",
+		"mm": "08",
+		"dd": "15"
+	},
+	"placeBirth": "Köpcsény, Hungary",
+	"placeDeath": "Berlin, Germany",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "imp",
+	"group": ["Violinist", "Conductor", "Teacher", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Joseph_Joachim%2C_by_Philip_Alexius_de_L%C3%A1szl%C3%B3%2C_1903.jpg/493px-Joseph_Joachim%2C_by_Philip_Alexius_de_L%C3%A1szl%C3%B3%2C_1903.jpg"
 }]
