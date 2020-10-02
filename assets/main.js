@@ -54,6 +54,7 @@ const defaultLayout = {
 		enabled: true,
 		direction: "UD",
 		levelSeparation: 21,
+		treeSpacing: 100,
 		sortMethod: "hubsize"
 		// shakeTowards: "leaves"
 	},
@@ -566,16 +567,23 @@ saveButton.addEventListener("click", () => {
 		}
 		drawNetwork(layout)
 	} else {
+		const levelSeparation = Number(document.getElementById("levelSeparationBox").value) || 21
+		const treeSpacing = Number(document.getElementById("treeSpacingBox").value) || 100
+		const direction = document.getElementById("directionSel").value
+		const sortMethod = document.getElementById("sortMethodSel").value
+		const shakeTowards = document.getElementById("shakeTowardsSel").value
+
 		const layout = {
 			hierarchical: {
 				enabled: true,
-				direction: "UD",
-				levelSeparation: 21,
-				sortMethod: "hubsize"
-				// shakeTowards: "leaves"
-			},
-			randomSeed: undefined
+				direction: direction,
+				levelSeparation: levelSeparation,
+				treeSpacing: treeSpacing,
+				sortMethod: sortMethod,
+				shakeTowards: shakeTowards
+			}
 		}
+		console.log(layout)
 		drawNetwork(layout)
 	}
 })

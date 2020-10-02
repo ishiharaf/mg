@@ -74,7 +74,32 @@
 				<label for="random">Random</label>
 			</section>
 			<section id="hierarchyLayout">
-
+				<label for="levelSeparation">Level Separation:</label>
+				<input type="text" name="levelSeparation" id="levelSeparationBox" value="21">
+				<br>
+				<label for="treeSpacing">Tree Spacing:</label>
+				<input type="text" name="treeSpacing" id="treeSpacingBox" value="100">
+				<br>
+				<label for="direction">Direction:</label>
+				<select name="direction" id="directionSel">
+					<option value="UD">Up-down</option>
+					<option value="DU">Down-up</option>
+					<option value="LR">Left-right</option>
+					<option value="RL">Right-left</option>
+				</select>
+				<br>
+				<label for="sortMethod">Sort Method:</label>
+				<select name="sortMethod" id="sortMethodSel">
+					<option value="hubsize">Hubsize</option>
+					<option value="directed">Directed</option>>
+				</select>
+				<br>
+				<label for="shakeTowards">Shake Towards:</label>
+				<select name="shakeTowards" id="shakeTowardsSel">
+					<option value="roots">Roots</option>
+					<option value="leaves">Leaves</option>>
+				</select>
+				<br>
 			</section>
 			<section id="randomLayout">
 				<div>Seed</div>
