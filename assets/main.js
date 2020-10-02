@@ -56,7 +56,6 @@ const defaultLayout = {
 		levelSeparation: 21,
 		treeSpacing: 100,
 		sortMethod: "hubsize"
-		// shakeTowards: "leaves"
 	}
 }
 
@@ -154,6 +153,7 @@ const drawNetwork = (userLayout) => {
 const filterSection = document.getElementById("filter")
 const filterButton = document.getElementById("filterBtn")
 const closeFilter = document.getElementById("closeFilter")
+const searchButton = document.getElementById("searchBtn")
 
 const configSection = document.getElementById("config")
 const configButton = document.getElementById("configBtn")
@@ -545,6 +545,9 @@ filterButton.addEventListener("click", () => {
 })
 closeFilter.addEventListener("click", () => {
 	filterSection.style.display = "none"
+})
+searchButton.addEventListener("click", () => {
+
 })
 
 configButton.addEventListener("click", () => {
