@@ -141,6 +141,9 @@ body {
 	opacity: 0.95;
 	box-shadow: 5px 5px 3px #0a090881;
 }
+#filterCard > div {
+	padding-bottom: 10px;
+}
 
 #config {
 	display: none;
