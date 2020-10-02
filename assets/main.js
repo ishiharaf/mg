@@ -509,6 +509,7 @@ const closeOpenedCard = () => {
 }
 
 helpButton.addEventListener("click", () => {
+	closeOpenedCard()
 	helpText.style.display = "block"
 	helpLegend.style.display = "block"
 	closeHelp.style.display = "block"
