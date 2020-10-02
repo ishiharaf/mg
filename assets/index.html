@@ -6,19 +6,19 @@
 	<script type="module" src="vis-network.js"></script>
 	<script type="module" src="main.js"></script>
 	<link rel="stylesheet" href="main.css">
-	<title>MusGen</title>
+	<title>mg</title>
 </head>
 <body>
 	<div id="network"></div>
 
-	<section>
-		<div id="filter">&#8981</div>
+	<div id="filterBtn">&#8981</div>
+	<section id="filter">
 		<div id="closeFilter" aria-hidden="true">&times;</div>
 		<div id="filterCard"></div>
 	</section>
 
-	<section>
-		<div id="help">?</div>
+	<div id="helpBtn">?</div>
+	<section id="help">
 		<div id="closeHelp" aria-hidden="true">&times;</div>
 		<div id="helpCard">
 			<p>This project aims to display in a visual way how musicians of the past were connected to each other.</p>
@@ -45,9 +45,9 @@
 		</div>
 	</section>
 
-	<section>
-		<div id="closeInfo" aria-hidden="true">&times;</div>
+	<section id="info">
 		<div id="image"></div>
+		<div id="closeInfo" aria-hidden="true">&times;</div>
 		<div id="infoCard">
 			<div id="name"></div>
 			<div id="alt"></div>
@@ -55,6 +55,7 @@
 			<div id="occupation"></div>
 			<div id="relation"></div>
 		</div>
+
 		<div id="sourceCard">
 			<div id="citation"></div>
 			<div id="extract"></div>

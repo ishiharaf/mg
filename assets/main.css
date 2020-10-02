@@ -13,6 +13,9 @@ body {
 }
 
 #filter {
+	display: none;
+}
+#filterBtn {
 	position: absolute;
 	top: 10px;
 	left: 23px;
@@ -25,6 +28,9 @@ body {
 }
 
 #help {
+	display: none;
+}
+#helpBtn {
 	position: absolute;
 	bottom: 20px;
 	right: 23px;
@@ -46,7 +52,6 @@ body {
 	cursor: pointer;
 	z-index: 1;
 	text-shadow: 0px 0px 2px #0a090881;
-	display: none;
 }
 #closeHelp:hover {
 	color: #f9f9f9;
@@ -64,7 +69,6 @@ body {
 	opacity: 0.95;
 	box-shadow: 5px 5px 3px #0a090881;
 	overflow-wrap: normal;
-	display: none;
 }
 #legendCard {
 	width: auto;
@@ -78,7 +82,6 @@ body {
 	color: #f9f9f9;
 	opacity: 0.95;
 	box-shadow: 2px 2px 2px #0a090881;
-	display: none;
 }
 #legendCard > p {
 	padding: 0;
@@ -96,6 +99,9 @@ body {
 .person.roy {color: #679436}
 .person.reg {color: #625556}
 
+#info {
+	display: none;
+}
 #infoCard {
 	width: auto;
 	height: auto;
@@ -109,7 +115,6 @@ body {
 	opacity: 0.95;
 	box-shadow: 5px 5px 3px #0a090881;
 	overflow-wrap: normal;
-	display: none;
 }
 #closeInfo {
 	position: absolute;
@@ -120,7 +125,6 @@ body {
 	z-index: 1;
 	cursor: pointer;
 	text-shadow: 0px 0px 2px #0a090881;
-	display: none;
 }
 #closeInfo:hover {
 	color: #f9f9f9;
@@ -132,12 +136,12 @@ body {
 	width: 100px;
 	height: 100px;
 	z-index: 1;
-	display: none;
 	overflow: hidden;
 	border-radius: 50%;
 	border-color: 1px solid #0a0908;
 	box-shadow: 1px 1px 2px #0a090881;
 	cursor: pointer;
+	display: none;
 }
 #image > img {
 	width: 100%;

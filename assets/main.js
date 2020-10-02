@@ -149,13 +149,15 @@ const drawNetwork = () => {
 	network.on("click", openInfoCard)
 }
 
+const helpSection = document.getElementById("help")
+const helpButton = document.getElementById("helpBtn")
 const closeHelp = document.getElementById("closeHelp")
-const helpCard = document.getElementById("helpCard")
-const legendCard = document.getElementById("legendCard")
-const helpButton = document.getElementById("help")
-const closeInfo = document.getElementById("closeInfo")
-const infoCard = document.getElementById("infoCard")
+
+const infoSection = document.getElementById("info")
 const imgDiv = document.getElementById("image")
+const infoCard = document.getElementById("infoCard")
+const closeInfo = document.getElementById("closeInfo")
+
 const sourceCard = document.getElementById("sourceCard")
 
 const openSource = (sourceId) => {
@@ -478,9 +480,8 @@ const openInfoCard = (params) => {
 		const relatedPeople = getRelated(selId, selEdge)
 
 		sourceCard.style.display = "none"
+		infoSection.style.display = "block"
 		infoCard.setAttribute("data-id", selId)
-		infoCard.style.display = "block"
-		closeInfo.style.display = "block"
 
 		assignName(selPerson)
 		assignAlt(selPerson)
@@ -502,22 +503,17 @@ const openInfoCard = (params) => {
 
 const closeInfoCard = () => {
 	imgDiv.style.display = "none"
-	infoCard.style.display = "none"
-	closeInfo.style.display = "none"
+	infoSection.style.display = "none"
 	sourceCard.style.display = "none"
 	highlightRel(0, 0)
 }
 
 helpButton.addEventListener("click", () => {
 	closeInfoCard()
-	helpCard.style.display = "block"
-	legendCard.style.display = "block"
-	closeHelp.style.display = "block"
+	helpSection.style.display = "block"
 })
 closeHelp.addEventListener("click", () => {
-	helpCard.style.display = "none"
-	legendCard.style.display = "none"
-	closeHelp.style.display = "none"
+	helpSection.style.display = "none"
 })
 closeInfo.addEventListener("click", () => {
 	closeInfoCard()
