@@ -252,8 +252,20 @@ a:visited {color: #adadad;}
 #layout > label {
 	vertical-align: top;
 }
+#hierarchyLayout {
+	padding-bottom: 5px;
+}
+#hierarchyLayout > input {
+	margin-bottom: 5px;
+	width: 100%;
+}
+#hierarchyLayout > select {
+	margin-bottom: 5px;
+	height: 22px;
+	width: 102%;
+}
 #randomLayout {
-	padding-bottom: 10px;
+	padding-bottom: 5px;
 	display: none;
 }
 #randomLayout > div {
@@ -261,8 +273,5 @@ a:visited {color: #adadad;}
 }
 #randomLayout > input {
 	margin-bottom: 5px;
-	width: 232px;
-}
-#userSeedLabel {
-	padding-left: 22px;
+	width: 100%;
 }
