@@ -154,7 +154,7 @@ const helpButton = document.getElementById("helpBtn")
 const closeHelp = document.getElementById("closeHelp")
 
 const infoSection = document.getElementById("info")
-const imgDiv = document.getElementById("image")
+const imageDiv = document.getElementById("image")
 const infoCard = document.getElementById("infoCard")
 const closeInfo = document.getElementById("closeInfo")
 
@@ -176,7 +176,7 @@ const openSource = (sourceId) => {
 
 	sourceCard.style.display = "block"
 	sourceCard.style.right = `${cardWidth}px`
-	if(imgDiv.innerHTML !== "") {
+	if(imageDiv.innerHTML !== "") {
 		sourceCard.style.top = "80px"
 	} else {
 		sourceCard.style.top = "35px"
@@ -367,23 +367,23 @@ const assignRelation = (person, people) => {
 
 const assignImg = (person) => {
 	const nameDiv = document.getElementById("name")
-	imgDiv.innerHTML = ""
+	imageDiv.innerHTML = ""
 
 	if(person.picture !== "") {
 		const imgEl = document.createElement("img")
 		imgEl.src = person.picture
 		imgEl.alt = `Image of ${nameDiv.innerHTML}`
-		imgDiv.appendChild(imgEl)
+		imageDiv.appendChild(imgEl)
 
 		const cardWidth = Math.floor(infoCard.clientWidth / 2) - 15
-		imgDiv.style.right = `${cardWidth}px`
-		imgDiv.style.display = "block"
+		imageDiv.style.right = `${cardWidth}px`
+		imageDiv.style.display = "block"
 
 		closeInfo.style.top = "78px"
 		infoCard.style.top = "80px"
 		nameDiv.style.paddingTop = "20px"
 	} else {
-		imgDiv.style.display = "none"
+		imageDiv.style.display = "none"
 		closeInfo.style.top = "33px"
 		infoCard.style.top = "35px"
 		nameDiv.style.paddingTop = "0px"
@@ -502,7 +502,7 @@ const openInfoCard = (params) => {
 }
 
 const closeInfoCard = () => {
-	imgDiv.style.display = "none"
+	imageDiv.style.display = "none"
 	infoSection.style.display = "none"
 	sourceCard.style.display = "none"
 	highlightRel(0, 0)
@@ -518,8 +518,8 @@ closeHelp.addEventListener("click", () => {
 closeInfo.addEventListener("click", () => {
 	closeInfoCard()
 })
-imgDiv.addEventListener("click", () => {
-	const imgSrc = imgDiv.lastChild.src
+imageDiv.addEventListener("click", () => {
+	const imgSrc = imageDiv.lastChild.src
 	window.open(imgSrc)
 })
 
