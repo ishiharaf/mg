@@ -515,7 +515,6 @@ helpButton.addEventListener("click", () => {
 	closeHelp.style.display = "block"
 })
 closeHelp.addEventListener("click", () => {
-	helpButton.style.display = "block"
 	helpCard.style.display = "none"
 	legendCard.style.display = "none"
 	closeHelp.style.display = "none"
