@@ -129,6 +129,79 @@ body {
 	text-shadow: 0px 0px 2px #0a090881;
 }
 
+#config {
+	display: none;
+}
+#configBtn {
+	position: absolute;
+	bottom: 20px;
+	right: 53px;
+	color: #f9f9f9;
+	opacity: 0.9;
+	font-family: Cambria;
+	font-size: 35px;
+	cursor: pointer;
+	text-shadow: 0px 0px 2px #0a090881;
+}
+#closeConfig {
+	position: absolute;
+	top: 33px;
+	right: 43px;
+	color: #adadad;
+	opacity: 0.9;
+	font-family: Cambria;
+	font-size: 35px;
+	cursor: pointer;
+	z-index: 1;
+	text-shadow: 0px 0px 2px #0a090881;
+}
+#closeConfig:hover {
+	color: #f9f9f9;
+}
+#configCard {
+	width: 220px;
+	height: auto;
+	background-color: #403d39;
+	position: absolute;
+	top: 35px;
+	right: 35px;
+	padding: 19px;
+	font-family: Cambria;
+	color: #f9f9f9;
+	opacity: 0.95;
+	box-shadow: 5px 5px 3px #0a090881;
+}
+#layout,
+#layout > div {
+	padding-bottom: 10px;
+}
+#layout > label {
+	vertical-align: top;
+}
+#hierarchyLayout {
+	padding-bottom: 5px;
+}
+#hierarchyLayout > input {
+	margin-bottom: 5px;
+	width: 100%;
+}
+#hierarchyLayout > select {
+	margin-bottom: 5px;
+	height: 22px;
+	width: 102%;
+}
+#randomLayout {
+	padding-bottom: 5px;
+	display: none;
+}
+#randomLayout > div {
+	padding-bottom: 10px;
+}
+#randomLayout > input {
+	margin-bottom: 5px;
+	width: 100%;
+}
+
 #help {
 	display: none;
 }
@@ -202,76 +275,3 @@ a:visited {color: #adadad;}
 .person.mus {color: #386fa4}
 .person.roy {color: #679436}
 .person.reg {color: #625556}
-
-#config {
-	display: none;
-}
-#configBtn {
-	position: absolute;
-	bottom: 20px;
-	right: 53px;
-	color: #f9f9f9;
-	opacity: 0.9;
-	font-family: Cambria;
-	font-size: 35px;
-	cursor: pointer;
-	text-shadow: 0px 0px 2px #0a090881;
-}
-#closeConfig {
-	position: absolute;
-	top: 33px;
-	right: 43px;
-	color: #adadad;
-	opacity: 0.9;
-	font-family: Cambria;
-	font-size: 35px;
-	cursor: pointer;
-	z-index: 1;
-	text-shadow: 0px 0px 2px #0a090881;
-}
-#closeConfig:hover {
-	color: #f9f9f9;
-}
-#configCard {
-	width: 220px;
-	height: auto;
-	background-color: #403d39;
-	position: absolute;
-	top: 35px;
-	right: 35px;
-	padding: 19px;
-	font-family: Cambria;
-	color: #f9f9f9;
-	opacity: 0.95;
-	box-shadow: 5px 5px 3px #0a090881;
-}
-#layout,
-#layout > div {
-	padding-bottom: 10px;
-}
-#layout > label {
-	vertical-align: top;
-}
-#hierarchyLayout {
-	padding-bottom: 5px;
-}
-#hierarchyLayout > input {
-	margin-bottom: 5px;
-	width: 100%;
-}
-#hierarchyLayout > select {
-	margin-bottom: 5px;
-	height: 22px;
-	width: 102%;
-}
-#randomLayout {
-	padding-bottom: 5px;
-	display: none;
-}
-#randomLayout > div {
-	padding-bottom: 10px;
-}
-#randomLayout > input {
-	margin-bottom: 5px;
-	width: 100%;
-}
