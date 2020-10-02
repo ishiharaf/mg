@@ -141,6 +141,18 @@ body {
 	opacity: 0.95;
 	box-shadow: 5px 5px 3px #0a090881;
 }
+#closeFilter {
+	position: absolute;
+	top: 33px;
+	right: 43px;
+	color: #adadad;
+	opacity: 0.9;
+	font-family: Cambria;
+	font-size: 35px;
+	cursor: pointer;
+	z-index: 1;
+	text-shadow: 0px 0px 2px #0a090881;
+}
 #filterCard > div {
 	padding-bottom: 10px;
 }

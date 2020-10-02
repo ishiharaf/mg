@@ -151,9 +151,9 @@ const drawNetwork = (userLayout) => {
 	network.on("click", openInfoCard)
 }
 
-const helpSection = document.getElementById("help")
-const helpButton = document.getElementById("helpBtn")
-const closeHelp = document.getElementById("closeHelp")
+const filterSection = document.getElementById("filter")
+const filterButton = document.getElementById("filterBtn")
+const closeFilter = document.getElementById("closeFilter")
 
 const configSection = document.getElementById("config")
 const configButton = document.getElementById("configBtn")
@@ -163,6 +163,10 @@ const randomButton = document.getElementById("randomBtn")
 const hierarchySection = document.getElementById("hierarchyLayout")
 const randomSection = document.getElementById("randomLayout")
 const saveButton = document.getElementById("saveConfig")
+
+const helpSection = document.getElementById("help")
+const helpButton = document.getElementById("helpBtn")
+const closeHelp = document.getElementById("closeHelp")
 
 const infoSection = document.getElementById("info")
 const imageDiv = document.getElementById("image")
@@ -533,6 +537,14 @@ helpButton.addEventListener("click", () => {
 })
 closeHelp.addEventListener("click", () => {
 	helpSection.style.display = "none"
+})
+
+filterButton.addEventListener("click", () => {
+	closeInfoCard()
+	filterSection.style.display = "block"
+})
+closeFilter.addEventListener("click", () => {
+	filterSection.style.display = "none"
 })
 
 configButton.addEventListener("click", () => {
