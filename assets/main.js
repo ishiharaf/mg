@@ -146,22 +146,22 @@ const drawNetwork = () => {
 	nodeData = nodes.get({returnType: "Object"})
 	edgeData = edges.get({returnType: "Object"})
 	network = new Network(container, data, options)
-	network.on("click", displayCard)
+	network.on("click", openInfoCard)
 }
 
 const closeHelp = document.getElementById("closeHelp")
-const helpText = document.getElementById("helpText")
-const helpLegend = document.getElementById("helpLegend")
+const helpCard = document.getElementById("helpCard")
+const legendCard = document.getElementById("legendCard")
 const helpButton = document.getElementById("help")
-const closeCard = document.getElementById("closeCard")
-const infoDiv = document.getElementById("infoCard")
+const closeInfo = document.getElementById("closeInfo")
+const infoCard = document.getElementById("infoCard")
 const imgDiv = document.getElementById("image")
-const sourceDiv = document.getElementById("sourceCard")
+const sourceCard = document.getElementById("sourceCard")
 
 const openSource = (sourceId) => {
-	const personId = infoDiv.getAttribute("data-id")
+	const personId = infoCard.getAttribute("data-id")
 	const selPerson = people.find(people => people.id == personId)
-	const cardWidth = Math.floor(infoDiv.clientWidth) + 40
+	const cardWidth = Math.floor(infoCard.clientWidth) + 40
 
 	const citationDiv = document.getElementById("citation")
 	citationDiv.innerHTML = ""
@@ -172,12 +172,12 @@ const openSource = (sourceId) => {
 	extractDiv.innerHTML = selPerson.source[sourceId - 1].extract
 	if (extractDiv.innerHTML !== "") extractDiv.style.marginTop = "10px"
 
-	sourceDiv.style.display = "block"
-	sourceDiv.style.right = `${cardWidth}px`
+	sourceCard.style.display = "block"
+	sourceCard.style.right = `${cardWidth}px`
 	if(imgDiv.innerHTML !== "") {
-		sourceDiv.style.top = "80px"
+		sourceCard.style.top = "80px"
 	} else {
-		sourceDiv.style.top = "35px"
+		sourceCard.style.top = "35px"
 	}
 }
 
@@ -373,16 +373,16 @@ const assignImg = (person) => {
 		imgEl.alt = `Image of ${nameDiv.innerHTML}`
 		imgDiv.appendChild(imgEl)
 
-		const cardWidth = Math.floor(infoDiv.clientWidth / 2) - 15
+		const cardWidth = Math.floor(infoCard.clientWidth / 2) - 15
 		imgDiv.style.right = `${cardWidth}px`
 		imgDiv.style.display = "block"
 
-		closeCard.style.top = "78px"
-		infoDiv.style.top = "80px"
+		closeInfo.style.top = "78px"
+		infoCard.style.top = "80px"
 		nameDiv.style.paddingTop = "20px"
 	} else {
 		imgDiv.style.display = "none"
-		closeCard.style.top = "33px"
+		closeInfo.style.top = "33px"
 		infoCard.style.top = "35px"
 		nameDiv.style.paddingTop = "0px"
 	}
@@ -470,17 +470,17 @@ const highlightRel = (selId, selLen) => {
 	network.unselectAll()
 }
 
-const displayCard = (params) => {
+const openInfoCard = (params) => {
 	if(params.nodes.length > 0) {
 		const selId = params.nodes[0]
 		const selEdge = params.edges
 		const selPerson = people.find(people => people.id == selId)
 		const relatedPeople = getRelated(selId, selEdge)
 
-		sourceDiv.style.display = "none"
-		infoDiv.setAttribute("data-id", selId)
-		infoDiv.style.display = "block"
-		closeCard.style.display = "block"
+		sourceCard.style.display = "none"
+		infoCard.setAttribute("data-id", selId)
+		infoCard.style.display = "block"
+		closeInfo.style.display = "block"
 
 		assignName(selPerson)
 		assignAlt(selPerson)
@@ -496,32 +496,32 @@ const displayCard = (params) => {
 			highlightRel(selId, params.nodes.length)
 		}
 	} else {
-		closeOpenedCard()
+		closeInfoCard()
 	}
 }
 
-const closeOpenedCard = () => {
+const closeInfoCard = () => {
 	imgDiv.style.display = "none"
-	infoDiv.style.display = "none"
-	closeCard.style.display = "none"
-	sourceDiv.style.display = "none"
+	infoCard.style.display = "none"
+	closeInfo.style.display = "none"
+	sourceCard.style.display = "none"
 	highlightRel(0, 0)
 }
 
 helpButton.addEventListener("click", () => {
-	closeOpenedCard()
-	helpText.style.display = "block"
-	helpLegend.style.display = "block"
+	closeInfoCard()
+	helpCard.style.display = "block"
+	legendCard.style.display = "block"
 	closeHelp.style.display = "block"
 })
 closeHelp.addEventListener("click", () => {
 	helpButton.style.display = "block"
-	helpText.style.display = "none"
-	helpLegend.style.display = "none"
+	helpCard.style.display = "none"
+	legendCard.style.display = "none"
 	closeHelp.style.display = "none"
 })
-closeCard.addEventListener("click", () => {
-	closeOpenedCard()
+closeInfo.addEventListener("click", () => {
+	closeInfoCard()
 })
 imgDiv.addEventListener("click", () => {
 	const imgSrc = imgDiv.lastChild.src
