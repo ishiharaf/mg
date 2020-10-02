@@ -127,6 +127,7 @@ body {
 	font-size: 35px;
 	cursor: pointer;
 	text-shadow: 0px 0px 2px #0a090881;
+	user-select: none;
 }
 #filterCard {
 	width: 220px;
@@ -160,6 +161,10 @@ body {
 	margin-bottom: 5px;
 	width: 100%;
 }
+#filterCard > #searchBtn {
+	margin-top: 5px;
+	width: 70px;
+}
 
 #config {
 	display: none;
@@ -174,6 +179,7 @@ body {
 	font-size: 35px;
 	cursor: pointer;
 	text-shadow: 0px 0px 2px #0a090881;
+	user-select: none;
 }
 #closeConfig {
 	position: absolute;
@@ -247,6 +253,7 @@ body {
 	font-size: 35px;
 	cursor: pointer;
 	text-shadow: 0px 0px 2px #0a090881;
+	user-select: none;
 }
 #closeHelp {
 	position: absolute;

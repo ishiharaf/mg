@@ -533,6 +533,9 @@ imageDiv.addEventListener("click", () => {
 
 helpButton.addEventListener("click", () => {
 	closeInfoCard()
+	configSection.style.display = "none"
+	filterSection.style.display = "none"
+
 	helpSection.style.display = "block"
 })
 closeHelp.addEventListener("click", () => {
@@ -541,6 +544,9 @@ closeHelp.addEventListener("click", () => {
 
 filterButton.addEventListener("click", () => {
 	closeInfoCard()
+	configSection.style.display = "none"
+	helpSection.style.display = "none"
+
 	filterSection.style.display = "block"
 })
 closeFilter.addEventListener("click", () => {
@@ -576,6 +582,9 @@ searchButton.addEventListener("click", () => {
 
 configButton.addEventListener("click", () => {
 	closeInfoCard()
+	filterSection.style.display = "none"
+	helpSection.style.display = "none"
+
 	configSection.style.display = "block"
 })
 closeConfig.addEventListener("click", () => {
