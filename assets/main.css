@@ -38,7 +38,7 @@ body {
 #closeHelp {
 	position: absolute;
 	top: 33px;
-	left: 346px;
+	right: 43px;
 	color: #adadad;
 	opacity: 0.9;
 	font-family: Cambria;
@@ -57,7 +57,7 @@ body {
 	background-color: #403d39;
 	position: absolute;
 	top: 35px;
-	left: 35px;
+	right: 35px;
 	padding: 19px;
 	font-family: Cambria;
 	color: #f9f9f9;
@@ -72,12 +72,12 @@ body {
 	background-color: #403d39;
 	position: absolute;
 	top: 35px;
-	left: 375px;
+	right: 377px;
 	padding: 19px;
 	font-family: Cambria;
 	color: #f9f9f9;
 	opacity: 0.95;
-	box-shadow: 5px 5px 3px #0a090881;
+	box-shadow: 2px 2px 2px #0a090881;
 	display: none;
 }
 #helpLegend > p {
