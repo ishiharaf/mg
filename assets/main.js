@@ -98,39 +98,39 @@ const drawNetwork = () => {
 	edges = new DataSet()
 	people = JSON.parse(sessionStorage.getItem("people"))
 
-	for (let item = 0; item < people.length; item++) {
-		const el = people[item]
+	for (let i = 0; i < people.length; i++) {
+		const person = people[i]
 
 		let lastName
-		if(el.name.last.slice(-1) === "]") {
-			const firstIndex = el.name.last.indexOf("[")
-			lastName = el.name.last.substring(0, firstIndex - 1)
+		if(person.name.last.slice(-1) === "]") {
+			const firstIndex = person.name.last.indexOf("[")
+			lastName = person.name.last.substring(0, firstIndex - 1)
 		} else {
-			lastName = el.name.last
+			lastName = person.name.last
 		}
 
 		let dateBirth
-		if(el.dateBirth.yyyy.substring(0, 1) === "c") {
-			dateBirth = el.dateBirth.yyyy.substring(1)
+		if(person.dateBirth.yyyy.substring(0, 1) === "c") {
+			dateBirth = person.dateBirth.yyyy.substring(1)
 		} else {
-			dateBirth = el.dateBirth.yyyy
+			dateBirth = person.dateBirth.yyyy
 		}
 
 		nodes.add({
-			id: el.id,
+			id: person.id,
 			label: lastName,
 			hiddenLabel: lastName,
-			title: `${el.name.first} ${lastName}`,
+			title: `${person.name.first} ${lastName}`,
 			level: Number(dateBirth),
-			color: palette[el.color]
+			color: palette[person.color]
 		})
 
-		const relation = el.relationship
+		const relation = person.relationship
 		for (let parent = 0; parent < relation.length; parent++) {
 			if (relation[parent].id !== "") {
 				edges.add({
 					from: relation[parent].id,
-					to: el.id,
+					to: person.id,
 					color: `#${color[relation[parent].color]}`
 				})
 			}
