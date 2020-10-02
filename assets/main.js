@@ -472,6 +472,13 @@ const highlightRel = (selId, selLen) => {
 	network.unselectAll()
 }
 
+const closeInfoCard = () => {
+	imageDiv.style.display = "none"
+	infoSection.style.display = "none"
+	sourceCard.style.display = "none"
+	highlightRel(0, 0)
+}
+
 const openInfoCard = (params) => {
 	if(params.nodes.length > 0) {
 		const selId = params.nodes[0]
@@ -499,13 +506,6 @@ const openInfoCard = (params) => {
 	} else {
 		closeInfoCard()
 	}
-}
-
-const closeInfoCard = () => {
-	imageDiv.style.display = "none"
-	infoSection.style.display = "none"
-	sourceCard.style.display = "none"
-	highlightRel(0, 0)
 }
 
 helpButton.addEventListener("click", () => {
