@@ -49,8 +49,18 @@ const palette = {
 		opacity: 1
 	}
 }
+const defaultLayout = {
+	hierarchical: {
+		enabled: true,
+		direction: "UD",
+		levelSeparation: 21,
+		sortMethod: "hubsize"
+		// shakeTowards: "leaves"
+	},
+	randomSeed: undefined
+}
 
-const drawNetwork = () => {
+const drawNetwork = (userLayout) => {
 	const options = {
 		edges: {
 			arrowStrikethrough: false,
@@ -81,15 +91,7 @@ const drawNetwork = () => {
 				borderRadius: 0
 			}
 		},
-		layout: {
-			hierarchical: {
-				enabled: true,
-				direction: "UD",
-				levelSeparation: 21,
-				sortMethod: "hubsize"
-				// shakeTowards: "leaves"
-			}
-		},
+		layout: userLayout,
 		physics:{
 			enabled: true
 		}
@@ -153,12 +155,18 @@ const helpSection = document.getElementById("help")
 const helpButton = document.getElementById("helpBtn")
 const closeHelp = document.getElementById("closeHelp")
 
+const configSection = document.getElementById("config")
+const configButton = document.getElementById("configBtn")
+const closeConfig = document.getElementById("closeConfig")
+
 const infoSection = document.getElementById("info")
 const imageDiv = document.getElementById("image")
 const infoCard = document.getElementById("infoCard")
 const closeInfo = document.getElementById("closeInfo")
 
 const sourceCard = document.getElementById("sourceCard")
+
+const saveButton = document.getElementById("saveConfig")
 
 const openSource = (sourceId) => {
 	const personId = infoCard.getAttribute("data-id")
@@ -515,12 +523,52 @@ helpButton.addEventListener("click", () => {
 closeHelp.addEventListener("click", () => {
 	helpSection.style.display = "none"
 })
+
+configButton.addEventListener("click", () => {
+	closeInfoCard()
+	configSection.style.display = "block"
+})
+closeConfig.addEventListener("click", () => {
+	configSection.style.display = "none"
+})
+
 closeInfo.addEventListener("click", () => {
 	closeInfoCard()
 })
+
 imageDiv.addEventListener("click", () => {
 	const imgSrc = imageDiv.lastChild.src
 	window.open(imgSrc)
+})
+
+saveButton.addEventListener("click", () => {
+	const layoutType = document.querySelector('input[name="layoutType"]:checked').value
+	if(layoutType === "random") {
+		const currentSeedBox = document.getElementById("currentSeedBox")
+		const currentSeed = network.getSeed()
+		currentSeedBox.value = currentSeed || ""
+
+		const userSeedBox = document.getElementById("userSeedBox")
+		const userSeed = userSeedBox.value || undefined
+
+		const layout = {
+			hierarchical: false,
+			randomSeed: userSeed
+		}
+		drawNetwork(layout)
+	} else {
+		const layout = {
+			hierarchical: {
+				enabled: true,
+				direction: "UD",
+				levelSeparation: 21,
+				sortMethod: "hubsize"
+				// shakeTowards: "leaves"
+			},
+			randomSeed: undefined
+		}
+		drawNetwork(layout)
+	}
 })
 
 const fetchData = async() => {
@@ -535,5 +583,5 @@ const fetchData = async() => {
 window.onload = async() => {
 	const people = await fetchData()
 	sessionStorage.setItem("people", JSON.stringify(people))
-	drawNetwork()
+	drawNetwork(defaultLayout)
 }

@@ -65,7 +65,23 @@
 	<div id="configBtn">&#9881</div>
 	<section id="config">
 		<div id="closeConfig" aria-hidden="true">&times;</div>
-		<div id="configCard"></div>
+		<div id="configCard">
+			<section id="layout">
+				<div>Layout</div>
+				<input type="radio" name="layoutType" value="hierarchical" id="hierarchyBtn" checked>
+				<label for="hierarchical">Hierarchical</label>
+				<input type="radio" name="layoutType" value="random" id="randomBtn">
+				<label for="random">Random</label>
+			</section>
+			<section id="layoutRandom">
+				<div>Seed</div>
+				<label for="currentSeed">Current:</label>
+				<input type="text" name="currentSeed" id="currentSeedBox">
+				<label for="userSeed">User:</label>
+				<input type="text" name="userSeed" id="userSeedBox">
+			</section>
+			<input type="button" id="saveConfig" value="Save">
+		</div>
 	</section>
 </body>
 </html>
