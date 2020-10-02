@@ -144,6 +144,10 @@ body {
 #filterCard > div {
 	padding-bottom: 10px;
 }
+#filterCard > input {
+	margin-bottom: 5px;
+	width: 100%;
+}
 
 #config {
 	display: none;
