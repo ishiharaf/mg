@@ -610,6 +610,7 @@ saveButton.addEventListener("click", () => {
 
 		const layout = {
 			hierarchical: false,
+			improvedLayout: false,
 			randomSeed: userSeed
 		}
 		drawNetwork(layout)
