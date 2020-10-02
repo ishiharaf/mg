@@ -48,11 +48,11 @@ hierarchical: {
 You can contribute by adding more musicians to `people.json`, reviewing existing data to verify its correctness and consistency, or by adding sources and missing information. Suggestions are also welcome. You can do this by creating a pull request or by filing an issue.
 
 ### Who NOT to add
-- **People who don't have a date of birth**. Because the position of said person on the graph is calculated using the date of birth.
-- **Non-musicians**. There is a reason to include Vivaldi's father, because not only he was a musician, he was also Vivaldi's teacher. But there is no reason to include Vivaldi's mother, for example.
-- **Modern-day musicians**. By modern-day musicians I mean, living and under a certain age. This is to avoid people claiming to be "*part of the* (insert musician here) *lineage*".
+- **People with an unknown date of birth**. Because the position of someone on the graph is calculated using the date of birth, it's impossible to add them while keeping a hierarchical layout.
+- **Non-musicians**. There is a reason to include Vivaldi's father, because not only he was a musician, he was also his teacher. But there is no reason to include his mother, for example.
+- **Contemporary musicians**. By contemporary musicians I mean, living musicians. This is to avoid people claiming to be "*part of the* (insert musician here) *lineage*".
 
-Exceptions are allowed, but unless said person is extremely relevant to the history of music, he/she will be rejected.
+Exceptions are allowed, but unless said person is extremely relevant to the history of music, he/she will be rejected. Patrons of music are usually allowed.
 
 To see detailed instructions on how to edit see the [CONTRIBUTING](CONTRIBUTING.md) file.
 
