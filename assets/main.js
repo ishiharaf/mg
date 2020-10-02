@@ -158,6 +158,11 @@ const closeHelp = document.getElementById("closeHelp")
 const configSection = document.getElementById("config")
 const configButton = document.getElementById("configBtn")
 const closeConfig = document.getElementById("closeConfig")
+const hierarchyButton = document.getElementById("hierarchyBtn")
+const randomButton = document.getElementById("randomBtn")
+const hierarchySection = document.getElementById("hierarchyLayout")
+const randomSection = document.getElementById("randomLayout")
+const saveButton = document.getElementById("saveConfig")
 
 const infoSection = document.getElementById("info")
 const imageDiv = document.getElementById("image")
@@ -165,8 +170,6 @@ const infoCard = document.getElementById("infoCard")
 const closeInfo = document.getElementById("closeInfo")
 
 const sourceCard = document.getElementById("sourceCard")
-
-const saveButton = document.getElementById("saveConfig")
 
 const openSource = (sourceId) => {
 	const personId = infoCard.getAttribute("data-id")
@@ -516,6 +519,14 @@ const openInfoCard = (params) => {
 	}
 }
 
+closeInfo.addEventListener("click", () => {
+	closeInfoCard()
+})
+imageDiv.addEventListener("click", () => {
+	const imgSrc = imageDiv.lastChild.src
+	window.open(imgSrc)
+})
+
 helpButton.addEventListener("click", () => {
 	closeInfoCard()
 	helpSection.style.display = "block"
@@ -531,16 +542,14 @@ configButton.addEventListener("click", () => {
 closeConfig.addEventListener("click", () => {
 	configSection.style.display = "none"
 })
-
-closeInfo.addEventListener("click", () => {
-	closeInfoCard()
+hierarchyButton.addEventListener("click", () => {
+	hierarchySection.style.display = "block"
+	randomSection.style.display = "none"
 })
-
-imageDiv.addEventListener("click", () => {
-	const imgSrc = imageDiv.lastChild.src
-	window.open(imgSrc)
+randomButton.addEventListener("click", () => {
+	hierarchySection.style.display = "none"
+	randomSection.style.display = "block"
 })
-
 saveButton.addEventListener("click", () => {
 	const layoutType = document.querySelector('input[name="layoutType"]:checked').value
 	if(layoutType === "random") {
