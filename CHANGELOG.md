@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.0.5 (2020/10/01)
+### Changed
+- Migrated repository from Gitlab to Github
+
+## 0.0.4 (2020/09/28)
+### Changed
+- Readme updated
+### Fixed
+- Fixed how the network is rendered
+### Added
+- Add highlight functionality when a node is selected
+
 ## 0.0.3 (2020/09/25)
 ### Changed
 - Readme updated
@@ -12,6 +24,8 @@
 ### Changed
 - Created git repository
 ### Added
+- Added information card
+- Added help card with legend
 - Added [README.md](README.md)
 - Added [CHANGELOG.md](CHANGELOG.md)
 - Added [LICENSE.md](LICENSE.md)
