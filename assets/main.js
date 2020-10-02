@@ -547,7 +547,31 @@ closeFilter.addEventListener("click", () => {
 	filterSection.style.display = "none"
 })
 searchButton.addEventListener("click", () => {
+	const nameFilter = String(document.getElementById("nameFilterBox").value)
+	const placeFilter = String(document.getElementById("birthPlaceFilterBox").value)
+	const dateFilter = String(document.getElementById("birthDateFilterBox").value)
 
+	const nameRegExp = new RegExp(nameFilter, "ig")
+	const placeRegExp = new RegExp(placeFilter, "ig")
+	const dateRegExp = new RegExp(dateFilter, "ig")
+
+	let names = []
+	let places = []
+	let dates = []
+
+	for (let i = 0; i < people.length; i++) {
+		const person = people[i]
+		const id = person.id
+		const name = `${person.name.first} ${person.name.last}`
+		const place = person.placeBirth
+		const date = person.dateBirth.yyyy
+
+		if(name.match(nameRegExp)) names.push(id)
+		if(place.match(placeRegExp)) places.push(id)
+		if(date.match(dateRegExp)) dates.push(id)
+	}
+
+	console.log(names)
 })
 
 configButton.addEventListener("click", () => {
