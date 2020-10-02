@@ -1,14 +1,5 @@
 import {DataSet, Network} from "./vis-network.js"
 
-const fetchData = async() => {
-	try {
-		const res = await fetch("/data", {method: "GET"})
-		return res.json()
-	} catch(error) {
-		console.log(error)
-	}
-}
-
 let network
 let people
 let nodes
@@ -505,8 +496,16 @@ const displayCard = (params) => {
 			highlightRel(selId, params.nodes.length)
 		}
 	} else {
-		highlightRel(0, 0)
+		closeOpenedCard()
 	}
+}
+
+const closeOpenedCard = () => {
+	imgDiv.style.display = "none"
+	infoDiv.style.display = "none"
+	closeCard.style.display = "none"
+	sourceDiv.style.display = "none"
+	highlightRel(0, 0)
 }
 
 helpButton.addEventListener("click", () => {
@@ -522,16 +521,21 @@ closeHelp.addEventListener("click", () => {
 	closeHelp.style.display = "none"
 })
 closeCard.addEventListener("click", () => {
-	imgDiv.style.display = "none"
-	infoDiv.style.display = "none"
-	closeCard.style.display = "none"
-	sourceDiv.style.display = "none"
-	highlightRel(0, 0)
+	closeOpenedCard()
 })
 imgDiv.addEventListener("click", () => {
 	const imgSrc = imgDiv.lastChild.src
 	window.open(imgSrc)
 })
+
+const fetchData = async() => {
+	try {
+		const res = await fetch("/data", {method: "GET"})
+		return res.json()
+	} catch(error) {
+		console.log(error)
+	}
+}
 
 window.onload = async() => {
 	const people = await fetchData()
