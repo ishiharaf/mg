@@ -613,9 +613,7 @@ searchButton.addEventListener("click", () => {
 	const placeRegExp = new RegExp(placeFilter, "ig")
 	const dateRegExp = new RegExp(dateFilter, "ig")
 
-	let names = []
-	let places = []
-	let dates = []
+	let matchAll = []
 
 	for (let i = 0; i < people.length; i++) {
 		const person = people[i]
@@ -624,12 +622,21 @@ searchButton.addEventListener("click", () => {
 		const place = person.placeBirth
 		const date = person.dateBirth.yyyy
 
-		if(name.match(nameRegExp)) names.push(id)
-		if(place.match(placeRegExp)) places.push(id)
-		if(date.match(dateRegExp)) dates.push(id)
+		if(nameFilter !== "") {
+			if(name.match(nameRegExp)) matchAll.push(id)
+		}
+		if(placeFilter !== "") {
+			if(place.match(placeRegExp)) matchAll.push(id)
+		}
+		if(dateFilter !== "") {
+			if(date.match(dateRegExp)) matchAll.push(id)
+		}
 	}
 
-	console.log(names)
+	const result = Array.from(new Set(matchAll))
+
+	network.selectNodes(result, false)
+	console.log(result)
 })
 
 configButton.addEventListener("click", () => {
