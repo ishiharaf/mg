@@ -146,6 +146,10 @@ const drawNetwork = (userLayout) => {
 
 	nodeData = nodes.get({returnType: "Object"})
 	edgeData = edges.get({returnType: "Object"})
+	for (let edgeId in edgeData) {
+		edgeColor[edgeId] = edgeData[edgeId].color
+	}
+
 	network = new Network(container, data, options)
 	network.on("click", openInfoCard)
 }
@@ -418,7 +422,6 @@ const highlightRel = (selId, selLen) => {
 			nodeData[nodeId].label = undefined
 		}
 		for (let edgeId in edgeData) {
-			edgeColor[edgeId] = edgeData[edgeId].color
 			edgeData[edgeId].color = {
 				color: edgeColor[edgeId],
 				opacity: 0.3
@@ -498,7 +501,6 @@ const highlightResult = (selNodes) => {
 
 	let updateEdges = []
 	for (let edgeId in edgeData) {
-		edgeColor[edgeId] = edgeData[edgeId].color
 		edgeData[edgeId].color = {
 			color: edgeColor[edgeId],
 			opacity: 0.3
@@ -513,12 +515,11 @@ const highlightResult = (selNodes) => {
 	}
 
 	network.selectNodes(selNodes, false)
-
 	nodes.update(updateNodes)
 	edges.update(updateEdges)
 }
 
-const fetchRandom = () => {
+const getRandom = () => {
 	const currentSeedBox = document.getElementById("currentSeedBox")
 	const currentSeed = network.getSeed()
 	currentSeedBox.value = currentSeed || ""
@@ -535,7 +536,7 @@ const fetchRandom = () => {
 	return layout
 }
 
-const fetchHierarchy = () => {
+const getHierarchy = () => {
 	const levelSeparation = Number(document.getElementById("levelSeparationBox").value) || 21
 	const treeSpacing = Number(document.getElementById("treeSpacingBox").value) || 100
 	const direction = String(document.getElementById("directionSel").value)
@@ -554,6 +555,39 @@ const fetchHierarchy = () => {
 	}
 
 	return layout
+}
+
+const getResult = () => {
+	const nameFilter = String(document.getElementById("nameFilterBox").value)
+	const placeFilter = String(document.getElementById("birthPlaceFilterBox").value)
+	const dateFilter = String(document.getElementById("birthDateFilterBox").value)
+
+	const nameRegExp = new RegExp(nameFilter, "ig")
+	const placeRegExp = new RegExp(placeFilter, "ig")
+	const dateRegExp = new RegExp(dateFilter, "ig")
+
+	let matchAll = []
+
+	for (let i = 0; i < people.length; i++) {
+		const person = people[i]
+		const id = person.id
+		const name = `${person.name.first} ${person.name.last}`
+		const place = person.placeBirth
+		const date = person.dateBirth.yyyy
+
+		if(nameFilter !== "") {
+			if(name.match(nameRegExp)) matchAll.push(id)
+		}
+		if(placeFilter !== "") {
+			if(place.match(placeRegExp)) matchAll.push(id)
+		}
+		if(dateFilter !== "") {
+			if(date.match(dateRegExp)) matchAll.push(id)
+		}
+	}
+
+	const result = Array.from(new Set(matchAll))
+	return result
 }
 
 const closeInfoCard = () => {
@@ -636,38 +670,8 @@ closeFilter.addEventListener("click", () => {
 	closeFilterCard()
 })
 searchButton.addEventListener("click", () => {
-	const nameFilter = String(document.getElementById("nameFilterBox").value)
-	const placeFilter = String(document.getElementById("birthPlaceFilterBox").value)
-	const dateFilter = String(document.getElementById("birthDateFilterBox").value)
-
-	const nameRegExp = new RegExp(nameFilter, "ig")
-	const placeRegExp = new RegExp(placeFilter, "ig")
-	const dateRegExp = new RegExp(dateFilter, "ig")
-
-	let matchAll = []
-
-	for (let i = 0; i < people.length; i++) {
-		const person = people[i]
-		const id = person.id
-		const name = `${person.name.first} ${person.name.last}`
-		const place = person.placeBirth
-		const date = person.dateBirth.yyyy
-
-		if(nameFilter !== "") {
-			if(name.match(nameRegExp)) matchAll.push(id)
-		}
-		if(placeFilter !== "") {
-			if(place.match(placeRegExp)) matchAll.push(id)
-		}
-		if(dateFilter !== "") {
-			if(date.match(dateRegExp)) matchAll.push(id)
-		}
-	}
-
-	const result = Array.from(new Set(matchAll))
-
+	const result = getResult()
 	highlightResult(result)
-	console.log(result)
 })
 
 configButton.addEventListener("click", () => {
@@ -691,10 +695,10 @@ randomButton.addEventListener("click", () => {
 saveButton.addEventListener("click", () => {
 	const layoutType = document.querySelector('input[name="layoutType"]:checked').value
 	if(layoutType === "random") {
-		const layout = fetchRandom()
+		const layout = getRandom()
 		drawNetwork(layout)
 	} else {
-		const layout = fetchHierarchy()
+		const layout = getHierarchy()
 		drawNetwork(layout)
 	}
 })
