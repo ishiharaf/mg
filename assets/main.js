@@ -484,7 +484,38 @@ const highlightRel = (selId, selLen) => {
 	}
 	nodes.update(updateNodes)
 	edges.update(updateEdges)
-	network.unselectAll()
+}
+
+const highlightResult = (selNodes) => {
+	highlight = true
+
+	let updateNodes = []
+	for (let nodeId in nodeData) {
+		nodeData[nodeId].opacity = 0.3
+		nodeData[nodeId].label = undefined
+		updateNodes.push(nodeData[nodeId])
+	}
+
+	let updateEdges = []
+	for (let edgeId in edgeData) {
+		edgeColor[edgeId] = edgeData[edgeId].color
+		edgeData[edgeId].color = {
+			color: edgeColor[edgeId],
+			opacity: 0.3
+		}
+		edgeData[edgeId].width = 1
+		updateEdges.push(edgeData[edgeId])
+	}
+
+	for (let i = 0; i < selNodes.length; i++) {
+		nodeData[selNodes[i]].opacity = 1
+		nodeData[selNodes[i]].label = nodeData[selNodes[i]].hiddenLabel
+	}
+
+	network.selectNodes(selNodes, false)
+
+	nodes.update(updateNodes)
+	edges.update(updateEdges)
 }
 
 const fetchRandom = () => {
@@ -635,7 +666,7 @@ searchButton.addEventListener("click", () => {
 
 	const result = Array.from(new Set(matchAll))
 
-	network.selectNodes(result, false)
+	highlightResult(result)
 	console.log(result)
 })
 
