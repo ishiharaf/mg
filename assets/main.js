@@ -590,6 +590,36 @@ const getResult = () => {
 	return result
 }
 
+const setDefaultConfig = () => {
+	const currentSeedBox = document.getElementById("currentSeedBox")
+	const userSeedBox = document.getElementById("userSeedBox")
+
+	const levelSeparation = document.getElementById("levelSeparationBox")
+	const treeSpacing = document.getElementById("treeSpacingBox")
+	const direction = document.getElementById("directionSel")
+	const sortMethod = document.getElementById("sortMethodSel")
+	const shakeTowards = document.getElementById("shakeTowardsSel")
+
+	const nameFilter = document.getElementById("nameFilterBox")
+	const placeFilter = document.getElementById("birthPlaceFilterBox")
+	const dateFilter = document.getElementById("birthDateFilterBox")
+
+	currentSeedBox.value = ""
+	userSeedBox.value = ""
+
+	levelSeparation.value = 21
+	treeSpacing.value = 100
+	direction.value = "UD"
+	sortMethod.value = "hubsize"
+	shakeTowards.value = "roots"
+
+	nameFilter.value = ""
+	placeFilter.value = ""
+	dateFilter.value = ""
+
+	hierarchyButton.checked = true
+}
+
 const closeInfoCard = () => {
 	imageDiv.style.display = "none"
 	infoSection.style.display = "none"
@@ -715,5 +745,6 @@ const fetchData = async() => {
 window.onload = async() => {
 	const people = await fetchData()
 	sessionStorage.setItem("people", JSON.stringify(people))
+	setDefaultConfig()
 	drawNetwork(defaultLayout)
 }
