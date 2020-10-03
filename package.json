@@ -1,21 +1,21 @@
 {
-  "name": "musgen",
-  "version": "0.0.3",
+  "name": "mg",
+  "version": "0.0.6",
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/f.ishihara/musgen.git"
+    "url": "git+https://github.com/IshiharaFelipe/mg.git"
   },
-  "author": "Ishihara",
+  "author": "Ishihara Felipe",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://gitlab.com/f.ishihara/musgen/issues"
+    "url": "https://github.com/IshiharaFelipe/mg/issues"
   },
-  "homepage": "https://gitlab.com/f.ishihara/musgen#readme",
+  "homepage": "https://github.com/IshiharaFelipe/mg#readme",
   "dependencies": {
     "express": "^4.17.1"
   }

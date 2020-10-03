@@ -1,12 +1,23 @@
 # Changelog
 
+## 0.0.6 (2020/10/03)
+### Changed
+- Changed project structure
+- Updated [package.json](package.json)
+### Fixed
+- Fixed bug that made every edge color blue when removing highlight
+### Added
+- Added search menu
+- Added config menu
+- Added favicon
+
 ## 0.0.5 (2020/10/01)
 ### Changed
 - Migrated repository from Gitlab to Github
 
 ## 0.0.4 (2020/09/28)
 ### Changed
-- Readme updated
+- [README.md](README.md) updated
 ### Fixed
 - Fixed how the network is rendered
 ### Added
@@ -14,7 +25,7 @@
 
 ## 0.0.3 (2020/09/25)
 ### Changed
-- Readme updated
+- [README.md](README.md) updated
 - network.on("click") listener updated and previous code moved to separate functions
 ### Added
 - Added [CONTRIBUTING.md](CONTRIBUTING.md)
