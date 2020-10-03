@@ -1,4 +1,4 @@
-import {DataSet, Network} from "./vis-network.js"
+import {DataSet, Network} from "../lib/vis-network.js"
 
 let network
 let people
