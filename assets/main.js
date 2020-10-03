@@ -59,7 +59,14 @@ const defaultLayout = {
 	}
 }
 
-const drawNetwork = (userLayout) => {
+const defaultArrows = {
+	enabled: true,
+	type: "horizontal",
+	forceDirection: "vertical",
+	roundness: 0.5
+}
+
+const drawNetwork = (userLayout, userArrows) => {
 	const options = {
 		edges: {
 			arrowStrikethrough: false,
@@ -68,12 +75,7 @@ const drawNetwork = (userLayout) => {
 					enabled: true
 				}
 			},
-			smooth: {
-				enabled: true,
-				type: "horizontal",
-				forceDirection: "vertical",
-				roundness: 0.5
-			},
+			smooth: userArrows,
 			physics: false,
 			selectionWidth: 2,
 			width: 2
@@ -519,6 +521,21 @@ const highlightResult = (selNodes) => {
 	edges.update(updateEdges)
 }
 
+const getArrows = () => {
+	const arrowType = String(document.getElementById("arrowTypeSel").value)
+	const forceDirection = String(document.getElementById("forceDirectionSel").value)
+	const roundness = Number(document.getElementById("roundnessBox").value) || 0.5
+
+	const arrows = {
+		enabled: true,
+		type: arrowType,
+		forceDirection: forceDirection,
+		roundness: roundness
+	}
+
+	return arrows
+}
+
 const getRandom = () => {
 	const currentSeedBox = document.getElementById("currentSeedBox")
 	const currentSeed = network.getSeed()
@@ -540,17 +557,13 @@ const getHierarchy = () => {
 	const levelSeparation = Number(document.getElementById("levelSeparationBox").value) || 21
 	const treeSpacing = Number(document.getElementById("treeSpacingBox").value) || 100
 	const direction = String(document.getElementById("directionSel").value)
-	const sortMethod = String(document.getElementById("sortMethodSel").value)
-	const shakeTowards = String(document.getElementById("shakeTowardsSel").value)
 
 	const layout = {
 		hierarchical: {
 			enabled: true,
 			direction: direction,
 			levelSeparation: levelSeparation,
-			treeSpacing: treeSpacing,
-			sortMethod: sortMethod,
-			shakeTowards: shakeTowards
+			treeSpacing: treeSpacing
 		}
 	}
 
@@ -594,11 +607,13 @@ const setDefaultConfig = () => {
 	const currentSeedBox = document.getElementById("currentSeedBox")
 	const userSeedBox = document.getElementById("userSeedBox")
 
+	const arrowType = document.getElementById("arrowTypeSel")
+	const forceDirection = document.getElementById("forceDirectionSel")
+	const roundness = document.getElementById("roundnessBox")
+
 	const levelSeparation = document.getElementById("levelSeparationBox")
 	const treeSpacing = document.getElementById("treeSpacingBox")
 	const direction = document.getElementById("directionSel")
-	const sortMethod = document.getElementById("sortMethodSel")
-	const shakeTowards = document.getElementById("shakeTowardsSel")
 
 	const nameFilter = document.getElementById("nameFilterBox")
 	const placeFilter = document.getElementById("birthPlaceFilterBox")
@@ -607,11 +622,13 @@ const setDefaultConfig = () => {
 	currentSeedBox.value = ""
 	userSeedBox.value = ""
 
+	arrowType.value = "horizontal"
+	forceDirection.value = "vertical"
+	roundness.value = "0.5"
+
 	levelSeparation.value = 21
 	treeSpacing.value = 100
 	direction.value = "UD"
-	sortMethod.value = "hubsize"
-	shakeTowards.value = "roots"
 
 	nameFilter.value = ""
 	placeFilter.value = ""
@@ -724,12 +741,14 @@ randomButton.addEventListener("click", () => {
 })
 saveButton.addEventListener("click", () => {
 	const layoutType = document.querySelector('input[name="layoutType"]:checked').value
+	const arrows = getArrows()
+
 	if(layoutType === "random") {
 		const layout = getRandom()
-		drawNetwork(layout)
+		drawNetwork(layout, arrows)
 	} else {
 		const layout = getHierarchy()
-		drawNetwork(layout)
+		drawNetwork(layout, arrows)
 	}
 })
 
@@ -746,5 +765,5 @@ window.onload = async() => {
 	const people = await fetchData()
 	sessionStorage.setItem("people", JSON.stringify(people))
 	setDefaultConfig()
-	drawNetwork(defaultLayout)
+	drawNetwork(defaultLayout, defaultArrows)
 }

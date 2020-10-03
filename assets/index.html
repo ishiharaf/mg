@@ -53,6 +53,32 @@
 	<section id="config">
 		<div id="closeConfig" aria-hidden="true">&times;</div>
 		<div id="configCard">
+			<section id="arrows">
+				<div>Options</div>
+				<label for="arrowType">Arrow type:</label>
+				<select name="arrowType" id="arrowTypeSel">
+					<option value="dynamic">Dynamic</option>
+					<option value="continuous">Continuous</option>
+					<option value="discrete">Discrete</option>
+					<option value="diagonalCross">DiagonalCross</option>
+					<option value="straightCross">StraightCross</option>
+					<option value="horizontal">Horizontal</option>
+					<option value="vertical">Vertical</option>
+					<option value="curvedCW">Curved Clockwise</option>
+					<option value="curvedCCW">Curved Counter-clockwise</option>
+					<option value="cubicBezier">Cubic Bezier</option>
+				</select>
+				<br>
+				<label for="forceDirection">Force direction:</label>
+				<select name="forceDirection" id="forceDirectionSel">
+					<option value="horizontal">Horizontal</option>
+					<option value="vertical">Vertical</option>
+					<option value="none">None</option>
+				</select>
+				<br>
+				<label for="roundness">Roundness:</label>
+				<input type="text" name="roundness" id="roundnessBox" value="0.5">
+			</section>
 			<section id="layout">
 				<div>Layout</div>
 				<input type="radio" name="layoutType" value="hierarchical" id="hierarchyBtn" checked>
@@ -75,24 +101,12 @@
 					<option value="RL">Right-left</option>
 				</select>
 				<br>
-				<label for="sortMethod">Sort Method:</label>
-				<select name="sortMethod" id="sortMethodSel">
-					<option value="hubsize">Hubsize</option>
-					<option value="directed">Directed</option>
-				</select>
-				<br>
-				<label for="shakeTowards">Shake Towards:</label>
-				<select name="shakeTowards" id="shakeTowardsSel">
-					<option value="roots">Roots</option>
-					<option value="leaves">Leaves</option>
-				</select>
 			</section>
 			<section id="randomLayout">
-				<div>Seed</div>
-				<label for="currentSeed">Current:</label>
+				<label for="currentSeed">Current seed:</label>
 				<input type="text" name="currentSeed" id="currentSeedBox">
 				<br>
-				<label for="userSeed">User:</label>
+				<label for="userSeed">User seed:</label>
 				<input type="text" name="userSeed" id="userSeedBox">
 			</section>
 			<input type="button" id="saveConfig" value="Save">

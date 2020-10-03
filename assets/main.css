@@ -210,7 +210,9 @@ body {
 	box-shadow: 5px 5px 3px #0a090881;
 }
 #layout,
-#layout > div {
+#layout > div,
+#arrows,
+#arrows > div {
 	padding-bottom: 10px;
 }
 #layout > label {
@@ -219,25 +221,21 @@ body {
 #hierarchyLayout {
 	padding-bottom: 5px;
 }
-#hierarchyLayout > input {
-	margin-bottom: 5px;
+#arrows > input,
+#hierarchyLayout > input,
+#randomLayout > input {
+	margin: 3px 0px 5px 0px;
 	width: 100%;
 }
+#arrows > select,
 #hierarchyLayout > select {
-	margin-bottom: 5px;
+	margin: 3px 0px 5px 0px;
 	height: 22px;
 	width: 102%;
 }
 #randomLayout {
 	padding-bottom: 5px;
 	display: none;
-}
-#randomLayout > div {
-	padding-bottom: 10px;
-}
-#randomLayout > input {
-	margin-bottom: 5px;
-	width: 100%;
 }
 
 #help {
