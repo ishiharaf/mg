@@ -487,11 +487,61 @@ const highlightRel = (selId, selLen) => {
 	network.unselectAll()
 }
 
+const fetchRandom = () => {
+	const currentSeedBox = document.getElementById("currentSeedBox")
+	const currentSeed = network.getSeed()
+	currentSeedBox.value = currentSeed || ""
+
+	const userSeedBox = document.getElementById("userSeedBox")
+	const userSeed = userSeedBox.value || undefined
+
+	const layout = {
+		hierarchical: false,
+		improvedLayout: false,
+		randomSeed: userSeed
+	}
+
+	return layout
+}
+
+const fetchHierarchy = () => {
+	const levelSeparation = Number(document.getElementById("levelSeparationBox").value) || 21
+	const treeSpacing = Number(document.getElementById("treeSpacingBox").value) || 100
+	const direction = String(document.getElementById("directionSel").value)
+	const sortMethod = String(document.getElementById("sortMethodSel").value)
+	const shakeTowards = String(document.getElementById("shakeTowardsSel").value)
+
+	const layout = {
+		hierarchical: {
+			enabled: true,
+			direction: direction,
+			levelSeparation: levelSeparation,
+			treeSpacing: treeSpacing,
+			sortMethod: sortMethod,
+			shakeTowards: shakeTowards
+		}
+	}
+
+	return layout
+}
+
 const closeInfoCard = () => {
 	imageDiv.style.display = "none"
 	infoSection.style.display = "none"
 	sourceCard.style.display = "none"
 	highlightRel(0, 0)
+}
+
+const closeConfigCard = () => {
+	configSection.style.display = "none"
+}
+
+const closeHelpCard = () => {
+	helpSection.style.display = "none"
+}
+
+const closeFilterCard = () => {
+	filterSection.style.display = "none"
 }
 
 const openInfoCard = (params) => {
@@ -501,6 +551,9 @@ const openInfoCard = (params) => {
 		const selPerson = people.find(people => people.id == selId)
 		const relatedPeople = getRelated(selId, selEdge)
 
+		closeFilterCard()
+		closeHelpCard()
+		closeConfigCard()
 		sourceCard.style.display = "none"
 		infoSection.style.display = "block"
 		infoCard.setAttribute("data-id", selId)
@@ -522,7 +575,6 @@ const openInfoCard = (params) => {
 		closeInfoCard()
 	}
 }
-
 closeInfo.addEventListener("click", () => {
 	closeInfoCard()
 })
@@ -533,24 +585,24 @@ imageDiv.addEventListener("click", () => {
 
 helpButton.addEventListener("click", () => {
 	closeInfoCard()
-	configSection.style.display = "none"
-	filterSection.style.display = "none"
+	closeConfigCard()
+	closeFilterCard()
 
 	helpSection.style.display = "block"
 })
 closeHelp.addEventListener("click", () => {
-	helpSection.style.display = "none"
+	closeHelpCard()
 })
 
 filterButton.addEventListener("click", () => {
 	closeInfoCard()
-	configSection.style.display = "none"
-	helpSection.style.display = "none"
+	closeConfigCard()
+	closeHelpCard()
 
 	filterSection.style.display = "block"
 })
 closeFilter.addEventListener("click", () => {
-	filterSection.style.display = "none"
+	closeFilterCard()
 })
 searchButton.addEventListener("click", () => {
 	const nameFilter = String(document.getElementById("nameFilterBox").value)
@@ -582,13 +634,13 @@ searchButton.addEventListener("click", () => {
 
 configButton.addEventListener("click", () => {
 	closeInfoCard()
-	filterSection.style.display = "none"
-	helpSection.style.display = "none"
+	closeFilterCard()
+	closeHelpCard()
 
 	configSection.style.display = "block"
 })
 closeConfig.addEventListener("click", () => {
-	configSection.style.display = "none"
+	closeConfigCard()
 })
 hierarchyButton.addEventListener("click", () => {
 	hierarchySection.style.display = "block"
@@ -601,36 +653,10 @@ randomButton.addEventListener("click", () => {
 saveButton.addEventListener("click", () => {
 	const layoutType = document.querySelector('input[name="layoutType"]:checked').value
 	if(layoutType === "random") {
-		const currentSeedBox = document.getElementById("currentSeedBox")
-		const currentSeed = network.getSeed()
-		currentSeedBox.value = currentSeed || ""
-
-		const userSeedBox = document.getElementById("userSeedBox")
-		const userSeed = userSeedBox.value || undefined
-
-		const layout = {
-			hierarchical: false,
-			improvedLayout: false,
-			randomSeed: userSeed
-		}
+		const layout = fetchRandom()
 		drawNetwork(layout)
 	} else {
-		const levelSeparation = Number(document.getElementById("levelSeparationBox").value) || 21
-		const treeSpacing = Number(document.getElementById("treeSpacingBox").value) || 100
-		const direction = String(document.getElementById("directionSel").value)
-		const sortMethod = String(document.getElementById("sortMethodSel").value)
-		const shakeTowards = String(document.getElementById("shakeTowardsSel").value)
-
-		const layout = {
-			hierarchical: {
-				enabled: true,
-				direction: direction,
-				levelSeparation: levelSeparation,
-				treeSpacing: treeSpacing,
-				sortMethod: sortMethod,
-				shakeTowards: shakeTowards
-			}
-		}
+		const layout = fetchHierarchy()
 		drawNetwork(layout)
 	}
 })
