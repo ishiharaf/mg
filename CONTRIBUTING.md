@@ -1,5 +1,11 @@
-## How to edit
+## Who NOT to add
+- **People with an unknown date of birth**. Because the position of someone on the graph is calculated using the date of birth, it's impossible to add them while keeping a hierarchical layout.
+- **Non-musicians**. There is a reason to include Vivaldi's father, because not only he was a musician, he was also his teacher. But there is no reason to include his mother, for example.
+- **Contemporary musicians**. By contemporary musicians I mean, living musicians. This is to avoid people claiming to be "*part of the* (insert musician here) *lineage*".
 
+Exceptions are allowed, but unless said person is extremely relevant to the history of music, he/she will be rejected. Patrons of music are usually allowed.
+
+## How to edit
 ### ID
 It must be a sequential and unique **number**.
 
