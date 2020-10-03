@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/IshiharaFelipe/mg.git"
+    "url": "git+https://github.com/ishiharaf/mg.git"
   },
   "author": "Ishihara Felipe",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/IshiharaFelipe/mg/issues"
+    "url": "https://github.com/ishiharaf/mg/issues"
   },
-  "homepage": "https://github.com/IshiharaFelipe/mg#readme",
+  "homepage": "https://github.com/ishiharaf/mg#readme",
   "dependencies": {
     "express": "^4.17.1"
   }
