@@ -578,7 +578,18 @@ const getResult = () => {
 
 	const nameRegExp = new RegExp(nameFilter, "ig")
 	const placeRegExp = new RegExp(placeFilter, "ig")
-	const dateRegExp = new RegExp(dateFilter, "ig")
+	let dateRegExp
+
+	if(dateFilter.substring(0, 1) === "c") {
+		const year = Number(dateFilter.substring(1, 5))
+		const rangeStart = String(year - 10).substring(0, 3)
+		const rangeEnd = String(year).substring(0, 3)
+
+		const startRange = `${rangeStart}[0-9]|${rangeEnd}[0-9]|${year + 10}`
+		dateRegExp = new RegExp(`${startRange}`, "ig")
+	} else {
+		dateRegExp = new RegExp(dateFilter, "ig")
+	}
 
 	let matchAll = []
 
