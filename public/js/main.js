@@ -473,6 +473,7 @@ const highlightRel = (selId, selLen) => {
 			edgeData[edgeId].width = 2
 		}
 		highlight = false
+		network.unselectAll()
 	}
 
 	let updateNodes = []
