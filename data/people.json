@@ -6646,9 +6646,9 @@
 	"placeBirth": "Braunschweig, Germany",
 	"placeDeath": "Kassel, Germany",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 197,
+		"type": "Student",
+		"color": "gray"
 	}],
 	"color": "imp",
 	"group": ["Violinist", "Composer", "Conductor"],
@@ -6657,4 +6657,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Spohr-autoportrait.jpg"
+},
+{
+	"id": 197,
+	"name": {
+		"first": "Friedrich Johann",
+		"last": "Eck",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1767",
+		"mm": "05",
+		"dd": "25"
+	},
+	"dateDeath": {
+		"yyyy": "1838",
+		"mm": "02",
+		"dd": "22"
+	},
+	"placeBirth": "Schwetzingen, Germany",
+	"placeDeath": "Schwetzingen, Germany",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "mus",
+	"group": ["Violinist", "Composer", "Konzertmeister"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
