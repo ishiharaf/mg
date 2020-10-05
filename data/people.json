@@ -6695,7 +6695,7 @@
 	"name": {
 		"first": "Christian",
 		"last": "Danner",
-		"alt": [""]
+		"alt": ["Christian Franz Danner"]
 	},
 	"dateBirth": {
 		"yyyy": "1757",
@@ -6715,7 +6715,7 @@
 		"color": ""
 	}],
 	"color": "mus",
-	"group": ["Violinist", "Composer"],
+	"group": ["Violinist", "Composer", "Kapellmeister"],
 	"source": [{
 		"citation": "",
 		"extract": ""
