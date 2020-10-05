@@ -20,6 +20,8 @@ After years of reading about music history, I became interested in how musicians
 - Click on a box to **display information** about a person.
 - Click on a box and hold to **drag it** horizontally.
 - Click the `loupe` icon to do a basic search. Matches will be highlighted on the graph.
+	- You can use `c` before the year to search within a 20 year range. e.g.: `c1650` will match anything between 1640 and 1660.
+	- You can use `-` or `~` to search within a bigger range. e.g.: `1500-1600` will match anything between 1500 and 1600.
 - Click the `gear` icon to display the configuration menu. For more details about each option check the links below.
 	- For arrow type, force direction and roundness, check VisJS' [example](https://visjs.github.io/vis-network/examples/network/edgeStyles/smooth.html).
 	- Hierarchical layout:
@@ -27,7 +29,7 @@ After years of reading about music history, I became interested in how musicians
 		- Tree spacing is the distance between different trees (independent networks).
 		- For the direction of the layout, check VisJS' [example](https://visjs.github.io/vis-network/examples/network/layout/hierarchicalLayoutUserdefined.html).
 	- Random layout:
-		- When not using the hierarchical layout, the nodes are randomly positioned. This means that the result is different every time. If you provide a seed manually, you can reuse the same layout again.
+		- When using the random layout, the nodes are randomly positioned. The result is different every time, but if you provide a seed manually, you can reuse the same layout again.
 - Click the `?` button to display a legend and basic operation.
 
 ## Setup
