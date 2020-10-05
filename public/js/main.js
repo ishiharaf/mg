@@ -584,9 +584,36 @@ const getResult = () => {
 		const year = Number(dateFilter.substring(1, 5))
 		const rangeStart = String(year - 10).substring(0, 3)
 		const rangeEnd = String(year).substring(0, 3)
+		const yearRange = `${rangeStart}[0-9]|${rangeEnd}[0-9]|${year + 10}`
 
-		const startRange = `${rangeStart}[0-9]|${rangeEnd}[0-9]|${year + 10}`
-		dateRegExp = new RegExp(`${startRange}`, "ig")
+		dateRegExp = new RegExp(`${yearRange}`, "ig")
+
+	} else if(dateFilter.substring(4, 5) === "-" || dateFilter.substring(4, 5) === "~") {
+		const yearStart = Number(dateFilter.substring(0, 4))
+		const yearEnd = Number(dateFilter.substring(5, 9))
+		let yearRange = ""
+
+		for (let year = yearStart; year < yearEnd; year += 10) {
+			if(year === yearStart) {
+				if(String(year).substring(3, 4) === "9") {
+					yearRange += `${String(year)}|`
+				} else {
+					yearRange += `${String(year).substring(0, 3)}[${String(year).substring(3, 4)}-9]|`
+				}
+			} else if(year + 10 > yearEnd || year + 10 === yearEnd) {
+				if(String(yearEnd).substring(3, 4) === "0") {
+					yearRange += `${String(year).substring(0, 3)}[0-9]|`
+					yearRange += String(yearEnd)
+				} else {
+					yearRange += `${String(year).substring(0, 3)}[0-${String(yearEnd).substring(3, 4)}]`
+				}
+			} else {
+				yearRange += `${String(year).substring(0, 3)}[0-9]|`
+			}
+		}
+
+		dateRegExp = new RegExp(`${yearRange}`, "ig")
+
 	} else {
 		dateRegExp = new RegExp(dateFilter, "ig")
 	}
