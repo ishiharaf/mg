@@ -1,6 +1,6 @@
 # mg
 
-This project aims to display in a visual way how musicians of the past were connected to each other. **mg** doesn't stand for anything in particular.
+This project aims to display in a visual way how musicians of the past were connected to each other. **mg** stands for *musician's graph*.
 
 ## Table of contents
 - [General Info](#general-info)
@@ -12,7 +12,7 @@ This project aims to display in a visual way how musicians of the past were conn
 - [License](#license)
 
 ## General Info
-After years of reading about music history, I became interested in how musicians  were connected, and wanted to see this connection as a network graph, or a genealogical tree. This is what drove me to start this side-project. I tried to keep things simple, so the data is a single JSON file served through [Express](https://expressjs.com/) and displayed using [VisJS](https://visjs.org/).
+I tried to keep things simple, so the data is a single JSON file served through [Express](https://expressjs.com/) and displayed using [VisJS](https://visjs.org/).
 
 ## How to Use
 - Use the mouse wheel to **zoom in & out**.
