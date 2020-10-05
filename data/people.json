@@ -6814,15 +6814,47 @@
 	"placeBirth": "Genoa, Italy",
 	"placeDeath": "Nice, France",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 202,
+		"type": "Student",
+		"color": "gray"
 	}],
 	"color": "imp",
-	"group": ["Violinist", "Violist", "Guitarrist","Composer"],
+	"group": ["Violinist", "Violist", "Guitarrist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/NiccoloPaganini.jpeg/427px-NiccoloPaganini.jpeg"
+},
+{
+	"id": 202,
+	"name": {
+		"first": "Ferdinando",
+		"last": "Paer",
+		"alt": ["Ferdinando Pär/Paër"]
+	},
+	"dateBirth": {
+		"yyyy": "1771",
+		"mm": "07",
+		"dd": "01"
+	},
+	"dateDeath": {
+		"yyyy": "1839",
+		"mm": "05",
+		"dd": "03"
+	},
+	"placeBirth": "Parma, Italy",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "reg",
+	"group": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Ferdinando_Pa%C3%ABr_by_Fran%C3%A7ois-S%C3%A9raphin_Delpech_after_Nicolas-Eustache_Maurin.jpg"
 }]
