@@ -102,12 +102,12 @@ If the `city` name is unknown, add just the country. If the information is uncer
 Any relationship refers to a **parent** only. This means that a person will only have his teachers as a relationship, but not his students. Depending on the relationship type, it goes from young to old. The`id` is the `id` number of its **parent**.
 
 There are 6 types of relationship:
-- **Blood**: kins like `Brother/Sister`, `Son/Daughter`, `Nephew`, etc. The color is `red`.
-- **Lover**: people who are your `Spouse`, `Lover`, `Mistress`, etc. The color is `pink`.
-- **Financial**: like an `Employee` or `Patronee`. The color is `green`.
-- `Friend`: or an `Acquaintance`. The color is `blue`.
-- `Student`: or an `Apprentice`. The color is `gray`.
-- **Unconfirmed**: it can be any of the above, but it lacks sources/proof, and it's therefore doubtful. Add a source stating that, or an `?` after the type. The color is `black`.
+- A **blood** relationship like `Brother/Sister`, `Son/Daughter`, `Nephew`, etc. The color is `red`.
+- A **carnal** relationship like `Spouse`, `Lover`, `Mistress`, etc. The color is `pink`.
+- A **financial** relationship like an `Employee` or `Patronee`. The color is `green`.
+- A kind of **friendship**, like `Friend` or even an `Acquaintance`. The color is `blue`.
+- A **master/student** relationship, like `Student` or an `Apprentice`. The color is `gray`.
+- An **unconfirmed** relationship: it can be any of the above, but it lacks sources/proof, and it's therefore doubtful. Add a source stating that it's doubtful, or an `?` after the type. The color is `black`.
 
 ### Color
 
@@ -115,8 +115,8 @@ A `color` is a category and a person can be in one of the 4 categories:
 
 - An **important** person is someone who has contributed significantly to the art of music or his/her instrument. The color is `imp`.
 - A **musician** is anyone who is well-known for making a living by playing an instrument. People who are known solely for being a composer should not be in this category (even if they can play an instrument). The color is `mus`.
-- **Royalty** is as the name suggests, a king, queen, duke, etc. It usually implies a financial relationship, and should be added sparingly. People who are known for being musicians and are also nobles/royalty should not be in this category. The color is `roy`.
-- **Regular** people is anyone who does not fit the categories above. The color is `reg`.
+- A **royalty** is as the name suggests, a king, queen, duke, or any kind of nobility. It usually implies a financial relationship, and should be added sparingly. Also applies to people who are patrons. People who are known for being musicians and are also nobles/royalty should not be in this category. The color is `roy`.
+- **Regular** people is anyone who does not fit the categories above. The color is `reg`. This includes people who are known solely for being a composer.
 
 ### Group
 
