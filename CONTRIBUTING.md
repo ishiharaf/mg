@@ -10,6 +10,44 @@
 - **Contemporary musicians**. By contemporary musicians I mean, living musicians. This is to avoid people claiming to be "*part of the* (insert musician here) *lineage*". Unless said person is extremely important to the history of music, he/she will be rejected.
 
 ## How to edit
+
+First, let's take a look at the schema:
+
+```json
+{
+	"id": "",
+	"name": {
+		"first": "",
+		"last": "",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "",
+		"mm": "",
+		"dd": ""
+	},
+	"dateDeath": {
+		"yyyy": "",
+		"mm": "",
+		"dd": ""
+	},
+	"placeBirth": "",
+	"placeDeath": "",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "",
+	"group": [""],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+}
+```
+
 ### ID
 It must be a sequential and unique **number**. When adding someone new, leave it as `""`.
 
