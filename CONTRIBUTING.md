@@ -14,8 +14,8 @@
 It must be a sequential and unique **number**.
 
 ```json
-{"id": "16"} // is invalid
-{"id": 16} // is valid
+{"id": "16"} is invalid
+{"id": 16} is valid
 ```
 
 ### Name
