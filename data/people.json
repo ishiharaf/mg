@@ -6757,4 +6757,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Anton_Reicha_01.jpg/432px-Anton_Reicha_01.jpg"
+},
+{
+	"id": 199,
+	"name": {
+		"first": "Franz",
+		"last": "Liszt",
+		"alt": ["Liszt Ferencz", "Liszt Ferenc"]
+	},
+	"dateBirth": {
+		"yyyy": "1811",
+		"mm": "10",
+		"dd": "22"
+	},
+	"dateDeath": {
+		"yyyy": "1886",
+		"mm": "07",
+		"dd": "31"
+	},
+	"placeBirth": "Raiding, Germany",
+	"placeDeath": "Bayreuth, Germany",
+	"relationship": [{
+		"id": 199,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "imp",
+	"group": ["Pianist", "Composer", "Teacher"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Barabas-liszt.jpg/376px-Barabas-liszt.jpg"
 }]
