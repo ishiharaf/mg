@@ -11,7 +11,7 @@
 
 ## How to edit
 ### ID
-It must be a sequential and unique **number**.
+It must be a sequential and unique **number**. When adding someone new, leave it as `""`.
 
 ```json
 {"id": "16"} is invalid
@@ -41,11 +41,12 @@ If the year is uncertain, add `c` (circa) before the date in the `yyyy` field. I
 {"year": "c1780"} is valid
 ```
 
-If the person has a `fl.` next to it and the date of birth is completely unknown, **avoid adding** said person.
+If the person has a `fl.` next to it and the date of birth is completely unknown, **don't add** said person.
 
 If the month or day of birth/death is unknown, use `??` in the `mm` and `dd` fields. The same rules for `yyyy` still apply.
 
 ```json
+{"mm": "05", "dd": "2?"} or {"mm": "05", "dd": "23/4"} and anything similar is invalid
 {"mm": "05", "dd": "??"} or {"mm": "??", "dd": "23"} is valid
 {"mm": "??", "dd": "??"} is also valid
 ```
@@ -56,7 +57,7 @@ The format is simply the `city` name, followed by a comma and the `country` name
 
 The name should be whatever is the present location, preferrably in English. So `Fusignano, Italy` instead of `Fusignano, Papal States`, and `Rome, Italy` instead of `Roma, Italia`.
 
-If the `city` name is unknown, add just the country. If the `country` is unknown or the information is uncertain, add a `?` after the end.
+If the `city` name is unknown, add just the country. If the information is uncertain, add a `?` after the end.
 
 ### Relationships
 
@@ -64,10 +65,10 @@ Any relationship refers to a **parent** only. This means that a person will only
 
 There are 6 types of relationship:
 - **Blood**: kins like `Brother/Sister`, `Son/Daughter`, `Nephew`, etc. The color is `red`.
-- **Love**: people who are your `Spouse`, `Lover`, `Mistress`, etc. The color is `pink`.
-- **Money**: like an `Employee`. The color is `green`.
+- **Lover**: people who are your `Spouse`, `Lover`, `Mistress`, etc. The color is `pink`.
+- **Financial**: like an `Employee` or `Patronee`. The color is `green`.
 - `Friend`: or an `Acquaintance`. The color is `blue`.
-- `Student`: or and `Apprentice`. The color is `gray`.
+- `Student`: or an `Apprentice`. The color is `gray`.
 - **Unconfirmed**: it can be any of the above, but it lacks sources/proof, and it's therefore doubtful. Add a source stating that, or an `?` after the type. The color is `black`.
 
 ### Color
@@ -79,10 +80,9 @@ A `color` is a category and a person can be in one of the 4 categories:
 - **Royalty** is as the name suggests, a king, queen, duke, etc. It usually implies a financial relationship, and should be added sparingly. People who are known for being musicians and are also nobles/royalty should not be in this category. The color is `roy`.
 - **Regular** people is anyone who does not fit the categories above. The color is `reg`.
 
-
 ### Group
 
-Add an occupation separated by comma. It's the same as the `alt` field.
+Add an occupation separated by comma. The same rules for the `alt` field applies here.
 
 ### Sources
 
