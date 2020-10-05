@@ -17,11 +17,10 @@ After years of reading about music history, I became interested in how musicians
 ## How to Use
 - Use the mouse wheel to **zoom in & out**.
 - Click in an empty spot and hold to **drag the graph** around.
-- Click on a box to **display information** about a person.
 - Click on a box and hold to **drag it** horizontally.
-- Click the `loupe` icon to do a basic search. Matches will be highlighted on the graph.
-	- You can use `c` before the year to search within a 20 year range. e.g.: `c1650` will match anything between 1640 and 1660.
-	- You can use `-` or `~` to search within a bigger range. e.g.: `1500-1600` will match anything between 1500 and 1600.
+- Click on a box to **display information** about a person.
+- Click in an empty spot to clear the selection.
+- Click the `?` button to display a legend and basic operation.
 - Click the `gear` icon to display the configuration menu. For more details about each option check the links below.
 	- For arrow type, force direction and roundness, check VisJS' [example](https://visjs.github.io/vis-network/examples/network/edgeStyles/smooth.html).
 	- Hierarchical layout:
@@ -30,7 +29,9 @@ After years of reading about music history, I became interested in how musicians
 		- For the direction of the layout, check VisJS' [example](https://visjs.github.io/vis-network/examples/network/layout/hierarchicalLayoutUserdefined.html).
 	- Random layout:
 		- When using the random layout, the nodes are randomly positioned. The result is different every time, but if you provide a seed manually, you can reuse the same layout again.
-- Click the `?` button to display a legend and basic operation.
+- Click the `loupe` icon to do a basic search. Matches will be highlighted on the graph.
+	- You can use `c` before the year to search within a 20 year range. e.g.: `c1650` will match anything between 1640 and 1660.
+	- You can use `-` or `~` to search within a bigger range. e.g.: `1500-1600` will match anything between 1500 and 1600.
 
 ## Setup
 To run this project, clone the repository and install it locally using npm:
