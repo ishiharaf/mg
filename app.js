@@ -9,7 +9,9 @@ const stat = require("serve-static")
 app.use(stat("public", {"index": "index.html"}))
 
 app.get("/data", async (req, res) => {
-	const json = require("./data/people.json")
+	const fs = require("fs")
+	const json = fs.readFileSync("./data/people.json")
+
 	res.send(json)
 })
 
