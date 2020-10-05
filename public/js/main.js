@@ -589,9 +589,15 @@ const getResult = () => {
 		dateRegExp = new RegExp(`${yearRange}`, "ig")
 
 	} else if(dateFilter.substring(4, 5) === "-" || dateFilter.substring(4, 5) === "~") {
-		const yearStart = Number(dateFilter.substring(0, 4))
-		const yearEnd = Number(dateFilter.substring(5, 9))
+		let yearStart = Number(dateFilter.substring(0, 4))
+		let yearEnd = Number(dateFilter.substring(5, 9))
 		let yearRange = ""
+
+		if(yearStart > yearEnd) {
+			const yearSwap = yearStart
+			yearStart = yearEnd
+			yearEnd = yearSwap
+		}
 
 		for (let year = yearStart; year < yearEnd; year += 10) {
 			if(year === yearStart) {
