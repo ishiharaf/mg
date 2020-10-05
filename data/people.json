@@ -6678,12 +6678,44 @@
 	"placeBirth": "Schwetzingen, Germany",
 	"placeDeath": "Schwetzingen, Germany",
 	"relationship": [{
+		"id": 198,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "mus",
+	"group": ["Violinist", "Composer", "Konzertmeister"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 198,
+	"name": {
+		"first": "Christian",
+		"last": "Danner",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1757",
+		"mm": "07",
+		"dd": "12"
+	},
+	"dateDeath": {
+		"yyyy": "1835",
+		"mm": "??",
+		"dd": "??"
+	},
+	"placeBirth": "Schwetzingen, Germany",
+	"placeDeath": "Schwetzingen, Germany?",
+	"relationship": [{
 		"id": "",
 		"type": "",
 		"color": ""
 	}],
 	"color": "mus",
-	"group": ["Violinist", "Composer", "Konzertmeister"],
+	"group": ["Violinist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
