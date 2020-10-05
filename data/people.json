@@ -6781,6 +6781,10 @@
 		"id": 199,
 		"type": "Student",
 		"color": "gray"
+	},{
+		"id": 200,
+		"type": "Acquaintance",
+		"color": "blue"
 	}],
 	"color": "imp",
 	"group": ["Pianist", "Composer", "Teacher"],
@@ -6789,4 +6793,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Barabas-liszt.jpg/376px-Barabas-liszt.jpg"
+},
+{
+	"id": 200,
+	"name": {
+		"first": "Niccolò",
+		"last": "Paganini",
+		"alt": ["Nicolò Paganini"]
+	},
+	"dateBirth": {
+		"yyyy": "1782",
+		"mm": "10",
+		"dd": "27"
+	},
+	"dateDeath": {
+		"yyyy": "1840",
+		"mm": "05",
+		"dd": "27"
+	},
+	"placeBirth": "Genoa, Italy",
+	"placeDeath": "Nice, France",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "imp",
+	"group": ["Violinist", "Violist", "Guitarrist","Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/NiccoloPaganini.jpeg/427px-NiccoloPaganini.jpeg"
 }]
