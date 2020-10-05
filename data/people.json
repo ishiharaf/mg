@@ -6759,7 +6759,7 @@
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Anton_Reicha_01.jpg/432px-Anton_Reicha_01.jpg"
 },
 {
-	"id": 199,
+	"id": 200,
 	"name": {
 		"first": "Franz",
 		"last": "Liszt",
@@ -6782,7 +6782,7 @@
 		"type": "Student",
 		"color": "gray"
 	},{
-		"id": 200,
+		"id": 201,
 		"type": "Acquaintance",
 		"color": "blue"
 	}],
@@ -6795,7 +6795,7 @@
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Barabas-liszt.jpg/376px-Barabas-liszt.jpg"
 },
 {
-	"id": 200,
+	"id": 201,
 	"name": {
 		"first": "Niccolò",
 		"last": "Paganini",
