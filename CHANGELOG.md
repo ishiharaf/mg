@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.0.7 (2020/10/05)
+### Changed
+- Updated [package.json](package.json)
+- [README.md](README.md) and help card updated
+### Added
+- Added different search options for Birth Year.
+
 ## 0.0.6 (2020/10/03)
 ### Changed
 - Changed project structure
