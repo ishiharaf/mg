@@ -1,17 +1,21 @@
-## Who NOT to add
-- **People with an unknown date of birth**. Because the position of someone on the graph is calculated using the date of birth, it's impossible to add them while keeping a hierarchical layout.
-- **Non-musicians**. There is a reason to include Vivaldi's father, because not only he was a musician, he was also his teacher. But there is no reason to include his mother, for example.
-- **Contemporary musicians**. By contemporary musicians I mean, living musicians. This is to avoid people claiming to be "*part of the* (insert musician here) *lineage*".
+# Contributing
 
-Exceptions are allowed, but unless said person is extremely relevant to the history of music, he/she will be rejected. Patrons of music are usually allowed.
+## Table of contents
+- [DON'T add](#dont-add)
+- [How to edit](#how-to-edit)
+
+## DON'T add
+- **People with an unknown date of birth**. Because the position of a person on the graph (their level) is calculated using the date of birth, it's impossible to add them while keeping a hierarchical layout.
+- **Non-musicians**. There is a reason to include Vivaldi's father, because not only he was a musician, he was also his teacher. But there is no reason to include his mother, for example. Some exceptions, like patrons of music are usually allowed.
+- **Contemporary musicians**. By contemporary musicians I mean, living musicians. This is to avoid people claiming to be "*part of the* (insert musician here) *lineage*". Unless said person is extremely important to the history of music, he/she will be rejected.
 
 ## How to edit
 ### ID
 It must be a sequential and unique **number**.
 
 ```json
-{"id": "16"} is invalid
-{"id": 16} is valid
+{"id": "16"} // is invalid
+{"id": 16} // is valid
 ```
 
 ### Name
