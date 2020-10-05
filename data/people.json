@@ -6550,9 +6550,9 @@
 	"placeBirth": "Hamburg, Germany",
 	"placeDeath": "Klosters, Switzerland",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 196,
+		"type": "Student",
+		"color": "gray"
 	}],
 	"color": "imp",
 	"group": ["Violinist", "Composer"],
@@ -6625,4 +6625,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Robert_Schumann_1839.jpg/480px-Robert_Schumann_1839.jpg"
+},
+{
+	"id": 196,
+	"name": {
+		"first": "Louis",
+		"last": "Spohr",
+		"alt": ["Ludewig Spohr", "Ludwig Spohr"]
+	},
+	"dateBirth": {
+		"yyyy": "1784",
+		"mm": "04",
+		"dd": "05"
+	},
+	"dateDeath": {
+		"yyyy": "1859",
+		"mm": "10",
+		"dd": "22"
+	},
+	"placeBirth": "Braunschweig, Germany",
+	"placeDeath": "Kassel, Germany",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "imp",
+	"group": ["Violinist", "Composer", "Conductor"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Spohr-autoportrait.jpg"
 }]
