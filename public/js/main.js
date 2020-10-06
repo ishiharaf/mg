@@ -245,7 +245,7 @@ const goToRelated = (id) => {
 	})
 
 	const edges = network.getConnectedEdges(id)
-	const nodes = Array(1).fill(id)
+	const nodes = new Array(1).fill(id)
 	const params = {
 		edges: edges,
 		nodes: nodes
@@ -254,8 +254,8 @@ const goToRelated = (id) => {
 }
 
 const getRelated = (id, edge) => {
-	let relPeople = []
-
+	const children = []
+	const parents = []
 	for (let i = 0; i < edge.length; i++) {
 		const childNode = network.getConnectedNodes(edge[i], "to")[1]
 		if(childNode !== id) {
@@ -287,7 +287,7 @@ const getRelated = (id, edge) => {
 			}
 			personObj.name = `${child.name.first} ${lastName}`
 			personObj.id = childNode
-			relPeople.push(personObj)
+			children.push(personObj)
 		}
 
 		const parentNode = network.getConnectedNodes(edge[i], "from")[0]
@@ -322,10 +322,10 @@ const getRelated = (id, edge) => {
 			}
 			personObj.name = `${parent.name.first} ${lastName}`
 			personObj.id = parentNode
-			relPeople.push(personObj)
+			parents.push(personObj)
 		}
 	}
-
+	const relPeople = new Array().concat(parents, children)
 	return relPeople
 }
 
@@ -508,7 +508,7 @@ const assignImg = (person) => {
 
 const highlightRel = (selId, selLen) => {
 	if(selLen > 0) {
-		const nodes = Array(1).fill(selId)
+		const nodes = new Array(1).fill(selId)
 		const relNodes = network.getConnectedNodes(selId)
 		let allRelNodes = relNodes
 		let allRelEdges = []
