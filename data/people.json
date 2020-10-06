@@ -6893,4 +6893,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Louis_XIV_of_France.jpg/540px-Louis_XIV_of_France.jpg"
+},
+{
+	"id": 204,
+	"name": {
+		"first": "Jacques Champion de",
+		"last": "Chambonnières",
+		"alt": ["Jacques Champion"]
+	},
+	"dateBirth": {
+		"yyyy": "c1601",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1672",
+		"mm": "??",
+		"dd": "??"
+	},
+	"placeBirth": "Paris, France",
+	"placeDeath": "Brie, France?",
+	"relationship": [{
+		"id": 203,
+		"type": "Employee",
+		"color": "green"
+	}],
+	"color": "mus",
+	"group": ["Harpsichordist", "Dancer", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
