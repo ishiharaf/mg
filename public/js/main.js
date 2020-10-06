@@ -226,9 +226,7 @@ const checkSource = (el) => {
 	}
 }
 
-const goToRelated = (id) => {
-	const position = network.getPosition(id)
-	const scale = network.getScale()
+const moveGraph = (position, scale) => {
 	network.moveTo({
 		position: position,
 		scale: scale,
@@ -241,6 +239,12 @@ const goToRelated = (id) => {
 			easingFunction: "linear"
 		}
 	})
+}
+
+const goToRelated = (id) => {
+	const position = network.getPosition(id)
+	const scale = network.getScale()
+	moveGraph(position, scale)
 
 	const edges = network.getConnectedEdges(id)
 	const nodes = new Array(1).fill(id)
