@@ -90,6 +90,9 @@ body {
 #links {
 	text-align: center;
 }
+#links > a {
+	text-decoration: none;
+}
 #youtubeBtn,
 #spotifyBtn,
 #googleBtn {
