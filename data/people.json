@@ -1917,6 +1917,10 @@
 		"id": 207,
 		"type": "Acquaintance",
 		"color": "blue"
+	},{
+		"id": 208,
+		"type": "Student",
+		"color": "gray"
 	}],
 	"color": "imp",
 	"group": ["Violinist", "Fortepianist", "Composer"],
@@ -7033,4 +7037,40 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Giovanni_Battista_Sammartini%2C_portrait_by_Riccardi_%28detail%29.jpg/438px-Giovanni_Battista_Sammartini%2C_portrait_by_Riccardi_%28detail%29.jpg"
+},
+{
+	"id": 208,
+	"name": {
+		"first": "Johann Christian",
+		"last": "Bach",
+		"alt": ["John Bach", "The English Bach"]
+	},
+	"dateBirth": {
+		"yyyy": "1735",
+		"mm": "09",
+		"dd": "05"
+	},
+	"dateDeath": {
+		"yyyy": "1782",
+		"mm": "01",
+		"dd": "01"
+	},
+	"placeBirth": "Leipzig, Germany",
+	"placeDeath": "London, England",
+	"relationship": [{
+		"id": 38,
+		"type": "Son, Student",
+		"color": "red"
+	},{
+		"id": 207,
+		"type": "Acquaintance",
+		"color": "blue"
+	}],
+	"color": "reg",
+	"group": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Johann_Christian_Bach_by_Thomas_Gainsborough.jpg/492px-Johann_Christian_Bach_by_Thomas_Gainsborough.jpg"
 }]
