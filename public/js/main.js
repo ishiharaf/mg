@@ -84,7 +84,7 @@ const drawNetwork = (userLayout, userArrows) => {
 			borderWidth: 0,
 			borderWidthSelected: 0,
 			font: {
-				face: "Cambria",
+				face: "Verdana",
 				color: `#${color.white}`,
 				size: 25
 			},
