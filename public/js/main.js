@@ -292,9 +292,9 @@ const getRelated = (id, edge) => {
 
 		const parentNode = network.getConnectedNodes(edge[i], "from")[0]
 		if(parentNode !== id) {
-			const child = people.find(people => people.id == id)
+			const self = people.find(people => people.id == id)
 			const parent = people.find(people => people.id == parentNode)
-			const relationship = child.relationship
+			const relationship = self.relationship
 			const parentObj = relationship.find(relationship => relationship.id == parentNode)
 
 			let lastName
@@ -316,7 +316,7 @@ const getRelated = (id, edge) => {
 			const source = checkSource(parentObj.type)
 			if(source !== false) {
 				personObj.relation = `${source.string} of `
-				personObj.source.push(parent.source[source.value])
+				personObj.source.push(self.source[source.value])
 			} else {
 				personObj.relation = `${parentObj.type} of `
 			}
