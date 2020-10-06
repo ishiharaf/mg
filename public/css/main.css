@@ -96,7 +96,7 @@ body {
 #youtubeBtn,
 #spotifyBtn,
 #googleBtn {
-	opacity: 0.6;
+	opacity: 0.5;
 	stroke-width: 0;
 	fill: #adadad;
 	cursor: pointer;
