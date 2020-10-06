@@ -225,6 +225,10 @@
 		"id": 3,
 		"type": "Student",
 		"color": "gray"
+	},{
+		"id": 209,
+		"type": "Acquaintance",
+		"color": "blue"
 	}],
 	"color": "imp",
 	"group": ["Violinist", "Composer"],
@@ -7068,6 +7072,10 @@
 	},{
 		"id": 208,
 		"type": "Friend",
+		"color": "blue"
+	},{
+		"id": 7,
+		"type": "Acquaintance",
 		"color": "blue"
 	}],
 	"color": "reg",
