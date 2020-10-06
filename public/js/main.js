@@ -239,15 +239,13 @@ const goToRelated = (id) => {
 			y: 0
 		},
 		animation: {
-			duration: 10,
+			duration: 0,
 			easingFunction: "linear"
 		}
 	})
 
 	const edges = network.getConnectedEdges(id)
-	const nodes = []
-	nodes.push(id)
-
+	const nodes = Array(1).fill(id)
 	const params = {
 		edges: edges,
 		nodes: nodes
@@ -510,6 +508,7 @@ const assignImg = (person) => {
 
 const highlightRel = (selId, selLen) => {
 	if(selLen > 0) {
+		const nodes = Array(1).fill(selId)
 		const relNodes = network.getConnectedNodes(selId)
 		let allRelNodes = relNodes
 		let allRelEdges = []
@@ -556,7 +555,10 @@ const highlightRel = (selId, selLen) => {
 			edgeData[allRelEdges[i]].width = 2
 		}
 
-		network.selectEdges(allRelEdges)
+		network.setSelection({
+			nodes: nodes,
+			edges: allRelEdges
+		})
 		nodeData[selId].opacity = 1
 		nodeData[selId].label = nodeData[selId].hiddenLabel
 
