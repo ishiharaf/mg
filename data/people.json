@@ -1076,7 +1076,7 @@
 		"dd": "25"
 	},
 	"placeBirth": "Cadolzburg, Germany",
-	"placeDeath": "?",
+	"placeDeath": "???",
 	"relationship": [{
 		"id": 30,
 		"type": "Student [1]",
@@ -1160,7 +1160,7 @@
 		"dd": "28"
 	},
 	"placeBirth": "Uebigau-Wahrenbrück, Germany",
-	"placeDeath": "?",
+	"placeDeath": "???",
 	"relationship": [{
 		"id": 32,
 		"type": "Student",
