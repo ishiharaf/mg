@@ -301,7 +301,7 @@ const assignAlt = (person) => {
 	const altDiv = document.getElementById("alt")
 	altDiv.innerHTML = ""
 
-	if(person.name.alt.length > 0){
+	if(person.name.alt[0] !== ""){
 		altDiv.style.paddingBottom = "10px"
 		for (let i = 0; i < person.name.alt.length; i++) {
 			const altNode = document.createElement("span")
@@ -319,7 +319,7 @@ const assignAlt = (person) => {
 			}
 		}
 	} else {
-		altDiv.style.paddingBottom = "0px"
+		altDiv.style.paddingBottom = "5px"
 	}
 }
 
@@ -374,7 +374,7 @@ const assignRelation = (person, people) => {
 	relationDiv.innerHTML = ""
 
 	if(people.length > 0) {
-		relationDiv.style.paddingBottom = "5px"
+		relationDiv.style.paddingBottom = "10px"
 		for (let i = 0; i < people.length; i++) {
 			const personNode = document.createElement("div")
 			const relNode = document.createElement("span")
