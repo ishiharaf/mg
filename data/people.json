@@ -4037,6 +4037,10 @@
 		"id": 153,
 		"type": "Student",
 		"color": "gray"
+	},{
+		"id": 203,
+		"type": "Employee",
+		"color": "green"
 	}],
 	"color": "imp",
 	"group": ["Instrumentalist", "Dancer", "Composer"],
@@ -5302,9 +5306,9 @@
 	"placeBirth": "Paris, France",
 	"placeDeath": "Paris, France",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 203,
+		"type": "Employee",
+		"color": "green"
 	}],
 	"color": "imp",
 	"group": ["Flautist", "Composer"],
@@ -6857,4 +6861,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Ferdinando_Pa%C3%ABr_by_Fran%C3%A7ois-S%C3%A9raphin_Delpech_after_Nicolas-Eustache_Maurin.jpg"
+},
+{
+	"id": 203,
+	"name": {
+		"first": "Louis",
+		"last": "Dieudonné",
+		"alt": ["Louis XIV", "Louis le Grand", "Le Roi Soleil"]
+	},
+	"dateBirth": {
+		"yyyy": "1638",
+		"mm": "09",
+		"dd": "05"
+	},
+	"dateDeath": {
+		"yyyy": "1715",
+		"mm": "09",
+		"dd": "01"
+	},
+	"placeBirth": "Saint-Germain-en-Laye, France",
+	"placeDeath": "Versailles, France",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "roy",
+	"group": ["King of France"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Louis_XIV_of_France.jpg/540px-Louis_XIV_of_France.jpg"
 }]
