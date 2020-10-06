@@ -29,7 +29,7 @@ I tried to keep things simple, so the data is a single JSON file served through 
 		- For the direction of the layout, check VisJS' [example](https://visjs.github.io/vis-network/examples/network/layout/hierarchicalLayoutUserdefined.html).
 	- Random layout:
 		- When using the random layout, the nodes are randomly positioned. The result is different every time, but if you provide a seed manually, you can reuse the same layout again.
-- Click the `loupe` icon to do a basic search. Matches will be highlighted on the graph.
+- Click the `loupe` icon to do a basic search. Matches will be highlighted on the graph. The matches are inclusive.
 	- You can use `c` before the year to search within a 20 year range. e.g.: `c1650` will match anything between 1640 and 1660.
 	- You can use `-` or `~` to search within a bigger range. e.g.: `1500-1600` will match anything between 1500 and 1600.
 
