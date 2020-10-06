@@ -268,6 +268,10 @@ const assignLinks = (query) => {
 	const youtube = document.getElementById("youtubeLink")
 	const youtubeLink = "https://duckduckgo.com/?t=ffab&q="
 	youtube.href = `${youtubeLink}${query}`
+
+	const spotify = document.getElementById("spotifyLink")
+	const spotifyLink = "https://duckduckgo.com/?t=ffab&q="
+	spotify.href = `${spotifyLink}${query}`
 }
 
 const assignName = (person) => {

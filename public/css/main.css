@@ -90,8 +90,9 @@ body {
 #links {
 	text-align: center;
 }
-#youtubeBtn {
-	opacity: 0.7;
+#youtubeBtn,
+#spotifyBtn {
+	opacity: 0.6;
 	stroke-width: 0;
 	fill: #adadad;
 	cursor: pointer;
@@ -101,6 +102,10 @@ body {
 #youtubeBtn:hover {
 	opacity: 0.9;
 	fill: #ff0000;
+}
+#spotifyBtn:hover {
+	opacity: 0.9;
+	fill: #4caf50;
 }
 
 #sourceCard {
