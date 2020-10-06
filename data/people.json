@@ -4505,6 +4505,10 @@
 		"id": 173,
 		"type": "Student",
 		"color": "gray"
+	},{
+		"id": 206,
+		"type": "Student",
+		"color": "gray"
 	}],
 	"color": "mus",
 	"group": ["Violinist", "Kapellmeister", "Composer"],
@@ -6957,4 +6961,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Francois_Couperin_2.jpg/603px-Francois_Couperin_2.jpg"
+},
+{
+	"id": 206,
+	"name": {
+		"first": "Niccolò",
+		"last": "Jommelli",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1714",
+		"mm": "09",
+		"dd": "10"
+	},
+	"dateDeath": {
+		"yyyy": "1774",
+		"mm": "08",
+		"dd": "25"
+	},
+	"placeBirth": "Aversa, Italy",
+	"placeDeath": "Naples, Italy",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "reg",
+	"group": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Niccol%C3%B2_Jommelli.jpg"
 }]
