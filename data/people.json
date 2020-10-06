@@ -6925,4 +6925,36 @@
 		"extract": ""
 	}],
 	"picture": ""
+},
+{
+	"id": 205,
+	"name": {
+		"first": "François",
+		"last": "Couperin",
+		"alt": ["Couperin le Grand"]
+	},
+	"dateBirth": {
+		"yyyy": "1668",
+		"mm": "11",
+		"dd": "10"
+	},
+	"dateDeath": {
+		"yyyy": "1733",
+		"mm": "09",
+		"dd": "11"
+	},
+	"placeBirth": "Paris, France",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": 203,
+		"type": "Employee",
+		"color": "green"
+	}],
+	"color": "mus",
+	"group": ["Harpsichordist", "Organist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Francois_Couperin_2.jpg/603px-Francois_Couperin_2.jpg"
 }]
