@@ -7065,6 +7065,10 @@
 		"id": 207,
 		"type": "Acquaintance",
 		"color": "blue"
+	},{
+		"id": 208,
+		"type": "Friend",
+		"color": "blue"
 	}],
 	"color": "reg",
 	"group": ["Composer"],
@@ -7073,4 +7077,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Johann_Christian_Bach_by_Thomas_Gainsborough.jpg/492px-Johann_Christian_Bach_by_Thomas_Gainsborough.jpg"
+},
+{
+	"id": 209,
+	"name": {
+		"first": "Carl Friedrich",
+		"last": "Abel",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1723",
+		"mm": "12",
+		"dd": "22"
+	},
+	"dateDeath": {
+		"yyyy": "1787",
+		"mm": "06",
+		"dd": "20"
+	},
+	"placeBirth": "Köthen, Germany",
+	"placeDeath": "London, England",
+	"relationship": [{
+		"id": 38,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "mus",
+	"group": ["Gambist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/1/17/Karl_Friedrich_Abel_by_Thomas_Gainsborough_%28c._1777%29.jpg"
 }]
