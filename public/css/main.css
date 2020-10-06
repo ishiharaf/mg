@@ -86,6 +86,9 @@ body {
 	text-align: center;
 	font-size: 13px;
 }
+.relatedNode {
+	cursor: pointer;
+}
 
 #links {
 	text-align: center;

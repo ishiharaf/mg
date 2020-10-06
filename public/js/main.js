@@ -228,6 +228,33 @@ const checkSource = (el) => {
 	}
 }
 
+const goToRelated = (id) => {
+	const position = network.getPosition(id)
+	const scale = network.getScale()
+	network.moveTo({
+		position: position,
+		scale: scale,
+		offset: {
+			x: 0,
+			y: 0
+		},
+		animation: {
+			duration: 10,
+			easingFunction: "linear"
+		}
+	})
+
+	const edges = network.getConnectedEdges(id)
+	const nodes = []
+	nodes.push(id)
+
+	const params = {
+		edges: edges,
+		nodes: nodes
+	}
+	openInfoCard(params)
+}
+
 const getRelated = (id, edge) => {
 	let relPeople = []
 
@@ -247,16 +274,21 @@ const getRelated = (id, edge) => {
 			}
 
 			const personObj = {
+				id: "",
+				type: "child",
+				relation: "",
 				name: "",
 				source: []
 			}
 			const source = checkSource(childObj.type)
 			if(source !== false) {
-				personObj.name = `${child.name.first} ${lastName}, ${source.string}`
+				personObj.relation = `, ${source.string}`
 				personObj.source.push(child.source[source.value])
 			} else {
-				personObj.name = `${child.name.first} ${lastName}, ${childObj.type}`
+				personObj.relation = `, ${childObj.type}`
 			}
+			personObj.name = `${child.name.first} ${lastName}`
+			personObj.id = childNode
 			relPeople.push(personObj)
 		}
 
@@ -276,16 +308,22 @@ const getRelated = (id, edge) => {
 			}
 
 			const personObj = {
+				id: "",
+				type: "parent",
+				relation: "",
 				name: "",
 				source: []
 			}
+
 			const source = checkSource(parentObj.type)
 			if(source !== false) {
-				personObj.name = `${source.string} of ${parent.name.first} ${lastName}`
+				personObj.relation = `${source.string} of `
 				personObj.source.push(parent.source[source.value])
 			} else {
-				personObj.name = `${parentObj.type} of ${parent.name.first} ${lastName}`
+				personObj.relation = `${parentObj.type} of `
 			}
+			personObj.name = `${parent.name.first} ${lastName}`
+			personObj.id = parentNode
 			relPeople.push(personObj)
 		}
 	}
@@ -407,7 +445,22 @@ const assignRelation = (person, people) => {
 		for (let i = 0; i < people.length; i++) {
 			const personNode = document.createElement("div")
 			const relNode = document.createElement("span")
-			relNode.innerHTML = people[i].name
+			const nameNode = document.createElement("span")
+
+			relNode.innerHTML = people[i].relation
+			nameNode.innerHTML = people[i].name
+			nameNode.className = "relatedNode"
+			nameNode.addEventListener("click", () => {
+				goToRelated(people[i].id)
+			})
+
+			if(people[i].type === "child") {
+				personNode.appendChild(nameNode)
+				personNode.appendChild(relNode)
+			} else {
+				personNode.appendChild(relNode)
+				personNode.appendChild(nameNode)
+			}
 
 			if(people[i].source.length > 0) {
 				const index = person.source.length + 1
@@ -420,10 +473,7 @@ const assignRelation = (person, people) => {
 					openSource(index)
 				})
 
-				personNode.appendChild(relNode)
 				personNode.appendChild(sourceNode)
-			} else {
-				personNode.appendChild(relNode)
 			}
 
 			relationDiv.appendChild(personNode)
