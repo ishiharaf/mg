@@ -731,11 +731,21 @@ const getResult = () => {
 		const date = person.dateBirth.yyyy
 
 		if(nameFilter !== "") {
-			if(name.match(nameRegExp)) matchAll.push(id)
+			if(name.match(nameRegExp)) {
+				matchAll.push(id)
+			} else {
+				const alt = person.name.alt
+				for (let i = 0; i < alt.length; i++) {
+					const altName = alt[i]
+					if(altName.match(nameRegExp)) matchAll.push(id)
+				}
+			}
 		}
+
 		if(placeFilter !== "") {
 			if(place.match(placeRegExp)) matchAll.push(id)
 		}
+
 		if(dateFilter !== "") {
 			if(date.match(dateRegExp)) matchAll.push(id)
 		}
