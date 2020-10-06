@@ -91,7 +91,8 @@ body {
 	text-align: center;
 }
 #youtubeBtn,
-#spotifyBtn {
+#spotifyBtn,
+#googleBtn {
 	opacity: 0.6;
 	stroke-width: 0;
 	fill: #adadad;
@@ -106,6 +107,27 @@ body {
 #spotifyBtn:hover {
 	opacity: 0.9;
 	fill: #4caf50;
+}
+#googleBtn:hover {
+	opacity: 0.9;
+}
+#googleBtn:hover > g > path:nth-child(1) {
+	fill: #fbbd00;
+}
+#googleBtn:hover > g > path:nth-child(2) {
+	fill: #0f9d58;
+}
+#googleBtn:hover > g > path:nth-child(3) {
+	fill: #31aa52;
+}
+#googleBtn:hover > g > path:nth-child(4) {
+	fill: #3c79e6;
+}
+#googleBtn:hover > g > path:nth-child(5) {
+	fill: #cf2d48;
+}
+#googleBtn:hover > g > path:nth-child(6) {
+	fill: #eb4132;
 }
 
 #sourceCard {
