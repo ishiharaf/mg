@@ -670,10 +670,12 @@ const getHierarchy = () => {
 
 const getResult = () => {
 	const nameFilter = String(document.getElementById("nameFilterBox").value)
+	const occFilter = String(document.getElementById("occFilterBox").value)
 	const placeFilter = String(document.getElementById("birthPlaceFilterBox").value)
 	const dateFilter = String(document.getElementById("birthDateFilterBox").value)
 
 	const nameRegExp = new RegExp(nameFilter, "ig")
+	const occRegExp = new RegExp(occFilter, "ig")
 	const placeRegExp = new RegExp(placeFilter, "ig")
 	let dateRegExp
 
@@ -726,10 +728,8 @@ const getResult = () => {
 	for (let i = 0; i < people.length; i++) {
 		const person = people[i]
 		const id = person.id
-		const name = `${person.name.first} ${person.name.last}`
-		const place = person.placeBirth
-		const date = person.dateBirth.yyyy
 
+		const name = `${person.name.first} ${person.name.last}`
 		if(nameFilter !== "") {
 			if(name.match(nameRegExp)) {
 				matchAll.push(id)
@@ -742,10 +742,20 @@ const getResult = () => {
 			}
 		}
 
+		const occupation = person.group
+		if(occFilter !== "") {
+			for (let i = 0; i < occupation.length; i++) {
+				const occName = occupation[i]
+				if(occName.match(occRegExp)) matchAll.push(id)
+			}
+		}
+
+		const place = person.placeBirth
 		if(placeFilter !== "") {
 			if(place.match(placeRegExp)) matchAll.push(id)
 		}
 
+		const date = person.dateBirth.yyyy
 		if(dateFilter !== "") {
 			if(date.match(dateRegExp)) matchAll.push(id)
 		}
@@ -768,6 +778,7 @@ const setDefaultConfig = () => {
 	const direction = document.getElementById("directionSel")
 
 	const nameFilter = document.getElementById("nameFilterBox")
+	const occFilter = document.getElementById("occFilterBox")
 	const placeFilter = document.getElementById("birthPlaceFilterBox")
 	const dateFilter = document.getElementById("birthDateFilterBox")
 
@@ -783,6 +794,7 @@ const setDefaultConfig = () => {
 	direction.value = "UD"
 
 	nameFilter.value = ""
+	occFilter.value = ""
 	placeFilter.value = ""
 	dateFilter.value = ""
 
