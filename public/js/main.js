@@ -233,7 +233,6 @@ const getRelated = (id, edge) => {
 
 	for (let i = 0; i < edge.length; i++) {
 		const childNode = network.getConnectedNodes(edge[i], "to")[1]
-		console.log(`child: ${childNode}, id: ${id}`)
 		if(childNode !== id) {
 			const child = people.find(people => people.id == childNode)
 			const relationship = child.relationship
@@ -262,7 +261,6 @@ const getRelated = (id, edge) => {
 		}
 
 		const parentNode = network.getConnectedNodes(edge[i], "from")[0]
-		console.log(`parent: ${parentNode}, id: ${id}`)
 		if(parentNode !== id) {
 			const child = people.find(people => people.id == id)
 			const parent = people.find(people => people.id == parentNode)
