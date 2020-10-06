@@ -198,11 +198,8 @@ const openSource = (sourceId) => {
 
 	sourceCard.style.display = "block"
 	sourceCard.style.right = `${cardWidth}px`
-	if(imageDiv.innerHTML !== "") {
-		sourceCard.style.top = "80px"
-	} else {
-		sourceCard.style.top = "35px"
-	}
+	if(imageDiv.innerHTML !== "") sourceCard.style.top = "80px"
+	else sourceCard.style.top = "35px"
 }
 
 const checkSource = (el) => {
@@ -223,6 +220,7 @@ const checkSource = (el) => {
 			node: sourceNode
 		}
 		return source
+
 	} else {
 		return false
 	}
@@ -325,6 +323,7 @@ const getRelated = (id, edge) => {
 			parents.push(personObj)
 		}
 	}
+
 	const relPeople = new Array().concat(parents, children)
 	return relPeople
 }
@@ -359,7 +358,6 @@ const assignName = (person) => {
 		nameDiv.innerHTML = personName
 		assignLinks(personName)
 	}
-
 }
 
 const assignAlt = (person) => {
