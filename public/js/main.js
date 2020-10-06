@@ -61,9 +61,9 @@ const defaultLayout = {
 
 const defaultArrows = {
 	enabled: true,
-	type: "horizontal",
-	forceDirection: "vertical",
-	roundness: 0.5
+	type: "cubicBezier",
+	forceDirection: "none",
+	roundness: 1
 }
 
 const drawNetwork = (userLayout, userArrows) => {
@@ -785,13 +785,13 @@ const setDefaultConfig = () => {
 	currentSeedBox.value = ""
 	userSeedBox.value = ""
 
-	arrowType.value = "horizontal"
-	forceDirection.value = "vertical"
-	roundness.value = "0.5"
+	arrowType.value = defaultArrows.type
+	forceDirection.value = defaultArrows.forceDirection
+	roundness.value = defaultArrows.roundness
 
-	levelSeparation.value = 21
-	treeSpacing.value = 100
-	direction.value = "UD"
+	levelSeparation.value = defaultLayout.hierarchical.levelSeparation
+	treeSpacing.value = defaultLayout.hierarchical.treeSpacing
+	direction.value = defaultLayout.hierarchical.direction
 
 	nameFilter.value = ""
 	occFilter.value = ""
