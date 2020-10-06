@@ -264,6 +264,12 @@ const getRelated = (id, edge) => {
 	return relPeople
 }
 
+const assignLinks = (query) => {
+	const youtube = document.getElementById("youtubeLink")
+	const youtubeLink = "https://duckduckgo.com/?t=ffab&q="
+	youtube.href = `${youtubeLink}${query}`
+}
+
 const assignName = (person) => {
 	const nameDiv = document.getElementById("name")
 	nameDiv.innerHTML = ""
@@ -272,12 +278,15 @@ const assignName = (person) => {
 	const source = checkSource(personName)
 	if(source !== false) {
 		const nameNode = document.createElement("span")
-		nameNode.innerHTML = `${source.string}`
+		nameNode.innerHTML = source.string
 		nameDiv.appendChild(nameNode)
 		nameDiv.appendChild(source.node)
+		assignLinks(source.string)
 	} else {
-		nameDiv.innerHTML = `${person.name.first} ${person.name.last}`
+		nameDiv.innerHTML = personName
+		assignLinks(personName)
 	}
+
 }
 
 const assignAlt = (person) => {
