@@ -232,30 +232,61 @@ const getRelated = (id, edge) => {
 	let relPeople = []
 
 	for (let i = 0; i < edge.length; i++) {
-		const relNode = network.getConnectedNodes(edge[i], "to")[1]
-		if(relNode !== id) {
-			const relPerson = people.find(people => people.id == relNode)
-			const relationship = relPerson.relationship
-			const relObject = relationship.find(relationship => relationship.id == id)
+		const childNode = network.getConnectedNodes(edge[i], "to")[1]
+		console.log(`child: ${childNode}, id: ${id}`)
+		if(childNode !== id) {
+			const child = people.find(people => people.id == childNode)
+			const relationship = child.relationship
+			const childObj = relationship.find(relationship => relationship.id == id)
 
 			let lastName
-			if(relPerson.name.last.slice(-1) === "]") {
-				const firstIndex = relPerson.name.last.indexOf("[")
-				lastName = relPerson.name.last.substring(0, firstIndex - 1)
+			if(child.name.last.slice(-1) === "]") {
+				const firstIndex = child.name.last.indexOf("[")
+				lastName = child.name.last.substring(0, firstIndex - 1)
 			} else {
-				lastName = relPerson.name.last
+				lastName = child.name.last
 			}
 
 			const personObj = {
 				name: "",
 				source: []
 			}
-			const source = checkSource(relObject.type)
+			const source = checkSource(childObj.type)
 			if(source !== false) {
-				personObj.name = `${relPerson.name.first} ${lastName}, ${source.string}`
-				personObj.source.push(relPerson.source[source.value])
+				personObj.name = `${child.name.first} ${lastName}, ${source.string}`
+				personObj.source.push(child.source[source.value])
 			} else {
-				personObj.name = `${relPerson.name.first} ${lastName}, ${relObject.type}`
+				personObj.name = `${child.name.first} ${lastName}, ${childObj.type}`
+			}
+			relPeople.push(personObj)
+		}
+
+		const parentNode = network.getConnectedNodes(edge[i], "from")[0]
+		console.log(`parent: ${parentNode}, id: ${id}`)
+		if(parentNode !== id) {
+			const child = people.find(people => people.id == id)
+			const parent = people.find(people => people.id == parentNode)
+			const relationship = child.relationship
+			const parentObj = relationship.find(relationship => relationship.id == parentNode)
+
+			let lastName
+			if(parent.name.last.slice(-1) === "]") {
+				const firstIndex = parent.name.last.indexOf("[")
+				lastName = parent.name.last.substring(0, firstIndex - 1)
+			} else {
+				lastName = parent.name.last
+			}
+
+			const personObj = {
+				name: "",
+				source: []
+			}
+			const source = checkSource(parentObj.type)
+			if(source !== false) {
+				personObj.name = `${source.string} of ${parent.name.first} ${lastName}`
+				personObj.source.push(parent.source[source.value])
+			} else {
+				personObj.name = `${parentObj.type} of ${parent.name.first} ${lastName}`
 			}
 			relPeople.push(personObj)
 		}
