@@ -87,6 +87,22 @@ body {
 	font-size: 13px;
 }
 
+#links {
+	text-align: center;
+}
+#youtubeBtn {
+	opacity: 0.7;
+	stroke-width: 0;
+	fill: #adadad;
+	cursor: pointer;
+	text-shadow: 0px 0px 2px #0a090881;
+	user-select: none;
+}
+#youtubeBtn:hover {
+	opacity: 0.9;
+	fill: #ff0000;
+}
+
 #sourceCard {
 	width: auto;
 	height: auto;
