@@ -266,7 +266,7 @@ const getRelated = (id, edge) => {
 
 const assignLinks = (query) => {
 	const google = document.getElementById("googleLink")
-	const googleLink = "https://duckduckgo.com/?t=ffab&q="
+	const googleLink = "https://www.google.com/search?q="
 	google.href = `${googleLink}${query}`
 
 	const youtube = document.getElementById("youtubeLink")
