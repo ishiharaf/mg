@@ -304,8 +304,8 @@ body {
 	margin: 0;
 	font-size: 13px;
 }
-a {color: #f9f9f9;}
-a:visited {color: #adadad;}
+#projectPage {color: #f9f9f9;}
+#projectPage:visited {color: #adadad;}
 .arrow.red {color: #be301a}
 .arrow.pink {color: #ffc2d4}
 .arrow.green {color: #aad576}
