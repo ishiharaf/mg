@@ -270,11 +270,11 @@ const assignLinks = (query) => {
 	google.href = `${googleLink}${query}`
 
 	const youtube = document.getElementById("youtubeLink")
-	const youtubeLink = "https://duckduckgo.com/?t=ffab&q="
+	const youtubeLink = "https://www.youtube.com/results?search_query="
 	youtube.href = `${youtubeLink}${query}`
 
 	const spotify = document.getElementById("spotifyLink")
-	const spotifyLink = "https://duckduckgo.com/?t=ffab&q="
+	const spotifyLink = "https://open.spotify.com/search/"
 	spotify.href = `${spotifyLink}${query}`
 }
 
