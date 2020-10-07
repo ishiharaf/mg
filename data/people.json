@@ -6342,9 +6342,9 @@
 	"placeBirth": "Transnistria, Republic of Moldova",
 	"placeDeath": "St. Petersburg, Russia",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 222,
+		"type": "Acquaintance",
+		"color": "blue"
 	}],
 	"color": "mus",
 	"group": ["Pianist", "Conductor", "Composer"],
