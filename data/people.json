@@ -7393,4 +7393,36 @@
 		"extract": ""
 	}],
 	"picture": "//"
+},
+{
+	"id": 218,
+	"name": {
+		"first": "Gustave",
+		"last": "Garcia",
+		"alt": ["Gustave García"]
+	},
+	"dateBirth": {
+		"yyyy": "1837",
+		"mm": "02",
+		"dd": "01"
+	},
+	"dateDeath": {
+		"yyyy": "1925",
+		"mm": "06",
+		"dd": "12"
+	},
+	"placeBirth": "Milan, Italy",
+	"placeDeath": "London, England",
+	"relationship": [{
+		"id": 217,
+		"type": "Son",
+		"color": "red"
+	}],
+	"color": "mus",
+	"group": ["Singer", "Teacher", "Actor", "Pedagogue"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "//"
 }]
