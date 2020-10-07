@@ -7261,4 +7261,36 @@
 		"extract": ""
 	}],
 	"picture": "//"
+},
+{
+	"id": 214,
+	"name": {
+		"first": "Maria",
+		"last": "Malibran",
+		"alt": ["Maria Felicia Malibran", "María Felicitas García Sitches"]
+	},
+	"dateBirth": {
+		"yyyy": "1808",
+		"mm": "03",
+		"dd": "24"
+	},
+	"dateDeath": {
+		"yyyy": "1836",
+		"mm": "09",
+		"dd": "23"
+	},
+	"placeBirth": "Paris, France",
+	"placeDeath": "Manchester, England",
+	"relationship": [{
+		"id": 213,
+		"type": "Spouse",
+		"color": "pink"
+	}],
+	"color": "mus",
+	"group": ["Singer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "//"
 }]
