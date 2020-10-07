@@ -4390,9 +4390,9 @@
 	"placeBirth": "Bruges, Belgium",
 	"placeDeath": "Boulogne-sur-Mer, Belgium",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 220,
+		"type": "Student",
+		"color": "gray"
 	}],
 	"color": "mus",
 	"group": ["Violinist", "Pianist", "Composer"],
@@ -7464,6 +7464,38 @@
 	}],
 	"color": "roy",
 	"group": ["Holy Roman Emperor", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "//"
+},
+{
+	"id": 220,
+	"name": {
+		"first": "Louis-Barthélémy",
+		"last": "Pradher",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1782",
+		"mm": "12",
+		"dd": "16"
+	},
+	"dateDeath": {
+		"yyyy": "1843",
+		"mm": "10",
+		"dd": "19"
+	},
+	"placeBirth": "Paris, France",
+	"placeDeath": "Gray, France",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "mus",
+	"group": ["Composer", "Pianist", "Teacher"],
 	"source": [{
 		"citation": "",
 		"extract": ""
