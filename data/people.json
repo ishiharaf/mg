@@ -7285,9 +7285,45 @@
 		"id": 213,
 		"type": "Spouse",
 		"color": "pink"
+	},{
+		"id": 215,
+		"type": "Daughter",
+		"color": "red"
 	}],
 	"color": "mus",
 	"group": ["Singer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "//"
+},
+{
+	"id": 215,
+	"name": {
+		"first": "Manuel",
+		"last": "García",
+		"alt": ["Manuel del Pópulo Vicente Rodriguez García", "Manuel García Senior"]
+	},
+	"dateBirth": {
+		"yyyy": "1775",
+		"mm": "01",
+		"dd": "21"
+	},
+	"dateDeath": {
+		"yyyy": "1832",
+		"mm": "06",
+		"dd": "10"
+	},
+	"placeBirth": "Seville, Spain",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "mus",
+	"group": ["Singer", "Teacher", "Composer", "Impresario"],
 	"source": [{
 		"citation": "",
 		"extract": ""
