@@ -3742,9 +3742,9 @@
 	"placeBirth": "Wartenberg, Czech Republic",
 	"placeDeath": "Salzburg, Germany",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 124,
+		"type": "Student?",
+		"color": "black"
 	}],
 	"color": "imp",
 	"group": ["Violinist", "Composer"],
