@@ -7573,4 +7573,36 @@
 		"extract": ""
 	}],
 	"picture": "//"
+},
+{
+	"id": 223,
+	"name": {
+		"first": "Camillo",
+		"last": "Sivori",
+		"alt": ["Ernesto Camillo Sivori"]
+	},
+	"dateBirth": {
+		"yyyy": "1817",
+		"mm": "06",
+		"dd": "06"
+	},
+	"dateDeath": {
+		"yyyy": "1894",
+		"mm": "02",
+		"dd": "18"
+	},
+	"placeBirth": "Genoa, Italy",
+	"placeDeath": "Genoa, Italy",
+	"relationship": [{
+		"id": 201,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "mus",
+	"group": ["Violinist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Ernesto_Camillo_Sivori.jpg"
 }]
