@@ -4486,14 +4486,14 @@
 	"placeBirth": "Cuneo, Italy",
 	"placeDeath": "Cuneo, Italy",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 7,
+		"type": "Student [1]",
+		"color": "gray"
 	}],
 	"color": "mus",
-	"group": ["Violinist", "Conductor", "Composer"],
+	"group": ["Violinist", "Violist", "Conductor", "Composer"],
 	"source": [{
-		"citation": "",
+		"citation": "Mason (1917), p.100",
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Antonio_Bartolomeo_Bruni.jpg/691px-Antonio_Bartolomeo_Bruni.jpg"
