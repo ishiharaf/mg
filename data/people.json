@@ -7597,6 +7597,10 @@
 		"id": 201,
 		"type": "Student",
 		"color": "gray"
+	},{
+		"id": 200,
+		"type": "Acquaintance",
+		"color": "blue"
 	}],
 	"color": "mus",
 	"group": ["Violinist", "Composer"],
