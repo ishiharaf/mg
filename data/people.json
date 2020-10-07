@@ -7353,6 +7353,10 @@
 		"id": 215,
 		"type": "Daughter",
 		"color": "red"
+	},{
+		"id": 200,
+		"type": "Student",
+		"color": "gray"
 	}],
 	"color": "mus",
 	"group": ["Singer", "Teacher", "Composer"],
