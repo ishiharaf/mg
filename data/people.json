@@ -7361,4 +7361,36 @@
 		"extract": ""
 	}],
 	"picture": "//"
+},
+{
+	"id": 217,
+	"name": {
+		"first": "Manuel",
+		"last": "García",
+		"alt": ["Manuel Patricio Rodríguez García"]
+	},
+	"dateBirth": {
+		"yyyy": "1805",
+		"mm": "03",
+		"dd": "17"
+	},
+	"dateDeath": {
+		"yyyy": "1906",
+		"mm": "07",
+		"dd": "01"
+	},
+	"placeBirth": "Madrid, Spain",
+"placeDeath": "London, England",
+	"relationship": [{
+		"id": 215,
+		"type": "Son",
+		"color": "red"
+	}],
+	"color": "imp",
+	"group": ["Singer", "Teacher", "Pedagogue"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "//"
 }]
