@@ -4422,9 +4422,9 @@
 	"placeBirth": "Passy, France",
 	"placeDeath": "Paris, France",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 210,
+		"type": "Student",
+		"color": "gray"
 	}],
 	"color": "mus",
 	"group": ["Violinist", "Composer"],
