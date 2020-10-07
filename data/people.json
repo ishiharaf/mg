@@ -7269,6 +7269,10 @@
 		"id": 210,
 		"type": "Student",
 		"color": "gray"
+	},{
+		"id": 224,
+		"type": "Student",
+		"color": "gray"
 	}],
 	"color": "mus",
 	"group": ["Violinist", "Composer"],
@@ -7609,4 +7613,48 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Ernesto_Camillo_Sivori.jpg"
+},
+{
+	"id": 224,
+	"name": {
+		"first": "André",
+		"last": "Robberechts",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1797",
+		"mm": "12",
+		"dd": "16"
+	},
+	"dateDeath": {
+		"yyyy": "1860",
+		"mm": "05",
+		"dd": "23"
+	},
+	"placeBirth": "Brussels, Belgium",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": 221,
+		"type": "Acquaintance",
+		"color": "blue"
+	},{
+		"id": 130,
+		"type": "Student",
+		"color": "gray"
+	},{
+		"id": 199,
+		"type": "Student",
+		"color": "gray"
+	},{
+		"id": 210,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "mus",
+	"group": ["Violinist", "Pianist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
