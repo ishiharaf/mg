@@ -6833,6 +6833,10 @@
 		"id": 201,
 		"type": "Acquaintance",
 		"color": "blue"
+	},{
+		"id": 222,
+		"type": "Acquaintance",
+		"color": "blue"
 	}],
 	"color": "imp",
 	"group": ["Pianist", "Composer", "Teacher"],
