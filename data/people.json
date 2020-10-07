@@ -7562,9 +7562,9 @@
 	"placeBirth": "Pesaro, Italy",
 	"placeDeath": "Paris, France",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 215,
+		"type": "Acquaintance",
+		"color": "blue"
 	}],
 	"color": "imp",
 	"group": ["Composer"],
