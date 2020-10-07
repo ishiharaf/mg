@@ -7157,4 +7157,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/3/34/Giovanni_Battista_Viotti.jpg"
+},
+{
+	"id": 211,
+	"name": {
+		"first": "Pierre",
+		"last": "Rode",
+		"alt": ["Jacques Pierre Joseph Rode"]
+	},
+	"dateBirth": {
+		"yyyy": "1774",
+		"mm": "02",
+		"dd": "16"
+	},
+	"dateDeath": {
+		"yyyy": "1830",
+		"mm": "11",
+		"dd": "25"
+	},
+	"placeBirth": "Bordeaux, France",
+	"placeDeath": "Château de Bourbon, France",
+	"relationship": [{
+		"id": 210,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "imp",
+	"group": ["Violinist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Pierre_Rode.jpg"
 }]
