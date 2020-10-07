@@ -7501,4 +7501,36 @@
 		"extract": ""
 	}],
 	"picture": "//"
+},
+{
+	"id": 221,
+	"name": {
+		"first": "François-Joseph",
+		"last": "Fétis",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1784",
+		"mm": "03",
+		"dd": "25"
+	},
+	"dateDeath": {
+		"yyyy": "1871",
+		"mm": "03",
+		"dd": "26"
+	},
+	"placeBirth": "Mons, Belgium",
+	"placeDeath": "Brussels, Belgium",
+	"relationship": [{
+		"id": 220,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "mus",
+	"group": ["Musicologist", "Composer", "Teacher", "Music critic"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "//"
 }]
