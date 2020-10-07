@@ -2970,9 +2970,9 @@
 	"placeBirth": "Hirtenfed, Austria",
 	"placeDeath": "Vienna, Austria",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 219,
+		"type": "Employee",
+		"color": "green"
 	}],
 	"color": "mus",
 	"group": ["Composer", "Music Theorist", "Pedagogue"],
@@ -4230,9 +4230,9 @@
 	"placeBirth": "Scheibbs, Austria",
 	"placeDeath": "Prague, Czech Republic",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 219,
+		"type": "Employee",
+		"color": "green"
 	}],
 	"color": "mus",
 	"group": ["Violinist", "Composer"],
@@ -5411,6 +5411,10 @@
 		"color": "gray"
 	},{
 		"id": 162,
+		"type": "Employee",
+		"color": "green"
+	},{
+		"id": 219,
 		"type": "Employee",
 		"color": "green"
 	}],
@@ -7428,6 +7432,38 @@
 	}],
 	"color": "mus",
 	"group": ["Singer", "Teacher", "Actor", "Pedagogue"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "//"
+},
+{
+	"id": 219,
+	"name": {
+		"first": "Leopold Ignaz Joseph Balthasar",
+		"last": "Felician",
+		"alt": ["Leopold I", "I. Lipót"]
+	},
+	"dateBirth": {
+		"yyyy": "1640",
+		"mm": "06",
+		"dd": "09"
+	},
+	"dateDeath": {
+		"yyyy": "1705",
+		"mm": "05",
+		"dd": "15"
+	},
+	"placeBirth": "Vienna, Austria",
+	"placeDeath": "Vienna, Austria",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "roy",
+	"group": ["Holy Roman Emperor", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
