@@ -6162,9 +6162,9 @@
 	"placeBirth": "Vienna, Austria",
 	"placeDeath": "Vienna, Austria",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 212,
+		"type": "Student",
+		"color": "gray"
 	}],
 	"color": "imp",
 	"group": ["Violinist", "Teacher", "Composer"],
