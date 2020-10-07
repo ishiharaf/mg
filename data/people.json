@@ -3877,6 +3877,10 @@
 		"id": 96,
 		"type": "Student?",
 		"color": "black"
+	},{
+		"id": 66,
+		"type": "Acquaintance",
+		"color": "blue"
 	}],
 	"color": "mus",
 	"group": ["Violinist", "Conductor", "Composer"],
