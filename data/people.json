@@ -3874,9 +3874,9 @@
 	"placeBirth": "Mantua, Italy",
 	"placeDeath": "Vienna, Austria",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 96,
+		"type": "Student?",
+		"color": "black"
 	}],
 	"color": "mus",
 	"group": ["Violinist", "Conductor", "Composer"],
