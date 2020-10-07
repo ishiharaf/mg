@@ -7380,7 +7380,7 @@
 		"dd": "01"
 	},
 	"placeBirth": "Madrid, Spain",
-"placeDeath": "London, England",
+	"placeDeath": "London, England",
 	"relationship": [{
 		"id": 215,
 		"type": "Son",
