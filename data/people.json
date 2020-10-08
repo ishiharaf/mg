@@ -3774,9 +3774,9 @@
 	"placeBirth": "Lübeck, Germany",
 	"placeDeath": "London, England",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 230,
+		"type": "Student",
+		"color": "gray"
 	}],
 	"color": "imp",
 	"group": ["Violinist", "Composer"],
@@ -7824,6 +7824,38 @@
 	}],
 	"color": "mus",
 	"group": ["Soprano"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "//"
+},
+{
+	"id": 230,
+	"name": {
+		"first": "Johann",
+		"last": "Schop",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "c1590",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1667",
+		"mm": "??",
+		"dd": "??"
+	},
+	"placeBirth": "Germany",
+	"placeDeath": "Germany?",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "mus",
+	"group": ["Violinist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
