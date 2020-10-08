@@ -7961,4 +7961,36 @@
 		"extract": ""
 	}],
 	"picture": "//"
+},
+{
+	"id": 234,
+	"name": {
+		"first": "Cipriano de",
+		"last": "Rore",
+		"alt": ["Cypriano de Rore"]
+	},
+	"dateBirth": {
+		"yyyy": "c1515",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1565",
+		"mm": "09",
+		"dd": "11"
+	},
+	"placeBirth": "Ronse, Belgium",
+	"placeDeath": "Parma, Italy",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "mus",
+	"group": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "//"
 }]
