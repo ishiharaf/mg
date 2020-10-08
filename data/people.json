@@ -7718,6 +7718,10 @@
 		"type": "Acquaintance",
 		"color": "blue"
 	},{
+		"id": 210,
+		"type": "Friend",
+		"color": "blue"
+	},{
 		"id": 83,
 		"type": "Student",
 		"color": "gray"
