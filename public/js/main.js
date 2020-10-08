@@ -129,7 +129,8 @@ const drawNetwork = (userLayout, userArrows) => {
 			hiddenLabel: lastName,
 			title: `${person.name.first} ${lastName}`,
 			level: Number(dateBirth),
-			color: palette[person.color]
+			color: palette[person.color],
+			margin: 10
 		})
 
 		const relation = person.relationship
