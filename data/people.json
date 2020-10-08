@@ -7689,4 +7689,40 @@
 		"extract": ""
 	}],
 	"picture": ""
+},
+{
+	"id": 226,
+	"name": {
+		"first": "George",
+		"last": "Bridgetower",
+		"alt": ["George Augustus Polgreen Bridgetower", "Hieronimo Hyppolito de Augusto"]
+	},
+	"dateBirth": {
+		"yyyy": "1778",
+		"mm": "10",
+		"dd": "11"
+	},
+	"dateDeath": {
+		"yyyy": "1860",
+		"mm": "02",
+		"dd": "29"
+	},
+	"placeBirth": "Bial/a Podlaska, Poland",
+	"placeDeath": "London, England",
+	"relationship": [{
+		"id": 135,
+		"type": "Acquaintance",
+		"color": "blue"
+	},{
+		"id": 83,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "mus",
+	"group": ["Violinist"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "//"
 }]
