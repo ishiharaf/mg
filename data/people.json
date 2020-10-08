@@ -7657,4 +7657,36 @@
 		"extract": ""
 	}],
 	"picture": ""
+},
+{
+	"id": 225,
+	"name": {
+		"first": "Caterina",
+		"last": "Calcagno",
+		"alt": ["Caterina Tagliavacche"]
+	},
+	"dateBirth": {
+		"yyyy": "1797",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1878",
+		"mm": "??",
+		"dd": "??"
+	},
+	"placeBirth": "Genoa, Italy",
+	"placeDeath": "Genoa, Italy?",
+	"relationship": [{
+		"id": 201,
+		"type": "Student?",
+		"color": "gray"
+	}],
+	"color": "mus",
+	"group": ["Violinist"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
