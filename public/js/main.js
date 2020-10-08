@@ -95,7 +95,10 @@ const drawNetwork = (userLayout, userArrows) => {
 		},
 		layout: userLayout,
 		physics:{
-			enabled: true
+			enabled: true,
+			hierarchicalRepulsion: {
+				avoidOverlap: 1
+			}
 		}
 	}
 	nodes = new DataSet()
