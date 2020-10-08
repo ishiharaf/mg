@@ -7921,6 +7921,10 @@
 		"id": 233,
 		"type": "Student",
 		"color": "gray"
+	},{
+		"id": 235,
+		"type": "Patronee",
+		"color": "green"
 	}],
 	"color": "mus",
 	"group": ["Organist", "Composer"],
@@ -7988,6 +7992,38 @@
 	}],
 	"color": "mus",
 	"group": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "//"
+},
+{
+	"id": 235,
+	"name": {
+		"first": "Pietro",
+		"last": "Aldobrandini",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1571",
+		"mm": "03",
+		"dd": "31"
+	},
+	"dateDeath": {
+		"yyyy": "1621",
+		"mm": "02",
+		"dd": "10"
+	},
+	"placeBirth": "Rome, Italy",
+	"placeDeath": "Rome, Italy",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "reg",
+	"group": ["Cardinal", "Patron"],
 	"source": [{
 		"citation": "",
 		"extract": ""
