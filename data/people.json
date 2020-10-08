@@ -7958,9 +7958,9 @@
 	"placeBirth": "Ferrara, Italy",
 	"placeDeath": "Ferrara, Italy",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 234,
+		"type": "Student",
+		"color": "gray"
 	}],
 	"color": "mus",
 	"group": ["Organist", "Teacher"],
