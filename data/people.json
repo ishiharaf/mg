@@ -7377,6 +7377,10 @@
 		"id": 200,
 		"type": "Student",
 		"color": "gray"
+	},{
+		"id": 227,
+		"type": "Student",
+		"color": "gray"
 	}],
 	"color": "mus",
 	"group": ["Singer", "Teacher", "Composer"],
@@ -7720,6 +7724,38 @@
 	}],
 	"color": "mus",
 	"group": ["Violinist"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "//"
+},
+{
+	"id": 227,
+	"name": {
+		"first": "Frédéric",
+		"last": "Chopin",
+		"alt": ["Frédéric François Chopin", "Fryderyk Franciszek Chopin"]
+	},
+	"dateBirth": {
+		"yyyy": "1810",
+		"mm": "03",
+		"dd": "01"
+	},
+	"dateDeath": {
+		"yyyy": "1849",
+		"mm": "10",
+		"dd": "17"
+	},
+	"placeBirth": "Zelazowa Wola, Poland",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": 200,
+		"type": "Friend",
+		"color": "blue"
+	}],
+	"color": "imp",
+	"group": ["Pianist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
