@@ -3978,9 +3978,9 @@
 	"placeBirth": "Wilton, England",
 	"placeDeath": "England",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 237,
+		"type": "Employee",
+		"color": "green"
 	}],
 	"color": "mus",
 	"group": ["Clockmaker", "Composer"],
@@ -6934,9 +6934,9 @@
 	"placeBirth": "Saint-Germain-en-Laye, France",
 	"placeDeath": "Versailles, France",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 237,
+		"type": "Cousin",
+		"color": "red"
 	}],
 	"color": "roy",
 	"group": ["King of France"],
@@ -8060,6 +8060,38 @@
 	}],
 	"color": "roy",
 	"group": ["Duke of Mantua", "Duke of Montferrat"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "//"
+},
+{
+	"id": 237,
+	"name": {
+		"first": "",
+		"last": "Charles II",
+		"alt": ["Charles II of England", "The Merry Monarch"]
+	},
+	"dateBirth": {
+		"yyyy": "1630",
+		"mm": "05",
+		"dd": "29"
+	},
+	"dateDeath": {
+		"yyyy": "1685",
+		"mm": "02",
+		"dd": "06"
+	},
+	"placeBirth": "London, England",
+	"placeDeath": "London, England",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "roy",
+	"group": ["King of England, Scotland and Ireland"],
 	"source": [{
 		"citation": "",
 		"extract": ""
