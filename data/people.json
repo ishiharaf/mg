@@ -3781,6 +3781,10 @@
 		"id": 231,
 		"type": "Student?",
 		"color": "black"
+	},{
+		"id": 117,
+		"type": "Acquaintance?",
+		"color": "black"
 	}],
 	"color": "imp",
 	"group": ["Violinist", "Composer"],
