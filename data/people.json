@@ -7761,4 +7761,36 @@
 		"extract": ""
 	}],
 	"picture": "//"
+},
+{
+	"id": 228,
+	"name": {
+		"first": "Jane",
+		"last": "Stirling",
+		"alt": ["Jean/Jane Wilhelmina Stirling"]
+	},
+	"dateBirth": {
+		"yyyy": "1804",
+		"mm": "07",
+		"dd": "15"
+	},
+	"dateDeath": {
+		"yyyy": "1859",
+		"mm": "02",
+		"dd": "06"
+	},
+	"placeBirth": "Dunblane, Scotland",
+	"placeDeath": "Dunblane, Scotland?",
+	"relationship": [{
+		"id": 227,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "mus",
+	"group": ["Pianist"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "//"
 }]
