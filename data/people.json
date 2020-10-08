@@ -7793,4 +7793,36 @@
 		"extract": ""
 	}],
 	"picture": "//"
+},
+{
+	"id": 229,
+	"name": {
+		"first": "Jenny",
+		"last": "Lind",
+		"alt": ["Johanna Maria Lind", "The Swedish Nightingale"]
+	},
+	"dateBirth": {
+		"yyyy": "1820",
+		"mm": "10",
+		"dd": "06"
+	},
+	"dateDeath": {
+		"yyyy": "1887",
+		"mm": "11",
+		"dd": "02"
+	},
+	"placeBirth": "Stockholm, Sweden",
+	"placeDeath": "Malvern, England",
+	"relationship": [{
+		"id": 217,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "mus",
+	"group": ["Soprano"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "//"
 }]
