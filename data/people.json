@@ -7918,12 +7918,44 @@
 	"placeBirth": "Ferrara, Italy",
 	"placeDeath": "Rome, Italy",
 	"relationship": [{
+		"id": 233,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "mus",
+	"group": ["Organist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "//"
+},
+{
+	"id": 233,
+	"name": {
+		"first": "Luzzasco",
+		"last": "Luzzaschi",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "c1545",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1607",
+		"mm": "09",
+		"dd": "10"
+	},
+	"placeBirth": "Ferrara, Italy",
+	"placeDeath": "Ferrara, Italy",
+	"relationship": [{
 		"id": "",
 		"type": "",
 		"color": ""
 	}],
 	"color": "mus",
-	"group": ["Organist", "Composer"],
+	"group": ["Organist", "Teacher"],
 	"source": [{
 		"citation": "",
 		"extract": ""
