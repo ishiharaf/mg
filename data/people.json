@@ -3777,6 +3777,10 @@
 		"id": 230,
 		"type": "Student",
 		"color": "gray"
+	},{
+		"id": 231,
+		"type": "Student?",
+		"color": "black"
 	}],
 	"color": "imp",
 	"group": ["Violinist", "Composer"],
@@ -7856,6 +7860,38 @@
 	}],
 	"color": "mus",
 	"group": ["Violinist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "//"
+},
+{
+	"id": 231,
+	"name": {
+		"first": "Franz",
+		"last": "Tunder",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1614",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1667",
+		"mm": "11",
+		"dd": "05"
+	},
+	"placeBirth": "Lübeck, Germany",
+	"placeDeath": "Lübeck, Germany",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "mus",
+	"group": ["Organist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
