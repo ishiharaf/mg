@@ -7680,7 +7680,7 @@
 	"relationship": [{
 		"id": 201,
 		"type": "Student?",
-		"color": "gray"
+		"color": "black"
 	}],
 	"color": "mus",
 	"group": ["Violinist"],
