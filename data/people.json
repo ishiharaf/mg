@@ -7886,6 +7886,38 @@
 	"placeBirth": "Lübeck, Germany",
 	"placeDeath": "Lübeck, Germany",
 	"relationship": [{
+		"id": 232,
+		"type": "Student?",
+		"color": "black"
+	}],
+	"color": "mus",
+	"group": ["Organist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "//"
+},
+{
+	"id": 232,
+	"name": {
+		"first": "Girolamo",
+		"last": "Frescobaldi",
+		"alt": ["Girolamo Alessandro Frescobaldi", "Gerolamo/Girolimo/Geronimo Alissandro"]
+	},
+	"dateBirth": {
+		"yyyy": "1583",
+		"mm": "09",
+		"dd": "?? [1]"
+	},
+	"dateDeath": {
+		"yyyy": "1643",
+		"mm": "03",
+		"dd": "01"
+	},
+	"placeBirth": "Ferrara, Italy",
+	"placeDeath": "Rome, Italy",
+	"relationship": [{
 		"id": "",
 		"type": "",
 		"color": ""
