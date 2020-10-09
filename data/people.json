@@ -8101,4 +8101,40 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/King_Charles_II_by_John_Michael_Wright_or_studio.jpg/470px-King_Charles_II_by_John_Michael_Wright_or_studio.jpg"
+},
+{
+	"id": 238,
+	"name": {
+		"first": "Ole",
+		"last": "Bull",
+		"alt": ["Ole Bornemann Bull"]
+	},
+	"dateBirth": {
+		"yyyy": "1810",
+		"mm": "02",
+		"dd": "05"
+	},
+	"dateDeath": {
+		"yyyy": "1880",
+		"mm": "08",
+		"dd": "17"
+	},
+	"placeBirth": "Bergen, Norway",
+	"placeDeath": "Lysøen, Norway",
+	"relationship": [{
+		"id": 201,
+		"type": "Acquaintance",
+		"color": "blue"
+	},{
+		"id": 196,
+		"type": "Acquaintance",
+		"color": "blue"
+	}],
+	"color": "imp",
+	"group": ["Violinist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Ole_Bull_cabinet_card_portrait.jpg/515px-Ole_Bull_cabinet_card_portrait.jpg"
 }]
