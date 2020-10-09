@@ -36,20 +36,20 @@ const palette = {
 		opacity: 1
 	},
 	blue: {
-		background: "#386fa4",
+		background: "#1c79cb",
 		highlight: {
 			background: "#59a5d8"
 		},
 		opacity: 1
 	},
 	darkBlue: {
-		background: "#0748ad",
+		background: "#285075",
 		highlight: {
-			background: "#59a5d8"
+			background: "#3d7ab3"
 		},
 		opacity: 1
 	},
-	reg: {
+	gray: {
 		background: "#625556",
 		highlight: {
 			background: "#b0abac"
@@ -58,6 +58,13 @@ const palette = {
 	},
 	green: {
 		background: "#679436",
+		highlight: {
+			background: "#8cb369"
+		},
+		opacity: 1
+	},
+	darkGreen: {
+		background: "#436000",
 		highlight: {
 			background: "#8cb369"
 		},

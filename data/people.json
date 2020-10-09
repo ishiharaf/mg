@@ -330,7 +330,7 @@
 		"type": "Student?",
 		"color": "black"
 	}],
-	"color": "reg",
+	"color": "darkBlue",
 	"group": ["Priest", "Composer"],
 	"source": [{
 		"citation": "",
@@ -362,7 +362,7 @@
 		"type": "Student?",
 		"color": "black"
 	}],
-	"color": "reg",
+	"color": "darkBlue",
 	"group": ["Composer"],
 	"source": [{
 		"citation": "",
@@ -394,7 +394,7 @@
 		"type": "Student",
 		"color": "gray"
 	}],
-	"color": "reg",
+	"color": "darkBlue",
 	"group": ["Composer"],
 	"source": [{
 		"citation": "",
@@ -426,7 +426,7 @@
 		"type": "Acquaintance [1]",
 		"color": "blue"
 	}],
-	"color": "reg",
+	"color": "darkBlue",
 	"group": ["Composer"],
 	"source": [{
 		"citation": "https://en.wikipedia.org/wiki/Bernardo_Pasquini",
@@ -490,7 +490,7 @@
 		"type": "Student",
 		"color": "gray"
 	}],
-	"color": "reg",
+	"color": "darkBlue",
 	"group": ["Composer"],
 	"source": [{
 		"citation": "",
@@ -690,7 +690,7 @@
 		"type": "Student?",
 		"color": "black"
 	}],
-	"color": "reg",
+	"color": "gray",
 	"group": ["Poet", "Dramatist", "Songwriter"],
 	"source": [{
 		"citation": "",
@@ -762,7 +762,7 @@
 		"type": "Brother",
 		"color": "red"
 	}],
-	"color": "reg",
+	"color": "darkBlue",
 	"group": ["Composer", "Writer", "Advocate", "Magistrate", "Teacher"],
 	"source": [{
 		"citation": "",
@@ -794,7 +794,7 @@
 		"type": "",
 		"color": ""
 	}],
-	"color": "reg",
+	"color": "darkBlue",
 	"group": ["Composer"],
 	"source": [{
 		"citation": "",
@@ -826,7 +826,7 @@
 		"type": "",
 		"color": ""
 	}],
-	"color": "reg",
+	"color": "green",
 	"group": ["Composer", "Nobleman"],
 	"source": [{
 		"citation": "",
@@ -890,7 +890,7 @@
 		"type": "Spouse",
 		"color": "pink"
 	}],
-	"color": "red",
+	"color": "blue",
 	"group": ["Singer", "Composer"],
 	"source": [{
 		"citation": "",
@@ -986,7 +986,7 @@
 		"type": "Brother",
 		"color": "red"
 	}],
-	"color": "red",
+	"color": "darkRed",
 	"group": ["Composer"],
 	"source": [{
 		"citation": "",
@@ -1342,7 +1342,7 @@
 		"type": "Student",
 		"color": "gray"
 	}],
-	"color": "reg",
+	"color": "darkBlue",
 	"group": ["Composer"],
 	"source": [{
 		"citation": "",
@@ -1474,7 +1474,7 @@
 		"type": "Student",
 		"color": "gray"
 	}],
-	"color": "reg",
+	"color": "darkBlue",
 	"group": ["Composer", "Conductor", "Kapellmeister"],
 	"source": [{
 		"citation": "",
@@ -1538,7 +1538,7 @@
 		"type": "Student",
 		"color": "gray"
 	}],
-	"color": "reg",
+	"color": "darkBlue",
 	"group": ["Organist", "Violinist", "Composer", "Teacher"],
 	"source": [{
 		"citation": "",
@@ -1738,7 +1738,7 @@
 		"type": "Student",
 		"color": "gray"
 	}],
-	"color": "reg",
+	"color": "darkBlue",
 	"group": ["Composer"],
 	"source": [{
 		"citation": "",
@@ -2034,7 +2034,7 @@
 		"type": "",
 		"color": ""
 	}],
-	"color": "reg",
+	"color": "darkBlue",
 	"group": ["Composer"],
 	"source": [{
 		"citation": "",
@@ -2066,7 +2066,7 @@
 		"type": "",
 		"color": ""
 	}],
-	"color": "red",
+	"color": "darkRed",
 	"group": ["Composer", "Teacher"],
 	"source": [{
 		"citation": "",
@@ -2202,7 +2202,7 @@
 		"type": "Student",
 		"color": "gray"
 	}],
-	"color": "reg",
+	"color": "darkBlue",
 	"group": ["Composer"],
 	"source": [{
 		"citation": "",
@@ -2234,7 +2234,7 @@
 		"type": "Student",
 		"color": "gray"
 	}],
-	"color": "reg",
+	"color": "darkBlue",
 	"group": ["Composer"],
 	"source": [{
 		"citation": "",
@@ -2266,7 +2266,7 @@
 		"type": "Student",
 		"color": "gray"
 	}],
-	"color": "red",
+	"color": "darkRed",
 	"group": ["Composer"],
 	"source": [{
 		"citation": "",
@@ -2302,7 +2302,7 @@
 		"type": "Student",
 		"color": "gray"
 	}],
-	"color": "reg",
+	"color": "darkBlue",
 	"group": ["Composer"],
 	"source": [{
 		"citation": "",
@@ -2334,7 +2334,7 @@
 		"type": "",
 		"color": ""
 	}],
-	"color": "reg",
+	"color": "darkBlue",
 	"group": ["Composer"],
 	"source": [{
 		"citation": "",
@@ -2366,7 +2366,7 @@
 		"type": "",
 		"color": ""
 	}],
-	"color": "red",
+	"color": "darkRed",
 	"group": ["Composer"],
 	"source": [{
 		"citation": "",
@@ -2430,7 +2430,7 @@
 		"type": "",
 		"color": ""
 	}],
-	"color": "reg",
+	"color": "darkBlue",
 	"group": ["Composer"],
 	"source": [{
 		"citation": "",
@@ -2910,7 +2910,7 @@
 		"type": "Student",
 		"color": "gray"
 	}],
-	"color": "blue",
+	"color": "darkBlue",
 	"group": ["Composer"],
 	"source": [{
 		"citation": "",
@@ -2974,7 +2974,7 @@
 		"type": "Employee",
 		"color": "green"
 	}],
-	"color": "blue",
+	"color": "darkBlue",
 	"group": ["Composer", "Music Theorist", "Pedagogue"],
 	"source": [{
 		"citation": "",
@@ -3010,7 +3010,7 @@
 		"type": "Employee",
 		"color": "green"
 	}],
-	"color": "reg",
+	"color": "darkBlue",
 	"group": ["Composer"],
 	"source": [{
 		"citation": "",
@@ -3042,7 +3042,7 @@
 		"type": "Student",
 		"color": "gray"
 	}],
-	"color": "reg",
+	"color": "darkBlue",
 	"group": ["Composer"],
 	"source": [{
 		"citation": "",
@@ -3206,7 +3206,7 @@
 		"type": "",
 		"color": ""
 	}],
-	"color": "green",
+	"color": "darkGreen",
 	"group": ["Duke of Mantua"],
 	"source": [{
 		"citation": "",
@@ -3238,7 +3238,7 @@
 		"type": "Employee",
 		"color": "green"
 	}],
-	"color": "reg",
+	"color": "darkBlue",
 	"group": ["Composer"],
 	"source": [{
 		"citation": "",
@@ -3446,7 +3446,7 @@
 		"type": "Student",
 		"color": "gray"
 	}],
-	"color": "reg",
+	"color": "darkBlue",
 	"group": ["Composer"],
 	"source": [{
 		"citation": "",
@@ -3482,7 +3482,7 @@
 		"type": "Student",
 		"color": "gray"
 	}],
-	"color": "reg",
+	"color": "darkBlue",
 	"group": ["Composer"],
 	"source": [{
 		"citation": "",
@@ -3514,7 +3514,7 @@
 		"type": "",
 		"color": ""
 	}],
-	"color": "reg",
+	"color": "darkBlue",
 	"group": ["Choir Director", "Composer"],
 	"source": [{
 		"citation": "",
@@ -3546,7 +3546,7 @@
 		"type": "",
 		"color": ""
 	}],
-	"color": "reg",
+	"color": "darkBlue",
 	"group": ["Composer"],
 	"source": [{
 		"citation": "",
@@ -3578,7 +3578,7 @@
 		"type": "Employee",
 		"color": "green"
 	}],
-	"color": "reg",
+	"color": "darkBlue",
 	"group": ["Composer"],
 	"source": [{
 		"citation": "",
@@ -3714,7 +3714,7 @@
 		"type": "Son",
 		"color": "red"
 	}],
-	"color": "reg",
+	"color": "gray",
 	"group": ["Librettist"],
 	"source": [{
 		"citation": "",
@@ -3975,8 +3975,8 @@
 		"dd": "15"
 	},
 	"dateDeath": {
-		"yyyy": "1622",
-		"mm": "03",
+		"yyyy": "1662",
+		"mm": "04",
 		"dd": "27"
 	},
 	"placeBirth": "Wilton, England",
@@ -3987,7 +3987,7 @@
 		"color": "green"
 	}],
 	"color": "blue",
-	"group": ["Clockmaker", "Composer"],
+	"group": ["Clockmaker", "Violinist"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -4842,7 +4842,7 @@
 		"type": "",
 		"color": ""
 	}],
-	"color": "blue",
+	"color": "darkBlue",
 	"group": ["Composer", "Music Theorist"],
 	"source": [{
 		"citation": "",
@@ -4938,7 +4938,7 @@
 		"type": "Acquaintance",
 		"color": "darkBlue"
 	}],
-	"color": "reg",
+	"color": "darkBlue",
 	"group": ["Philosopher", "Writer", "Composer"],
 	"source": [{
 		"citation": "",
@@ -5530,7 +5530,7 @@
 		"type": "Librettist",
 		"color": "green"
 	}],
-	"color": "reg",
+	"color": "darkGreen",
 	"group": ["Cardinal", "Patron", "Librettist"],
 	"source": [{
 		"citation": "",
@@ -5634,7 +5634,7 @@
 		"type": "Brother",
 		"color": "red"
 	}],
-	"color": "reg",
+	"color": "darkBlue",
 	"group": ["Composer"],
 	"source": [{
 		"citation": "",
@@ -5670,7 +5670,7 @@
 		"type": "Co-worker",
 		"color": "green"
 	}],
-	"color": "reg",
+	"color": "darkBlue",
 	"group": ["Composer"],
 	"source": [{
 		"citation": "",
@@ -5774,7 +5774,7 @@
 		"type": "Student [1]",
 		"color": "gray"
 	}],
-	"color": "reg",
+	"color": "darkBlue",
 	"group": ["Composer"],
 	"source": [{
 		"citation": "The Art of Partimento: History, Theory, and Practice - Page 23, Giorgio Sanguinetti - 2012",
@@ -5806,7 +5806,7 @@
 		"type": "",
 		"color": ""
 	}],
-	"color": "reg",
+	"color": "blue",
 	"group": ["Keyboard player", "Composer"],
 	"source": [{
 		"citation": "",
@@ -5838,7 +5838,7 @@
 		"type": "Student [1]",
 		"color": "gray"
 	}],
-	"color": "reg",
+	"color": "darkBlue",
 	"group": ["Music Theorist", "Composer"],
 	"source": [{
 		"citation": "The Art of Partimento: History, Theory, and Practice - Page 23, Giorgio Sanguinetti - 2012",
@@ -5870,7 +5870,7 @@
 		"type": "Son",
 		"color": "red"
 	}],
-	"color": "reg",
+	"color": "darkBlue",
 	"group": ["Conductor", "Composer [1]"],
 	"source": [{
 		"citation": "Casaglia, Gherardo (2005)",
@@ -6118,7 +6118,7 @@
 		"type": "",
 		"color": ""
 	}],
-	"color": "blue",
+	"color": "darkBlue",
 	"group": ["Conductor", "Composer"],
 	"source": [{
 		"citation": "",
@@ -6418,7 +6418,7 @@
 		"type": "Friend",
 		"color": "blue"
 	}],
-	"color": "red",
+	"color": "darkRed",
 	"group": ["Composer"],
 	"source": [{
 		"citation": "",
@@ -6482,7 +6482,7 @@
 		"type": "",
 		"color": ""
 	}],
-	"color": "blue",
+	"color": "darkBlue",
 	"group": ["Composer"],
 	"source": [{
 		"citation": "",
@@ -6806,7 +6806,7 @@
 		"type": "",
 		"color": ""
 	}],
-	"color": "reg",
+	"color": "darkBlue",
 	"group": ["Composer", "Music Theorist"],
 	"source": [{
 		"citation": "",
@@ -6914,7 +6914,7 @@
 		"type": "",
 		"color": ""
 	}],
-	"color": "reg",
+	"color": "darkBlue",
 	"group": ["Composer"],
 	"source": [{
 		"citation": "",
@@ -6946,7 +6946,7 @@
 		"type": "Cousin",
 		"color": "red"
 	}],
-	"color": "green",
+	"color": "darkGreen",
 	"group": ["King of France"],
 	"source": [{
 		"citation": "",
@@ -7042,7 +7042,7 @@
 		"type": "",
 		"color": ""
 	}],
-	"color": "reg",
+	"color": "darkBlue",
 	"group": ["Composer"],
 	"source": [{
 		"citation": "",
@@ -7118,7 +7118,7 @@
 		"type": "Acquaintance",
 		"color": "darkBlue"
 	}],
-	"color": "reg",
+	"color": "darkBlue",
 	"group": ["Composer"],
 	"source": [{
 		"citation": "",
@@ -7554,7 +7554,7 @@
 		"type": "Student",
 		"color": "gray"
 	}],
-	"color": "blue",
+	"color": "darkBlue",
 	"group": ["Musicologist", "Composer", "Teacher", "Music critic"],
 	"source": [{
 		"citation": "",
@@ -7586,7 +7586,7 @@
 		"type": "Acquaintance",
 		"color": "darkBlue"
 	}],
-	"color": "red",
+	"color": "darkRed",
 	"group": ["Composer"],
 	"source": [{
 		"citation": "",
@@ -8034,7 +8034,7 @@
 		"type": "",
 		"color": ""
 	}],
-	"color": "reg",
+	"color": "darkGreen",
 	"group": ["Cardinal", "Patron"],
 	"source": [{
 		"citation": "",
@@ -8066,7 +8066,7 @@
 		"type": "Son",
 		"color": "red"
 	}],
-	"color": "green",
+	"color": "darkGreen",
 	"group": ["Duke of Mantua", "Duke of Montferrat"],
 	"source": [{
 		"citation": "",
@@ -8098,7 +8098,7 @@
 		"type": "",
 		"color": ""
 	}],
-	"color": "green",
+	"color": "darkGreen",
 	"group": ["King of England, Scotland and Ireland"],
 	"source": [{
 		"citation": "",
