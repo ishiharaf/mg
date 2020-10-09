@@ -6845,6 +6845,10 @@
 		"id": 222,
 		"type": "Acquaintance",
 		"color": "blue"
+	},{
+		"id": 238,
+		"type": "Friend",
+		"color": "blue"
 	}],
 	"color": "imp",
 	"group": ["Pianist", "Composer", "Teacher"],
