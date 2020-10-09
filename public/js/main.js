@@ -11,24 +11,39 @@ let highlight = false
 const sessionStorage = window.sessionStorage
 
 const color = {
-	black: "50514f",
-	white: "f9f9f9",
-	red: "be301a",
-	pink: "ffc2d4",
-	green: "aad576",
-	blue: "386fa4",
-	gray: "d3d3d3"
+	black: "#50514f",
+	white: "#f9f9f9",
+	red: "#be301a",
+	pink: "#ff9fbb",
+	green: "#aad576",
+	blue: "#73c2fb",
+	darkBlue: "#4682b4",
+	gray: "#d3d3d3"
 }
 const palette = {
-	imp: {
-		background: "#be301a",
+	red: {
+		background: "#b80f0a",
 		highlight: {
-			background: "#f25f5c"
+			background: "#d7150f"
 		},
 		opacity: 1
 	},
-	mus: {
+	darkRed: {
+		background: "#8d021f",
+		highlight: {
+			background: "#b10327"
+		},
+		opacity: 1
+	},
+	blue: {
 		background: "#386fa4",
+		highlight: {
+			background: "#59a5d8"
+		},
+		opacity: 1
+	},
+	darkBlue: {
+		background: "#0748ad",
 		highlight: {
 			background: "#59a5d8"
 		},
@@ -41,7 +56,7 @@ const palette = {
 		},
 		opacity: 1
 	},
-	roy: {
+	green: {
 		background: "#679436",
 		highlight: {
 			background: "#8cb369"
@@ -85,7 +100,7 @@ const drawNetwork = (userLayout, userArrows) => {
 			borderWidthSelected: 0,
 			font: {
 				face: "Verdana",
-				color: `#${color.white}`,
+				color: color.white,
 				size: 25
 			},
 			shape: "box",
@@ -139,7 +154,7 @@ const drawNetwork = (userLayout, userArrows) => {
 				edges.add({
 					from: relation[parent].id,
 					to: person.id,
-					color: `#${color[relation[parent].color]}`
+					color: color[relation[parent].color]
 				})
 			}
 		}
