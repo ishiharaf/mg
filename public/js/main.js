@@ -91,6 +91,7 @@ const drawNetwork = (userLayout, userArrows) => {
 		nodes: {
 			borderWidth: 0,
 			borderWidthSelected: 0,
+			labelHighlightBold: false,
 			font: {
 				face: "Verdana",
 				color: color.white,
@@ -98,7 +99,7 @@ const drawNetwork = (userLayout, userArrows) => {
 			},
 			shape: "box",
 			shapeProperties: {
-				borderRadius: 0
+				borderRadius: 5
 			}
 		},
 		layout: userLayout,
