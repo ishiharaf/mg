@@ -56,14 +56,14 @@
 	"relationship": [{
 		"id": 1,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	},{
 		"id": 13,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	},{
 		"id": 14,
-		"type": "Student?",
+		"type": "Student",
 		"color": "black"
 	}],
 	"color": "red",
@@ -96,7 +96,7 @@
 	"relationship": [{
 		"id": 1,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	}],
 	"color": "red",
 	"group": ["Violinist", "Composer"],
@@ -128,7 +128,7 @@
 	"relationship": [{
 		"id": 3,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	}],
 	"color": "blue",
 	"group": ["Violinist", "Composer"],
@@ -160,7 +160,7 @@
 	"relationship": [{
 		"id": 3,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	}],
 	"color": "blue",
 	"group": ["Violinist", "Composer"],
@@ -192,7 +192,7 @@
 	"relationship": [{
 		"id": 3,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	}],
 	"color": "blue",
 	"group": ["Violinist", "Composer"],
@@ -224,11 +224,11 @@
 	"relationship": [{
 		"id": 3,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	},{
 		"id": 209,
 		"type": "Acquaintance",
-		"color": "darkBlue"
+		"color": "blue"
 	}],
 	"color": "red",
 	"group": ["Violinist", "Composer"],
@@ -260,7 +260,7 @@
 	"relationship": [{
 		"id": 1,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	},{
 		"id": 46,
 		"type": "Student",
@@ -296,7 +296,7 @@
 	"relationship": [{
 		"id": 1,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	}],
 	"color": "blue",
 	"group": ["Violinist", "Composer"],
@@ -327,7 +327,7 @@
 	"placeDeath": "Padua, Italy",
 	"relationship": [{
 		"id": 1,
-		"type": "Student?",
+		"type": "Student",
 		"color": "black"
 	}],
 	"color": "darkBlue",
@@ -359,7 +359,7 @@
 	"placeDeath": "London, England",
 	"relationship": [{
 		"id": 1,
-		"type": "Student?",
+		"type": "Student",
 		"color": "black"
 	}],
 	"color": "darkBlue",
@@ -392,7 +392,7 @@
 	"relationship": [{
 		"id": 1,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	}],
 	"color": "darkBlue",
 	"group": ["Composer"],
@@ -456,7 +456,7 @@
 	"relationship": [{
 		"id": 88,
 		"type": "Friend",
-		"color": "blue"
+		"color": "lightBlue"
 	}],
 	"color": "red",
 	"group": ["Violinist", "Composer", "Singer"],
@@ -488,7 +488,7 @@
 	"relationship": [{
 		"id": 2,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	}],
 	"color": "darkBlue",
 	"group": ["Composer"],
@@ -520,7 +520,7 @@
 	"relationship": [{
 		"id": 2,
 		"type": "Student",
-		"color": "blue"
+		"color": "lightBlue"
 	}],
 	"color": "blue",
 	"group": ["Violinist", "Composer", "Conductor"],
@@ -552,7 +552,7 @@
 	"relationship": [{
 		"id": 2,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	}],
 	"color": "blue",
 	"group": ["Violinist", "Composer"],
@@ -616,7 +616,7 @@
 	"relationship": [{
 		"id": 2,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	}],
 	"color": "blue",
 	"group": ["Violinist", "Lutenist", "Organist"],
@@ -648,7 +648,7 @@
 	"relationship": [{
 		"id": 2,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	},{
 		"id": 71,
 		"type": "Spouse",
@@ -687,7 +687,7 @@
 	"placeDeath": "London, England",
 	"relationship": [{
 		"id": 2,
-		"type": "Student?",
+		"type": "Student",
 		"color": "black"
 	}],
 	"color": "gray",
@@ -720,7 +720,7 @@
 	"relationship": [{
 		"id": 15,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	}],
 	"color": "blue",
 	"group": ["Violinist", "Violist", "Composer"],
@@ -752,11 +752,11 @@
 	"relationship": [{
 		"id": 12,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	},{
 		"id": 24,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	},{
 		"id": 25,
 		"type": "Brother",
@@ -920,27 +920,27 @@
 	"relationship": [{
 		"id": 12,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	},{
 		"id": 85,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	},{
 		"id": 32,
 		"type": "Friend",
-		"color": "blue"
+		"color": "lightBlue"
 	},{
 		"id": 13,
 		"type": "Acquaintance",
-		"color": "darkBlue"
+		"color": "blue"
 	},{
 		"id": 63,
 		"type": "Acquaintance",
-		"color": "darkBlue"
+		"color": "blue"
 	},{
 		"id": 148,
 		"type": "Acquaintance",
-		"color": "darkBlue"
+		"color": "blue"
 	},{
 		"id": 36,
 		"type": "Employee",
@@ -976,14 +976,10 @@
 	"relationship": [{
 		"id": 12,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	},{
 		"id": 13,
 		"type": "Son",
-		"color": "red"
-	},{
-		"id": 70,
-		"type": "Brother",
 		"color": "red"
 	}],
 	"color": "darkRed",
@@ -1084,19 +1080,19 @@
 	"relationship": [{
 		"id": 30,
 		"type": "Student [1]",
-		"color": "gray"
+		"color": "offWhite"
 	},{
 		"id": 38,
 		"type": "Acquaintance",
-		"color": "darkBlue"
+		"color": "blue"
 	},{
 		"id": 120,
 		"type": "Friend",
-		"color": "blue"
+		"color": "lightBlue"
 	},{
 		"id": 85,
 		"type": "Friend",
-		"color": "blue"
+		"color": "lightBlue"
 	}],
 	"color": "blue",
 	"group": ["Violinist", "Composer"],
@@ -1128,7 +1124,7 @@
 	"relationship": [{
 		"id": 32,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	},{
 		"id": 36,
 		"type": "Employee",
@@ -1136,7 +1132,7 @@
 	},{
 		"id": 148,
 		"type": "Acquaintance",
-		"color": "darkBlue"
+		"color": "blue"
 	}],
 	"color": "blue",
 	"group": ["Violinist", "Composer"],
@@ -1168,11 +1164,11 @@
 	"relationship": [{
 		"id": 32,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	},{
 		"id": 35,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	},{
 		"id": 36,
 		"type": "Employee",
@@ -1208,7 +1204,7 @@
 	"relationship": [{
 		"id": 46,
 		"type": "Acquaintance",
-		"color": "darkBlue"
+		"color": "blue"
 	}],
 	"color": "red",
 	"group": ["Violinist", "Composer"],
@@ -1221,9 +1217,9 @@
 {
 	"id": 36,
 	"name": {
-		"first": "Frederick",
-		"last": "William II",
-		"alt": ["Frederick the Great"]
+		"first": "",
+		"last": "Frederick II",
+		"alt": ["Frederick the Great", "The Old Fritz"]
 	},
 	"dateBirth": {
 		"yyyy": "1712",
@@ -1272,7 +1268,7 @@
 	"relationship": [{
 		"id": 34,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	},{
 		"id": 38,
 		"type": "Son",
@@ -1308,7 +1304,7 @@
 	"relationship": [{
 		"id": 120,
 		"type": "Friend",
-		"color": "blue"
+		"color": "lightBlue"
 	}],
 	"color": "red",
 	"group": ["Organist", "Composer"],
@@ -1340,7 +1336,7 @@
 	"relationship": [{
 		"id": 35,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	}],
 	"color": "darkBlue",
 	"group": ["Composer"],
@@ -1372,7 +1368,7 @@
 	"relationship": [{
 		"id": 35,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	}],
 	"color": "blue",
 	"group": ["Violinist", "Composer"],
@@ -1404,7 +1400,7 @@
 	"relationship": [{
 		"id": 35,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	}],
 	"color": "red",
 	"group": ["Violinist", "Composer"],
@@ -1436,7 +1432,7 @@
 	"relationship": [{
 		"id": 35,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	}],
 	"color": "blue",
 	"group": ["Violinist", "Singer", "Composer"],
@@ -1468,11 +1464,11 @@
 	"relationship": [{
 		"id": 35,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	},{
 		"id": 44,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	}],
 	"color": "darkBlue",
 	"group": ["Composer", "Conductor", "Kapellmeister"],
@@ -1504,7 +1500,7 @@
 	"relationship": [{
 		"id": 38,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	}],
 	"color": "blue",
 	"group": ["Organist", "Cantor", "Composer"],
@@ -1536,7 +1532,7 @@
 	"relationship": [{
 		"id": 35,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	}],
 	"color": "darkBlue",
 	"group": ["Organist", "Violinist", "Composer", "Teacher"],
@@ -1572,7 +1568,7 @@
 	},{
 		"id": 63,
 		"type": "Acquaintance",
-		"color": "darkBlue"
+		"color": "blue"
 	}],
 	"color": "red",
 	"group": ["Violinist", "Composer"],
@@ -1668,11 +1664,11 @@
 	"relationship": [{
 		"id": 41,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	},{
 		"id": 50,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	}],
 	"color": "blue",
 	"group": ["Harpist", "Composer", "Orchestra Director"],
@@ -1736,7 +1732,7 @@
 	"relationship": [{
 		"id": 50,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	}],
 	"color": "darkBlue",
 	"group": ["Composer"],
@@ -1768,7 +1764,7 @@
 	"relationship": [{
 		"id": 50,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	}],
 	"color": "blue",
 	"group": ["Violinist", "Composer"],
@@ -1800,11 +1796,11 @@
 	"relationship": [{
 		"id": 41,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	},{
 		"id": 35,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	}],
 	"color": "blue",
 	"group": ["Violinist", "Composer"],
@@ -1908,23 +1904,23 @@
 	},{
 		"id": 57,
 		"type": "Friend",
-		"color": "blue"
+		"color": "lightBlue"
 	},{
 		"id": 59,
 		"type": "Acquaintance",
-		"color": "darkBlue"
+		"color": "blue"
 	},{
 		"id": 122,
 		"type": "Acquaintance",
-		"color": "darkBlue"
+		"color": "blue"
 	},{
 		"id": 207,
 		"type": "Acquaintance",
-		"color": "darkBlue"
+		"color": "blue"
 	},{
 		"id": 208,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	}],
 	"color": "red",
 	"group": ["Violinist", "Fortepianist", "Composer"],
@@ -1956,11 +1952,11 @@
 	"relationship": [{
 		"id": 60,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	},{
 		"id": 122,
 		"type": "Acquaintance",
-		"color": "darkBlue"
+		"color": "blue"
 	}],
 	"color": "red",
 	"group": ["Harpsichordist", "Violinist", "Composer"],
@@ -1992,15 +1988,15 @@
 	"relationship": [{
 		"id": 56,
 		"type": "Friend",
-		"color": "blue"
+		"color": "lightBlue"
 	},{
 		"id": 59,
 		"type": "Friend",
-		"color": "blue"
+		"color": "lightBlue"
 	},{
 		"id": 72,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	}],
 	"color": "blue",
 	"group": ["Singer", "Composer"],
@@ -2096,7 +2092,7 @@
 	"relationship": [{
 		"id": 60,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	}],
 	"color": "red",
 	"group": ["Singer"],
@@ -2128,7 +2124,7 @@
 	"relationship": [{
 		"id": 60,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	},{
 		"id": 63,
 		"type": "Employee",
@@ -2164,11 +2160,11 @@
 	"relationship": [{
 		"id": 64,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	},{
 		"id": 162,
 		"type": "Friend",
-		"color": "blue"
+		"color": "lightBlue"
 	}],
 	"color": "red",
 	"group": ["Composer"],
@@ -2200,7 +2196,7 @@
 	"relationship": [{
 		"id": 65,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	}],
 	"color": "darkBlue",
 	"group": ["Composer"],
@@ -2232,7 +2228,7 @@
 	"relationship": [{
 		"id": 66,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	}],
 	"color": "darkBlue",
 	"group": ["Composer"],
@@ -2264,7 +2260,7 @@
 	"relationship": [{
 		"id": 67,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	}],
 	"color": "darkRed",
 	"group": ["Composer"],
@@ -2296,11 +2292,11 @@
 	"relationship": [{
 		"id": 68,
 		"type": "Nephew, Student",
-		"color": "gray"
+		"color": "offWhite"
 	},{
 		"id": 69,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	}],
 	"color": "darkBlue",
 	"group": ["Composer"],
@@ -2396,7 +2392,7 @@
 	"relationship": [{
 		"id": 13,
 		"type": "Son",
-		"color": ""
+		"color": "red"
 	}],
 	"color": "blue",
 	"group": ["Organist", "Composer", "Choirmaster"],
@@ -2804,7 +2800,7 @@
 	},{
 		"id": 57,
 		"type": "Friend",
-		"color": "blue"
+		"color": "lightBlue"
 	},{
 		"id": 83,
 		"type": "Spouse",
@@ -2908,7 +2904,7 @@
 	"relationship": [{
 		"id": 87,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	}],
 	"color": "darkBlue",
 	"group": ["Composer"],
@@ -2940,7 +2936,7 @@
 	"relationship": [{
 		"id": 28,
 		"type": "Friend",
-		"color": "blue"
+		"color": "lightBlue"
 	}],
 	"color": "blue",
 	"group": ["Flutist", "Composer"],
@@ -3040,7 +3036,7 @@
 	"relationship": [{
 		"id": 91,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	}],
 	"color": "darkBlue",
 	"group": ["Composer"],
@@ -3104,7 +3100,7 @@
 	"relationship": [{
 		"id": 92,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	},{
 		"id": 94,
 		"type": "Employee",
@@ -3340,7 +3336,7 @@
 	},{
 		"id": 99,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	}],
 	"color": "blue",
 	"group": ["Singer", "Chitarrone Player", "Composer"],
@@ -3444,7 +3440,7 @@
 	},{
 		"id": 102,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	}],
 	"color": "darkBlue",
 	"group": ["Composer"],
@@ -3476,11 +3472,11 @@
 	"relationship": [{
 		"id": 103,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	},{
 		"id": 104,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	}],
 	"color": "darkBlue",
 	"group": ["Composer"],
@@ -3612,7 +3608,7 @@
 	},{
 		"id": 107,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	}],
 	"color": "blue",
 	"group": ["Organist", "Composer"],
@@ -3743,7 +3739,7 @@
 	"placeDeath": "Salzburg, Germany",
 	"relationship": [{
 		"id": 124,
-		"type": "Student?",
+		"type": "Student",
 		"color": "black"
 	}],
 	"color": "red",
@@ -3776,14 +3772,14 @@
 	"relationship": [{
 		"id": 230,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	},{
 		"id": 231,
-		"type": "Student?",
+		"type": "Student",
 		"color": "black"
 	},{
 		"id": 117,
-		"type": "Acquaintance?",
+		"type": "Acquaintance",
 		"color": "black"
 	}],
 	"color": "red",
@@ -3816,11 +3812,11 @@
 	"relationship": [{
 		"id": 121,
 		"type": "Student [1]",
-		"color": "black"
+		"color": "offWhite"
 	},{
 		"id": 127,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	}],
 	"color": "red",
 	"group": ["Violinist", "Cellist", "Composer"],
@@ -3883,12 +3879,12 @@
 	"placeDeath": "Vienna, Austria",
 	"relationship": [{
 		"id": 96,
-		"type": "Student?",
+		"type": "Student",
 		"color": "black"
 	},{
 		"id": 66,
 		"type": "Acquaintance",
-		"color": "darkBlue"
+		"color": "blue"
 	}],
 	"color": "blue",
 	"group": ["Violinist", "Conductor", "Composer"],
@@ -3920,7 +3916,7 @@
 	"relationship": [{
 		"id": 121,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	}],
 	"color": "blue",
 	"group": ["Violinist", "Composer"],
@@ -4048,19 +4044,19 @@
 	"relationship": [{
 		"id": 89,
 		"type": "Acquaintance",
-		"color": "darkBlue"
+		"color": "blue"
 	},{
 		"id": 151,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	},{
 		"id": 152,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	},{
 		"id": 153,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	},{
 		"id": 203,
 		"type": "Employee",
@@ -4160,15 +4156,15 @@
 	"relationship": [{
 		"id": 71,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	},{
 		"id": 36,
 		"type": "Acquaintance",
-		"color": "darkBlue"
+		"color": "blue"
 	},{
 		"id": 123,
 		"type": "Acquaintance",
-		"color": "darkBlue"
+		"color": "blue"
 	}],
 	"color": "darkRed",
 	"group": ["Music historian", "Musician", "Composer"],
@@ -4208,7 +4204,7 @@
 	},{
 		"id": 120,
 		"type": "Godchild",
-		"color": "blue"
+		"color": "lightBlue"
 	}],
 	"color": "red",
 	"group": ["Musician", "Composer"],
@@ -4271,8 +4267,8 @@
 	"placeDeath": "Amsterdam, Netherlands",
 	"relationship": [{
 		"id": 30,
-		"type": "Acquaintance?",
-		"color": "blue"
+		"type": "Acquaintance",
+		"color": "black"
 	}],
 	"color": "blue",
 	"group": ["Violinist", "Composer"],
@@ -4368,7 +4364,7 @@
 	"relationship": [{
 		"id": 33,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	}],
 	"color": "blue",
 	"group": ["Violinist", "Composer"],
@@ -4400,7 +4396,7 @@
 	"relationship": [{
 		"id": 220,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	}],
 	"color": "blue",
 	"group": ["Violinist", "Pianist", "Composer"],
@@ -4432,7 +4428,7 @@
 	"relationship": [{
 		"id": 210,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	}],
 	"color": "blue",
 	"group": ["Violinist", "Composer"],
@@ -4464,7 +4460,7 @@
 	"relationship": [{
 		"id": 57,
 		"type": "Acquaintance",
-		"color": "darkBlue"
+		"color": "blue"
 	}],
 	"color": "blue",
 	"group": ["Violinist", "Organist", "Teacher", "Composer"],
@@ -4496,7 +4492,7 @@
 	"relationship": [{
 		"id": 7,
 		"type": "Student [1]",
-		"color": "gray"
+		"color": "offWhite"
 	}],
 	"color": "blue",
 	"group": ["Violinist", "Violist", "Conductor", "Composer"],
@@ -4528,15 +4524,15 @@
 	"relationship": [{
 		"id": 173,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	},{
 		"id": 206,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	},{
 		"id": 207,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	}],
 	"color": "blue",
 	"group": ["Violinist", "Kapellmeister", "Composer"],
@@ -4564,11 +4560,11 @@
 		"dd": "03"
 	},
 	"placeBirth": "Austria",
-	"placeDeath": "Austria?",
+	"placeDeath": "Austria (?)",
 	"relationship": [{
 		"id": 135,
 		"type": "Friend",
-		"color": "blue"
+		"color": "lightBlue"
 	}],
 	"color": "blue",
 	"group": ["Violinist", "Pianist", "Conductor", "Composer"],
@@ -4604,15 +4600,15 @@
 	},{
 		"id": 57,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	},{
 		"id": 199,
 		"type": "Friend",
-		"color": "blue"
+		"color": "lightBlue"
 	},{
 		"id": 210,
 		"type": "Acquaintance",
-		"color": "darkBlue"
+		"color": "blue"
 	}],
 	"color": "red",
 	"group": ["Pianist", "Composer"],
@@ -4740,7 +4736,7 @@
 	"relationship": [{
 		"id": 127,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	},{
 		"id": 87,
 		"type": "Assistant",
@@ -4776,7 +4772,7 @@
 	"relationship": [{
 		"id": 127,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	}],
 	"color": "blue",
 	"group": ["Violinist", "Composer"],
@@ -4808,7 +4804,7 @@
 	"relationship": [{
 		"id": 142,
 		"type": "Acquaintance",
-		"color": "darkBlue"
+		"color": "blue"
 	}],
 	"color": "blue",
 	"group": ["Harpsichordist", "Composer", "Pastellist"],
@@ -4872,7 +4868,7 @@
 	"relationship": [{
 		"id": 144,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	}],
 	"color": "blue",
 	"group": ["Harpsichordist", "Organist", "Composer"],
@@ -4936,7 +4932,7 @@
 	"relationship": [{
 		"id": 36,
 		"type": "Acquaintance",
-		"color": "darkBlue"
+		"color": "blue"
 	}],
 	"color": "darkBlue",
 	"group": ["Philosopher", "Writer", "Composer"],
@@ -4968,15 +4964,15 @@
 	"relationship": [{
 		"id": 141,
 		"type": "Acquaintance",
-		"color": "darkBlue"
+		"color": "blue"
 	},{
 		"id": 145,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	},{
 		"id": 143,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	}],
 	"color": "blue",
 	"group": ["Harpsichordist", "Composer"],
@@ -5008,11 +5004,11 @@
 	"relationship": [{
 		"id": 141,
 		"type": "Acquaintance",
-		"color": "darkBlue"
+		"color": "blue"
 	},{
 		"id": 148,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	}],
 	"color": "blue",
 	"group": ["Cellist", "Composer"],
@@ -5044,19 +5040,19 @@
 	"relationship": [{
 		"id": 13,
 		"type": "Acquaintance",
-		"color": "darkBlue"
+		"color": "blue"
 	},{
 		"id": 2,
 		"type": "Acquaintance",
-		"color": "darkBlue"
+		"color": "blue"
 	},{
 		"id": 150,
 		"type": "Acquaintance",
-		"color": "darkBlue"
+		"color": "blue"
 	},{
 		"id": 149,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	}],
 	"color": "blue",
 	"group": ["Cellist", "Composer"],
@@ -5375,12 +5371,12 @@
 	"placeDeath": "Italy",
 	"relationship": [{
 		"id": 1,
-		"type": "Student?",
+		"type": "Student",
 		"color": "black"
 	},{
 		"id": 159,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	}],
 	"color": "blue",
 	"group": ["Violinist", "Painter", "Poet", "Composer"],
@@ -5416,7 +5412,7 @@
 	},{
 		"id": 163,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	},{
 		"id": 162,
 		"type": "Employee",
@@ -5496,7 +5492,7 @@
 	},{
 		"id": 163,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	}],
 	"color": "blue",
 	"group": ["Cellist", "Composer"],
@@ -5596,7 +5592,7 @@
 	},{
 		"id": 1,
 		"type": "Acquaintance",
-		"color": "darkBlue"
+		"color": "blue"
 	}],
 	"color": "blue",
 	"group": ["Cellist", "Trombone player", "Composer"],
@@ -5772,7 +5768,7 @@
 	},{
 		"id": 170,
 		"type": "Student [1]",
-		"color": "gray"
+		"color": "offWhite"
 	}],
 	"color": "darkBlue",
 	"group": ["Composer"],
@@ -5836,7 +5832,7 @@
 	"relationship": [{
 		"id": 169,
 		"type": "Student [1]",
-		"color": "gray"
+		"color": "offWhite"
 	}],
 	"color": "darkBlue",
 	"group": ["Music Theorist", "Composer"],
@@ -5996,63 +5992,63 @@
 	"relationship": [{
 		"id": 177,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	},{
 		"id": 180,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	},{
 		"id": 181,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	},{
 		"id": 182,
 		"type": "Acquaintance",
-		"color": "darkBlue"
+		"color": "blue"
 	},{
 		"id": 183,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	},{
 		"id": 184,
 		"type": "Friend",
-		"color": "blue"
+		"color": "lightBlue"
 	},{
 		"id": 185,
 		"type": "Friend",
-		"color": "blue"
+		"color": "lightBlue"
 	},{
 		"id": 186,
 		"type": "Acquaintance",
-		"color": "darkBlue"
+		"color": "blue"
 	},{
 		"id": 187,
 		"type": "Acquaintance",
-		"color": "darkBlue"
+		"color": "blue"
 	},{
 		"id": 188,
 		"type": "Acquaintance",
-		"color": "darkBlue"
+		"color": "blue"
 	},{
 		"id": 189,
 		"type": "Acquaintance",
-		"color": "darkBlue"
+		"color": "blue"
 	},{
 		"id": 190,
 		"type": "Acquaintance",
-		"color": "darkBlue"
+		"color": "blue"
 	},{
 		"id": 191,
 		"type": "Acquaintance",
-		"color": "darkBlue"
+		"color": "blue"
 	},{
 		"id": 192,
 		"type": "Acquaintance",
-		"color": "darkBlue"
+		"color": "blue"
 	},{
 		"id": 193,
 		"type": "Acquaintance",
-		"color": "darkBlue"
+		"color": "blue"
 	}],
 	"color": "red",
 	"group": ["Violinist", "Teacher", "Academic", "Conductor", "Composer"],
@@ -6084,7 +6080,7 @@
 	"relationship": [{
 		"id": 178,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	}],
 	"color": "blue",
 	"group": ["Violinist", "Teacher", "Composer"],
@@ -6148,7 +6144,7 @@
 	"relationship": [{
 		"id": 177,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	}],
 	"color": "blue",
 	"group": ["Violinist", "Teacher", "Conductor", "Composer"],
@@ -6180,7 +6176,7 @@
 	"relationship": [{
 		"id": 212,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	}],
 	"color": "red",
 	"group": ["Violinist", "Teacher", "Composer"],
@@ -6244,11 +6240,11 @@
 	"relationship": [{
 		"id": 199,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	},{
 		"id": 213,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	}],
 	"color": "red",
 	"group": ["Violinist", "Composer"],
@@ -6280,15 +6276,15 @@
 	"relationship": [{
 		"id": 188,
 		"type": "Friend",
-		"color": "blue"
+		"color": "lightBlue"
 	},{
 		"id": 212,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	},{
 		"id": 222,
 		"type": "Acquaintance",
-		"color": "darkBlue"
+		"color": "blue"
 	}],
 	"color": "red",
 	"group": ["Violinist", "Conductor", "Teacher", "Composer"],
@@ -6352,7 +6348,7 @@
 	"relationship": [{
 		"id": 222,
 		"type": "Acquaintance",
-		"color": "darkBlue"
+		"color": "blue"
 	}],
 	"color": "blue",
 	"group": ["Pianist", "Conductor", "Composer"],
@@ -6416,7 +6412,7 @@
 	"relationship": [{
 		"id": 186,
 		"type": "Friend",
-		"color": "blue"
+		"color": "lightBlue"
 	}],
 	"color": "darkRed",
 	"group": ["Composer"],
@@ -6512,11 +6508,11 @@
 	"relationship": [{
 		"id": 183,
 		"type": "Friend",
-		"color": "blue"
+		"color": "lightBlue"
 	},{
 		"id": 188,
 		"type": "Friend",
-		"color": "blue"
+		"color": "lightBlue"
 	}],
 	"color": "blue",
 	"group": ["Pianist", "Conductor", "Composer"],
@@ -6612,7 +6608,7 @@
 	"relationship": [{
 		"id": 196,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	}],
 	"color": "red",
 	"group": ["Violinist", "Composer"],
@@ -6644,7 +6640,7 @@
 	"relationship": [{
 		"id": 176,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	}],
 	"color": "red",
 	"group": ["Violinist"],
@@ -6708,7 +6704,7 @@
 	"relationship": [{
 		"id": 197,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	}],
 	"color": "red",
 	"group": ["Violinist", "Composer", "Conductor"],
@@ -6740,7 +6736,7 @@
 	"relationship": [{
 		"id": 198,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	}],
 	"color": "blue",
 	"group": ["Violinist", "Composer", "Konzertmeister"],
@@ -6836,19 +6832,19 @@
 	"relationship": [{
 		"id": 199,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	},{
 		"id": 201,
 		"type": "Acquaintance",
-		"color": "darkBlue"
+		"color": "blue"
 	},{
 		"id": 222,
 		"type": "Acquaintance",
-		"color": "darkBlue"
+		"color": "blue"
 	},{
 		"id": 238,
 		"type": "Friend",
-		"color": "blue"
+		"color": "lightBlue"
 	}],
 	"color": "red",
 	"group": ["Pianist", "Composer", "Teacher"],
@@ -6880,7 +6876,7 @@
 	"relationship": [{
 		"id": 202,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	}],
 	"color": "red",
 	"group": ["Violinist", "Violist", "Guitarrist", "Composer"],
@@ -7108,15 +7104,15 @@
 	},{
 		"id": 207,
 		"type": "Acquaintance",
-		"color": "darkBlue"
+		"color": "blue"
 	},{
 		"id": 209,
 		"type": "Acquaintance",
-		"color": "darkBlue"
+		"color": "blue"
 	},{
 		"id": 7,
 		"type": "Acquaintance",
-		"color": "darkBlue"
+		"color": "blue"
 	}],
 	"color": "darkBlue",
 	"group": ["Composer"],
@@ -7148,7 +7144,7 @@
 	"relationship": [{
 		"id": 38,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	}],
 	"color": "blue",
 	"group": ["Gambist", "Composer"],
@@ -7180,11 +7176,11 @@
 	"relationship": [{
 		"id": 7,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	},{
 		"id": 57,
 		"type": "Acquaintance",
-		"color": "darkBlue"
+		"color": "blue"
 	}],
 	"color": "blue",
 	"group": ["Violinist", "Composer"],
@@ -7216,7 +7212,7 @@
 	"relationship": [{
 		"id": 210,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	}],
 	"color": "red",
 	"group": ["Violinist", "Composer"],
@@ -7248,7 +7244,7 @@
 	"relationship": [{
 		"id": 211,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	}],
 	"color": "blue",
 	"group": ["Violinist"],
@@ -7280,11 +7276,11 @@
 	"relationship": [{
 		"id": 210,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	},{
 		"id": 224,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	}],
 	"color": "blue",
 	"group": ["Violinist", "Composer"],
@@ -7388,11 +7384,11 @@
 	},{
 		"id": 200,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	},{
 		"id": 227,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	}],
 	"color": "blue",
 	"group": ["Singer", "Teacher", "Composer"],
@@ -7552,7 +7548,7 @@
 	"relationship": [{
 		"id": 220,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	}],
 	"color": "darkBlue",
 	"group": ["Musicologist", "Composer", "Teacher", "Music critic"],
@@ -7584,7 +7580,7 @@
 	"relationship": [{
 		"id": 215,
 		"type": "Acquaintance",
-		"color": "darkBlue"
+		"color": "blue"
 	}],
 	"color": "darkRed",
 	"group": ["Composer"],
@@ -7616,11 +7612,11 @@
 	"relationship": [{
 		"id": 201,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	},{
 		"id": 200,
 		"type": "Acquaintance",
-		"color": "darkBlue"
+		"color": "blue"
 	}],
 	"color": "blue",
 	"group": ["Violinist", "Composer"],
@@ -7652,19 +7648,19 @@
 	"relationship": [{
 		"id": 221,
 		"type": "Acquaintance",
-		"color": "darkBlue"
+		"color": "blue"
 	},{
 		"id": 130,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	},{
 		"id": 199,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	},{
 		"id": 210,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	}],
 	"color": "blue",
 	"group": ["Violinist", "Pianist", "Composer"],
@@ -7695,7 +7691,7 @@
 	"placeDeath": "Genoa, Italy?",
 	"relationship": [{
 		"id": 201,
-		"type": "Student?",
+		"type": "Student",
 		"color": "black"
 	}],
 	"color": "blue",
@@ -7728,15 +7724,15 @@
 	"relationship": [{
 		"id": 135,
 		"type": "Acquaintance",
-		"color": "darkBlue"
+		"color": "blue"
 	},{
 		"id": 210,
 		"type": "Friend",
-		"color": "blue"
+		"color": "lightBlue"
 	},{
 		"id": 83,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	}],
 	"color": "blue",
 	"group": ["Violinist"],
@@ -7768,7 +7764,7 @@
 	"relationship": [{
 		"id": 200,
 		"type": "Friend",
-		"color": "blue"
+		"color": "lightBlue"
 	}],
 	"color": "red",
 	"group": ["Pianist", "Composer"],
@@ -7800,7 +7796,7 @@
 	"relationship": [{
 		"id": 227,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	}],
 	"color": "blue",
 	"group": ["Pianist"],
@@ -7832,7 +7828,7 @@
 	"relationship": [{
 		"id": 217,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	}],
 	"color": "blue",
 	"group": ["Soprano"],
@@ -7895,7 +7891,7 @@
 	"placeDeath": "Lübeck, Germany",
 	"relationship": [{
 		"id": 232,
-		"type": "Student?",
+		"type": "Student",
 		"color": "black"
 	}],
 	"color": "blue",
@@ -7928,7 +7924,7 @@
 	"relationship": [{
 		"id": 233,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	},{
 		"id": 235,
 		"type": "Patronee",
@@ -7968,7 +7964,7 @@
 	"relationship": [{
 		"id": 234,
 		"type": "Student",
-		"color": "gray"
+		"color": "offWhite"
 	}],
 	"color": "blue",
 	"group": ["Organist", "Teacher"],
@@ -8128,11 +8124,11 @@
 	"relationship": [{
 		"id": 201,
 		"type": "Acquaintance",
-		"color": "darkBlue"
+		"color": "blue"
 	},{
 		"id": 196,
 		"type": "Acquaintance",
-		"color": "darkBlue"
+		"color": "blue"
 	}],
 	"color": "red",
 	"group": ["Violinist", "Composer"],

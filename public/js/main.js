@@ -12,62 +12,48 @@ const sessionStorage = window.sessionStorage
 
 const color = {
 	black: "#50514f",
+	green: "#598227",
 	white: "#f9f9f9",
-	red: "#be301a",
-	pink: "#ff9fbb",
-	green: "#aad576",
-	blue: "#73c2fb",
-	darkBlue: "#4682b4",
-	gray: "#d3d3d3"
+	offWhite: "#d3d3d3",
+	blue: "#325d81",
+	lightBlue: "#7ec7fb",
+	red: "#9c2714",
+	pink: "#ff96b4"
 }
 const palette = {
 	red: {
-		background: "#b80f0a",
-		highlight: {
-			background: "#d7150f"
-		},
+		background: "#cf2020",
+		highlight: {background: "#e03737"},
 		opacity: 1
 	},
 	darkRed: {
-		background: "#8d021f",
-		highlight: {
-			background: "#b10327"
-		},
+		background: "#9a1c1c",
+		highlight: {background: "#c32424"},
 		opacity: 1
 	},
 	blue: {
-		background: "#1c79cb",
-		highlight: {
-			background: "#59a5d8"
-		},
+		background: "#356ca0",
+		highlight: {background: "#4182c0"},
 		opacity: 1
 	},
 	darkBlue: {
 		background: "#285075",
-		highlight: {
-			background: "#3d7ab3"
-		},
-		opacity: 1
-	},
-	gray: {
-		background: "#625556",
-		highlight: {
-			background: "#b0abac"
-		},
+		highlight: {background: "#356a9b"},
 		opacity: 1
 	},
 	green: {
-		background: "#679436",
-		highlight: {
-			background: "#8cb369"
-		},
+		background: "#6a973a",
+		highlight: {background: "#80b647"},
 		opacity: 1
 	},
 	darkGreen: {
-		background: "#436000",
-		highlight: {
-			background: "#8cb369"
-		},
+		background: "#4a660b",
+		highlight: {background: "#709910"},
+		opacity: 1
+	},
+	gray: {
+		background: "#5c5556",
+		highlight: {background: "#756c6e"},
 		opacity: 1
 	}
 }
