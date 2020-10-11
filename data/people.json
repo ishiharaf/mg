@@ -8141,4 +8141,40 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Ole_Bull_cabinet_card_portrait.jpg/515px-Ole_Bull_cabinet_card_portrait.jpg"
+},
+{
+	"id": 239,
+	"name": {
+		"first": "Marin",
+		"last": "Marais",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1656",
+		"mm": "05",
+		"dd": "31"
+	},
+	"dateDeath": {
+		"yyyy": "1728",
+		"mm": "08",
+		"dd": "15"
+	},
+	"placeBirth": "Paris, France",
+	"placeDeath": "France",
+	"relationship": [{
+		"id": 119,
+		"type": "Student",
+		"color": "offWhite"
+	},{
+		"id": 203,
+		"type": "Employee",
+		"color": "green"
+	}],
+	"color": "blue",
+	"group": ["Gambist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/5/57/Marin_Marais_2.jpg?uselang=fr"
 }]
