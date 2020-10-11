@@ -8177,4 +8177,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/5/57/Marin_Marais_2.jpg?uselang=fr"
+},,
+{
+	"id": 239,
+	"name": {
+		"first": "Roland Pierre",
+		"last": "Marais",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "c1685",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "c1750",
+		"mm": "??",
+		"dd": "??"
+	},
+	"placeBirth": "Paris, France",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": 239,
+		"type": "Son",
+		"color": "red"
+	}],
+	"color": "blue",
+	"group": ["Gambist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
