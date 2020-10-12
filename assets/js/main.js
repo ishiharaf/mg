@@ -931,7 +931,7 @@ saveButton.addEventListener("click", () => {
 
 const fetchData = async() => {
 	try {
-		const res = await fetch("/data/people.json")
+		const res = await fetch("/data/people.json", {method: "GET"})
 		return res.json()
 	} catch(error) {
 		console.log(error)
