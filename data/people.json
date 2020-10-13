@@ -8257,4 +8257,44 @@
 		"extract": ""
 	}],
 	"picture": ""
+},
+{
+	"id": 242,
+	"name": {
+		"first": "Rodolphe",
+		"last": "Kreutzer",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1766",
+		"mm": "11",
+		"dd": "15"
+	},
+	"dateDeath": {
+		"yyyy": "1831",
+		"mm": "01",
+		"dd": "06"
+	},
+	"placeBirth": "Versailles, France",
+	"placeDeath": "Geneva, Switzerland",
+	"relationship": [{
+		"id": 175,
+		"type": "Student",
+		"color": "offWhite"
+	},{
+		"id": 211,
+		"type": "Acquaintance",
+		"color": "blue"
+	},{
+		"id": 130,
+		"type": "Acquaintance",
+		"color": "blue"
+	}],
+	"color": "blue",
+	"group": ["Violinist", "Teacher", "Conductor", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://deacademic.com/pictures/dewiki/82/Rodolphe_Kreutzer.jpg"
 }]
