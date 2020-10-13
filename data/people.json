@@ -8361,4 +8361,36 @@
 		"extract": ""
 	}],
 	"picture": "//"
+},
+{
+	"id": 245,
+	"name": {
+		"first": "Miska",
+		"last": "Hauser",
+		"alt": ["Michael Hauser"]
+	},
+	"dateBirth": {
+		"yyyy": "1822",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1887",
+		"mm": "12",
+		"dd": "08"
+	},
+	"placeBirth": "Pressburg, Slovakia",
+	"placeDeath": "Vienna, Austria",
+	"relationship": [{
+		"id": 212,
+		"type": "Student",
+		"color": "offWhite"
+	}],
+	"color": "blue",
+	"group": ["Violinist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "//"
 }]
