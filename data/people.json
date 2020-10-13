@@ -8513,6 +8513,10 @@
 		"id": 250,
 		"type": "Student",
 		"color": "offWhite"
+	},{
+		"id": 251,
+		"type": "Acquaintance",
+		"color": "blue"
 	}],
 	"color": "darkBlue",
 	"group": ["Composer"],
@@ -8547,6 +8551,38 @@
 		"color": ""
 	}],
 	"color": "darkRed",
+	"group": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "//"
+},
+{
+	"id": 251,
+	"name": {
+		"first": "John",
+		"last": "Sheppard",
+		"alt": ["John Shepherd"]
+	},
+	"dateBirth": {
+		"yyyy": "c1515",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1558",
+		"mm": "12",
+		"dd": "??"
+	},
+	"placeBirth": "England",
+	"placeDeath": "Westminter, England",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "darkBlue",
 	"group": ["Composer"],
 	"source": [{
 		"citation": "",
