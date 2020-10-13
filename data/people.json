@@ -8725,4 +8725,36 @@
 		"extract": ""
 	}],
 	"picture": "//"
+},
+{
+	"id": 256,
+	"name": {
+		"first": "John",
+		"last": "Bull",
+		"alt": ["Marrer of virgins"]
+	},
+	"dateBirth": {
+		"yyyy": "c1562",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1628",
+		"mm": "03",
+		"dd": "12"
+	},
+	"placeBirth": "Hereford, England",
+	"placeDeath": "Antwerp, Belgium",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "blue",
+	"group": ["Musician", "Organ builder", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "//"
 }]
