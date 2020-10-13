@@ -6289,6 +6289,10 @@
 		"id": 222,
 		"type": "Acquaintance",
 		"color": "blue"
+	},{
+		"id": 241,
+		"type": "Acquaintance",
+		"color": "blue"
 	}],
 	"color": "red",
 	"group": ["Violinist", "Conductor", "Teacher", "Composer"],
@@ -6517,6 +6521,14 @@
 		"id": 188,
 		"type": "Friend",
 		"color": "lightBlue"
+	},{
+		"id": 241,
+		"type": "Friend",
+		"color": "lightBlue"
+	},{
+		"id": 200,
+		"type": "Acquaintance",
+		"color": "blue"
 	}],
 	"color": "blue",
 	"group": ["Pianist", "Conductor", "Composer"],
@@ -6640,7 +6652,7 @@
 		"dd": "10"
 	},
 	"placeBirth": "Vilna, Lithuania",
-	"placeDeath": "Los Angeles, California",
+	"placeDeath": "Los Angeles, USA",
 	"relationship": [{
 		"id": 176,
 		"type": "Student",
@@ -8209,4 +8221,608 @@
 		"extract": ""
 	}],
 	"picture": ""
+},
+{
+	"id": 241,
+	"name": {
+		"first": "Ede",
+		"last": "Reményi",
+		"alt": ["Eduard Hoffmann", "Eduard Reményi", "Reményi Ede"]
+	},
+	"dateBirth": {
+		"yyyy": "1828",
+		"mm": "01",
+		"dd": "17"
+	},
+	"dateDeath": {
+		"yyyy": "1898",
+		"mm": "05",
+		"dd": "15"
+	},
+	"placeBirth": "Miskolc, Hungary",
+	"placeDeath": "San Francisco, USA",
+	"relationship": [{
+		"id": 212,
+		"type": "Student",
+		"color": "offWhite"
+	},{
+		"id": 200,
+		"type": "Friend",
+		"color": "lightBlue"
+	}],
+	"color": "blue",
+	"group": ["Violinist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Rem%C3%A9nyi_Ede-1887.jpg"
+},
+{
+	"id": 242,
+	"name": {
+		"first": "Rodolphe",
+		"last": "Kreutzer",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1766",
+		"mm": "11",
+		"dd": "15"
+	},
+	"dateDeath": {
+		"yyyy": "1831",
+		"mm": "01",
+		"dd": "06"
+	},
+	"placeBirth": "Versailles, France",
+	"placeDeath": "Geneva, Switzerland",
+	"relationship": [{
+		"id": 175,
+		"type": "Student",
+		"color": "offWhite"
+	},{
+		"id": 211,
+		"type": "Acquaintance",
+		"color": "blue"
+	},{
+		"id": 130,
+		"type": "Acquaintance",
+		"color": "blue"
+	}],
+	"color": "blue",
+	"group": ["Violinist", "Teacher", "Conductor", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://deacademic.com/pictures/dewiki/82/Rodolphe_Kreutzer.jpg"
+},
+{
+	"id": 243,
+	"name": {
+		"first": "Heinrich Wilhelm",
+		"last": "Ernst",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1812",
+		"mm": "06",
+		"dd": "08"
+	},
+	"dateDeath": {
+		"yyyy": "1865",
+		"mm": "10",
+		"dd": "08"
+	},
+	"placeBirth": "Brno, Czech Republic",
+	"placeDeath": "Nice, France",
+	"relationship": [{
+		"id": 212,
+		"type": "Student",
+		"color": "offWhite"
+	}],
+	"color": "blue",
+	"group": ["Violinist", "Violist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "//"
+},
+{
+	"id": 244,
+	"name": {
+		"first": "Sigismund",
+		"last": "Bachrich",
+		"alt": ["Sigmund Bachrich", "Siegmund Bachrich"]
+	},
+	"dateBirth": {
+		"yyyy": "1841",
+		"mm": "01",
+		"dd": "23"
+	},
+	"dateDeath": {
+		"yyyy": "1913",
+		"mm": "07",
+		"dd": "16"
+	},
+	"placeBirth": "Zabokreky, Slovakia",
+	"placeDeath": "Vienna, Austria",
+	"relationship": [{
+		"id": 212,
+		"type": "Student",
+		"color": "offWhite"
+	}],
+	"color": "blue",
+	"group": ["Violinist", "Violist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "//"
+},
+{
+	"id": 245,
+	"name": {
+		"first": "Miska",
+		"last": "Hauser",
+		"alt": ["Michael Hauser"]
+	},
+	"dateBirth": {
+		"yyyy": "1822",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1887",
+		"mm": "12",
+		"dd": "08"
+	},
+	"placeBirth": "Pressburg, Slovakia",
+	"placeDeath": "Vienna, Austria",
+	"relationship": [{
+		"id": 212,
+		"type": "Student",
+		"color": "offWhite"
+	}],
+	"color": "blue",
+	"group": ["Violinist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "//"
+},
+{
+	"id": 246,
+	"name": {
+		"first": "Martin",
+		"last": "Agricola",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1486",
+		"mm": "01",
+		"dd": "06"
+	},
+	"dateDeath": {
+		"yyyy": "1556",
+		"mm": "06",
+		"dd": "10"
+	},
+	"placeBirth": "Schwiebus, Poland",
+	"placeDeath": "Magdeburg, Germany",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "darkRed",
+	"group": ["Music Theorist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "//"
+},
+{
+	"id": 247,
+	"name": {
+		"first": "Jacopo",
+		"last": "Peri",
+		"alt": ["Il Zazzerino", "Inventor of Opera"]
+	},
+	"dateBirth": {
+		"yyyy": "1561",
+		"mm": "08",
+		"dd": "20"
+	},
+	"dateDeath": {
+		"yyyy": "1633",
+		"mm": "08",
+		"dd": "12"
+	},
+	"placeBirth": "Rome, Italy",
+	"placeDeath": "Italy",
+	"relationship": [{
+		"id": 248,
+		"type": "Patronee",
+		"color": "green"
+	}],
+	"color": "red",
+	"group": ["Singer", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "//"
+},
+{
+	"id": 248,
+	"name": {
+		"first": "Jacopo",
+		"last": "Corsi",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1561",
+		"mm": "07",
+		"dd": "17"
+	},
+	"dateDeath": {
+		"yyyy": "1602",
+		"mm": "12",
+		"dd": "29"
+	},
+	"placeBirth": "Italy",
+	"placeDeath": "Italy",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "green",
+	"group": ["Patron", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "//"
+},
+{
+	"id": 249,
+	"name": {
+		"first": "William",
+		"last": "Byrd",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "c1539",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1623",
+		"mm": "07",
+		"dd": "04"
+	},
+	"placeBirth": "London, England",
+	"placeDeath": "Stondon Massey, England",
+	"relationship": [{
+		"id": 250,
+		"type": "Student",
+		"color": "offWhite"
+	},{
+		"id": 251,
+		"type": "Acquaintance",
+		"color": "blue"
+	},{
+		"id": 252,
+		"type": "Acquaintance",
+		"color": "blue"
+	},{
+		"id": 255,
+		"type": "Acquaintance",
+		"color": "blue"
+	}],
+	"color": "darkBlue",
+	"group": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "//"
+},
+{
+	"id": 250,
+	"name": {
+		"first": "Thomas",
+		"last": "Tallis",
+		"alt": ["Thomas Tallys"]
+	},
+	"dateBirth": {
+		"yyyy": "c1505",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1585",
+		"mm": "11",
+		"dd": "23"
+	},
+	"placeBirth": "England",
+	"placeDeath": "Greenwich, England",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "darkRed",
+	"group": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "//"
+},
+{
+	"id": 251,
+	"name": {
+		"first": "John",
+		"last": "Sheppard",
+		"alt": ["John Shepherd"]
+	},
+	"dateBirth": {
+		"yyyy": "c1515",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1558",
+		"mm": "12",
+		"dd": "??"
+	},
+	"placeBirth": "England",
+	"placeDeath": "Westminter, England",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "darkBlue",
+	"group": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "//"
+},
+{
+	"id": 252,
+	"name": {
+		"first": "William",
+		"last": "Mundy",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "c1529",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1591",
+		"mm": "10",
+		"dd": "??"
+	},
+	"placeBirth": "London, England",
+	"placeDeath": "England",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "darkBlue",
+	"group": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "//"
+},
+{
+	"id": 253,
+	"name": {
+		"first": "John",
+		"last": "Mundy",
+		"alt": ["John Munday"]
+	},
+	"dateBirth": {
+		"yyyy": "c1550",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1630",
+		"mm": "06",
+		"dd": "29"
+	},
+	"placeBirth": "England",
+	"placeDeath": "Westminter, England",
+	"relationship": [{
+		"id": 252,
+		"type": "Son",
+		"color": "red"
+	}],
+	"color": "blue",
+	"group": ["Organist", "Virginalist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "//"
+},
+{
+	"id": 254,
+	"name": {
+		"first": "Nathaniel",
+		"last": "Giles",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1558",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "c1633",
+		"mm": "??",
+		"dd": "??"
+	},
+	"placeBirth": "England",
+	"placeDeath": "England",
+	"relationship": [{
+		"id": 253,
+		"type": "Acquaintance",
+		"color": "blue"
+	}],
+	"color": "blue",
+	"group": ["Organist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "//"
+},
+{
+	"id": 255,
+	"name": {
+		"first": "John",
+		"last": "Merbecke",
+		"alt": ["John Marbeck/Merbeck"]
+	},
+	"dateBirth": {
+		"yyyy": "c1510",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "c1585",
+		"mm": "??",
+		"dd": "??"
+	},
+	"placeBirth": "Beverley, England",
+	"placeDeath": "Windsor, England",
+	"relationship": [{
+		"id": 250,
+		"type": "Acquaintance",
+		"color": "blue"
+	}],
+	"color": "blue",
+	"group": ["Musician", "Theological Writer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "//"
+},
+{
+	"id": 256,
+	"name": {
+		"first": "John",
+		"last": "Bull",
+		"alt": ["Marrer of virgins"]
+	},
+	"dateBirth": {
+		"yyyy": "c1562",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1628",
+		"mm": "03",
+		"dd": "12"
+	},
+	"placeBirth": "Hereford, England",
+	"placeDeath": "Antwerp, Belgium",
+	"relationship": [{
+		"id": 257,
+		"type": "Student",
+		"color": "offWhite"
+	},{
+		"id": 258,
+		"type": "Student",
+		"color": "offWhite"
+	}],
+	"color": "blue",
+	"group": ["Musician", "Organ builder", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "//"
+},
+{
+	"id": 257,
+	"name": {
+		"first": "John",
+		"last": "Blitheman",
+		"alt": ["John Blithman/Blytheman/Blythman", "William Blitheman"]
+	},
+	"dateBirth": {
+		"yyyy": "c1525",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1591",
+		"mm": "05",
+		"dd": "23"
+	},
+	"placeBirth": "England",
+	"placeDeath": "London, England",
+	"relationship": [{
+		"id": 250,
+		"type": "Acquaintance",
+		"color": "blue"
+	}],
+	"color": "blue",
+	"group": ["Organist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "//"
+},
+{
+	"id": 258,
+	"name": {
+		"first": "William",
+		"last": "Hunnis",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "c1530",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1597",
+		"mm": "06",
+		"dd": "06"
+	},
+	"placeBirth": "England",
+	"placeDeath": "Barking, England",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "darkBlue",
+	"group": ["Poet", "Dramatist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "//"
 }]
