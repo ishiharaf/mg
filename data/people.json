@@ -8510,11 +8510,43 @@
 	"placeBirth": "London, England",
 	"placeDeath": "Stondon Massey, England",
 	"relationship": [{
+		"id": 250,
+		"type": "Student",
+		"color": "offWhite"
+	}],
+	"color": "darkBlue",
+	"group": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "//"
+},
+{
+	"id": 250,
+	"name": {
+		"first": "Thomas",
+		"last": "Tallis",
+		"alt": ["Thomas Tallys"]
+	},
+	"dateBirth": {
+		"yyyy": "c1505",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1585",
+		"mm": "11",
+		"dd": "23"
+	},
+	"placeBirth": "England",
+	"placeDeath": "Greenwich, England",
+	"relationship": [{
 		"id": "",
 		"type": "",
 		"color": ""
 	}],
-	"color": "darkBlue",
+	"color": "darkRed",
 	"group": ["Composer"],
 	"source": [{
 		"citation": "",
