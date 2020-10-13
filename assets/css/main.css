@@ -365,3 +365,9 @@ body {
 .person.mus {color: #386fa4}
 .person.roy {color: #679436}
 .person.reg {color: #625556}
+
+@media only screen and (max-width: 768px) {
+	#infoCard {
+		max-width: 18rem;
+	}
+}
