@@ -8393,4 +8393,36 @@
 		"extract": ""
 	}],
 	"picture": "//"
+},
+{
+	"id": 246,
+	"name": {
+		"first": "Martin",
+		"last": "Agricola",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1486",
+		"mm": "01",
+		"dd": "06"
+	},
+	"dateDeath": {
+		"yyyy": "1556",
+		"mm": "06",
+		"dd": "10"
+	},
+	"placeBirth": "Schwiebus, Poland",
+	"placeDeath": "Magdeburg, Germany",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "darkRed",
+	"group": ["Music Theorist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "//"
 }]
