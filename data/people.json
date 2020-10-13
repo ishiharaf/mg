@@ -8749,6 +8749,10 @@
 		"id": 257,
 		"type": "Student",
 		"color": "offWhite"
+	},{
+		"id": 258,
+		"type": "Student",
+		"color": "offWhite"
 	}],
 	"color": "blue",
 	"group": ["Musician", "Organ builder", "Composer"],
@@ -8784,6 +8788,38 @@
 	}],
 	"color": "blue",
 	"group": ["Organist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "//"
+},
+{
+	"id": 258,
+	"name": {
+		"first": "William",
+		"last": "Hunnis",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "c1530",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1597",
+		"mm": "06",
+		"dd": "06"
+	},
+	"placeBirth": "England",
+	"placeDeath": "Barking, England",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "darkBlue",
+	"group": ["Poet", "Dramatist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
