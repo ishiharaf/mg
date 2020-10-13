@@ -8425,4 +8425,36 @@
 		"extract": ""
 	}],
 	"picture": "//"
+},
+{
+	"id": 247,
+	"name": {
+		"first": "Jacopo",
+		"last": "Peri",
+		"alt": ["Il Zazzerino", "Inventor of Opera"]
+	},
+	"dateBirth": {
+		"yyyy": "1561",
+		"mm": "08",
+		"dd": "20"
+	},
+	"dateDeath": {
+		"yyyy": "1633",
+		"mm": "08",
+		"dd": "12"
+	},
+	"placeBirth": "Rome, Italy",
+	"placeDeath": "Italy",
+	"relationship": [{
+		"id": 248,
+		"type": "Patronee",
+		"color": "green"
+	}],
+	"color": "red",
+	"group": ["Singer", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "//"
 }]
