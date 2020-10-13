@@ -8489,4 +8489,36 @@
 		"extract": ""
 	}],
 	"picture": "//"
+},
+{
+	"id": 249,
+	"name": {
+		"first": "William",
+		"last": "Byrd",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "c1539",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1623",
+		"mm": "07",
+		"dd": "04"
+	},
+	"placeBirth": "London, England",
+	"placeDeath": "Stondon Massey, England",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "darkBlue",
+	"group": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "//"
 }]
