@@ -8457,4 +8457,36 @@
 		"extract": ""
 	}],
 	"picture": "//"
+},
+{
+	"id": 248,
+	"name": {
+		"first": "Jacopo",
+		"last": "Corsi",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1561",
+		"mm": "07",
+		"dd": "17"
+	},
+	"dateDeath": {
+		"yyyy": "1602",
+		"mm": "12",
+		"dd": "29"
+	},
+	"placeBirth": "Italy",
+	"placeDeath": "Italy",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "green",
+	"group": ["Patron", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "//"
 }]
