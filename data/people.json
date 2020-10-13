@@ -8778,9 +8778,9 @@
 	"placeBirth": "England",
 	"placeDeath": "London, England",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 250,
+		"type": "Acquaintance",
+		"color": "blue"
 	}],
 	"color": "blue",
 	"group": ["Organist", "Composer"],
