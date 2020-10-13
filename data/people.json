@@ -6289,6 +6289,10 @@
 		"id": 222,
 		"type": "Acquaintance",
 		"color": "blue"
+	},{
+		"id": 241,
+		"type": "Acquaintance",
+		"color": "blue"
 	}],
 	"color": "red",
 	"group": ["Violinist", "Conductor", "Teacher", "Composer"],
@@ -6517,6 +6521,14 @@
 		"id": 188,
 		"type": "Friend",
 		"color": "lightBlue"
+	},{
+		"id": 241,
+		"type": "Friend",
+		"color": "lightBlue"
+	},{
+		"id": 200,
+		"type": "Acquaintance",
+		"color": "blue"
 	}],
 	"color": "blue",
 	"group": ["Pianist", "Conductor", "Composer"],
@@ -6640,7 +6652,7 @@
 		"dd": "10"
 	},
 	"placeBirth": "Vilna, Lithuania",
-	"placeDeath": "Los Angeles, California",
+	"placeDeath": "Los Angeles, USA",
 	"relationship": [{
 		"id": 176,
 		"type": "Student",
@@ -8204,6 +8216,42 @@
 	}],
 	"color": "blue",
 	"group": ["Gambist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 241,
+	"name": {
+		"first": "Ede",
+		"last": "Reményi",
+		"alt": ["Eduard Hoffmann", "Eduard Reményi", "Reményi Ede"]
+	},
+	"dateBirth": {
+		"yyyy": "1828",
+		"mm": "01",
+		"dd": "17"
+	},
+	"dateDeath": {
+		"yyyy": "1898",
+		"mm": "05",
+		"dd": "15"
+	},
+	"placeBirth": "Miskolc, Hungary",
+	"placeDeath": "San Francisco, USA",
+	"relationship": [{
+		"id": 212,
+		"type": "Student",
+		"color": "offWhite"
+	},{
+		"id": 200,
+		"type": "Friend",
+		"color": "lightBlue"
+	}],
+	"color": "blue",
+	"group": ["Violinist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
