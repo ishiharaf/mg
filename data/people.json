@@ -8746,12 +8746,44 @@
 	"placeBirth": "Hereford, England",
 	"placeDeath": "Antwerp, Belgium",
 	"relationship": [{
+		"id": 257,
+		"type": "Student",
+		"color": "offWhite"
+	}],
+	"color": "blue",
+	"group": ["Musician", "Organ builder", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "//"
+},
+{
+	"id": 257,
+	"name": {
+		"first": "John",
+		"last": "Blitheman",
+		"alt": ["John Blithman/Blytheman/Blythman", "William Blitheman"]
+	},
+	"dateBirth": {
+		"yyyy": "c1525",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1591",
+		"mm": "05",
+		"dd": "23"
+	},
+	"placeBirth": "England",
+	"placeDeath": "London, England",
+	"relationship": [{
 		"id": "",
 		"type": "",
 		"color": ""
 	}],
 	"color": "blue",
-	"group": ["Musician", "Organ builder", "Composer"],
+	"group": ["Organist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
