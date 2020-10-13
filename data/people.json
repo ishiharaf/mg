@@ -8657,4 +8657,36 @@
 		"extract": ""
 	}],
 	"picture": "//"
+},
+{
+	"id": 254,
+	"name": {
+		"first": "Nathaniel",
+		"last": "Giles",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1558",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "c1633",
+		"mm": "??",
+		"dd": "??"
+	},
+	"placeBirth": "England",
+	"placeDeath": "England",
+	"relationship": [{
+		"id": 253,
+		"type": "Acquaintance",
+		"color": "blue"
+	}],
+	"color": "blue",
+	"group": ["Organist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "//"
 }]
