@@ -8297,4 +8297,36 @@
 		"extract": ""
 	}],
 	"picture": "https://deacademic.com/pictures/dewiki/82/Rodolphe_Kreutzer.jpg"
+},
+{
+	"id": 243,
+	"name": {
+		"first": "Heinrich Wilhelm",
+		"last": "Ernst",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1812",
+		"mm": "06",
+		"dd": "08"
+	},
+	"dateDeath": {
+		"yyyy": "1865",
+		"mm": "10",
+		"dd": "08"
+	},
+	"placeBirth": "Brno, Czech Republic",
+	"placeDeath": "Nice, France",
+	"relationship": [{
+		"id": 212,
+		"type": "Student",
+		"color": "offWhite"
+	}],
+	"color": "blue",
+	"group": ["Violinist", "Violist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
