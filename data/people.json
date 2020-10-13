@@ -8328,5 +8328,37 @@
 		"citation": "",
 		"extract": ""
 	}],
-	"picture": ""
+	"picture": "//"
+},
+{
+	"id": 244,
+	"name": {
+		"first": "Sigismund",
+		"last": "Bachrich",
+		"alt": ["Sigmund Bachrich", "Siegmund Bachrich"]
+	},
+	"dateBirth": {
+		"yyyy": "1841",
+		"mm": "01",
+		"dd": "23"
+	},
+	"dateDeath": {
+		"yyyy": "1913",
+		"mm": "07",
+		"dd": "16"
+	},
+	"placeBirth": "Zabokreky, Slovakia",
+	"placeDeath": "Vienna, Austria",
+	"relationship": [{
+		"id": 212,
+		"type": "Student",
+		"color": "offWhite"
+	}],
+	"color": "blue",
+	"group": ["Violinist", "Violist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "//"
 }]
