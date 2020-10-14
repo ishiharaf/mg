@@ -205,6 +205,9 @@ body {
 	z-index: 1;
 	text-shadow: 0rem 0rem 0.2rem #0a090881;
 }
+#closeFilter:hover {
+	color: #f9f9f9;
+}
 #filterCard > div {
 	padding-bottom: 1rem;
 }
