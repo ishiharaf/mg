@@ -198,7 +198,7 @@ const sourceCard = document.getElementById("sourceCard")
 const openSource = (sourceId) => {
 	const personId = infoCard.getAttribute("data-id")
 	const selPerson = people.find(people => people.id == personId)
-	const cardWidth = Math.floor(infoCard.clientWidth) + 40
+	const cardWidth = Math.floor((infoCard.clientWidth + 40) / 10)
 
 	const citationDiv = document.getElementById("citation")
 	citationDiv.innerHTML = ""
@@ -207,12 +207,12 @@ const openSource = (sourceId) => {
 	const extractDiv = document.getElementById("extract")
 	extractDiv.innerHTML = ""
 	extractDiv.innerHTML = selPerson.source[sourceId - 1].extract
-	if (extractDiv.innerHTML !== "") extractDiv.style.marginTop = "10px"
+	if (extractDiv.innerHTML !== "") extractDiv.style.marginTop = "1.0rem"
 
 	sourceCard.style.display = "block"
-	sourceCard.style.right = `${cardWidth}px`
-	if(imageDiv.innerHTML !== "") sourceCard.style.top = "80px"
-	else sourceCard.style.top = "35px"
+	sourceCard.style.right = `${cardWidth}rem`
+	if(imageDiv.innerHTML !== "") sourceCard.style.top = "8.0rem"
+	else sourceCard.style.top = "3.5rem"
 }
 
 const checkSource = (el) => {
@@ -378,7 +378,7 @@ const assignAlt = (person) => {
 	altDiv.innerHTML = ""
 
 	if(person.name.alt[0] !== ""){
-		altDiv.style.paddingBottom = "10px"
+		altDiv.style.paddingBottom = "1rem"
 		for (let i = 0; i < person.name.alt.length; i++) {
 			const altNode = document.createElement("span")
 			const altName = person.name.alt[i]
@@ -395,7 +395,7 @@ const assignAlt = (person) => {
 			}
 		}
 	} else {
-		altDiv.style.paddingBottom = "5px"
+		altDiv.style.paddingBottom = "0.5rem"
 	}
 }
 
@@ -450,7 +450,7 @@ const assignRelation = (person, people) => {
 	relationDiv.innerHTML = ""
 
 	if(people.length > 0) {
-		relationDiv.style.paddingBottom = "10px"
+		relationDiv.style.paddingBottom = "1rem"
 		for (let i = 0; i < people.length; i++) {
 			const personNode = document.createElement("div")
 			const relNode = document.createElement("span")
@@ -488,7 +488,7 @@ const assignRelation = (person, people) => {
 			relationDiv.appendChild(personNode)
 		}
 	} else {
-		relationDiv.style.paddingBottom = "0px"
+		relationDiv.style.paddingBottom = "0rem"
 	}
 }
 
@@ -502,18 +502,18 @@ const assignImg = (person) => {
 		imgEl.alt = `Image of ${nameDiv.innerHTML}`
 		imageDiv.appendChild(imgEl)
 
-		const cardWidth = Math.floor(infoCard.clientWidth / 2) - 15
-		imageDiv.style.right = `${cardWidth}px`
+		const cardWidth = Math.floor(((infoCard.clientWidth / 2) - 15) / 10)
+		imageDiv.style.right = `${cardWidth}rem`
 		imageDiv.style.display = "block"
 
-		closeInfo.style.top = "78px"
-		infoCard.style.top = "80px"
-		nameDiv.style.paddingTop = "20px"
+		closeInfo.style.top = "7.8rem"
+		infoCard.style.top = "8rem"
+		nameDiv.style.paddingTop = "2rem"
 	} else {
 		imageDiv.style.display = "none"
-		closeInfo.style.top = "33px"
-		infoCard.style.top = "35px"
-		nameDiv.style.paddingTop = "0px"
+		closeInfo.style.top = "3.3rem"
+		infoCard.style.top = "3.5rem"
+		nameDiv.style.paddingTop = "0rem"
 	}
 }
 
@@ -889,6 +889,7 @@ filterButton.addEventListener("click", () => {
 	closeHelpCard()
 
 	filterSection.style.display = "block"
+	document.getElementById("nameFilterBox").focus()
 })
 closeFilter.addEventListener("click", () => {
 	closeFilterCard()
@@ -904,6 +905,7 @@ configButton.addEventListener("click", () => {
 	closeHelpCard()
 
 	configSection.style.display = "block"
+	document.getElementById("arrowTypeSel").focus()
 })
 closeConfig.addEventListener("click", () => {
 	closeConfigCard()
@@ -931,10 +933,7 @@ saveButton.addEventListener("click", () => {
 
 const fetchData = async() => {
 	try {
-		const res = await fetch("/mg/data/people.json", {
-			method: "GET",
-			cache: "no-cache"
-		})
+		const res = await fetch("/data", {method: "GET"})
 		return res.json()
 	} catch(error) {
 		console.log(error)
