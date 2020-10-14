@@ -1,5 +1,6 @@
 html, body {
 	height: 100%;
+	font-size: 62.5%;
 }
 body {
 	display: flex;
@@ -20,24 +21,24 @@ body {
 	height: auto;
 	background-color: #403d39;
 	position: absolute;
-	top: 35px;
-	right: 35px;
-	padding: 25px 32px 25px 32px;
+	top: 3.5rem;
+	right: 3.5rem;
+	padding: 2.5rem 3.2rem 2.5rem 3.2rem;
 	font-family: Cambria;
 	color: #f9f9f9;
 	opacity: 0.95;
-	box-shadow: 5px 5px 3px #0a090881;
+	box-shadow: 0.5rem 0.5rem 0.3rem #0a090881;
 	overflow-wrap: normal;
 }
 #closeInfo {
 	position: absolute;
-	top: 33px;
-	right: 43px;
+	top: 3.3rem;
+	right: 4.3rem;
 	color: #adadad;
-	font-size: 35px;
+	font-size: 3.5rem;
 	z-index: 1;
 	cursor: pointer;
-	text-shadow: 0px 0px 2px #0a090881;
+	text-shadow: 0rem 0rem 0.2rem #0a090881;
 }
 #closeInfo:hover {
 	color: #f9f9f9;
@@ -45,14 +46,14 @@ body {
 
 #image {
 	position: absolute;
-	top: 25px;
-	width: 100px;
-	height: 100px;
+	top: 2.5rem;
+	width: 10rem;
+	height: 10rem;
 	z-index: 1;
 	overflow: hidden;
 	border-radius: 50%;
-	border-color: 1px solid #0a0908;
-	box-shadow: 1px 1px 2px #0a090881;
+	border-color: 0.1rem solid #0a0908;
+	box-shadow: 0.1rem 0.1rem 0.2rem #0a090881;
 	cursor: pointer;
 	display: none;
 }
@@ -64,27 +65,27 @@ body {
 #name {
 	text-align: center;
 	font-style: italic;
-	font-size: 30px;
-	padding-bottom: 5px;
+	font-size: 3rem;
+	padding-bottom: 0.5rem;
 }
 #alt {
 	text-align: center;
-	font-size: 13px;
+	font-size: 1.3rem;
 	color: #adadad;
 }
 #birth {
 	text-align: center;
-	font-size: 12px;
-	padding-bottom: 8px;
+	font-size: 1.2rem;
+	padding-bottom: 0.8rem;
 }
 #occupation {
 	text-align: center;
-	font-size: 17px;
-	padding-bottom: 10px;
+	font-size: 1.7rem;
+	padding-bottom: 1rem;
 }
 #relation {
 	text-align: center;
-	font-size: 13px;
+	font-size: 1.3rem;
 }
 .relatedNode {
 	cursor: pointer;
@@ -103,7 +104,7 @@ body {
 	stroke-width: 0;
 	fill: #adadad;
 	cursor: pointer;
-	text-shadow: 0px 0px 2px #0a090881;
+	text-shadow: 0rem 0rem 0.2rem #0a090881;
 	user-select: none;
 }
 #youtubeBtn:hover {
@@ -139,28 +140,28 @@ body {
 #sourceCard {
 	width: auto;
 	height: auto;
-	max-width: 350px;
+	max-width: 35rem;
 	background-color: #403d39;
 	position: absolute;
-	right: 35px;
-	padding: 20px 27px 20px 27px;
+	right: 3.5rem;
+	padding: 2rem 2.7rem 2rem 2.7rem;
 	font-family: Cambria;
 	color: #f9f9f9;
 	opacity: 0.95;
-	box-shadow: 3px 3px 2px #0a090881;
+	box-shadow: 0.3rem 0.3rem 0.2rem #0a090881;
 	overflow-wrap: normal;
 	display: none;
 }
 #citation {
-	font-size: 12px;
+	font-size: 1.2rem;
 }
 #extract {
-	font-size: 14px;
+	font-size: 1.4rem;
 }
 .source {
-	font-size: 11px;
+	font-size: 1.1rem;
 	cursor: pointer;
-	margin-left: 4px;
+	margin-left: 0.4rem;
 }
 
 #filter {
@@ -168,51 +169,52 @@ body {
 }
 #filterBtn {
 	position: absolute;
-	bottom: 27px;
-	right: 95px;
+	bottom: 2.7rem;
+	right: 9.5rem;
 	opacity: 0.9;
 	stroke-width: 1;
 	stroke: #0a0908;
 	fill: #f9f9f9;
 	cursor: pointer;
-	text-shadow: 0px 0px 2px #0a090881;
+	text-shadow: 0rem 0rem 0.2rem #0a090881;
 	user-select: none;
 }
 #filterCard {
-	width: 220px;
+	width: 22rem;
 	height: auto;
 	background-color: #403d39;
 	position: absolute;
-	top: 35px;
-	right: 35px;
-	padding: 19px;
+	top: 3.5rem;
+	right: 3.5rem;
+	padding: 1.9rem;
 	font-family: Cambria;
+	font-size: 1.6rem;
 	color: #f9f9f9;
 	opacity: 0.95;
-	box-shadow: 5px 5px 3px #0a090881;
+	box-shadow: 0.5rem 0.5rem 0.3rem #0a090881;
 }
 #closeFilter {
 	position: absolute;
-	top: 33px;
-	right: 43px;
+	top: 3.3rem;
+	right: 4.3rem;
 	color: #adadad;
 	opacity: 0.9;
 	font-family: Cambria;
-	font-size: 35px;
+	font-size: 3.5rem;
 	cursor: pointer;
 	z-index: 1;
-	text-shadow: 0px 0px 2px #0a090881;
+	text-shadow: 0rem 0rem 0.2rem #0a090881;
 }
 #filterCard > div {
-	padding-bottom: 10px;
+	padding-bottom: 1rem;
 }
 #filterCard > input {
-	margin-bottom: 5px;
+	margin-bottom: 0.5rem;
 	width: 100%;
 }
 #filterCard > #searchBtn {
-	margin-top: 5px;
-	width: 70px;
+	margin-top: 0.5rem;
+	width: 7rem;
 }
 
 #config {
@@ -220,70 +222,71 @@ body {
 }
 #configBtn {
 	position: absolute;
-	bottom: 27px;
-	right: 58px;
+	bottom: 2.7rem;
+	right: 5.8rem;
 	opacity: 0.9;
 	stroke-width: 1;
 	stroke: #0a0908;
 	fill: #f9f9f9;
 	cursor: pointer;
-	text-shadow: 0px 0px 2px #0a090881;
+	text-shadow: 0rem 0rem 0.2rem #0a090881;
 	user-select: none;
 }
 #closeConfig {
 	position: absolute;
-	top: 33px;
-	right: 43px;
+	top: 3.3rem;
+	right: 4.3rem;
 	color: #adadad;
 	opacity: 0.9;
 	font-family: Cambria;
-	font-size: 35px;
+	font-size: 3.5rem;
 	cursor: pointer;
 	z-index: 1;
-	text-shadow: 0px 0px 2px #0a090881;
+	text-shadow: 0rem 0rem 0.2rem #0a090881;
 }
 #closeConfig:hover {
 	color: #f9f9f9;
 }
 #configCard {
-	width: 220px;
+	width: 22rem;
 	height: auto;
 	background-color: #403d39;
 	position: absolute;
-	top: 35px;
-	right: 35px;
-	padding: 19px;
+	top: 3.5rem;
+	right: 3.5rem;
+	padding: 1.9rem;
 	font-family: Cambria;
+	font-size: 1.6rem;
 	color: #f9f9f9;
 	opacity: 0.95;
-	box-shadow: 5px 5px 3px #0a090881;
+	box-shadow: 0.5rem 0.5rem 0.3rem #0a090881;
 }
 #layout,
 #layout > div,
 #arrows,
 #arrows > div {
-	padding-bottom: 10px;
+	padding-bottom: 1rem;
 }
 #layout > label {
 	vertical-align: top;
 }
 #hierarchyLayout {
-	padding-bottom: 5px;
+	padding-bottom: 0.5rem;
 }
 #arrows > input,
 #hierarchyLayout > input,
 #randomLayout > input {
-	margin: 3px 0px 5px 0px;
+	margin: 0.3rem 0rem 0.5rem 0rem;
 	width: 100%;
 }
 #arrows > select,
 #hierarchyLayout > select {
-	margin: 3px 0px 5px 0px;
-	height: 22px;
+	margin: 0.3rem 0rem 0.5rem 0rem;
+	height: 2.2rem;
 	width: 102%;
 }
 #randomLayout {
-	padding-bottom: 5px;
+	padding-bottom: 0.5rem;
 	display: none;
 }
 
@@ -292,66 +295,67 @@ body {
 }
 #helpBtn {
 	position: absolute;
-	bottom: 27px;
-	right: 25px;
+	bottom: 2.7rem;
+	right: 2.5rem;
 	color: #f9f9f9;
 	opacity: 0.9;
 	stroke-width: 1;
 	stroke: #0a0908;
 	fill: #f9f9f9;
 	cursor: pointer;
-	text-shadow: 0px 0px 2px #0a090881;
+	text-shadow: 0rem 0rem 0.2rem #0a090881;
 	user-select: none;
 }
 #closeHelp {
 	position: absolute;
-	top: 33px;
-	right: 43px;
+	top: 3.3rem;
+	right: 4.3rem;
 	color: #adadad;
 	opacity: 0.9;
 	font-family: Cambria;
-	font-size: 35px;
+	font-size: 3.5rem;
 	cursor: pointer;
 	z-index: 1;
-	text-shadow: 0px 0px 2px #0a090881;
+	text-shadow: 0rem 0rem 0.2rem #0a090881;
 }
 #closeHelp:hover {
 	color: #f9f9f9;
 }
 #helpCard {
-	width: 300px;
+	width: 30rem;
 	height: auto;
 	background-color: #403d39;
 	position: absolute;
-	top: 35px;
-	right: 35px;
-	padding: 19px;
+	top: 3.5rem;
+	right: 3.5rem;
+	padding: 1.9rem;
 	font-family: Cambria;
+	font-size: 1.6rem;
 	color: #f9f9f9;
 	opacity: 0.95;
-	box-shadow: 5px 5px 3px #0a090881;
+	box-shadow: 0.5rem 0.5rem 0.3rem #0a090881;
 	overflow-wrap: normal;
 }
 #helpCard > p:first-child {
-	margin-top: 0px;
+	margin-top: 0rem;
 }
 #legendCard {
 	width: auto;
 	height: auto;
 	background-color: #403d39;
 	position: absolute;
-	top: 35px;
-	right: 377px;
-	padding: 19px;
+	top: 3.5rem;
+	right: 37.7rem;
+	padding: 1.9rem;
 	font-family: Cambria;
 	color: #f9f9f9;
 	opacity: 0.95;
-	box-shadow: 2px 2px 2px #0a090881;
+	box-shadow: 0.2rem 0.2rem 0.2rem #0a090881;
 }
 #legendCard > p {
 	padding: 0;
 	margin: 0;
-	font-size: 13px;
+	font-size: 1.3rem;
 }
 #projectPage {color: #f9f9f9;}
 #projectPage:visited {color: #adadad;}
@@ -368,6 +372,6 @@ body {
 
 @media only screen and (max-width: 768px) {
 	#infoCard {
-		max-width: 18rem;
+		max-width: 30rem;
 	}
 }
