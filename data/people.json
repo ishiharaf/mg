@@ -8853,6 +8853,10 @@
 		"id": 200,
 		"type": "Acquaintance",
 		"color": "blue"
+	},{
+		"id": 260,
+		"type": "Acquaintance",
+		"color": "blue"
 	}],
 	"color": "blue",
 	"group": ["Violinist", "Teacher"],
@@ -8861,4 +8865,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/c/ce/August_Wilhelmj.jpg"
+},
+{
+	"id": 260,
+	"name": {
+		"first": "Henriette",
+		"last": "Sontag",
+		"alt": ["Gertrude Walpurgis Sontag", "Countess Rossi"]
+	},
+	"dateBirth": {
+		"yyyy": "1806",
+		"mm": "01",
+		"dd": "03"
+	},
+	"dateDeath": {
+		"yyyy": "0854",
+		"mm": "06",
+		"dd": "17"
+	},
+	"placeBirth": "Koblenz, Germany",
+	"placeDeath": "Mexico City, Mexico",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "blue",
+	"group": ["Soprano"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Henriette_Sontag_in_her_Donna_Anna_costume_1831%2C_painting_of_Paul_Delaroche.jpg/388px-Henriette_Sontag_in_her_Donna_Anna_costume_1831%2C_painting_of_Paul_Delaroche.jpg"
 }]
