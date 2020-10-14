@@ -8328,7 +8328,7 @@
 		"citation": "",
 		"extract": ""
 	}],
-	"picture": "//"
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Ernst_Portr%C3%A4t_%26_Autogramm.jpg/444px-Ernst_Portr%C3%A4t_%26_Autogramm.jpg"
 },
 {
 	"id": 244,
@@ -8360,7 +8360,7 @@
 		"citation": "",
 		"extract": ""
 	}],
-	"picture": "//"
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/1/16/Luckhardt_-_Sigmund_Bachrich_%28%C3%96NB_9818936%29.jpg"
 },
 {
 	"id": 245,
@@ -8392,7 +8392,7 @@
 		"citation": "",
 		"extract": ""
 	}],
-	"picture": "//"
+	"picture": "https://www.sydney.edu.au/paradisec/australharmony/imageslocal/hauser-miska-1851-2.jpg"
 },
 {
 	"id": 246,
@@ -8424,7 +8424,7 @@
 		"citation": "",
 		"extract": ""
 	}],
-	"picture": "//"
+	"picture": "https://upload.wikimedia.org/wikipedia/hr/6/6a/Martin_Agricola.jpg"
 },
 {
 	"id": 247,
@@ -8456,7 +8456,7 @@
 		"citation": "",
 		"extract": ""
 	}],
-	"picture": "//"
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Jacopo_Peri_1.jpg/401px-Jacopo_Peri_1.jpg"
 },
 {
 	"id": 248,
@@ -8488,7 +8488,7 @@
 		"citation": "",
 		"extract": ""
 	}],
-	"picture": "//"
+	"picture": ""
 },
 {
 	"id": 249,
@@ -8532,7 +8532,7 @@
 		"citation": "",
 		"extract": ""
 	}],
-	"picture": "//"
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/b/bf/William_Byrd.jpg"
 },
 {
 	"id": 250,
@@ -8564,7 +8564,7 @@
 		"citation": "",
 		"extract": ""
 	}],
-	"picture": "//"
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Thomas_Tallis_001.jpg/382px-Thomas_Tallis_001.jpg"
 },
 {
 	"id": 251,
@@ -8596,7 +8596,7 @@
 		"citation": "",
 		"extract": ""
 	}],
-	"picture": "//"
+	"picture": ""
 },
 {
 	"id": 252,
@@ -8628,7 +8628,7 @@
 		"citation": "",
 		"extract": ""
 	}],
-	"picture": "//"
+	"picture": ""
 },
 {
 	"id": 253,
@@ -8660,7 +8660,7 @@
 		"citation": "",
 		"extract": ""
 	}],
-	"picture": "//"
+	"picture": ""
 },
 {
 	"id": 254,
@@ -8692,7 +8692,7 @@
 		"citation": "",
 		"extract": ""
 	}],
-	"picture": "//"
+	"picture": ""
 },
 {
 	"id": 255,
@@ -8724,7 +8724,7 @@
 		"citation": "",
 		"extract": ""
 	}],
-	"picture": "//"
+	"picture": ""
 },
 {
 	"id": 256,
@@ -8760,7 +8760,7 @@
 		"citation": "",
 		"extract": ""
 	}],
-	"picture": "//"
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Johnbullcomposer.jpg"
 },
 {
 	"id": 257,
@@ -8792,7 +8792,7 @@
 		"citation": "",
 		"extract": ""
 	}],
-	"picture": "//"
+	"picture": ""
 },
 {
 	"id": 258,
@@ -8824,5 +8824,77 @@
 		"citation": "",
 		"extract": ""
 	}],
-	"picture": "//"
+	"picture": ""
+},
+{
+	"id": 259,
+	"name": {
+		"first": "August",
+		"last": "Wilhelmj",
+		"alt": ["August Emil Daniel Ferdinand Wilhelmj", "German Paganini"]
+	},
+	"dateBirth": {
+		"yyyy": "1845",
+		"mm": "09",
+		"dd": "21"
+	},
+	"dateDeath": {
+		"yyyy": "1908",
+		"mm": "01",
+		"dd": "22"
+	},
+	"placeBirth": "Usingen, Germany",
+	"placeDeath": "London, England",
+	"relationship": [{
+		"id": 193,
+		"type": "Student",
+		"color": "offWhite"
+	},{
+		"id": 200,
+		"type": "Acquaintance",
+		"color": "blue"
+	},{
+		"id": 260,
+		"type": "Acquaintance",
+		"color": "blue"
+	}],
+	"color": "blue",
+	"group": ["Violinist", "Teacher"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/c/ce/August_Wilhelmj.jpg"
+},
+{
+	"id": 260,
+	"name": {
+		"first": "Henriette",
+		"last": "Sontag",
+		"alt": ["Gertrude Walpurgis Sontag", "Countess Rossi"]
+	},
+	"dateBirth": {
+		"yyyy": "1806",
+		"mm": "01",
+		"dd": "03"
+	},
+	"dateDeath": {
+		"yyyy": "0854",
+		"mm": "06",
+		"dd": "17"
+	},
+	"placeBirth": "Koblenz, Germany",
+	"placeDeath": "Mexico City, Mexico",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "blue",
+	"group": ["Soprano"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Henriette_Sontag_in_her_Donna_Anna_costume_1831%2C_painting_of_Paul_Delaroche.jpg/388px-Henriette_Sontag_in_her_Donna_Anna_costume_1831%2C_painting_of_Paul_Delaroche.jpg"
 }]
