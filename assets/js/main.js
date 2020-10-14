@@ -487,6 +487,28 @@ const assignRelation = (person, people) => {
 
 			relationDiv.appendChild(personNode)
 		}
+
+		const relatedChildren = relationDiv.children
+		if(relatedChildren.length > 9) {
+			for (let i = 0; i < relatedChildren.length; i++) {
+				if(i > 9) relatedChildren[i].style.display = "none"
+			}
+
+			const cardHeight = Math.floor(((infoCard.clientHeight / 1.5)) / 10)
+			const cardWidth = Math.floor(((infoCard.clientWidth)) / 10)
+			const cardTop = window.getComputedStyle(infoCard).top
+			const topNumber = Math.floor((Number(cardTop.substring(0, cardTop.indexOf("px"))) * 2) / 10)
+
+			const previous = document.getElementById("previousArrow")
+			previous.style.top = `${cardHeight + topNumber}rem`
+			previous.style.right = `${cardWidth + 1.5}rem`
+			previous.style.display = "block"
+
+			const next = document.getElementById("nextArrow")
+			next.style.top = `${cardHeight + topNumber}rem`
+			next.style.right = "4.1rem"
+			next.style.display = "block"
+		}
 	} else {
 		relationDiv.style.paddingBottom = "0rem"
 	}
