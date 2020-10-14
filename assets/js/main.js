@@ -889,6 +889,7 @@ filterButton.addEventListener("click", () => {
 	closeHelpCard()
 
 	filterSection.style.display = "block"
+	document.getElementById("nameFilterBox").focus()
 })
 closeFilter.addEventListener("click", () => {
 	closeFilterCard()
@@ -904,6 +905,7 @@ configButton.addEventListener("click", () => {
 	closeHelpCard()
 
 	configSection.style.display = "block"
+	document.getElementById("arrowTypeSel").focus()
 })
 closeConfig.addEventListener("click", () => {
 	closeConfigCard()
