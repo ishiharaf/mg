@@ -8825,4 +8825,40 @@
 		"extract": ""
 	}],
 	"picture": ""
+},
+{
+	"id": 259,
+	"name": {
+		"first": "August",
+		"last": "Wilhelmj",
+		"alt": ["August Emil Daniel Ferdinand Wilhelmj", "German Paganini"]
+	},
+	"dateBirth": {
+		"yyyy": "1845",
+		"mm": "09",
+		"dd": "21"
+	},
+	"dateDeath": {
+		"yyyy": "1908",
+		"mm": "01",
+		"dd": "22"
+	},
+	"placeBirth": "Usingen, Germany",
+	"placeDeath": "London, England",
+	"relationship": [{
+		"id": 193,
+		"type": "Student",
+		"color": "offWhite"
+	},{
+		"id": 200,
+		"type": "Acquaintance",
+		"color": "blue"
+	}],
+	"color": "blue",
+	"group": ["Violinist", "Teacher"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/c/ce/August_Wilhelmj.jpg"
 }]
