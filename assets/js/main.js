@@ -504,10 +504,18 @@ const assignRelation = (person, people) => {
 			previous.style.right = `${cardWidth + 1.5}rem`
 			previous.style.display = "block"
 
+			previous.addEventListener("click", () => {
+				previousPage()
+			})
+
 			const next = document.getElementById("nextArrow")
 			next.style.top = `${cardHeight + topNumber}rem`
 			next.style.right = "4.1rem"
 			next.style.display = "block"
+
+			next.addEventListener("click", () => {
+				nextPage()
+			})
 		}
 	} else {
 		relationDiv.style.paddingBottom = "0rem"
@@ -853,6 +861,52 @@ const closeHelpCard = () => {
 
 const closeFilterCard = () => {
 	filterSection.style.display = "none"
+}
+
+const previousPage = () => {
+	const child = document.getElementById("relation").children
+	if(window.getComputedStyle(child[9]).display !== "block") {
+		let visible = []
+		for (let i = 0; i < child.length; i++) {
+			const style = window.getComputedStyle(child[i]).display
+			if(style === "block") {
+				visible.push(i)
+			}
+		}
+
+		let end = visible[0] - 1
+		let start = end - 10
+		for (let i = 0; i < child.length; i++) {
+			if(i >= start && i < end) {
+				child[i].style.display = "block"
+			} else {
+				child[i].style.display = "none"
+			}
+		}
+	}
+}
+
+const nextPage = () => {
+	const child = document.getElementById("relation").children
+	if(window.getComputedStyle(child[child.length - 1]).display !== "block") {
+		let visible = []
+		for (let i = 0; i < child.length; i++) {
+			const style = window.getComputedStyle(child[i]).display
+			if(style === "block") {
+				visible.push(i)
+			}
+		}
+
+		let start = visible[visible.length - 1] + 1
+		let end = start + 10
+		for (let i = 0; i < child.length; i++) {
+			if(i >= start && i < end) {
+				child[i].style.display = "block"
+			} else {
+				child[i].style.display = "none"
+			}
+		}
+	}
 }
 
 const openInfoCard = (params) => {
