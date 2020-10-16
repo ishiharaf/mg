@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.1 (2020/10/14)
+### Changed
+- Changed px units to rem
+### Fixed
+- Fixed hover color for #closeFilter
+### Added
+- Added arrow to navigate between related people
+
 ## 0.1.0 (2020/10/13)
 ### Changed
 - Changed repository visibility to public
