@@ -491,20 +491,17 @@ const assignRelation = (person, people) => {
 		}
 
 		const relatedChildren = relationDiv.children
-		if(relatedChildren.length > 9) {
+		if(relatedChildren.length > 10) {
 			for (let i = 0; i < relatedChildren.length; i++) {
 				if(i > 9) relatedChildren[i].style.display = "none"
 			}
 
-			const cardHeight = Math.floor(((infoCard.clientHeight / 1.4)) / 10)
-			const cardWidth = Math.floor(((infoCard.clientWidth)) / 10)
-			const cardTop = window.getComputedStyle(infoCard).top
-			const topNumber = Math.floor((Number(cardTop.substring(0, cardTop.indexOf("px"))) * 2) / 10)
+			const cardHeight = Math.floor((infoCard.clientHeight / 1.4) / 10)
+			const cardWidth = Math.floor(infoCard.clientWidth / 10)
 
 			prevArrow.style.top = `${cardHeight}rem`
 			prevArrow.style.right = `${cardWidth + 1.1}rem`
 			prevArrow.style.display = "block"
-
 			prevArrow.addEventListener("click", () => {
 				previousPage()
 			})
@@ -512,7 +509,6 @@ const assignRelation = (person, people) => {
 			nextArrow.style.top = `${cardHeight}rem`
 			nextArrow.style.right = "4.1rem"
 			nextArrow.style.display = "block"
-
 			nextArrow.addEventListener("click", () => {
 				nextPage()
 			})
@@ -874,8 +870,9 @@ const previousPage = () => {
 			}
 		}
 
-		let end = visible[0] - 1
+		let end = visible[0]
 		let start = end - 10
+		console.log(`Prev: Start => ${start}, End => ${end}`)
 		for (let i = 0; i < child.length; i++) {
 			if(i >= start && i < end) {
 				child[i].style.display = "block"
@@ -899,6 +896,7 @@ const nextPage = () => {
 
 		let start = visible[visible.length - 1] + 1
 		let end = start + 10
+		console.log(`Next: Start => ${start}, End => ${end}`)
 		for (let i = 0; i < child.length; i++) {
 			if(i >= start && i < end) {
 				child[i].style.display = "block"
