@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.0 (2020/10/13)
+### Changed
+- Changed repository visibility to public
+### Added
+- Added gh-pages branch and published the page
+
 ## 0.0.9 (2020/10/10)
 ### Changed
 - Changed node options
