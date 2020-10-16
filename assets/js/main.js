@@ -192,6 +192,8 @@ const infoSection = document.getElementById("info")
 const imageDiv = document.getElementById("image")
 const infoCard = document.getElementById("infoCard")
 const closeInfo = document.getElementById("closeInfo")
+const prevArrow = document.getElementById("previousArrow")
+const nextArrow = document.getElementById("nextArrow")
 
 const sourceCard = document.getElementById("sourceCard")
 
@@ -486,6 +488,30 @@ const assignRelation = (person, people) => {
 			}
 
 			relationDiv.appendChild(personNode)
+		}
+
+		const relatedChildren = relationDiv.children
+		if(relatedChildren.length > 10) {
+			for (let i = 0; i < relatedChildren.length; i++) {
+				if(i > 9) relatedChildren[i].style.display = "none"
+			}
+
+			const cardHeight = Math.floor((infoCard.clientHeight / 1.4) / 10)
+			const cardWidth = Math.floor(infoCard.clientWidth / 10)
+
+			prevArrow.style.top = `${cardHeight}rem`
+			prevArrow.style.right = `${cardWidth + 1.1}rem`
+			prevArrow.style.display = "block"
+			prevArrow.addEventListener("click", () => {
+				previousPage()
+			})
+
+			nextArrow.style.top = `${cardHeight}rem`
+			nextArrow.style.right = "4.1rem"
+			nextArrow.style.display = "block"
+			nextArrow.addEventListener("click", () => {
+				nextPage()
+			})
 		}
 	} else {
 		relationDiv.style.paddingBottom = "0rem"
@@ -833,6 +859,52 @@ const closeFilterCard = () => {
 	filterSection.style.display = "none"
 }
 
+const previousPage = () => {
+	const child = document.getElementById("relation").children
+	if(window.getComputedStyle(child[9]).display !== "block") {
+		let visible = []
+		for (let i = 0; i < child.length; i++) {
+			const style = window.getComputedStyle(child[i]).display
+			if(style === "block") {
+				visible.push(i)
+			}
+		}
+
+		let end = visible[0]
+		let start = end - 10
+		for (let i = 0; i < child.length; i++) {
+			if(i >= start && i < end) {
+				child[i].style.display = "block"
+			} else {
+				child[i].style.display = "none"
+			}
+		}
+	}
+}
+
+const nextPage = () => {
+	const child = document.getElementById("relation").children
+	if(window.getComputedStyle(child[child.length - 1]).display !== "block") {
+		let visible = []
+		for (let i = 0; i < child.length; i++) {
+			const style = window.getComputedStyle(child[i]).display
+			if(style === "block") {
+				visible.push(i)
+			}
+		}
+
+		let start = visible[visible.length - 1] + 1
+		let end = start + 10
+		for (let i = 0; i < child.length; i++) {
+			if(i >= start && i < end) {
+				child[i].style.display = "block"
+			} else {
+				child[i].style.display = "none"
+			}
+		}
+	}
+}
+
 const openInfoCard = (params) => {
 	if(params.nodes.length > 0) {
 		const selId = params.nodes[0]
@@ -843,6 +915,8 @@ const openInfoCard = (params) => {
 		closeFilterCard()
 		closeHelpCard()
 		closeConfigCard()
+		prevArrow.style.display = "none"
+		nextArrow.style.display = "none"
 		sourceCard.style.display = "none"
 		infoSection.style.display = "block"
 		infoCard.setAttribute("data-id", selId)
