@@ -1,11 +1,21 @@
 # Changelog
 
+## 0.0.8 (2020/10/06)
+### Changed
+- Updated [package.json](package.json)
+- Updated [README.md](README.md)
+- Changed search card to look for alt names
+### Added
+- Added google, youtube and spotify buttons to info card
+- Added parent nodes to related people
+- Added function to move between nodes when clicking on a name
+
 ## 0.0.7 (2020/10/05)
 ### Changed
 - Updated [package.json](package.json)
 - [README.md](README.md) and help card updated
 ### Added
-- Added different search options for Birth Year.
+- Added different search options for Birth Year
 
 ## 0.0.6 (2020/10/03)
 ### Changed
