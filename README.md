@@ -1,6 +1,6 @@
 # mg
 
-This project aims to display in a visual way how musicians of the past were connected to each other. **mg** stands for *musician's graph*.
+This project aims to display in a visual way how musicians of the past were connected to each other. **mg** stands for *musician's graph*. There is a live version on [https://ishiharaf.github.io/mg/](https://ishiharaf.github.io/mg/).
 
 ## Table of contents
 - [General Info](#general-info)
