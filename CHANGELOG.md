@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.2 (2020/10/16)
+### Changed
+- Updated [package.json](package.json)
+### Fixed
+- Fixed functionality of info card arrows
+
 ## 0.1.1 (2020/10/14)
 ### Changed
 - Changed px units to rem
