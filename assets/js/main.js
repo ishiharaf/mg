@@ -872,7 +872,6 @@ const previousPage = () => {
 
 		let end = visible[0]
 		let start = end - 10
-		console.log(`Prev: Start => ${start}, End => ${end}`)
 		for (let i = 0; i < child.length; i++) {
 			if(i >= start && i < end) {
 				child[i].style.display = "block"
@@ -896,7 +895,6 @@ const nextPage = () => {
 
 		let start = visible[visible.length - 1] + 1
 		let end = start + 10
-		console.log(`Next: Start => ${start}, End => ${end}`)
 		for (let i = 0; i < child.length; i++) {
 			if(i >= start && i < end) {
 				child[i].style.display = "block"
