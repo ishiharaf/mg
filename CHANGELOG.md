@@ -1,8 +1,13 @@
 # Changelog
 
+## 0.0.9 (2020/10/10)
+### Changed
+- Changed node options
+### Added
+- Added different colors to nodes and arrows
+
 ## 0.0.8 (2020/10/06)
 ### Changed
-- Updated [package.json](package.json)
 - Updated [README.md](README.md)
 - Changed search card to look for alt names
 ### Added
