@@ -70,7 +70,8 @@ body {
 	z-index: 1;
 	cursor: pointer;
 	text-shadow: 0rem 0rem 0.2rem #0a090881;
-	/* display: none; */
+	user-select: none;
+	display: none;
 }
 #previousArrow:hover,
 #nextArrow:hover {
@@ -104,6 +105,8 @@ body {
 }
 .relatedNode {
 	cursor: pointer;
+	text-decoration: underline;
+	text-decoration-color: #adadad;
 }
 
 #links {
