@@ -1241,6 +1241,10 @@
 		"id": 28,
 		"type": "Student",
 		"color": "green"
+	},{
+		"id": 38,
+		"type": "Student",
+		"color": "green"
 	}],
 	"color": "green",
 	"group": ["King of Prussia", "Elector of Brandenburg"],
