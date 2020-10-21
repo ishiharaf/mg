@@ -8887,7 +8887,7 @@
 		"dd": "03"
 	},
 	"dateDeath": {
-		"yyyy": "0854",
+		"yyyy": "1854",
 		"mm": "06",
 		"dd": "17"
 	},
@@ -8905,4 +8905,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Henriette_Sontag_in_her_Donna_Anna_costume_1831%2C_painting_of_Paul_Delaroche.jpg/388px-Henriette_Sontag_in_her_Donna_Anna_costume_1831%2C_painting_of_Paul_Delaroche.jpg"
+},
+{
+	"id": 261,
+	"name": {
+		"first": "Michel",
+		"last": "Corrette",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1707",
+		"mm": "04",
+		"dd": "10"
+	},
+	"dateDeath": {
+		"yyyy": "1795",
+		"mm": "01",
+		"dd": "21"
+	},
+	"placeBirth": "Rouen, France",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "blue",
+	"group": ["Organist", "Composer", "Author"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "//"
 }]
