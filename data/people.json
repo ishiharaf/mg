@@ -8926,12 +8926,44 @@
 	"placeBirth": "Rouen, France",
 	"placeDeath": "Paris, France",
 	"relationship": [{
+		"id": 262,
+		"type": "Son",
+		"color": "red"
+	}],
+	"color": "blue",
+	"group": ["Organist", "Composer", "Author"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "//"
+},
+{
+	"id": 262,
+	"name": {
+		"first": "Gaspard",
+		"last": "Corrette",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "c1671",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "c1733",
+		"mm": "??",
+		"dd": "??"
+	},
+	"placeBirth": "Rouen, France",
+	"placeDeath": "Paris, France",
+	"relationship": [{
 		"id": "",
 		"type": "",
 		"color": ""
 	}],
 	"color": "blue",
-	"group": ["Organist", "Composer", "Author"],
+	"group": ["Organist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
