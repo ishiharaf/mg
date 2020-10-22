@@ -9617,4 +9617,36 @@
 		"extract": ""
 	}],
 	"picture": ""
+},
+{
+	"id": 283,
+	"name": {
+		"first": "Marin",
+		"last": "Mersenne",
+		"alt": ["Marinus Mersennus", "Le Père Mersenne"]
+	},
+	"dateBirth": {
+		"yyyy": "1588",
+		"mm": "09",
+		"dd": "08"
+	},
+	"dateDeath": {
+		"yyyy": "1648",
+		"mm": "09",
+		"dd": "01"
+	},
+	"placeBirth": "Oizé, France",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": 263,
+		"type": "Friend",
+		"color": "lightBlue"
+	}],
+	"color": "gray",
+	"group": ["Music Theorist", "Mathematician", "Philosopher", "Theologian"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
