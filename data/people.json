@@ -9513,4 +9513,36 @@
 		"extract": ""
 	}],
 	"picture": "//"
+},
+{
+	"id": 280,
+	"name": {
+		"first": "Antonio Maria",
+		"last": "Bernacchi",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1685",
+		"mm": "06",
+		"dd": "23"
+	},
+	"dateDeath": {
+		"yyyy": "1756",
+		"mm": "03",
+		"dd": "01"
+	},
+	"placeBirth": "Bologna, Italy",
+	"placeDeath": "Bologna, Italy",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "mus",
+	"group": ["Castrato", "Composer", "Singing Teacher"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "//"
 }]
