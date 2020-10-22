@@ -9000,5 +9000,37 @@
 		"citation": "",
 		"extract": ""
 	}],
-	"picture": ""
+	"picture": "//"
+},
+{
+	"id": 264,
+	"name": {
+		"first": "Louis",
+		"last": "Couperin",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "c1626",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1661",
+		"mm": "08",
+		"dd": "29"
+	},
+	"placeBirth": "Chaumes-en-Brie, France",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "blue",
+	"group": ["Organist", "Harpsichordist", "Gambist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "//"
 }]
