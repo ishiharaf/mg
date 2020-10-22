@@ -9026,9 +9026,9 @@
 	"placeBirth": "Chaumes-en-Brie, France",
 	"placeDeath": "Paris, France",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 204,
+		"type": "Acquaintance",
+		"color": "blue"
 	}],
 	"color": "red",
 	"group": ["Organist", "Harpsichordist", "Gambist", "Composer"],
