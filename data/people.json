@@ -9225,4 +9225,36 @@
 		"extract": ""
 	}],
 	"picture": "//"
+},
+{
+	"id": 271,
+	"name": {
+		"first": "Gilles",
+		"last": "Jullien",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "c1651",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1703",
+		"mm": "09",
+		"dd": "14"
+	},
+	"placeBirth": "France",
+	"placeDeath": "Chartres, France",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "mus",
+	"group": ["Organist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "//"
 }]
