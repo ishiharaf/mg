@@ -9570,9 +9570,9 @@
 	"placeBirth": "Palermo, Italy",
 	"placeDeath": "Bologna, Italy",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 63,
+		"type": "Primo uomo",
+		"color": "green"
 	}],
 	"color": "mus",
 	"group": ["Singer", "Composer", "Librettist"],
