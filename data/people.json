@@ -9353,4 +9353,36 @@
 		"extract": ""
 	}],
 	"picture": "//"
+},
+{
+	"id": 275,
+	"name": {
+		"first": "Charles",
+		"last": "Piroye",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "c1668",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "c1730",
+		"mm": "??",
+		"dd": "??"
+	},
+	"placeBirth": "Paris, France (?)",
+	"placeDeath": "Paris, France (?)",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "mus",
+	"group": ["Organist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "//"
 }]
