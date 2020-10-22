@@ -9719,7 +9719,7 @@
 	"picture": "https://www.discogs.com/image/A-1053180-1460203508-9168.jpeg"
 },
 {
-	"id": 285,
+	"id": 286,
 	"name": {
 		"first": "Louis-Nicolas",
 		"last": "Clérambault",
@@ -9741,6 +9741,10 @@
 		"id": 269,
 		"type": "Student",
 		"color": "offWhite"
+	},{
+		"id": 287,
+		"type": "Student",
+		"color": "offWhite"
 	}],
 	"color": "blue",
 	"group": ["Organist", "Composer"],
@@ -9749,4 +9753,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Louis-Nicolas_Clerambault.jpg/458px-Louis-Nicolas_Clerambault.jpg"
+},
+{
+	"id": 287,
+	"name": {
+		"first": "Jean-Baptiste",
+		"last": "Moreau",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "c1656",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1733",
+		"mm": "08",
+		"dd": "24"
+	},
+	"placeBirth": "Angers, France",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": 203,
+		"type": "Employee",
+		"color": "green"
+	}],
+	"color": "darkBlue",
+	"group": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
