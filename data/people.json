@@ -9417,4 +9417,36 @@
 		"extract": ""
 	}],
 	"picture": "//"
+},
+{
+	"id": 277,
+	"name": {
+		"first": "Nicolas de",
+		"last": "Grigny",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1672",
+		"mm": "09",
+		"dd": "08"
+	},
+	"dateDeath": {
+		"yyyy": "1703",
+		"mm": "11",
+		"dd": "30"
+	},
+	"placeBirth": "Reims, France",
+	"placeDeath": "Reims, France",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "mus",
+	"group": ["Organist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "//"
 }]
