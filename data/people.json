@@ -8930,13 +8930,13 @@
 		"type": "Son",
 		"color": "red"
 	}],
-	"color": "blue",
+	"color": "red",
 	"group": ["Organist", "Composer", "Author"],
 	"source": [{
 		"citation": "",
 		"extract": ""
 	}],
-	"picture": "//"
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Michel_Corrette_portrait.jpg/400px-Michel_Corrette_portrait.jpg"
 },
 {
 	"id": 262,
@@ -8968,5 +8968,5 @@
 		"citation": "",
 		"extract": ""
 	}],
-	"picture": "//"
+	"picture": ""
 }]
