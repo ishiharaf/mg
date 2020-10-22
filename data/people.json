@@ -9101,29 +9101,29 @@
 {
 	"id": 267,
 	"name": {
-		"first": "Charles",
-		"last": "Racquet",
+		"first": "Jean-Nicolas",
+		"last": "Geoffroy",
 		"alt": [""]
 	},
 	"dateBirth": {
-		"yyyy": "1597",
+		"yyyy": "1633",
 		"mm": "??",
 		"dd": "??"
 	},
 	"dateDeath": {
-		"yyyy": "1664",
-		"mm": "??",
-		"dd": "??"
+		"yyyy": "1694",
+		"mm": "03",
+		"dd": "11"
 	},
-	"placeBirth": "Paris, France",
-	"placeDeath": "Paris, France",
+	"placeBirth": "France",
+	"placeDeath": "Perpignan, France",
 	"relationship": [{
 		"id": "",
 		"type": "",
 		"color": ""
 	}],
 	"color": "mus",
-	"group": ["Organist", "Composer"],
+	"group": ["Organist", "Harpsichordist"],
 	"source": [{
 		"citation": "",
 		"extract": ""
