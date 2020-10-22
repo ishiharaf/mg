@@ -9538,12 +9538,44 @@
 	"placeBirth": "Bologna, Italy",
 	"placeDeath": "Bologna, Italy",
 	"relationship": [{
+		"id": 281,
+		"type": "Student",
+		"color": "offWhite"
+	}],
+	"color": "mus",
+	"group": ["Castrato", "Composer", "Singing Teacher"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "//"
+},
+{
+	"id": 281,
+	"name": {
+		"first": "Francesco Antonio",
+		"last": "Pistocchi",
+		"alt": ["Francesco Antonio Mamiliano Pistocchi", "Pistocchino"]
+	},
+	"dateBirth": {
+		"yyyy": "1659",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1726",
+		"mm": "05",
+		"dd": "13"
+	},
+	"placeBirth": "Palermo, Italy",
+	"placeDeath": "Bologna, Italy",
+	"relationship": [{
 		"id": "",
 		"type": "",
 		"color": ""
 	}],
 	"color": "mus",
-	"group": ["Castrato", "Composer", "Singing Teacher"],
+	"group": ["Singer", "Composer", "Librettist"],
 	"source": [{
 		"citation": "",
 		"extract": ""
