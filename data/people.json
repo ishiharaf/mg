@@ -9193,4 +9193,36 @@
 		"extract": ""
 	}],
 	"picture": "//"
+},
+{
+	"id": 270,
+	"name": {
+		"first": "Lambert",
+		"last": "Chaumont",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "c1630",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1712",
+		"mm": "04",
+		"dd": "??"
+	},
+	"placeBirth": "Liège, Flanders",
+	"placeDeath": "Huy, Flanders",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "mus",
+	"group": ["Organist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "//"
 }]
