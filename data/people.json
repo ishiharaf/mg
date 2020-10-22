@@ -9385,4 +9385,36 @@
 		"extract": ""
 	}],
 	"picture": "//"
+},
+{
+	"id": 276,
+	"name": {
+		"first": "Louis",
+		"last": "Marchand",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1669",
+		"mm": "02",
+		"dd": "02"
+	},
+	"dateDeath": {
+		"yyyy": "1732",
+		"mm": "02",
+		"dd": "17"
+	},
+	"placeBirth": "Auxonne, France",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "mus",
+	"group": ["Organist", "Harpsichordist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "//"
 }]
