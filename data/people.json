@@ -9129,4 +9129,36 @@
 		"extract": ""
 	}],
 	"picture": "//"
+},
+{
+	"id": 268,
+	"name": {
+		"first": "Jean-Henri",
+		"last": "d'Anglebert",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1629",
+		"mm": "04",
+		"dd": "01"
+	},
+	"dateDeath": {
+		"yyyy": "1691",
+		"mm": "04",
+		"dd": "23"
+	},
+	"placeBirth": "Bar-le-Duc, France",
+	"placeDeath": "Paris, France?",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "mus",
+	"group": ["Organist", "Harpsichordist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "//"
 }]
