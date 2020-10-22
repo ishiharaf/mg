@@ -9449,4 +9449,36 @@
 		"extract": ""
 	}],
 	"picture": "//"
+},
+{
+	"id": 278,
+	"name": {
+		"first": "Francesco",
+		"last": "Lamperti",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1811",
+		"mm": "03",
+		"dd": "11"
+	},
+	"dateDeath": {
+		"yyyy": "1892",
+		"mm": "05",
+		"dd": "01"
+	},
+	"placeBirth": "Savona, Italy",
+	"placeDeath": "Como, Italy",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "mus",
+	"group": ["Singing Teacher"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "//"
 }]
