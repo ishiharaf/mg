@@ -9148,7 +9148,7 @@
 		"dd": "23"
 	},
 	"placeBirth": "Bar-le-Duc, France",
-	"placeDeath": "Paris, France?",
+	"placeDeath": "Paris, France (?)",
 	"relationship": [{
 		"id": "",
 		"type": "",
@@ -9156,6 +9156,38 @@
 	}],
 	"color": "mus",
 	"group": ["Organist", "Harpsichordist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "//"
+},
+{
+	"id": 269,
+	"name": {
+		"first": "André",
+		"last": "Raison",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "c1640",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1719",
+		"mm": "??",
+		"dd": "??"
+	},
+	"placeBirth": "Nanterre, France (?)",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "mus",
+	"group": ["Organist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
