@@ -9502,9 +9502,9 @@
 	"placeBirth": "Milan, Italy",
 	"placeDeath": "Berlin, Germany",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 278,
+		"type": "Son",
+		"color": "red"
 	}],
 	"color": "mus",
 	"group": ["Singing Teacher"],
