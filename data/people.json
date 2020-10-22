@@ -8994,9 +8994,9 @@
 	"placeBirth": "Saint-Omer, Spanish Netherlands",
 	"placeDeath": "Rouen, France",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 282,
+		"type": "Acquaintance",
+		"color": "blue"
 	}],
 	"color": "red",
 	"group": ["Organist", "Composer", "Priest", "Poet"],
@@ -9585,4 +9585,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Pistocchi.jpg"
+},
+{
+	"id": 282,
+	"name": {
+		"first": "Crespin",
+		"last": "Carlier",
+		"alt": ["Crépin Carlier"]
+	},
+	"dateBirth": {
+		"yyyy": "c1560",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1636",
+		"mm": "??",
+		"dd": "??"
+	},
+	"placeBirth": "Laon, France",
+	"placeDeath": "Paris, France (?)",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "gray",
+	"group": ["Organ builder"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
