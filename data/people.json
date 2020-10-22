@@ -8994,7 +8994,7 @@
 		"type": "",
 		"color": ""
 	}],
-	"color": "blue",
+	"color": "red",
 	"group": ["Organist", "Composer", "Priest", "Poet"],
 	"source": [{
 		"citation": "",
@@ -9026,8 +9026,40 @@
 		"type": "",
 		"color": ""
 	}],
-	"color": "blue",
+	"color": "red",
 	"group": ["Organist", "Harpsichordist", "Gambist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "//"
+},
+{
+	"id": 265,
+	"name": {
+		"first": "Guillaume-Gabriel",
+		"last": "Nivers",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "c1632",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1714",
+		"mm": "11",
+		"dd": "13"
+	},
+	"placeBirth": "Paris, France",
+	"placeDeath": "Saint-Cyr-l'École, France",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "red",
+	"group": ["Organist", "Composer", "Music Theorist"],
 	"source": [{
 		"citation": "",
 		"extract": ""
