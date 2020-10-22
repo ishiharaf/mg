@@ -9541,6 +9541,10 @@
 		"id": 281,
 		"type": "Student",
 		"color": "offWhite"
+	},{
+		"id": 63,
+		"type": "Primo uomo",
+		"color": "green"
 	}],
 	"color": "mus",
 	"group": ["Castrato", "Composer", "Singing Teacher"],
@@ -9570,9 +9574,9 @@
 	"placeBirth": "Palermo, Italy",
 	"placeDeath": "Bologna, Italy",
 	"relationship": [{
-		"id": 63,
-		"type": "Primo uomo",
-		"color": "green"
+		"id": "",
+		"type": "",
+		"color": ""
 	}],
 	"color": "mus",
 	"group": ["Singer", "Composer", "Librettist"],
