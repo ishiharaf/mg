@@ -9126,9 +9126,9 @@
 	"placeBirth": "France",
 	"placeDeath": "Perpignan, France",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 144,
+		"type": "Student",
+		"color": "black"
 	}],
 	"color": "blue",
 	"group": ["Organist", "Harpsichordist"],
