@@ -9649,4 +9649,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/3/34/Marin_mersenne.jpg"
+},
+{
+	"id": 284,
+	"name": {
+		"first": "Denis",
+		"last": "Gaultier",
+		"alt": ["Denis Gautier/Gaulthier", "Gaultier le jeune", "Gaultier de Paris"]
+	},
+	"dateBirth": {
+		"yyyy": "c1597",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1672",
+		"mm": "??",
+		"dd": "??"
+	},
+	"placeBirth": "Paris, France",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": 266,
+		"type": "Student",
+		"color": "black"
+	}],
+	"color": "blue",
+	"group": ["Lutenist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Denis_Gaultier_1652.jpg/312px-Denis_Gaultier_1652.jpg"
 }]
