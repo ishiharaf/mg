@@ -9062,9 +9062,9 @@
 	"placeBirth": "Paris, France",
 	"placeDeath": "Saint-Cyr-l'École, France",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 144,
+		"type": "Acquaintance",
+		"color": "blue"
 	}],
 	"color": "red",
 	"group": ["Organist", "Composer", "Music Theorist"],
