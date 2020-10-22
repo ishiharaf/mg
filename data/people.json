@@ -7033,6 +7033,10 @@
 		"id": 203,
 		"type": "Employee",
 		"color": "green"
+	},{
+		"id": 289,
+		"type": "Acquaintance",
+		"color": "blue"
 	}],
 	"color": "blue",
 	"group": ["Harpsichordist", "Organist", "Composer"],
@@ -9813,6 +9817,38 @@
 		"id": 274,
 		"type": "Nephew",
 		"color": "red"
+	}],
+	"color": "blue",
+	"group": ["Organist", "Harpsichordist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 289,
+	"name": {
+		"first": "Michel Pignolet",
+		"last": "Montéclair",
+		"alt": ["Michel Pignolet"]
+	},
+	"dateBirth": {
+		"yyyy": "1667",
+		"mm": "12",
+		"dd": "04"
+	},
+	"dateDeath": {
+		"yyyy": "1737",
+		"mm": "09",
+		"dd": "22"
+	},
+	"placeBirth": "Andelot, France",
+	"placeDeath": "Domont, France",
+	"relationship": [{
+		"id": 287,
+		"type": "Student",
+		"color": "offWhite"
 	}],
 	"color": "blue",
 	"group": ["Organist", "Harpsichordist", "Composer"],
