@@ -9090,9 +9090,9 @@
 	"placeBirth": "Paris, France",
 	"placeDeath": "Paris, France",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 283,
+		"type": "Friend",
+		"color": "lightBlue"
 	}],
 	"color": "blue",
 	"group": ["Organist", "Composer"],
