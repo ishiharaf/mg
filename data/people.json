@@ -9289,4 +9289,36 @@
 		"extract": ""
 	}],
 	"picture": "//"
+},
+{
+	"id": 273,
+	"name": {
+		"first": "Mathieu",
+		"last": "Lanes",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1660",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1725",
+		"mm": "??",
+		"dd": "??"
+	},
+	"placeBirth": "France",
+	"placeDeath": "Toulouse, France",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "mus",
+	"group": ["Organist", "Harpsichordist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "//"
 }]
