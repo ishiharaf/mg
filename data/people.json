@@ -9029,6 +9029,10 @@
 		"id": 204,
 		"type": "Acquaintance",
 		"color": "blue"
+	},{
+		"id": 285,
+		"type": "Acquaintance",
+		"color": "blue"
 	}],
 	"color": "red",
 	"group": ["Organist", "Harpsichordist", "Gambist", "Composer"],
@@ -9681,4 +9685,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Denis_Gaultier_1652.jpg/312px-Denis_Gaultier_1652.jpg"
+},
+{
+	"id": 285,
+	"name": {
+		"first": "Johann Jakob",
+		"last": "Froberger",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1616",
+		"mm": "05",
+		"dd": "19"
+	},
+	"dateDeath": {
+		"yyyy": "1667",
+		"mm": "05",
+		"dd": "07"
+	},
+	"placeBirth": "Stuttgart, Germany",
+	"placeDeath": "Héricourt, France",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "blue",
+	"group": ["Organist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://www.discogs.com/image/A-1053180-1460203508-9168.jpeg"
 }]
