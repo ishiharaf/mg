@@ -8969,4 +8969,36 @@
 		"extract": ""
 	}],
 	"picture": ""
+},
+{
+	"id": 263,
+	"name": {
+		"first": "Jean",
+		"last": "Titelouze",
+		"alt": ["Jehan Titelouze"]
+	},
+	"dateBirth": {
+		"yyyy": "c1562",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1633",
+		"mm": "10",
+		"dd": "24"
+	},
+	"placeBirth": "Saint-Omer, Spanish Netherlands",
+	"placeDeath": "Rouen, France",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "blue",
+	"group": ["Organist", "Composer", "Priest", "Poet"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
