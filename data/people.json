@@ -9321,4 +9321,36 @@
 		"extract": ""
 	}],
 	"picture": "//"
+},
+{
+	"id": 274,
+	"name": {
+		"first": "Pierre",
+		"last": "Dandrieu",
+		"alt": ["Pierre d'Andrieu"]
+	},
+	"dateBirth": {
+		"yyyy": "1664",
+		"mm": "03",
+		"dd": "21"
+	},
+	"dateDeath": {
+		"yyyy": "1733",
+		"mm": "10",
+		"dd": "20"
+	},
+	"placeBirth": "Angers, France",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "mus",
+	"group": ["Organist", "Composer", "Priest"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "//"
 }]
