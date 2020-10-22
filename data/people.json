@@ -9717,4 +9717,36 @@
 		"extract": ""
 	}],
 	"picture": "https://www.discogs.com/image/A-1053180-1460203508-9168.jpeg"
+},
+{
+	"id": 285,
+	"name": {
+		"first": "Louis-Nicolas",
+		"last": "Clérambault",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1676",
+		"mm": "12",
+		"dd": "19"
+	},
+	"dateDeath": {
+		"yyyy": "1749",
+		"mm": "10",
+		"dd": "26"
+	},
+	"placeBirth": "Paris, France",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": 269,
+		"type": "Student",
+		"color": "offWhite"
+	}],
+	"color": "blue",
+	"group": ["Organist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Louis-Nicolas_Clerambault.jpg/458px-Louis-Nicolas_Clerambault.jpg"
 }]
