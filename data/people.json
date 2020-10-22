@@ -9481,4 +9481,36 @@
 		"extract": ""
 	}],
 	"picture": "//"
+},
+{
+	"id": 279,
+	"name": {
+		"first": "Giovanni Battista",
+		"last": "Lamperti",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1839",
+		"mm": "06",
+		"dd": "24"
+	},
+	"dateDeath": {
+		"yyyy": "1910",
+		"mm": "03",
+		"dd": "18"
+	},
+	"placeBirth": "Milan, Italy",
+	"placeDeath": "Berlin, Germany",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "mus",
+	"group": ["Singing Teacher"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "//"
 }]
