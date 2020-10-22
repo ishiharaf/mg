@@ -9785,4 +9785,40 @@
 		"extract": ""
 	}],
 	"picture": ""
+},
+{
+	"id": 288,
+	"name": {
+		"first": "Jean-François",
+		"last": "Dandrieu",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "c1682",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1739",
+		"mm": "02",
+		"dd": "07"
+	},
+	"placeBirth": "Paris, France",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": 287,
+		"type": "Student",
+		"color": "offWhite"
+	},{
+		"id": 274,
+		"type": "Nephew",
+		"color": "red"
+	}],
+	"color": "blue",
+	"group": ["Organist", "Harpsichordist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
