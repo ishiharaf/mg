@@ -9257,4 +9257,36 @@
 		"extract": ""
 	}],
 	"picture": "//"
+},
+{
+	"id": 272,
+	"name": {
+		"first": "Jacques",
+		"last": "Boyvin",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "c1649",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1706",
+		"mm": "06",
+		"dd": "30"
+	},
+	"placeBirth": "Paris, France (?)",
+	"placeDeath": "Rouen, France",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "mus",
+	"group": ["Organist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "//"
 }]
