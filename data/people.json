@@ -9158,9 +9158,9 @@
 	"placeBirth": "Bar-le-Duc, France",
 	"placeDeath": "Paris, France (?)",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 152,
+		"type": "Brother-in-law",
+		"color": "red"
 	}],
 	"color": "blue",
 	"group": ["Organist", "Harpsichordist", "Composer"],
