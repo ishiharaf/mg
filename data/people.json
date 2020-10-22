@@ -4891,7 +4891,7 @@
 	"name": {
 		"first": "Nicolas",
 		"last": "Lebègue",
-		"alt": ["Nicolas Le Bègue"]
+		"alt": ["Nicolas-Antoine Lebègue", "Nicolas Le Bègue"]
 	},
 	"dateBirth": {
 		"yyyy": "c1631",
@@ -9068,6 +9068,38 @@
 },
 {
 	"id": 266,
+	"name": {
+		"first": "Charles",
+		"last": "Racquet",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1597",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1664",
+		"mm": "??",
+		"dd": "??"
+	},
+	"placeBirth": "Paris, France",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "mus",
+	"group": ["Organist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "//"
+},
+{
+	"id": 267,
 	"name": {
 		"first": "Charles",
 		"last": "Racquet",
