@@ -2101,6 +2101,10 @@
 		"id": 60,
 		"type": "Student",
 		"color": "offWhite"
+	},{
+		"id": 280,
+		"type": "Student",
+		"color": "offWhite"
 	}],
 	"color": "red",
 	"group": ["Singer"],
