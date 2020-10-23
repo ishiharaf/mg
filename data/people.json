@@ -9867,7 +9867,7 @@
 	"name": {
 		"first": "Giovanni",
 		"last": "Ricordi",
-		"alt": ["Michel Pignolet"]
+		"alt": [""]
 	},
 	"dateBirth": {
 		"yyyy": "1785",
@@ -9892,5 +9892,5 @@
 		"citation": "",
 		"extract": ""
 	}],
-	"picture": "//"
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Giovanni_Ricordi.jpg"
 }]
