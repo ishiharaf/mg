@@ -1133,6 +1133,10 @@
 		"id": 148,
 		"type": "Acquaintance",
 		"color": "blue"
+	},{
+		"id": 28,
+		"type": "Friend",
+		"color": "lightBlue"
 	}],
 	"color": "blue",
 	"group": ["Violinist", "Composer"],
@@ -1235,6 +1239,10 @@
 	"placeDeath": "Postdam, Germany",
 	"relationship": [{
 		"id": 28,
+		"type": "Student",
+		"color": "green"
+	},{
+		"id": 38,
 		"type": "Student",
 		"color": "green"
 	}],
@@ -2091,6 +2099,10 @@
 	"placeDeath": "Bologna, Italy",
 	"relationship": [{
 		"id": 60,
+		"type": "Student",
+		"color": "offWhite"
+	},{
+		"id": 280,
 		"type": "Student",
 		"color": "offWhite"
 	}],
@@ -4883,7 +4895,7 @@
 	"name": {
 		"first": "Nicolas",
 		"last": "Lebègue",
-		"alt": ["Nicolas Le Bègue"]
+		"alt": ["Nicolas-Antoine Lebègue", "Nicolas Le Bègue"]
 	},
 	"dateBirth": {
 		"yyyy": "c1631",
@@ -7021,6 +7033,10 @@
 		"id": 203,
 		"type": "Employee",
 		"color": "green"
+	},{
+		"id": 289,
+		"type": "Acquaintance",
+		"color": "blue"
 	}],
 	"color": "blue",
 	"group": ["Harpsichordist", "Organist", "Composer"],
@@ -7597,6 +7613,10 @@
 		"id": 215,
 		"type": "Acquaintance",
 		"color": "blue"
+	},{
+		"id": 290,
+		"type": "Friend",
+		"color": "lightBlue"
 	}],
 	"color": "darkRed",
 	"group": ["Composer"],
@@ -8879,7 +8899,7 @@
 		"dd": "03"
 	},
 	"dateDeath": {
-		"yyyy": "0854",
+		"yyyy": "1854",
 		"mm": "06",
 		"dd": "17"
 	},
@@ -8897,4 +8917,980 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Henriette_Sontag_in_her_Donna_Anna_costume_1831%2C_painting_of_Paul_Delaroche.jpg/388px-Henriette_Sontag_in_her_Donna_Anna_costume_1831%2C_painting_of_Paul_Delaroche.jpg"
+},
+{
+	"id": 261,
+	"name": {
+		"first": "Michel",
+		"last": "Corrette",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1707",
+		"mm": "04",
+		"dd": "10"
+	},
+	"dateDeath": {
+		"yyyy": "1795",
+		"mm": "01",
+		"dd": "21"
+	},
+	"placeBirth": "Rouen, France",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": 262,
+		"type": "Son",
+		"color": "red"
+	}],
+	"color": "red",
+	"group": ["Organist", "Composer", "Author"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Michel_Corrette_portrait.jpg/400px-Michel_Corrette_portrait.jpg"
+},
+{
+	"id": 262,
+	"name": {
+		"first": "Gaspard",
+		"last": "Corrette",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "c1671",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "c1733",
+		"mm": "??",
+		"dd": "??"
+	},
+	"placeBirth": "Rouen, France",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "blue",
+	"group": ["Organist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 263,
+	"name": {
+		"first": "Jean",
+		"last": "Titelouze",
+		"alt": ["Jehan Titelouze"]
+	},
+	"dateBirth": {
+		"yyyy": "c1562",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1633",
+		"mm": "10",
+		"dd": "24"
+	},
+	"placeBirth": "Saint-Omer, Spanish Netherlands",
+	"placeDeath": "Rouen, France",
+	"relationship": [{
+		"id": 282,
+		"type": "Acquaintance",
+		"color": "blue"
+	}],
+	"color": "red",
+	"group": ["Organist", "Composer", "Priest", "Poet"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 264,
+	"name": {
+		"first": "Louis",
+		"last": "Couperin",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "c1626",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1661",
+		"mm": "08",
+		"dd": "29"
+	},
+	"placeBirth": "Chaumes-en-Brie, France",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": 204,
+		"type": "Acquaintance",
+		"color": "blue"
+	},{
+		"id": 285,
+		"type": "Acquaintance",
+		"color": "blue"
+	}],
+	"color": "red",
+	"group": ["Organist", "Harpsichordist", "Gambist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://www.discogs.com/image/A-998333-1517327579-1704.jpeg"
+},
+{
+	"id": 265,
+	"name": {
+		"first": "Guillaume-Gabriel",
+		"last": "Nivers",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "c1632",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1714",
+		"mm": "11",
+		"dd": "13"
+	},
+	"placeBirth": "Paris, France",
+	"placeDeath": "Saint-Cyr-l'École, France",
+	"relationship": [{
+		"id": 144,
+		"type": "Acquaintance",
+		"color": "blue"
+	}],
+	"color": "red",
+	"group": ["Organist", "Composer", "Music Theorist"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 266,
+	"name": {
+		"first": "Charles",
+		"last": "Racquet",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1597",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1664",
+		"mm": "??",
+		"dd": "??"
+	},
+	"placeBirth": "Paris, France",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": 283,
+		"type": "Friend",
+		"color": "lightBlue"
+	}],
+	"color": "blue",
+	"group": ["Organist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 267,
+	"name": {
+		"first": "Jean-Nicolas",
+		"last": "Geoffroy",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1633",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1694",
+		"mm": "03",
+		"dd": "11"
+	},
+	"placeBirth": "France",
+	"placeDeath": "Perpignan, France",
+	"relationship": [{
+		"id": 144,
+		"type": "Student",
+		"color": "black"
+	}],
+	"color": "blue",
+	"group": ["Organist", "Harpsichordist"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 268,
+	"name": {
+		"first": "Jean-Henri",
+		"last": "d'Anglebert",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1629",
+		"mm": "04",
+		"dd": "01"
+	},
+	"dateDeath": {
+		"yyyy": "1691",
+		"mm": "04",
+		"dd": "23"
+	},
+	"placeBirth": "Bar-le-Duc, France",
+	"placeDeath": "Paris, France (?)",
+	"relationship": [{
+		"id": 152,
+		"type": "Brother-in-law",
+		"color": "red"
+	}],
+	"color": "blue",
+	"group": ["Organist", "Harpsichordist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Jean-Henri_d%27Anglebert.jpg/411px-Jean-Henri_d%27Anglebert.jpg"
+},
+{
+	"id": 269,
+	"name": {
+		"first": "André",
+		"last": "Raison",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "c1640",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1719",
+		"mm": "??",
+		"dd": "??"
+	},
+	"placeBirth": "Nanterre, France (?)",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "blue",
+	"group": ["Organist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 270,
+	"name": {
+		"first": "Lambert",
+		"last": "Chaumont",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "c1630",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1712",
+		"mm": "04",
+		"dd": "??"
+	},
+	"placeBirth": "Liège, Flanders",
+	"placeDeath": "Huy, Flanders",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "blue",
+	"group": ["Organist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 271,
+	"name": {
+		"first": "Gilles",
+		"last": "Jullien",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "c1651",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1703",
+		"mm": "09",
+		"dd": "14"
+	},
+	"placeBirth": "France",
+	"placeDeath": "Chartres, France",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "blue",
+	"group": ["Organist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 272,
+	"name": {
+		"first": "Jacques",
+		"last": "Boyvin",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "c1649",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1706",
+		"mm": "06",
+		"dd": "30"
+	},
+	"placeBirth": "Paris, France (?)",
+	"placeDeath": "Rouen, France",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "blue",
+	"group": ["Organist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 273,
+	"name": {
+		"first": "Mathieu",
+		"last": "Lanes",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1660",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1725",
+		"mm": "??",
+		"dd": "??"
+	},
+	"placeBirth": "France",
+	"placeDeath": "Toulouse, France",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "blue",
+	"group": ["Organist", "Harpsichordist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 274,
+	"name": {
+		"first": "Pierre",
+		"last": "Dandrieu",
+		"alt": ["Pierre d'Andrieu"]
+	},
+	"dateBirth": {
+		"yyyy": "1664",
+		"mm": "03",
+		"dd": "21"
+	},
+	"dateDeath": {
+		"yyyy": "1733",
+		"mm": "10",
+		"dd": "20"
+	},
+	"placeBirth": "Angers, France",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "blue",
+	"group": ["Organist", "Composer", "Priest"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://www.mixtur.ch/wp-content/uploads/2013/11/pierre-dandrieu.jpg"
+},
+{
+	"id": 275,
+	"name": {
+		"first": "Charles",
+		"last": "Piroye",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "c1668",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "c1730",
+		"mm": "??",
+		"dd": "??"
+	},
+	"placeBirth": "Paris, France (?)",
+	"placeDeath": "Paris, France (?)",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "blue",
+	"group": ["Organist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 276,
+	"name": {
+		"first": "Louis",
+		"last": "Marchand",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1669",
+		"mm": "02",
+		"dd": "02"
+	},
+	"dateDeath": {
+		"yyyy": "1732",
+		"mm": "02",
+		"dd": "17"
+	},
+	"placeBirth": "Auxonne, France",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "blue",
+	"group": ["Organist", "Harpsichordist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Louis_Marchand.jpg/423px-Louis_Marchand.jpg"
+},
+{
+	"id": 277,
+	"name": {
+		"first": "Nicolas de",
+		"last": "Grigny",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1672",
+		"mm": "09",
+		"dd": "08"
+	},
+	"dateDeath": {
+		"yyyy": "1703",
+		"mm": "11",
+		"dd": "30"
+	},
+	"placeBirth": "Reims, France",
+	"placeDeath": "Reims, France",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "blue",
+	"group": ["Organist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 278,
+	"name": {
+		"first": "Francesco",
+		"last": "Lamperti",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1811",
+		"mm": "03",
+		"dd": "11"
+	},
+	"dateDeath": {
+		"yyyy": "1892",
+		"mm": "05",
+		"dd": "01"
+	},
+	"placeBirth": "Savona, Italy",
+	"placeDeath": "Como, Italy",
+	"relationship": [{
+		"id": 290,
+		"type": "Acquaintance",
+		"color": "blue"
+	}],
+	"color": "blue",
+	"group": ["Singing Teacher", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/4/4e/SIGNOR_LAMPERTI.png"
+},
+{
+	"id": 279,
+	"name": {
+		"first": "Giovanni Battista",
+		"last": "Lamperti",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1839",
+		"mm": "06",
+		"dd": "24"
+	},
+	"dateDeath": {
+		"yyyy": "1910",
+		"mm": "03",
+		"dd": "18"
+	},
+	"placeBirth": "Milan, Italy",
+	"placeDeath": "Berlin, Germany",
+	"relationship": [{
+		"id": 278,
+		"type": "Son",
+		"color": "red"
+	}],
+	"color": "blue",
+	"group": ["Singing Teacher"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/0/03/GB_Lamperti.jpg"
+},
+{
+	"id": 280,
+	"name": {
+		"first": "Antonio Maria",
+		"last": "Bernacchi",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1685",
+		"mm": "06",
+		"dd": "23"
+	},
+	"dateDeath": {
+		"yyyy": "1756",
+		"mm": "03",
+		"dd": "01"
+	},
+	"placeBirth": "Bologna, Italy",
+	"placeDeath": "Bologna, Italy",
+	"relationship": [{
+		"id": 281,
+		"type": "Student",
+		"color": "offWhite"
+	},{
+		"id": 63,
+		"type": "Primo uomo",
+		"color": "green"
+	}],
+	"color": "blue",
+	"group": ["Castrato", "Composer", "Singing Teacher"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Antonio_Bernacchi.jpg"
+},
+{
+	"id": 281,
+	"name": {
+		"first": "Francesco Antonio",
+		"last": "Pistocchi",
+		"alt": ["Francesco Antonio Mamiliano Pistocchi", "Pistocchino"]
+	},
+	"dateBirth": {
+		"yyyy": "1659",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1726",
+		"mm": "05",
+		"dd": "13"
+	},
+	"placeBirth": "Palermo, Italy",
+	"placeDeath": "Bologna, Italy",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "blue",
+	"group": ["Singer", "Composer", "Librettist"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Pistocchi.jpg"
+},
+{
+	"id": 282,
+	"name": {
+		"first": "Crespin",
+		"last": "Carlier",
+		"alt": ["Crépin Carlier"]
+	},
+	"dateBirth": {
+		"yyyy": "c1560",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1636",
+		"mm": "??",
+		"dd": "??"
+	},
+	"placeBirth": "Laon, France",
+	"placeDeath": "Paris, France (?)",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "gray",
+	"group": ["Organ builder"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 283,
+	"name": {
+		"first": "Marin",
+		"last": "Mersenne",
+		"alt": ["Marinus Mersennus", "Le Père Mersenne"]
+	},
+	"dateBirth": {
+		"yyyy": "1588",
+		"mm": "09",
+		"dd": "08"
+	},
+	"dateDeath": {
+		"yyyy": "1648",
+		"mm": "09",
+		"dd": "01"
+	},
+	"placeBirth": "Oizé, France",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": 263,
+		"type": "Friend",
+		"color": "lightBlue"
+	}],
+	"color": "gray",
+	"group": ["Music Theorist", "Mathematician", "Philosopher", "Theologian"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/3/34/Marin_mersenne.jpg"
+},
+{
+	"id": 284,
+	"name": {
+		"first": "Denis",
+		"last": "Gaultier",
+		"alt": ["Denis Gautier/Gaulthier", "Gaultier le jeune", "Gaultier de Paris"]
+	},
+	"dateBirth": {
+		"yyyy": "c1597",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1672",
+		"mm": "??",
+		"dd": "??"
+	},
+	"placeBirth": "Paris, France",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": 266,
+		"type": "Student",
+		"color": "black"
+	}],
+	"color": "blue",
+	"group": ["Lutenist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Denis_Gaultier_1652.jpg/312px-Denis_Gaultier_1652.jpg"
+},
+{
+	"id": 285,
+	"name": {
+		"first": "Johann Jakob",
+		"last": "Froberger",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1616",
+		"mm": "05",
+		"dd": "19"
+	},
+	"dateDeath": {
+		"yyyy": "1667",
+		"mm": "05",
+		"dd": "07"
+	},
+	"placeBirth": "Stuttgart, Germany",
+	"placeDeath": "Héricourt, France",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "blue",
+	"group": ["Organist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://www.discogs.com/image/A-1053180-1460203508-9168.jpeg"
+},
+{
+	"id": 286,
+	"name": {
+		"first": "Louis-Nicolas",
+		"last": "Clérambault",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1676",
+		"mm": "12",
+		"dd": "19"
+	},
+	"dateDeath": {
+		"yyyy": "1749",
+		"mm": "10",
+		"dd": "26"
+	},
+	"placeBirth": "Paris, France",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": 269,
+		"type": "Student",
+		"color": "offWhite"
+	},{
+		"id": 287,
+		"type": "Student",
+		"color": "offWhite"
+	}],
+	"color": "blue",
+	"group": ["Organist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Louis-Nicolas_Clerambault.jpg/458px-Louis-Nicolas_Clerambault.jpg"
+},
+{
+	"id": 287,
+	"name": {
+		"first": "Jean-Baptiste",
+		"last": "Moreau",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "c1656",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1733",
+		"mm": "08",
+		"dd": "24"
+	},
+	"placeBirth": "Angers, France",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": 203,
+		"type": "Employee",
+		"color": "green"
+	}],
+	"color": "darkBlue",
+	"group": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 288,
+	"name": {
+		"first": "Jean-François",
+		"last": "Dandrieu",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "c1682",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1739",
+		"mm": "02",
+		"dd": "07"
+	},
+	"placeBirth": "Paris, France",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": 287,
+		"type": "Student",
+		"color": "offWhite"
+	},{
+		"id": 274,
+		"type": "Nephew",
+		"color": "red"
+	}],
+	"color": "blue",
+	"group": ["Organist", "Harpsichordist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 289,
+	"name": {
+		"first": "Michel Pignolet",
+		"last": "Montéclair",
+		"alt": ["Michel Pignolet"]
+	},
+	"dateBirth": {
+		"yyyy": "1667",
+		"mm": "12",
+		"dd": "04"
+	},
+	"dateDeath": {
+		"yyyy": "1737",
+		"mm": "09",
+		"dd": "22"
+	},
+	"placeBirth": "Andelot, France",
+	"placeDeath": "Domont, France",
+	"relationship": [{
+		"id": 287,
+		"type": "Student",
+		"color": "offWhite"
+	}],
+	"color": "blue",
+	"group": ["Organist", "Harpsichordist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 290,
+	"name": {
+		"first": "Giovanni",
+		"last": "Ricordi",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1785",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1853",
+		"mm": "03",
+		"dd": "15"
+	},
+	"placeBirth": "Milan, Italy",
+	"placeDeath": "Milan, Italy",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "blue",
+	"group": ["Violinist", "Music editor"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Giovanni_Ricordi.jpg"
 }]
