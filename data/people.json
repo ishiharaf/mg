@@ -7613,6 +7613,10 @@
 		"id": 215,
 		"type": "Acquaintance",
 		"color": "blue"
+	},{
+		"id": 290,
+		"type": "Friend",
+		"color": "lightBlue"
 	}],
 	"color": "darkRed",
 	"group": ["Composer"],
@@ -9482,9 +9486,9 @@
 	"placeBirth": "Savona, Italy",
 	"placeDeath": "Como, Italy",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 290,
+		"type": "Acquaintance",
+		"color": "blue"
 	}],
 	"color": "blue",
 	"group": ["Singing Teacher", "Composer"],
@@ -9857,4 +9861,36 @@
 		"extract": ""
 	}],
 	"picture": ""
+},
+{
+	"id": 290,
+	"name": {
+		"first": "Giovanni",
+		"last": "Ricordi",
+		"alt": ["Michel Pignolet"]
+	},
+	"dateBirth": {
+		"yyyy": "1785",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1853",
+		"mm": "03",
+		"dd": "15"
+	},
+	"placeBirth": "Milan, Italy",
+	"placeDeath": "Milan, Italy",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "blue",
+	"group": ["Violinist", "Music editor"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "//"
 }]
