@@ -61,8 +61,8 @@ const defaultLayout = {
 	hierarchical: {
 		enabled: true,
 		direction: "UD",
-		levelSeparation: 21,
-		treeSpacing: 100,
+		levelSeparation: 30,
+		treeSpacing: 200,
 		sortMethod: "hubsize"
 	}
 }
@@ -126,7 +126,7 @@ const drawNetwork = (userLayout, userArrows) => {
 		}
 
 		let dateBirth
-		if(person.dateBirth.yyyy.substring(0, 1) === "c") {
+		if(person.dateBirth.yyyy.substring(0, 1) === "c" || person.dateBirth.yyyy.substring(0, 1) === "b") {
 			dateBirth = person.dateBirth.yyyy.substring(1)
 		} else {
 			dateBirth = person.dateBirth.yyyy
@@ -136,7 +136,7 @@ const drawNetwork = (userLayout, userArrows) => {
 			id: person.id,
 			label: lastName,
 			hiddenLabel: lastName,
-			title: `${person.name.first} ${lastName}`,
+			// title: `${person.name.first} ${lastName}`,
 			level: Number(dateBirth),
 			color: palette[person.color],
 			margin: 10
