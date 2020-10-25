@@ -3,6 +3,7 @@
 ## Table of contents
 - [DON'T add](#dont-add)
 - [The schema](#the-schema)
+- [How to add](#how-to-add)
 
 ## DON'T add
 - **People with an unknown date of birth**. Because the position of a person on the graph (their level) is calculated using the date of birth, it's impossible to add them while keeping a hierarchical layout.
@@ -149,3 +150,7 @@ Add a number enclosed in square brackets where the source is referring to. Like 
 ### Picture
 
 Add an external URL to a **portrait** picture of the person.
+
+## How to add
+
+Now that you understand the schema, you can add a person by editing `person.json` and making a pull request. If there's data inside this file, you can copy and paste an empty schema from the `schema.json` file. You can also add someone by opening a new issue with the label `add` and pasting a filled schema inside.
