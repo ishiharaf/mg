@@ -7,7 +7,6 @@ This project aims to display in a visual way how musicians of the past were conn
 - [How to Use](#how-to-use)
 - [Setup](#setup)
 - [Contributing](#contributing)
-- [To do](#to-do)
 - [Changelog](#changelog)
 - [License](#license)
 
@@ -33,6 +32,8 @@ I tried to keep things simple, so the data is a single JSON file served through 
 	- You can use `c` before the year to search within a 20 year range. e.g.: `c1650` will match anything between 1640 and 1660.
 	- You can use `-` or `~` to search within a bigger range. e.g.: `1500-1600` will match anything between 1500 and 1600.
 
+It works ok on mobile in portrait mode, but using a bigger screen is recommended for a better experience.
+
 ## Setup
 To run this project, clone the repository and install it locally using npm:
 
@@ -46,10 +47,7 @@ By default it runs on `localhost:8000`.
 ## Contributing
 You can contribute by adding more musicians to `people.json`, reviewing existing data to verify its correctness and consistency, or by adding sources and missing information. Suggestions are also welcome. You can do this by creating a pull request or by filing an issue.
 
-To see detailed instructions on how to edit see the [CONTRIBUTING](CONTRIBUTING.md) file.
-
-## To do
-- Test on different displays.
+To see detailed instructions on how to contribute see the [CONTRIBUTING](CONTRIBUTING.md) file.
 
 ## Changelog
 - See [CHANGELOG](CHANGELOG.md) file.
