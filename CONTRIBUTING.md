@@ -2,7 +2,7 @@
 
 ## Table of contents
 - [DON'T add](#dont-add)
-- [The schema](#how-to-edit)
+- [The schema](#the-schema)
 
 ## DON'T add
 - **People with an unknown date of birth**. Because the position of a person on the graph (their level) is calculated using the date of birth, it's impossible to add them while keeping a hierarchical layout.
