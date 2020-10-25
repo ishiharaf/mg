@@ -9905,4 +9905,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Giovanni_Ricordi.jpg"
+},
+{
+	"id": 291,
+	"name": {
+		"first": "Michel",
+		"last": "Lambert",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1610",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1696",
+		"mm": "06",
+		"dd": "29"
+	},
+	"placeBirth": "Champigny-sur-Veude, France",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "blue",
+	"group": ["Singing master", "Theorbist", "Composer",],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Michel_Lambert.jpg"
 }]
