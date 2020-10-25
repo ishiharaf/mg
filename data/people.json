@@ -9466,9 +9466,9 @@
 	"placeBirth": "Reims, France",
 	"placeDeath": "Reims, France",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 144,
+		"type": "Student",
+		"color": "gray"
 	}],
 	"color": "blue",
 	"group": ["Organist", "Composer"],
