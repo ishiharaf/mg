@@ -1,5 +1,18 @@
 # Changelog
 
+## 0.1.4 (2020/10/25)
+### Changed
+- Changed css rules when max-width = 768px
+- Updated [package.json](package.json)
+### Added
+- Added person and schema file
+
+## 0.1.3 (2020/10/24)
+### Changed
+- Changed display of node title
+### Added
+- Added support for baptized dates
+
 ## 0.1.2 (2020/10/16)
 ### Changed
 - Updated [package.json](package.json)
