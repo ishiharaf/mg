@@ -4863,7 +4863,7 @@
 	"name": {
 		"first": "François",
 		"last": "d'Agincourt",
-		"alt": ["d'Agincour/Dagincourt/Dagincour"]
+		"alt": ["François d'Agincour/Dagincourt/Dagincour"]
 	},
 	"dateBirth": {
 		"yyyy": "1684",
@@ -4879,6 +4879,10 @@
 	"placeDeath": "Rouen, France?",
 	"relationship": [{
 		"id": 144,
+		"type": "Student",
+		"color": "offWhite"
+	},{
+		"id": 272,
 		"type": "Student",
 		"color": "offWhite"
 	}],
