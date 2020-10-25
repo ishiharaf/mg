@@ -936,6 +936,9 @@ const openInfoCard = (params) => {
 		}
 	} else {
 		closeInfoCard()
+		closeConfigCard()
+		closeFilterCard()
+		closeHelpCard()
 	}
 }
 closeInfo.addEventListener("click", () => {
