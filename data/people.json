@@ -9937,4 +9937,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Michel_Lambert.jpg"
+},
+{
+	"id": 292,
+	"name": {
+		"first": "Marc-Antoine",
+		"last": "Charpentier",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1643",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1704",
+		"mm": "02",
+		"dd": "24"
+	},
+	"placeBirth": "Paris, France",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "darkBlue",
+	"group": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/MA_Charpentier_II.jpg/378px-MA_Charpentier_II.jpg"
 }]
