@@ -9394,9 +9394,17 @@
 	"placeBirth": "Paris, France (?)",
 	"placeDeath": "Paris, France (?)",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 119,
+		"type": "Student",
+		"color": "gray"
+	},{
+		"id": 291,
+		"type": "Student",
+		"color": "gray"
+	},{
+		"id": 292,
+		"type": "Student (?)",
+		"color": "black"
 	}],
 	"color": "blue",
 	"group": ["Organist", "Composer"],
