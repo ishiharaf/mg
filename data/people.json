@@ -9994,6 +9994,38 @@
 	"placeBirth": "Villette, France",
 	"placeDeath": "Nèves, France",
 	"relationship": [{
+		"id": 294,
+		"type": "Student (?)",
+		"color": "gray"
+	}],
+	"color": "blue",
+	"group": ["Lutenist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 294,
+	"name": {
+		"first": "René",
+		"last": "Mesangeau",
+		"alt": ["René Mézangeau/Mesangio/Mésengeot/Mesengé/Meziniot/Meschanson/Mesangior/Mazagau/Merengeau/Messangior/Mezanio/Mezengau"]
+	},
+	"dateBirth": {
+		"yyyy": "f1567",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1638",
+		"mm": "??",
+		"dd": "??"
+	},
+	"placeBirth": "France",
+	"placeDeath": "Paris, France",
+	"relationship": [{
 		"id": "",
 		"type": "",
 		"color": ""
