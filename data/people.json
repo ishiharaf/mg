@@ -9697,6 +9697,10 @@
 		"id": 266,
 		"type": "Student",
 		"color": "black"
+	},{
+		"id": 293,
+		"type": "Cousin",
+		"color": "red"
 	}],
 	"color": "blue",
 	"group": ["Lutenist", "Composer"],
@@ -9969,4 +9973,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/MA_Charpentier_II.jpg/378px-MA_Charpentier_II.jpg"
+},
+{
+	"id": 293,
+	"name": {
+		"first": "Ennemond",
+		"last": "Gaultier",
+		"alt": ["Ennemond Gautier/Gauthier", "Gaultier le Vieux", "Gaultier de Lyon"]
+	},
+	"dateBirth": {
+		"yyyy": "c1575",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1651",
+		"mm": "12",
+		"dd": "17"
+	},
+	"placeBirth": "Villette, France",
+	"placeDeath": "Nèves, France",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "blue",
+	"group": ["Lutenist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
