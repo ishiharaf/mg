@@ -8945,10 +8945,6 @@
 		"id": 262,
 		"type": "Son",
 		"color": "red"
-	},{
-		"id": 272,
-		"type": "Student",
-		"color": "lightBlue"
 	}],
 	"color": "red",
 	"group": ["Organist", "Composer", "Author"],
@@ -8978,9 +8974,9 @@
 	"placeBirth": "Delft, France",
 	"placeDeath": "Paris, France",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 272,
+		"type": "Friend",
+		"color": "lightBlue"
 	}],
 	"color": "blue",
 	"group": ["Organist", "Composer"],
