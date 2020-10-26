@@ -8945,6 +8945,10 @@
 		"id": 262,
 		"type": "Son",
 		"color": "red"
+	},{
+		"id": 272,
+		"type": "Student",
+		"color": "lightBlue"
 	}],
 	"color": "red",
 	"group": ["Organist", "Composer", "Author"],
