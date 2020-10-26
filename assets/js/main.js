@@ -126,7 +126,7 @@ const drawNetwork = (userLayout, userArrows) => {
 		}
 
 		let dateBirth
-		if(person.dateBirth.yyyy.substring(0, 1) === "c" || person.dateBirth.yyyy.substring(0, 1) === "b") {
+		if(person.dateBirth.yyyy.substring(0, 1) === "c" || person.dateBirth.yyyy.substring(0, 1) === "b" || person.dateBirth.yyyy.substring(0, 1) === "f") {
 			dateBirth = person.dateBirth.yyyy.substring(1)
 		} else {
 			dateBirth = person.dateBirth.yyyy
