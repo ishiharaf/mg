@@ -4863,7 +4863,7 @@
 	"name": {
 		"first": "François",
 		"last": "d'Agincourt",
-		"alt": ["d'Agincour/Dagincourt/Dagincour"]
+		"alt": ["François d'Agincour/Dagincourt/Dagincour"]
 	},
 	"dateBirth": {
 		"yyyy": "1684",
@@ -4879,6 +4879,10 @@
 	"placeDeath": "Rouen, France?",
 	"relationship": [{
 		"id": 144,
+		"type": "Student",
+		"color": "gray"
+	},{
+		"id": 272,
 		"type": "Student",
 		"color": "gray"
 	}],
@@ -8967,12 +8971,12 @@
 		"mm": "??",
 		"dd": "??"
 	},
-	"placeBirth": "Rouen, France",
+	"placeBirth": "Delft, France",
 	"placeDeath": "Paris, France",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 272,
+		"type": "Friend",
+		"color": "lightBlue"
 	}],
 	"color": "blue",
 	"group": ["Organist", "Composer"],
@@ -9390,9 +9394,17 @@
 	"placeBirth": "Paris, France (?)",
 	"placeDeath": "Paris, France (?)",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 119,
+		"type": "Student",
+		"color": "gray"
+	},{
+		"id": 291,
+		"type": "Student",
+		"color": "gray"
+	},{
+		"id": 292,
+		"type": "Student (?)",
+		"color": "black"
 	}],
 	"color": "blue",
 	"group": ["Organist", "Composer"],
@@ -9454,9 +9466,9 @@
 	"placeBirth": "Reims, France",
 	"placeDeath": "Reims, France",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 144,
+		"type": "Student",
+		"color": "gray"
 	}],
 	"color": "blue",
 	"group": ["Organist", "Composer"],
@@ -9685,6 +9697,10 @@
 		"id": 266,
 		"type": "Student",
 		"color": "black"
+	},{
+		"id": 293,
+		"type": "Cousin",
+		"color": "red"
 	}],
 	"color": "blue",
 	"group": ["Lutenist", "Composer"],
@@ -9893,4 +9909,132 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Giovanni_Ricordi.jpg"
+},
+{
+	"id": 291,
+	"name": {
+		"first": "Michel",
+		"last": "Lambert",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1610",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1696",
+		"mm": "06",
+		"dd": "29"
+	},
+	"placeBirth": "Champigny-sur-Veude, France",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "blue",
+	"group": ["Singing master", "Theorbist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Michel_Lambert.jpg"
+},
+{
+	"id": 292,
+	"name": {
+		"first": "Marc-Antoine",
+		"last": "Charpentier",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1643",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1704",
+		"mm": "02",
+		"dd": "24"
+	},
+	"placeBirth": "Paris, France",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "darkBlue",
+	"group": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/MA_Charpentier_II.jpg/378px-MA_Charpentier_II.jpg"
+},
+{
+	"id": 293,
+	"name": {
+		"first": "Ennemond",
+		"last": "Gaultier",
+		"alt": ["Ennemond Gautier/Gauthier", "Gaultier le Vieux", "Gaultier de Lyon"]
+	},
+	"dateBirth": {
+		"yyyy": "c1575",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1651",
+		"mm": "12",
+		"dd": "17"
+	},
+	"placeBirth": "Villette, France",
+	"placeDeath": "Nèves, France",
+	"relationship": [{
+		"id": 294,
+		"type": "Student (?)",
+		"color": "gray"
+	}],
+	"color": "blue",
+	"group": ["Lutenist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 294,
+	"name": {
+		"first": "René",
+		"last": "Mesangeau",
+		"alt": ["René Mézangeau/Mesangio/Mésengeot/Mesengé/Meziniot/Meschanson/Mesangior/Mazagau/Merengeau/Messangior/Mezanio/Mezengau"]
+	},
+	"dateBirth": {
+		"yyyy": "f1567",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1638",
+		"mm": "??",
+		"dd": "??"
+	},
+	"placeBirth": "France",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "blue",
+	"group": ["Lutenist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
