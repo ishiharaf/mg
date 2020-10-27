@@ -74,7 +74,7 @@ The spelling of the name must be the most common and well-known one. For example
 If you have a name like `Eduardo di Capua` and you're known as `Di Capua`, then the `first` name should be `Eduardo` and the `last` name should be `di Capua`. If you are known as `Capua`, then the `first` name should be `Eduardo di` and the `last` name should be just `Capua`.
 
 ### Date of Birth/Death
-If the year is uncertain, add `c` (circa) before the date in the `yyyy` field. If more than one year is available, pick the oldest one and add `c` before the date.
+If the year is uncertain, add `c` (circa) before the date in the `yyyy` field. If more than one year is available, pick the oldest one and add `c` before the date. If someone has a `fl.` next to the date of birth, add `f` before the date.
 
 ```json
 {"year": "178?"} or anything including a "?" is invalid
@@ -82,7 +82,7 @@ If the year is uncertain, add `c` (circa) before the date in the `yyyy` field. I
 {"year": "c1780"} is valid
 ```
 
-If the person has a `fl.` next to it and the date of birth is completely unknown, **don't add** said person.
+If the date of birth is completely unknown, **don't add** said person.
 
 If the month or day of birth/death is unknown, use `??` in the `mm` and `dd` fields. The same rules for `yyyy` still apply.
 
