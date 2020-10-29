@@ -10037,4 +10037,36 @@
 		"extract": ""
 	}],
 	"picture": ""
+},
+{
+	"id": 295,
+	"name": {
+		"first": "Mischa",
+		"last": "Elman",
+		"alt": ["Mischa Mikhail Saulovich Elman", "Moses/Moishe Elman"]
+	},
+	"dateBirth": {
+		"yyyy": "1891",
+		"mm": "01",
+		"dd": "20"
+	},
+	"dateDeath": {
+		"yyyy": "1967",
+		"mm": "04",
+		"dd": "05"
+	},
+	"placeBirth": "Talnoye, Russia",
+	"placeDeath": "Manhattan, USA",
+	"relationship": [{
+		"id": 176,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "blue",
+	"group": ["Violinist"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/a/af/Mischa_Elman_with_violin_in_1916.jpg"
 }]
