@@ -10065,6 +10065,10 @@
 		"id": 296,
 		"type": "Acquaintance",
 		"color": "blue"
+	},{
+		"id": 300,
+		"type": "Acquaintance",
+		"color": "blue"
 	}],
 	"color": "blue",
 	"group": ["Violinist"],
@@ -10209,4 +10213,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Fran%C3%A7ois-Antoine_Habeneck_01.jpg"
+},
+{
+	"id": 300,
+	"name": {
+		"first": "Édouard",
+		"last": "Colonne",
+		"alt": ["Édouard Juda Colonne"]
+	},
+	"dateBirth": {
+		"yyyy": "1838",
+		"mm": "07",
+		"dd": "23"
+	},
+	"dateDeath": {
+		"yyyy": "1910",
+		"mm": "03",
+		"dd": "28"
+	},
+	"placeBirth": "Bordeaux, France",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "blue",
+	"group": ["Violinist", "Conductor"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Edouard_Colonne_par_F%C3%A9lix_Nadar.JPEG/435px-Edouard_Colonne_par_F%C3%A9lix_Nadar.JPEG"
 }]
