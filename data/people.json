@@ -10094,9 +10094,9 @@
 	"placeBirth": "Pamplona, Spain",
 	"placeDeath": "Biarritz, France",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 297,
+		"type": "Student",
+		"color": "gray"
 	}],
 	"color": "blue",
 	"group": ["Violinist", "Composer"],
@@ -10105,4 +10105,36 @@
 		"extract": ""
 	}],
 	"picture": "https://vignette.wikia.nocookie.net/bakerstreet/images/6/6e/Sarasate.jpg"
+},
+{
+	"id": 297,
+	"name": {
+		"first": "Jean-Delphin",
+		"last": "Alard",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1815",
+		"mm": "03",
+		"dd": "08"
+	},
+	"dateDeath": {
+		"yyyy": "1888",
+		"mm": "02",
+		"dd": "22"
+	},
+	"placeBirth": "Bayonne, France",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "blue",
+	"group": ["Violinist", "Composer", "Teacher"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/en/2/2d/Jean-DelphinAlard.png"
 }]
