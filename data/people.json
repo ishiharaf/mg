@@ -10370,12 +10370,48 @@
 	"placeBirth": "Lypovets, Russian Empire",
 	"placeDeath": "Sverdlovsk, USSR",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 305,
+		"type": "Student",
+		"color": "gray"
 	}],
 	"color": "blue",
 	"group": ["Violinist", "Pedagogue"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 305,
+	"name": {
+		"first": "Emil",
+		"last": "Młynarski",
+		"alt": ["Emil Szymon Młynarski"]
+	},
+	"dateBirth": {
+		"yyyy": "1870",
+		"mm": "07",
+		"dd": "18"
+	},
+	"dateDeath": {
+		"yyyy": "1935",
+		"mm": "04",
+		"dd": "05"
+	},
+	"placeBirth": "Kibarty, Russian Empire",
+	"placeDeath": "Warsaw, Poland",
+	"relationship": [{
+		"id": 176,
+		"type": "Student",
+		"color": "gray"
+	},{
+		"id": 302,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "blue",
+	"group": ["Violinist", "Conductor", "Composer", "Pedagogue"],
 	"source": [{
 		"citation": "",
 		"extract": ""
