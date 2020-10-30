@@ -10126,9 +10126,9 @@
 	"placeBirth": "Bayonne, France",
 	"placeDeath": "Paris, France",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 298,
+		"type": "Son-in-law",
+		"color": "red"
 	}],
 	"color": "blue",
 	"group": ["Violinist", "Composer", "Teacher"],
@@ -10137,4 +10137,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/en/2/2d/Jean-DelphinAlard.png"
+},
+{
+	"id": 298,
+	"name": {
+		"first": "Jean-Baptiste",
+		"last": "Vuillaume",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1798",
+		"mm": "10",
+		"dd": "07"
+	},
+	"dateDeath": {
+		"yyyy": "1875",
+		"mm": "03",
+		"dd": "19"
+	},
+	"placeBirth": "Mirecourt, France",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "gray",
+	"group": ["Luthier", "Businessman", "Inventor"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/J.B.Vuillaume_photo_1860_Moulin_Workshop.jpg/402px-J.B.Vuillaume_photo_1860_Moulin_Workshop.jpg"
 }]
