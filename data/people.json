@@ -10565,4 +10565,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/a/af/Bundesarchiv_Bild_183-23447-0001%2C_Dresden%2C_Konzert_David_Oistrach_%28crop%29.jpg"
+},
+{
+	"id": 310,
+	"name": {
+		"first": "Georg",
+		"last": "Rhau",
+		"alt": ["Georg Rhaw"]
+	},
+	"dateBirth": {
+		"yyyy": "1488",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1548",
+		"mm": "08",
+		"dd": "06"
+	},
+	"placeBirth": "Eisfeld, Germany",
+	"placeDeath": "Wittenberg, Germany",
+	"relationship": [{
+		"id": 246,
+		"type": "Friend",
+		"color": "lightBlue"
+	}],
+	"color": "darkBlue",
+	"group": ["Composer", "Publisher"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Georg_Rhau.jpg/480px-Georg_Rhau.jpg"
 }]
