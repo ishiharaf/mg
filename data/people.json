@@ -10269,6 +10269,10 @@
 		"id": 176,
 		"type": "Student",
 		"color": "gray"
+	},{
+		"id": 302,
+		"type": "Student",
+		"color": "gray"
 	}],
 	"color": "blue",
 	"group": ["Violinist", "Organist", "Composer", "Teacher"],
@@ -10277,4 +10281,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Gorski-foto1.JPG/538px-Gorski-foto1.JPG"
+},
+{
+	"id": 302,
+	"name": {
+		"first": "Nikolai",
+		"last": "Rimsky-Korsakov",
+		"alt": ["Nikolai Andreyevich Rimsky-Korsakov"]
+	},
+	"dateBirth": {
+		"yyyy": "1844",
+		"mm": "03",
+		"dd": "18"
+	},
+	"dateDeath": {
+		"yyyy": "1908",
+		"mm": "06",
+		"dd": "21"
+	},
+	"placeBirth": "Tikhvin, Russia",
+	"placeDeath": "Lubensk estate, Russia",
+	"relationship": [{
+		"id": "",
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "darkBlue",
+	"group": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Rimsky-Korsakov_Serow_crop.png/424px-Rimsky-Korsakov_Serow_crop.png"
 }]
