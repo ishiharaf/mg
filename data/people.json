@@ -10133,6 +10133,10 @@
 		"id": 221,
 		"type": "Student",
 		"color": "gray"
+	},{
+		"id": 299,
+		"type": "Student",
+		"color": "gray"
 	}],
 	"color": "blue",
 	"group": ["Violinist", "Composer", "Teacher"],
@@ -10168,6 +10172,38 @@
 	}],
 	"color": "gray",
 	"group": ["Luthier", "Businessman", "Inventor"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/J.B.Vuillaume_photo_1860_Moulin_Workshop.jpg/402px-J.B.Vuillaume_photo_1860_Moulin_Workshop.jpg"
+},
+{
+	"id": 299,
+	"name": {
+		"first": "François",
+		"last": "Habeneck",
+		"alt": ["François Antoine Habeneck"]
+	},
+	"dateBirth": {
+		"yyyy": "1781",
+		"mm": "01",
+		"dd": "22"
+	},
+	"dateDeath": {
+		"yyyy": "1849",
+		"mm": "02",
+		"dd": "08"
+	},
+	"placeBirth": "Mézières, France",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "blue",
+	"group": ["Violinist", "Conductor"],
 	"source": [{
 		"citation": "",
 		"extract": ""
