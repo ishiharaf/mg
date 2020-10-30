@@ -10313,4 +10313,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Rimsky-Korsakov_Serow_crop.png/424px-Rimsky-Korsakov_Serow_crop.png"
+},
+{
+	"id": 303,
+	"name": {
+		"first": "Nathan",
+		"last": "Milstein",
+		"alt": ["Nathan Mironovich Milstein"]
+	},
+	"dateBirth": {
+		"yyyy": "1904",
+		"mm": "01",
+		"dd": "13"
+	},
+	"dateDeath": {
+		"yyyy": "1992",
+		"mm": "12",
+		"dd": "21"
+	},
+	"placeBirth": "Odessa, Russian Empire",
+	"placeDeath": "London, England",
+	"relationship": [{
+		"id": 176,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "blue",
+	"group": ["Violinist"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/en/6/6e/Nathan_Milstein.jpg"
 }]
