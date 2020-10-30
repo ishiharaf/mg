@@ -10061,6 +10061,10 @@
 		"id": 176,
 		"type": "Student",
 		"color": "gray"
+	},{
+		"id": 296,
+		"type": "Acquaintance",
+		"color": "blue"
 	}],
 	"color": "blue",
 	"group": ["Violinist"],
@@ -10069,4 +10073,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/a/af/Mischa_Elman_with_violin_in_1916.jpg"
+},
+{
+	"id": 296,
+	"name": {
+		"first": "Pablo de",
+		"last": "Sarasate",
+		"alt": ["Martín Melitón Pablo de Sarasate y Navascués"]
+	},
+	"dateBirth": {
+		"yyyy": "1844",
+		"mm": "03",
+		"dd": "10"
+	},
+	"dateDeath": {
+		"yyyy": "1908",
+		"mm": "09",
+		"dd": "20"
+	},
+	"placeBirth": "Pamplona, Spain",
+	"placeDeath": "Biarritz, France",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "blue",
+	"group": ["Violinist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://vignette.wikia.nocookie.net/bakerstreet/images/6/6e/Sarasate.jpg"
 }]
