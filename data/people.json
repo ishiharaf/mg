@@ -10129,6 +10129,10 @@
 		"id": 298,
 		"type": "Son-in-law",
 		"color": "red"
+	},{
+		"id": 221,
+		"type": "Student",
+		"color": "gray"
 	}],
 	"color": "blue",
 	"group": ["Violinist", "Composer", "Teacher"],
