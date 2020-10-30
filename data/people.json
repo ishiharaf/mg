@@ -10373,6 +10373,10 @@
 		"id": 305,
 		"type": "Student",
 		"color": "gray"
+	},{
+		"id": 307,
+		"type": "Student",
+		"color": "gray"
 	}],
 	"color": "blue",
 	"group": ["Violinist", "Pedagogue"],
@@ -10453,4 +10457,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Belyayev_by_Repin.jpg/353px-Belyayev_by_Repin.jpg"
+},
+{
+	"id": 307,
+	"name": {
+		"first": "Stanisław",
+		"last": "Barcewicz",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1858",
+		"mm": "04",
+		"dd": "16"
+	},
+	"dateDeath": {
+		"yyyy": "1929",
+		"mm": "09",
+		"dd": "01"
+	},
+	"placeBirth": "Warsaw, Poland",
+	"placeDeath": "Warsaw, Poland",
+	"relationship": [{
+		"id": 187,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "blue",
+	"group": ["Violinist", "Conductor", "Teacher"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Stanis%C5%82aw_Barcewicz_foto_%28cropped%29.jpg/442px-Stanis%C5%82aw_Barcewicz_foto_%28cropped%29.jpg"
 }]
