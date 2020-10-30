@@ -10485,6 +10485,10 @@
 		"id": 192,
 		"type": "Student",
 		"color": "gray"
+	},{
+		"id": 308,
+		"type": "Student",
+		"color": "gray"
 	}],
 	"color": "blue",
 	"group": ["Violinist", "Conductor", "Teacher"],
@@ -10493,4 +10497,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Stanis%C5%82aw_Barcewicz_foto_%28cropped%29.jpg/442px-Stanis%C5%82aw_Barcewicz_foto_%28cropped%29.jpg"
+},
+{
+	"id": 308,
+	"name": {
+		"first": "Jan",
+		"last": "Hřímalý",
+		"alt": ["Voitsekhovich Grzhimali"]
+	},
+	"dateBirth": {
+		"yyyy": "1844",
+		"mm": "04",
+		"dd": "13"
+	},
+	"dateDeath": {
+		"yyyy": "1915",
+		"mm": "01",
+		"dd": "24"
+	},
+	"placeBirth": "Pilsen, Bohemia",
+	"placeDeath": "Moscow, USSR",
+	"relationship": [{
+		"id": 187,
+		"type": "Acquaintance",
+		"color": "blue"
+	}],
+	"color": "blue",
+	"group": ["Violinist", "Teacher"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Jan_H%C5%99%C3%ADmal%C3%BD.jpg"
 }]
