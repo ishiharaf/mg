@@ -10245,4 +10245,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Edouard_Colonne_par_F%C3%A9lix_Nadar.JPEG/435px-Edouard_Colonne_par_F%C3%A9lix_Nadar.JPEG"
+},
+{
+	"id": 301,
+	"name": {
+		"first": "Konstanty",
+		"last": "Gorski",
+		"alt": ["Konstanty Antoni Gorski"]
+	},
+	"dateBirth": {
+		"yyyy": "1859",
+		"mm": "06",
+		"dd": "13"
+	},
+	"dateDeath": {
+		"yyyy": "1924",
+		"mm": "05",
+		"dd": "31"
+	},
+	"placeBirth": "Lida, Poland",
+	"placeDeath": "Poznań, Poland",
+	"relationship": [{
+		"id": 176,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "blue",
+	"group": ["Violinist", "Organist", "Composer", "Teacher"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Gorski-foto1.JPG/538px-Gorski-foto1.JPG"
 }]
