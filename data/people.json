@@ -10481,6 +10481,10 @@
 		"id": 187,
 		"type": "Student",
 		"color": "gray"
+	},{
+		"id": 192,
+		"type": "Student",
+		"color": "gray"
 	}],
 	"color": "blue",
 	"group": ["Violinist", "Conductor", "Teacher"],
