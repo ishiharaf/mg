@@ -10409,6 +10409,10 @@
 		"id": 302,
 		"type": "Student",
 		"color": "gray"
+	},{
+		"id": 306,
+		"type": "Student",
+		"color": "gray"
 	}],
 	"color": "blue",
 	"group": ["Violinist", "Conductor", "Composer", "Pedagogue"],
@@ -10417,4 +10421,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Emil_Mlynarski_1870_-_1935.jpg/561px-Emil_Mlynarski_1870_-_1935.jpg"
+},
+{
+	"id": 306,
+	"name": {
+		"first": "Anatoly",
+		"last": "Lyadov",
+		"alt": ["Anatoly Konstantinovich Lyadov/Liadov"]
+	},
+	"dateBirth": {
+		"yyyy": "1855",
+		"mm": "05",
+		"dd": "12"
+	},
+	"dateDeath": {
+		"yyyy": "1914",
+		"mm": "08",
+		"dd": "28"
+	},
+	"placeBirth": "St. Petersburg, Russian Empire",
+	"placeDeath": "Polynovka, Novgorod Governorate",
+	"relationship": [{
+		"id": 302,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "blue",
+	"group": ["Conductor", "Composer", "Teacher"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Belyayev_by_Repin.jpg/353px-Belyayev_by_Repin.jpg"
 }]
