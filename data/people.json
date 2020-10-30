@@ -10303,8 +10303,8 @@
 	"placeDeath": "Lubensk estate, Russia",
 	"relationship": [{
 		"id": "",
-		"type": "Student",
-		"color": "gray"
+		"type": "",
+		"color": ""
 	}],
 	"color": "darkBlue",
 	"group": ["Composer"],
@@ -10345,4 +10345,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/en/6/6e/Nathan_Milstein.jpg"
+},
+{
+	"id": 304,
+	"name": {
+		"first": "Pyotr",
+		"last": "Stolyarsky",
+		"alt": ["Pyotr Solomonovich Stolyarsky"]
+	},
+	"dateBirth": {
+		"yyyy": "1871",
+		"mm": "11",
+		"dd": "18"
+	},
+	"dateDeath": {
+		"yyyy": "1944",
+		"mm": "04",
+		"dd": "29"
+	},
+	"placeBirth": "Lypovets, Russian Empire",
+	"placeDeath": "Sverdlovsk, USSR",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "blue",
+	"group": ["Violinist", "Pedagogue"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
