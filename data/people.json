@@ -10158,9 +10158,9 @@
 	"placeBirth": "Mirecourt, France",
 	"placeDeath": "Paris, France",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 201,
+		"type": "Acquaintance",
+		"color": "blue"
 	}],
 	"color": "gray",
 	"group": ["Luthier", "Businessman", "Inventor"],
