@@ -10529,4 +10529,40 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Jan_H%C5%99%C3%ADmal%C3%BD.jpg"
+},
+{
+	"id": 309,
+	"name": {
+		"first": "David",
+		"last": "Oistrakh",
+		"alt": ["David Fyodorovich Oistrakh/Eustrach"]
+	},
+	"dateBirth": {
+		"yyyy": "1908",
+		"mm": "09",
+		"dd": "30"
+	},
+	"dateDeath": {
+		"yyyy": "1974",
+		"mm": "10",
+		"dd": "24"
+	},
+	"placeBirth": "Odessa, Russian Empire",
+	"placeDeath": "Amsterdam, Netherlands",
+	"relationship": [{
+		"id": 304,
+		"type": "Student",
+		"color": "gray"
+	},{
+		"id": 303,
+		"type": "Friend",
+		"color": "lightBlue"
+	}],
+	"color": "blue",
+	"group": ["Violinist", "Violist", "Conductor"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/a/af/Bundesarchiv_Bild_183-23447-0001%2C_Dresden%2C_Konzert_David_Oistrach_%28crop%29.jpg"
 }]
