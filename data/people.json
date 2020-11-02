@@ -10709,4 +10709,36 @@
 		"extract": ""
 	}],
 	"picture": ""
+},
+{
+	"id": 314,
+	"name": {
+		"first": "Girolamo",
+		"last": "Mei",
+		"alt": ["Decimo Corinella da Peretola"]
+	},
+	"dateBirth": {
+		"yyyy": "1519",
+		"mm": "05",
+		"dd": "27"
+	},
+	"dateDeath": {
+		"yyyy": "1594",
+		"mm": "07",
+		"dd": "??"
+	},
+	"placeBirth": "Florence, Italy",
+	"placeDeath": "Rome, Italy",
+	"relationship": [{
+		"id": 312,
+		"type": "Patronee",
+		"color": "green"
+	}],
+	"color": "gray",
+	"group": ["Historian", "Humanist"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
