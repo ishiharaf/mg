@@ -10805,4 +10805,36 @@
 		"extract": ""
 	}],
 	"picture": ""
+},
+{
+	"id": 317,
+	"name": {
+		"first": "Marco da",
+		"last": "Gagliano",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1582",
+		"mm": "05",
+		"dd": "01"
+	},
+	"dateDeath": {
+		"yyyy": "1643",
+		"mm": "02",
+		"dd": "25"
+	},
+	"placeBirth": "Florence, Italy",
+	"placeDeath": "Florence, Italy",
+	"relationship": [{
+		"id": 247,
+		"type": "Acquaintance",
+		"color": "blue"
+	}],
+	"color": "blue",
+	"group": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
