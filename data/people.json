@@ -3657,6 +3657,10 @@
 		"id": 321,
 		"type": "Student",
 		"color": "gray"
+	},{
+		"id": 325,
+		"type": "Friend",
+		"color": "lightBlue"
 	}],
 	"color": "blue",
 	"group": ["Organist", "Composer", "Publisher"],
@@ -11071,6 +11075,38 @@
 		"color": ""
 	}],
 	"color": "darkRed",
+	"group": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 325,
+	"name": {
+		"first": "Constanzo",
+		"last": "Porta",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "c1528",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1601",
+		"mm": "05",
+		"dd": "19"
+	},
+	"placeBirth": "Cremona, Italy",
+	"placeDeath": "Padua, Italy",
+	"relationship": [{
+		"id": 322,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "darkBlue",
 	"group": ["Composer"],
 	"source": [{
 		"citation": "",
