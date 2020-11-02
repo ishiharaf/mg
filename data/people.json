@@ -10998,9 +10998,9 @@
 	"placeBirth": "Rumbeke, Flanders",
 	"placeDeath": "Venice, Italy",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 323,
+		"type": "Student",
+		"color": "gray"
 	}],
 	"color": "darkRed",
 	"group": ["Composer"],
@@ -11009,4 +11009,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/5/57/Adrian_Willaert.jpg"
+},
+{
+	"id": 323,
+	"name": {
+		"first": "Jean",
+		"last": "Mouton",
+		"alt": ["Jean de Hollingue"]
+	},
+	"dateBirth": {
+		"yyyy": "c1459",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1522",
+		"mm": "10",
+		"dd": "30"
+	},
+	"placeBirth": "Haut-Wignes, France (?)",
+	"placeDeath": "Saint-Quentin, France",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "darkBlue",
+	"group": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
