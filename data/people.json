@@ -10741,4 +10741,36 @@
 		"extract": ""
 	}],
 	"picture": ""
+},
+{
+	"id": 315,
+	"name": {
+		"first": "Vincenzo",
+		"last": "Galilei",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1520",
+		"mm": "04",
+		"dd": "03"
+	},
+	"dateDeath": {
+		"yyyy": "1591",
+		"mm": "07",
+		"dd": "02"
+	},
+	"placeBirth": "Santa Maria a Monte, Italy",
+	"placeDeath": "Florence, Italy",
+	"relationship": [{
+		"id": 312,
+		"type": "Patronee",
+		"color": "green"
+	}],
+	"color": "blue",
+	"group": ["Lutenist", "Composer", "Music theorist"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
