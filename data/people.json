@@ -8473,6 +8473,10 @@
 		"id": 248,
 		"type": "Patronee",
 		"color": "green"
+	},{
+		"id": 311,
+		"type": "Student",
+		"color": "gray"
 	}],
 	"color": "red",
 	"group": ["Singer", "Composer"],
@@ -10597,4 +10601,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Georg_Rhau.jpg/480px-Georg_Rhau.jpg"
+},
+{
+	"id": 311,
+	"name": {
+		"first": "Cristofano",
+		"last": "Malvezzi",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "b1547",
+		"mm": "06",
+		"dd": "28"
+	},
+	"dateDeath": {
+		"yyyy": "1599",
+		"mm": "01",
+		"dd": "22"
+	},
+	"placeBirth": "Lucca, Italy",
+	"placeDeath": "Florence, Italy",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "blue",
+	"group": ["Organist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
