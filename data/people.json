@@ -10873,4 +10873,40 @@
 		"extract": ""
 	}],
 	"picture": ""
+},
+{
+	"id": 319,
+	"name": {
+		"first": "Ottavio",
+		"last": "Rinuccini",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1562",
+		"mm": "01",
+		"dd": "20"
+	},
+	"dateDeath": {
+		"yyyy": "1621",
+		"mm": "03",
+		"dd": "28"
+	},
+	"placeBirth": "Florence, Italy",
+	"placeDeath": "Florence, Italy",
+	"relationship": [{
+		"id": 247,
+		"type": "Librettist",
+		"color": "green"
+	},{
+		"id": 312,
+		"type": "Patronee",
+		"color": "green"
+	}],
+	"color": "darkRed",
+	"group": ["Poet", "Courtier", "Librettist"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
