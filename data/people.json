@@ -3685,6 +3685,10 @@
 		"id": 94,
 		"type": "Employee",
 		"color": "green"
+	},{
+		"id": 312,
+		"type": "Patronee",
+		"color": "green"
 	}],
 	"color": "blue",
 	"group": ["Instrumentalist", "Composer", "Diplomat"],
