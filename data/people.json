@@ -10909,4 +10909,36 @@
 		"extract": ""
 	}],
 	"picture": ""
+},
+{
+	"id": 320,
+	"name": {
+		"first": "Emilio de'",
+		"last": "Cavalieri",
+		"alt": ["Emilio dei Cavalieri"]
+	},
+	"dateBirth": {
+		"yyyy": "c1550",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1602",
+		"mm": "03",
+		"dd": "11"
+	},
+	"placeBirth": "Rome, Italy",
+	"placeDeath": "Rome, Italy",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "blue",
+	"group": ["Organist", "Composer", "Dancer", "Choreographer", "Diplomat", "Producer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
