@@ -3654,9 +3654,9 @@
 	"placeBirth": "Coreggio, Italy",
 	"placeDeath": "Parma, Italy",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 321,
+		"type": "Student",
+		"color": "gray"
 	}],
 	"color": "blue",
 	"group": ["Organist", "Composer", "Publisher"],
@@ -10765,6 +10765,10 @@
 		"id": 312,
 		"type": "Patronee",
 		"color": "green"
+	},{
+		"id": 321,
+		"type": "Student",
+		"color": "gray"
 	}],
 	"color": "blue",
 	"group": ["Lutenist", "Composer", "Music theorist"],
@@ -10936,6 +10940,38 @@
 	}],
 	"color": "blue",
 	"group": ["Organist", "Composer", "Dancer", "Choreographer", "Diplomat", "Producer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 321,
+	"name": {
+		"first": "Gioseffo",
+		"last": "Zarlino",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1517",
+		"mm": "01",
+		"dd": "31"
+	},
+	"dateDeath": {
+		"yyyy": "1590",
+		"mm": "02",
+		"dd": "04"
+	},
+	"placeBirth": "Chioggia, Italy",
+	"placeDeath": "Venice, Italy",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "darkRed",
+	"group": ["Composer", "Music theorist"],
 	"source": [{
 		"citation": "",
 		"extract": ""
