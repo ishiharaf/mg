@@ -10829,9 +10829,45 @@
 		"id": 247,
 		"type": "Acquaintance",
 		"color": "blue"
+	},{
+		"id": 318,
+		"type": "Student",
+		"color": "gray"
 	}],
-	"color": "blue",
+	"color": "darkBlue",
 	"group": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 318,
+	"name": {
+		"first": "Luca",
+		"last": "Bati",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "c1546",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1608",
+		"mm": "10",
+		"dd": "17"
+	},
+	"placeBirth": "Florence, Italy",
+	"placeDeath": "Florence, Italy",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "darkBlue",
+	"group": ["Composer", "Teacher"],
 	"source": [{
 		"citation": "",
 		"extract": ""
