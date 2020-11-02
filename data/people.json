@@ -11001,6 +11001,10 @@
 		"id": 323,
 		"type": "Student",
 		"color": "gray"
+	},{
+		"id": 324,
+		"type": "Student",
+		"color": "gray"
 	}],
 	"color": "darkRed",
 	"group": ["Composer"],
@@ -11035,6 +11039,38 @@
 		"color": ""
 	}],
 	"color": "darkBlue",
+	"group": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 324,
+	"name": {
+		"first": "Josquin des",
+		"last": "Prez",
+		"alt": ["Josquin Lebloitte", "Iosquinus Pratensis", "Iodocus a Prato"]
+	},
+	"dateBirth": {
+		"yyyy": "c1450",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1521",
+		"mm": "08",
+		"dd": "27"
+	},
+	"placeBirth": "Beaurevoir, France (?)",
+	"placeDeath": "Condé-sur-l'Escaut, France",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "darkRed",
 	"group": ["Composer"],
 	"source": [{
 		"citation": "",
