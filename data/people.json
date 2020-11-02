@@ -10773,4 +10773,36 @@
 		"extract": ""
 	}],
 	"picture": ""
+},
+{
+	"id": 316,
+	"name": {
+		"first": "Michelagnolo",
+		"last": "Galilei",
+		"alt": ["Michelangelo Galilei"]
+	},
+	"dateBirth": {
+		"yyyy": "1575",
+		"mm": "12",
+		"dd": "18"
+	},
+	"dateDeath": {
+		"yyyy": "1631",
+		"mm": "01",
+		"dd": "03"
+	},
+	"placeBirth": "Florence, Italy",
+	"placeDeath": "Munich, Germany",
+	"relationship": [{
+		"id": 315,
+		"type": "Son",
+		"color": "red"
+	}],
+	"color": "blue",
+	"group": ["Lutenist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
