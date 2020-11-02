@@ -3381,6 +3381,10 @@
 		"id": 312,
 		"type": "Patronee",
 		"color": "green"
+	},{
+		"id": 313,
+		"type": "Patronee",
+		"color": "green"
 	}],
 	"color": "red",
 	"group": ["Singer", "Harpist", "Composer"],
@@ -10664,6 +10668,42 @@
 	}],
 	"color": "darkRed",
 	"group": ["Count of Vernio", "Literary critic", "Writer", "Composer", "Soldier"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 313,
+	"name": {
+		"first": "Piero",
+		"last": "Strozzi",
+		"alt": ["Pietro Strozzi"]
+	},
+	"dateBirth": {
+		"yyyy": "1550",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1609",
+		"mm": "09",
+		"dd": "01"
+	},
+	"placeBirth": "Florence, Italy",
+	"placeDeath": "Florence, Italy",
+	"relationship": [{
+		"id": 312,
+		"type": "Patronee",
+		"color": "green"
+	},{
+		"id": 248,
+		"type": "Patronee",
+		"color": "green"
+	}],
+	"color": "green",
+	"group": ["Nobleman", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
