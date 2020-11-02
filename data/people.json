@@ -11113,4 +11113,36 @@
 		"extract": ""
 	}],
 	"picture": ""
+},
+{
+	"id": 326,
+	"name": {
+		"first": "Francesco dalla",
+		"last": "Viola",
+		"alt": ["Francesco Viola"]
+	},
+	"dateBirth": {
+		"yyyy": "c1508",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1568",
+		"mm": "03",
+		"dd": "??"
+	},
+	"placeBirth": "Ferrare, Italy",
+	"placeDeath": "Ferrare, Italy",
+	"relationship": [{
+		"id": 322,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "darkBlue",
+	"group": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
