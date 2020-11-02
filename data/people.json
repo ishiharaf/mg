@@ -10622,12 +10622,44 @@
 	"placeBirth": "Lucca, Italy",
 	"placeDeath": "Florence, Italy",
 	"relationship": [{
+		"id": 312,
+		"type": "Patronee",
+		"color": "green"
+	}],
+	"color": "blue",
+	"group": ["Organist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 312,
+	"name": {
+		"first": "Giovanni de'",
+		"last": "Bardi",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1534",
+		"mm": "02",
+		"dd": "05"
+	},
+	"dateDeath": {
+		"yyyy": "1612",
+		"mm": "09",
+		"dd": "??"
+	},
+	"placeBirth": "Florence, Italy",
+	"placeDeath": "Florence, Italy",
+	"relationship": [{
 		"id": "",
 		"type": "",
 		"color": ""
 	}],
-	"color": "blue",
-	"group": ["Organist", "Composer"],
+	"color": "darkRed",
+	"group": ["Count of Vernio", "Literary critic", "Writer", "Composer", "Soldier"],
 	"source": [{
 		"citation": "",
 		"extract": ""
