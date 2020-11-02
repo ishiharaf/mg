@@ -3378,9 +3378,9 @@
 	"placeBirth": "Tivoli, Italy",
 	"placeDeath": "Firenze, Italy",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 312,
+		"type": "Patronee",
+		"color": "green"
 	}],
 	"color": "red",
 	"group": ["Singer", "Harpist", "Composer"],
