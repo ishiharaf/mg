@@ -2338,9 +2338,9 @@
 	"placeBirth": "Venice, Italy",
 	"placeDeath": "Venice, Italy",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 322,
+		"type": "Student",
+		"color": "gray"
 	}],
 	"color": "darkBlue",
 	"group": ["Composer"],
@@ -8042,9 +8042,9 @@
 	"placeBirth": "Ronse, Belgium",
 	"placeDeath": "Parma, Italy",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 322,
+		"type": "Student",
+		"color": "gray"
 	}],
 	"color": "darkBlue",
 	"group": ["Composer"],
