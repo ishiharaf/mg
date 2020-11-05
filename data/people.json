@@ -11638,9 +11638,13 @@
 	"placeBirth": "Vienna, Austria",
 	"placeDeath": "Vienna, Austria",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 123,
+		"type": "Acquaintance",
+		"color": "blue"
+	},{
+		"id": 342,
+		"type": "Student",
+		"color": "gray"
 	}],
 	"color": "red",
 	"group": ["Musician", "Composer"],
@@ -11649,4 +11653,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/0/09/F._Parmanti%C3%A9%2C_1784_-_Maria_Theresia_Paradis.jpg"
+},
+{
+	"id": 342,
+	"name": {
+		"first": "Antonio",
+		"last": "Salieri",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1750",
+		"mm": "08",
+		"dd": "18"
+	},
+	"dateDeath": {
+		"yyyy": "1825",
+		"mm": "05",
+		"dd": "07"
+	},
+	"placeBirth": "Legnano, Italy",
+	"placeDeath": "Vienna, Austria",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "darkBlue",
+	"group": ["Composer", "Conductor", "Teacher"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Antonio_Salieri_painted_by_Joseph_Willibrord_M%C3%A4hler.jpg/463px-Antonio_Salieri_painted_by_Joseph_Willibrord_M%C3%A4hler.jpg"
 }]
