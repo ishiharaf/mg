@@ -11145,4 +11145,36 @@
 		"extract": ""
 	}],
 	"picture": ""
+},
+{
+	"id": 327,
+	"name": {
+		"first": "Charles",
+		"last": "Dieupart",
+		"alt": ["François Dieupart"]
+	},
+	"dateBirth": {
+		"yyyy": "c1667",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1740",
+		"mm": "??",
+		"dd": "??"
+	},
+	"placeBirth": "Paris, France (?)",
+	"placeDeath": "London, England",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "blue",
+	"group": ["Harpsichordist", "Violinist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
