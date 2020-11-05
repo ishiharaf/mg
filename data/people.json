@@ -11281,4 +11281,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Elisabeth_Jacquet_de_La_Guerre-full.jpg/371px-Elisabeth_Jacquet_de_La_Guerre-full.jpg"
+},
+{
+	"id": 331,
+	"name": {
+		"first": "Settimia",
+		"last": "Caccini",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1591",
+		"mm": "10",
+		"dd": "06"
+	},
+	"dateDeath": {
+		"yyyy": "c1638",
+		"mm": "??",
+		"dd": "??"
+	},
+	"placeBirth": "Florence, Italy",
+	"placeDeath": "Florence, Italy",
+	"relationship": [{
+		"id": 99,
+		"type": "Daughter",
+		"color": "red"
+	}],
+	"color": "blue",
+	"group": ["Singer", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
