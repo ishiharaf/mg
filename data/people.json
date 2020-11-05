@@ -11209,4 +11209,44 @@
 		"extract": ""
 	}],
 	"picture": ""
+},
+{
+	"id": 329,
+	"name": {
+		"first": "Nicola Francesco",
+		"last": "Haym",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1678",
+		"mm": "07",
+		"dd": "06"
+	},
+	"dateDeath": {
+		"yyyy": "1729",
+		"mm": "07",
+		"dd": "31"
+	},
+	"placeBirth": "Rome, Italy",
+	"placeDeath": "London, England",
+	"relationship": [{
+		"id": 328,
+		"type": "Acquaintance",
+		"color": "blue"
+	},{
+		"id": 63,
+		"type": "Librettist",
+		"color": "green"
+	},{
+		"id": 159,
+		"type": "Librettist",
+		"color": "green"
+	}],
+	"color": "darkBlue",
+	"group": ["Librettist", "Composer", "Theatre manager", "Literary editor", "Numismatist"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
