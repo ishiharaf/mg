@@ -11313,4 +11313,36 @@
 		"extract": ""
 	}],
 	"picture": ""
+},
+{
+	"id": 332,
+	"name": {
+		"first": "Francesca",
+		"last": "Caccini",
+		"alt": ["La Cecchina"]
+	},
+	"dateBirth": {
+		"yyyy": "1591",
+		"mm": "10",
+		"dd": "06"
+	},
+	"dateDeath": {
+		"yyyy": "c1638",
+		"mm": "??",
+		"dd": "??"
+	},
+	"placeBirth": "Florence, Italy",
+	"placeDeath": "Florence, Italy",
+	"relationship": [{
+		"id": 99,
+		"type": "Daughter",
+		"color": "red"
+	}],
+	"color": "blue",
+	"group": ["Singer", "Lutenist", "Poet", "Music teacher", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/La_Bella_by_Palma_il_Vecchio.png/416px-La_Bella_by_Palma_il_Vecchio.png"
 }]
