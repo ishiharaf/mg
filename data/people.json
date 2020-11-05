@@ -11249,4 +11249,36 @@
 		"extract": ""
 	}],
 	"picture": ""
+},
+{
+	"id": 330,
+	"name": {
+		"first": "Élisabeth",
+		"last": "Jacquet de La Guerre",
+		"alt": ["Élisabeth-Claude Jacquet de La Guerre", "Élisabeth Jacquet"]
+	},
+	"dateBirth": {
+		"yyyy": "1665",
+		"mm": "03",
+		"dd": "17"
+	},
+	"dateDeath": {
+		"yyyy": "1729",
+		"mm": "06",
+		"dd": "27"
+	},
+	"placeBirth": "Paris, France",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": 203,
+		"type": "Patronee",
+		"color": "green"
+	}],
+	"color": "blue",
+	"group": ["Harpsichordist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Elisabeth_Jacquet_de_La_Guerre-full.jpg/371px-Elisabeth_Jacquet_de_La_Guerre-full.jpg"
 }]
