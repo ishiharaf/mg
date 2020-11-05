@@ -11498,9 +11498,9 @@
 	"placeBirth": "Potsdam, Germany",
 	"placeDeath": "Berlin, Germany",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 33,
+		"type": "Daughter",
+		"color": "red"
 	}],
 	"color": "blue",
 	"group": ["Pianist", "Singer", "Composer"],
