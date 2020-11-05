@@ -11345,4 +11345,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/La_Bella_by_Palma_il_Vecchio.png/416px-La_Bella_by_Palma_il_Vecchio.png"
+},
+{
+	"id": 333,
+	"name": {
+		"first": "Barbara",
+		"last": "Strozzi",
+		"alt": ["La Greghetta", "Isabella Griega/Garzoni", "Barbara Valle"]
+	},
+	"dateBirth": {
+		"yyyy": "b1619",
+		"mm": "08",
+		"dd": "06"
+	},
+	"dateDeath": {
+		"yyyy": "1677",
+		"mm": "11",
+		"dd": "11"
+	},
+	"placeBirth": "Venice, Italy",
+	"placeDeath": "Padua, Italy",
+	"relationship": [{
+		"id": 89,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "blue",
+	"group": ["Singer", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bernardo_Strozzi_001.jpg/465px-Bernardo_Strozzi_001.jpg"
 }]
