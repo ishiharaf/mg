@@ -11509,4 +11509,36 @@
 		"extract": ""
 	}],
 	"picture": ""
+},
+{
+	"id": 338,
+	"name": {
+		"first": "Johann Friedrich",
+		"last": "Reichardt",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1752",
+		"mm": "11",
+		"dd": "25"
+	},
+	"dateDeath": {
+		"yyyy": "1814",
+		"mm": "06",
+		"dd": "27"
+	},
+	"placeBirth": "Königsberg, East Prussia",
+	"placeDeath": "Giebichenstein, Germany",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "blue",
+	"group": ["Composer", "Writer", "Music critic"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/f/fc/JohannFriedrichReichardtMusikerS130.jpg"
 }]
