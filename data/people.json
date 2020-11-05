@@ -11377,4 +11377,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bernardo_Strozzi_001.jpg/465px-Bernardo_Strozzi_001.jpg"
+},
+{
+	"id": 334,
+	"name": {
+		"first": "Maria Carolina",
+		"last": "Wolf",
+		"alt": ["Maria Carolina Benda"]
+	},
+	"dateBirth": {
+		"yyyy": "1742",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1820",
+		"mm": "08",
+		"dd": "02"
+	},
+	"placeBirth": "Potsdam, Germany",
+	"placeDeath": "Weimar, Germany",
+	"relationship": [{
+		"id": 33,
+		"type": "Daughter, Student",
+		"color": "red"
+	}],
+	"color": "blue",
+	"group": ["Pianist", "Singer", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
