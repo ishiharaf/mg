@@ -11545,4 +11545,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/f/fc/JohannFriedrichReichardtMusikerS130.jpg"
+},
+{
+	"id": 339,
+	"name": {
+		"first": "Anna",
+		"last": "Amalia",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1723",
+		"mm": "11",
+		"dd": "09"
+	},
+	"dateDeath": {
+		"yyyy": "1787",
+		"mm": "03",
+		"dd": "30"
+	},
+	"placeBirth": "Berlin, Germany",
+	"placeDeath": "Berlin, Germany",
+	"relationship": [{
+		"id": 36,
+		"type": "Sister, Student",
+		"color": "red"
+	}],
+	"color": "green",
+	"group": ["Princess-Abbess of Quedlinburg"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Antoine_Pesne_hofdame_%3B_Prinzessin_Amalia_von_Preussen_als_Amazone.jpg/570px-Antoine_Pesne_hofdame_%3B_Prinzessin_Amalia_von_Preussen_als_Amazone.jpg"
 }]
