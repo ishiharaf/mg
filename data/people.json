@@ -11501,6 +11501,10 @@
 		"id": 33,
 		"type": "Daughter",
 		"color": "red"
+	},{
+		"id": 338,
+		"type": "Spouse",
+		"color": "pink"
 	}],
 	"color": "blue",
 	"group": ["Pianist", "Singer", "Composer"],
