@@ -11617,4 +11617,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Johann_Philipp_Kirnberger.jpg/400px-Johann_Philipp_Kirnberger.jpg"
+},
+{
+	"id": 341,
+	"name": {
+		"first": "Maria Theresia von",
+		"last": "Paradis",
+		"alt": ["Maria Theresia von Paradies"]
+	},
+	"dateBirth": {
+		"yyyy": "1759",
+		"mm": "05",
+		"dd": "15"
+	},
+	"dateDeath": {
+		"yyyy": "1824",
+		"mm": "02",
+		"dd": "01"
+	},
+	"placeBirth": "Vienna, Austria",
+	"placeDeath": "Vienna, Austria",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "red",
+	"group": ["Musician", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/0/09/F._Parmanti%C3%A9%2C_1784_-_Maria_Theresia_Paradis.jpg"
 }]
