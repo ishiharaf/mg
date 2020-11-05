@@ -11401,6 +11401,10 @@
 		"id": 33,
 		"type": "Daughter, Student",
 		"color": "red"
+	},{
+		"id": 336,
+		"type": "Spouse",
+		"color": "pink"
 	}],
 	"color": "blue",
 	"group": ["Pianist", "Singer", "Composer"],
@@ -11441,4 +11445,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/en/1/1d/Georg_Benda_%28c._1752%29.jpg"
+},
+{
+	"id": 336,
+	"name": {
+		"first": "Ernst Wilhelm",
+		"last": "Wolf",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1735",
+		"mm": "02",
+		"dd": "25"
+	},
+	"dateDeath": {
+		"yyyy": "1792",
+		"mm": "11",
+		"dd": "29"
+	},
+	"placeBirth": "Grossen Behringen, Germany",
+	"placeDeath": "Weimar, Germany",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "darkBlue",
+	"group": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Ernst_Wilhelm_Wolf.JPG/505px-Ernst_Wilhelm_Wolf.JPG"
 }]
