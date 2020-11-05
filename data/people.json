@@ -11177,4 +11177,36 @@
 		"extract": ""
 	}],
 	"picture": ""
+},
+{
+	"id": 328,
+	"name": {
+		"first": "Thomas",
+		"last": "Clayton",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1673",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1725",
+		"mm": "??",
+		"dd": "??"
+	},
+	"placeBirth": "London, England",
+	"placeDeath": "London, England",
+	"relationship": [{
+		"id": 327,
+		"type": "Acquaintance",
+		"color": "blue"
+	}],
+	"color": "blue",
+	"group": ["Violinist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
