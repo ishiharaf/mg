@@ -11605,6 +11605,10 @@
 		"id": 38,
 		"type": "Student",
 		"color": "gray"
+	},{
+		"id": 36,
+		"type": "Employee",
+		"color": "green"
 	}],
 	"color": "blue",
 	"group": ["Musician", "Composer", "Music theorist"],
