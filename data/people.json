@@ -11477,4 +11477,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Ernst_Wilhelm_Wolf.JPG/505px-Ernst_Wilhelm_Wolf.JPG"
+},
+{
+	"id": 337,
+	"name": {
+		"first": "Juliane",
+		"last": "Reichardt",
+		"alt": ["Juliane Benda"]
+	},
+	"dateBirth": {
+		"yyyy": "1752",
+		"mm": "05",
+		"dd": "14"
+	},
+	"dateDeath": {
+		"yyyy": "1783",
+		"mm": "05",
+		"dd": "11"
+	},
+	"placeBirth": "Potsdam, Germany",
+	"placeDeath": "Berlin, Germany",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "blue",
+	"group": ["Pianist", "Singer", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
