@@ -11409,4 +11409,36 @@
 		"extract": ""
 	}],
 	"picture": ""
+},
+{
+	"id": 335,
+	"name": {
+		"first": "Georg",
+		"last": "Benda",
+		"alt": ["Georg Anton Benda", "Jiří Antonín Benda"]
+	},
+	"dateBirth": {
+		"yyyy": "1722",
+		"mm": "06",
+		"dd": "30"
+	},
+	"dateDeath": {
+		"yyyy": "1795",
+		"mm": "11",
+		"dd": "06"
+	},
+	"placeBirth": "Old Benatek, Bohemia",
+	"placeDeath": "Köstritz, Saxe-Gotha-Altenburg",
+	"relationship": [{
+		"id": 33,
+		"type": "Brother",
+		"color": "red"
+	}],
+	"color": "blue",
+	"group": ["Violinist", "Kapellmeister", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/en/1/1d/Georg_Benda_%28c._1752%29.jpg"
 }]
