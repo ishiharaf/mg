@@ -11869,4 +11869,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Meyerbeer_d%27apr%C3%A8s_P._Petit_b_1865.jpg/457px-Meyerbeer_d%27apr%C3%A8s_P._Petit_b_1865.jpg"
+},
+{
+	"id": 348,
+	"name": {
+		"first": "Franz",
+		"last": "Schubert",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1797",
+		"mm": "01",
+		"dd": "31"
+	},
+	"dateDeath": {
+		"yyyy": "1828",
+		"mm": "11",
+		"dd": "19"
+	},
+	"placeBirth": "Himmelpfortgrund, Austria",
+	"placeDeath": "Vienna, Austria",
+	"relationship": [{
+		"id": 342,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "darkBlue",
+	"group": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Franz_Schubert_by_Wilhelm_August_Rieder_1875.jpg/331px-Franz_Schubert_by_Wilhelm_August_Rieder_1875.jpg"
 }]
