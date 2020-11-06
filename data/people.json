@@ -4641,6 +4641,10 @@
 		"id": 210,
 		"type": "Acquaintance",
 		"color": "blue"
+	},{
+		"id": 342,
+		"type": "Student",
+		"color": "gray"
 	}],
 	"color": "red",
 	"group": ["Pianist", "Composer"],
@@ -6897,6 +6901,10 @@
 		"id": 238,
 		"type": "Friend",
 		"color": "lightBlue"
+	},{
+		"id": 342,
+		"type": "Student",
+		"color": "gray"
 	}],
 	"color": "red",
 	"group": ["Pianist", "Composer", "Teacher"],
