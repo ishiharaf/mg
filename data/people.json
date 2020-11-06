@@ -11801,4 +11801,40 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Joseph_Siffred_Duplessis_-_Christoph_Willibald_Gluck_-_Google_Art_Project.jpg/387px-Joseph_Siffred_Duplessis_-_Christoph_Willibald_Gluck_-_Google_Art_Project.jpg"
+},
+{
+	"id": 346,
+	"name": {
+		"first": "Carl",
+		"last": "Czerny",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1791",
+		"mm": "02",
+		"dd": "21"
+	},
+	"dateDeath": {
+		"yyyy": "1857",
+		"mm": "07",
+		"dd": "15"
+	},
+	"placeBirth": "Vienna, Austria",
+	"placeDeath": "Vienna, Austria",
+	"relationship": [{
+		"id": 342,
+		"type": "Student",
+		"color": "gray"
+	},{
+		"id": 135,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "blue",
+	"group": ["Pianist", "Composer", "Teacher"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Czerny_2.jpg/400px-Czerny_2.jpg"
 }]
