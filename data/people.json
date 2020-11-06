@@ -12035,8 +12035,8 @@
 	"placeDeath": "Italy (?)",
 	"relationship": [{
 		"id": 353,
-		"type": "",
-		"color": ""
+		"type": "Student",
+		"color": "gray"
 	}],
 	"color": "blue",
 	"group": ["Violinist", "Singer", "Composer"],
