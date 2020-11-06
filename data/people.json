@@ -11901,4 +11901,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Franz_Schubert_by_Wilhelm_August_Rieder_1875.jpg/331px-Franz_Schubert_by_Wilhelm_August_Rieder_1875.jpg"
+},
+{
+	"id": 349,
+	"name": {
+		"first": "Franz Xaver",
+		"last": "Süssmayr",
+		"alt": ["Franz Xaver Süßmayr/Suessmayr"]
+	},
+	"dateBirth": {
+		"yyyy": "1766",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1803",
+		"mm": "09",
+		"dd": "17"
+	},
+	"placeBirth": "Schwanenstadt, Austria",
+	"placeDeath": "Vienna, Austria",
+	"relationship": [{
+		"id": 342,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "darkBlue",
+	"group": ["Composer", "Conductor"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/b/b8/S%C3%BCssmayr.jpg"
 }]
