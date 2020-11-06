@@ -11678,9 +11678,9 @@
 	"placeBirth": "Legnano, Italy",
 	"placeDeath": "Vienna, Austria",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 343,
+		"type": "Student",
+		"color": "gray"
 	}],
 	"color": "darkBlue",
 	"group": ["Composer", "Conductor", "Teacher"],
@@ -11689,4 +11689,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Antonio_Salieri_painted_by_Joseph_Willibrord_M%C3%A4hler.jpg/463px-Antonio_Salieri_painted_by_Joseph_Willibrord_M%C3%A4hler.jpg"
+},
+{
+	"id": 343,
+	"name": {
+		"first": "Giovanni Battista",
+		"last": "Pescetti",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "c1704",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1766",
+		"mm": "03",
+		"dd": "20"
+	},
+	"placeBirth": "Venice, Italy",
+	"placeDeath": "Venice, Italy",
+	"relationship": [{
+		"id": 24,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "blue",
+	"group": ["Organist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
