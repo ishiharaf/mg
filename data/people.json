@@ -1933,6 +1933,10 @@
 		"id": 342,
 		"type": "Friend",
 		"color": "lightBlue"
+	},{
+		"id": 344,
+		"type": "Friend",
+		"color": "lightBlue"
 	}],
 	"color": "red",
 	"group": ["Violinist", "Fortepianist", "Composer"],
@@ -11716,6 +11720,38 @@
 	}],
 	"color": "blue",
 	"group": ["Organist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 344,
+	"name": {
+		"first": "Josef",
+		"last": "Mysliveček",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1737",
+		"mm": "03",
+		"dd": "09"
+	},
+	"dateDeath": {
+		"yyyy": "1781",
+		"mm": "02",
+		"dd": "04"
+	},
+	"placeBirth": "Prague, Czech Republic",
+	"placeDeath": "Rome, Italy",
+	"relationship": [{
+		"id": 343,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "darkBlue",
+	"group": ["Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
