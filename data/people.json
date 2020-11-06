@@ -12077,4 +12077,36 @@
 		"extract": ""
 	}],
 	"picture": ""
+},
+{
+	"id": 354,
+	"name": {
+		"first": "Chiara",
+		"last": "della Pietà",
+		"alt": ["Chiaretta", "Chiara dal Violin"]
+	},
+	"dateBirth": {
+		"yyyy": "1718",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1791",
+		"mm": "??",
+		"dd": "??"
+	},
+	"placeBirth": "Venice, Italy (?)",
+	"placeDeath": "Venice, Italy",
+	"relationship": [{
+		"id": 353,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "blue",
+	"group": ["Violinist", "Teacher"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
