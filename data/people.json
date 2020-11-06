@@ -585,6 +585,10 @@
 		"id": 19,
 		"type": "Older Brother",
 		"color": "red"
+	},{
+		"id": 350,
+		"type": "Employee",
+		"color": "green"
 	}],
 	"color": "blue",
 	"group": ["Violinist", "Lutenist", "Composer"],
@@ -1245,6 +1249,10 @@
 		"id": 38,
 		"type": "Student",
 		"color": "green"
+	},{
+		"id": 350,
+		"type": "Brother",
+		"color": "red"
 	}],
 	"color": "green",
 	"group": ["King of Prussia", "Elector of Brandenburg"],
@@ -11937,4 +11945,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/b/b8/S%C3%BCssmayr.jpg"
+},
+{
+	"id": 350,
+	"name": {
+		"first": "Friederike Sophie",
+		"last": "Wilhelmine",
+		"alt": ["Princess Wilhelmine of Prussia"]
+	},
+	"dateBirth": {
+		"yyyy": "1709",
+		"mm": "07",
+		"dd": "03"
+	},
+	"dateDeath": {
+		"yyyy": "1758",
+		"mm": "10",
+		"dd": "14"
+	},
+	"placeBirth": "Berlin, Germany",
+	"placeDeath": "Bayeruth, Germany",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "green",
+	"group": ["Princess of Prussia", "Margravine of Brandenburg-Bayreuth"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/1709_Sophie_Wilhelmine.JPG/367px-1709_Sophie_Wilhelmine.JPG"
 }]
