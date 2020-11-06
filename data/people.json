@@ -1937,6 +1937,10 @@
 		"id": 344,
 		"type": "Friend",
 		"color": "lightBlue"
+	},{
+		"id": 349,
+		"type": "Friend",
+		"color": "lightBlue"
 	}],
 	"color": "red",
 	"group": ["Violinist", "Fortepianist", "Composer"],
