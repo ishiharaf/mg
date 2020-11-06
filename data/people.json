@@ -12031,15 +12031,47 @@
 		"mm": "??",
 		"dd": "??"
 	},
-	"placeBirth": "Italy",
-	"placeDeath": "Italy",
+	"placeBirth": "Venice, Italy (?)",
+	"placeDeath": "Italy (?)",
 	"relationship": [{
-		"id": "",
+		"id": 353,
 		"type": "",
 		"color": ""
 	}],
 	"color": "blue",
 	"group": ["Violinist", "Singer", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 353,
+	"name": {
+		"first": "Anna Maria",
+		"last": "della Pietà",
+		"alt": ["Anna Maria dal Violin"]
+	},
+	"dateBirth": {
+		"yyyy": "c1696",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1782",
+		"mm": "08",
+		"dd": "10"
+	},
+	"placeBirth": "Venice, Italy (?)",
+	"placeDeath": "Venice, Italy",
+	"relationship": [{
+		"id": 30,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "blue",
+	"group": ["Violinist", "Composer", "Teacher"],
 	"source": [{
 		"citation": "",
 		"extract": ""
