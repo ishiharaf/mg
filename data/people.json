@@ -11685,6 +11685,10 @@
 		"id": 343,
 		"type": "Student",
 		"color": "gray"
+	},{
+		"id": 345,
+		"type": "Acquaintance",
+		"color": "blue"
 	}],
 	"color": "darkBlue",
 	"group": ["Composer", "Conductor", "Teacher"],
@@ -11757,4 +11761,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Jan_Vil%C3%ADmek_-_Josef_Myslive%C4%8Dek.jpg/400px-Jan_Vil%C3%ADmek_-_Josef_Myslive%C4%8Dek.jpg"
+},
+{
+	"id": 345,
+	"name": {
+		"first": "Christoph Willibald",
+		"last": "Gluck",
+		"alt": ["Christoph Willibald Ritter von Gluck", "Christophorus Willibaldus"]
+	},
+	"dateBirth": {
+		"yyyy": "1714",
+		"mm": "07",
+		"dd": "02"
+	},
+	"dateDeath": {
+		"yyyy": "1787",
+		"mm": "11",
+		"dd": "15"
+	},
+	"placeBirth": "Berching, Germany",
+	"placeDeath": "Vienna, Austria",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "darkBlue",
+	"group": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Joseph_Siffred_Duplessis_-_Christoph_Willibald_Gluck_-_Google_Art_Project.jpg/387px-Joseph_Siffred_Duplessis_-_Christoph_Willibald_Gluck_-_Google_Art_Project.jpg"
 }]
