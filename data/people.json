@@ -12013,4 +12013,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Silvius_Leopold_Weiss.jpg/526px-Silvius_Leopold_Weiss.jpg"
+},
+{
+	"id": 352,
+	"name": {
+		"first": "Santa",
+		"last": "della Pietà",
+		"alt": ["Sanza/Samaritana della Pietà"]
+	},
+	"dateBirth": {
+		"yyyy": "f1725",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1774",
+		"mm": "??",
+		"dd": "??"
+	},
+	"placeBirth": "Italy",
+	"placeDeath": "Italy",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "blue",
+	"group": ["Violinist", "Singer", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
