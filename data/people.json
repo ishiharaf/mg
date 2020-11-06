@@ -1289,6 +1289,10 @@
 		"id": 38,
 		"type": "Son",
 		"color": "red"
+	},{
+		"id": 351,
+		"type": "Friend",
+		"color": "lightBlue"
 	}],
 	"color": "blue",
 	"group": ["Organist", "Composer"],
@@ -11977,4 +11981,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/1709_Sophie_Wilhelmine.JPG/367px-1709_Sophie_Wilhelmine.JPG"
+},
+{
+	"id": 351,
+	"name": {
+		"first": "Sylvius Leopold",
+		"last": "Weiss",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1687",
+		"mm": "10",
+		"dd": "12"
+	},
+	"dateDeath": {
+		"yyyy": "1750",
+		"mm": "10",
+		"dd": "16"
+	},
+	"placeBirth": "Grottkau, Germany",
+	"placeDeath": "Dresden, Germany",
+	"relationship": [{
+		"id": 38,
+		"type": "Acquaintance",
+		"color": "blue"
+	}],
+	"color": "blue",
+	"group": ["Lutenist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Silvius_Leopold_Weiss.jpg/526px-Silvius_Leopold_Weiss.jpg"
 }]
