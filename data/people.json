@@ -11837,4 +11837,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Czerny_2.jpg/400px-Czerny_2.jpg"
+},
+{
+	"id": 347,
+	"name": {
+		"first": "Giacomo",
+		"last": "Meyerbeer",
+		"alt": ["Jacob Liebmann Beer"]
+	},
+	"dateBirth": {
+		"yyyy": "1791",
+		"mm": "09",
+		"dd": "05"
+	},
+	"dateDeath": {
+		"yyyy": "1864",
+		"mm": "05",
+		"dd": "02"
+	},
+	"placeBirth": "Tasdorf, Germany",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": 342,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "darkBlue",
+	"group": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Meyerbeer_d%27apr%C3%A8s_P._Petit_b_1865.jpg/457px-Meyerbeer_d%27apr%C3%A8s_P._Petit_b_1865.jpg"
 }]
