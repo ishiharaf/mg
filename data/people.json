@@ -11782,9 +11782,9 @@
 	"placeBirth": "Berching, Germany",
 	"placeDeath": "Vienna, Austria",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 207,
+		"type": "Student",
+		"color": "gray"
 	}],
 	"color": "darkBlue",
 	"group": ["Composer"],
