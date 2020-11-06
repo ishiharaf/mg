@@ -11970,9 +11970,9 @@
 	"placeBirth": "Berlin, Germany",
 	"placeDeath": "Bayeruth, Germany",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 351,
+		"type": "Student",
+		"color": "gray"
 	}],
 	"color": "green",
 	"group": ["Princess of Prussia", "Margravine of Brandenburg-Bayreuth"],
