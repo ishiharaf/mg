@@ -12249,4 +12249,36 @@
 		"extract": ""
 	}],
 	"picture": ""
+},
+{
+	"id": 359,
+	"name": {
+		"first": "Joseph Chabanceau de",
+		"last": "La Barre",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "b1633",
+		"mm": "05",
+		"dd": "21"
+	},
+	"dateDeath": {
+		"yyyy": "1678",
+		"mm": "05",
+		"dd": "06"
+	},
+	"placeBirth": "Paris, France",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": 358,
+		"type": "Son",
+		"color": "red"
+	}],
+	"color": "blue",
+	"group": ["Organist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
