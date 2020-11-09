@@ -12205,9 +12205,45 @@
 		"id": 291,
 		"type": "Student",
 		"color": "gray"
+	},{
+		"id": 358,
+		"type": "Daughter",
+		"color": "red"
 	}],
 	"color": "blue",
 	"group": ["Singer", "Lutenist", "Harpsichordist", "Dancer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 358,
+	"name": {
+		"first": "Pierre III Chabanceau de",
+		"last": "La Barre",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "b1592",
+		"mm": "01",
+		"dd": "27"
+	},
+	"dateDeath": {
+		"yyyy": "1656",
+		"mm": "03",
+		"dd": "31"
+	},
+	"placeBirth": "Paris, France",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "blue",
+	"group": ["Lutenist", "Organist", "Harpsichordist"],
 	"source": [{
 		"citation": "",
 		"extract": ""
