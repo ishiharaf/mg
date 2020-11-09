@@ -12201,6 +12201,10 @@
 		"id": 356,
 		"type": "Student",
 		"color": "gray"
+	},{
+		"id": 291,
+		"type": "Student",
+		"color": "gray"
 	}],
 	"color": "blue",
 	"group": ["Singer", "Lutenist", "Harpsichordist", "Dancer"],
