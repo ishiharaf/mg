@@ -12109,4 +12109,36 @@
 		"extract": ""
 	}],
 	"picture": ""
+},
+{
+	"id": 355,
+	"name": {
+		"first": "Bertrand de",
+		"last": "Bacilly",
+		"alt": ["Bertrand Bénigne de Bacilly/Bacilli/Bassilly"]
+	},
+	"dateBirth": {
+		"yyyy": "1621",
+		"mm": "12",
+		"dd": "21"
+	},
+	"dateDeath": {
+		"yyyy": "1690",
+		"mm": "09",
+		"dd": "27"
+	},
+	"placeBirth": "Lolif, France",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": 284,
+		"type": "Student",
+		"color": "black"
+	}],
+	"color": "blue",
+	"group": ["Singer", "Composer", "Music theorist"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
