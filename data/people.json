@@ -393,6 +393,14 @@
 		"id": 1,
 		"type": "Student",
 		"color": "gray"
+	},{
+		"id": 170,
+		"type": "Student",
+		"color": "gray"
+	},{
+		"id": 362,
+		"type": "Student",
+		"color": "gray"
 	}],
 	"color": "darkBlue",
 	"group": ["Composer"],
@@ -858,9 +866,9 @@
 	"placeBirth": "Venice, Italy",
 	"placeDeath": "Venice, Italy",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 362,
+		"type": "Student",
+		"color": "black"
 	}],
 	"color": "red",
 	"group": ["Violinist", "Singer", "Composer"],
@@ -12349,4 +12357,36 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Louis-Claude_Daquin.jpg/326px-Louis-Claude_Daquin.jpg"
+},
+{
+	"id": 362,
+	"name": {
+		"first": "Giovanni",
+		"last": "Legrenzi",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "b1626",
+		"mm": "08",
+		"dd": "12"
+	},
+	"dateDeath": {
+		"yyyy": "1690",
+		"mm": "05",
+		"dd": "27"
+	},
+	"placeBirth": "Clusone, Italy",
+	"placeDeath": "Venice, Italy",
+	"relationship": [{
+		"id": 276,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "blue",
+	"group": ["Organist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Legrenzi.jpg/398px-Legrenzi.jpg"
 }]
