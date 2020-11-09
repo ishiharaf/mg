@@ -12133,9 +12133,45 @@
 		"id": 284,
 		"type": "Student",
 		"color": "black"
+	},{
+		"id": 356,
+		"type": "Student",
+		"color": "black"
 	}],
 	"color": "blue",
 	"group": ["Singer", "Composer", "Music theorist"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 356,
+	"name": {
+		"first": "Pierre de",
+		"last": "Nyert",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1597",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1682",
+		"mm": "??",
+		"dd": "??"
+	},
+	"placeBirth": "Bayonne, France",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "blue",
+	"group": ["Singer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
