@@ -12378,9 +12378,9 @@
 	"placeBirth": "Clusone, Italy",
 	"placeDeath": "Venice, Italy",
 	"relationship": [{
-		"id": 276,
-		"type": "Student",
-		"color": "gray"
+		"id": "",
+		"type": "",
+		"color": ""
 	}],
 	"color": "blue",
 	"group": ["Organist", "Composer"],
