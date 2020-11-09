@@ -12281,4 +12281,40 @@
 		"extract": ""
 	}],
 	"picture": ""
+},
+{
+	"id": 360,
+	"name": {
+		"first": "Pierre",
+		"last": "Dumage",
+		"alt": ["Pierre du Mage"]
+	},
+	"dateBirth": {
+		"yyyy": "b1674",
+		"mm": "11",
+		"dd": "23"
+	},
+	"dateDeath": {
+		"yyyy": "1751",
+		"mm": "10",
+		"dd": "02"
+	},
+	"placeBirth": "Beauvais, France",
+	"placeDeath": "Laon, France",
+	"relationship": [{
+		"id": 276,
+		"type": "Student",
+		"color": "gray"
+	},{
+		"id": 144,
+		"type": "Friend",
+		"color": "lightBlue"
+	}],
+	"color": "blue",
+	"group": ["Organist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
