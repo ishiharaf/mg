@@ -12317,4 +12317,36 @@
 		"extract": ""
 	}],
 	"picture": ""
+},
+{
+	"id": 361,
+	"name": {
+		"first": "Louis-Claude",
+		"last": "Daquin",
+		"alt": ["Louis-Claude D'Aquino/d'Aquin/d'Acquin"]
+	},
+	"dateBirth": {
+		"yyyy": "1694",
+		"mm": "07",
+		"dd": "04"
+	},
+	"dateDeath": {
+		"yyyy": "1772",
+		"mm": "06",
+		"dd": "15"
+	},
+	"placeBirth": "Paris, France",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": 276,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "blue",
+	"group": ["Organist", "Harpsichordist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
