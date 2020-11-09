@@ -12177,4 +12177,36 @@
 		"extract": ""
 	}],
 	"picture": ""
+},
+{
+	"id": 357,
+	"name": {
+		"first": "Anne Chabanceau de",
+		"last": "La Barre",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "b1628",
+		"mm": "09",
+		"dd": "03"
+	},
+	"dateDeath": {
+		"yyyy": "1688",
+		"mm": "03",
+		"dd": "07"
+	},
+	"placeBirth": "Paris, France",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": 356,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "blue",
+	"group": ["Singer", "Lutenist", "Harpsichordist", "Dancer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
