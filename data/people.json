@@ -9978,9 +9978,9 @@
 	"placeBirth": "Champigny-sur-Veude, France",
 	"placeDeath": "Paris, France",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 356,
+		"type": "Student",
+		"color": "gray"
 	}],
 	"color": "blue",
 	"group": ["Singing master", "Theorbist", "Composer"],
