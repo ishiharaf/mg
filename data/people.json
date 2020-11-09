@@ -10970,9 +10970,9 @@
 	"placeBirth": "Rome, Italy",
 	"placeDeath": "Rome, Italy",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 312,
+		"type": "Acquaintance",
+		"color": "blue"
 	}],
 	"color": "blue",
 	"group": ["Organist", "Composer", "Dancer", "Choreographer", "Diplomat", "Producer"],
