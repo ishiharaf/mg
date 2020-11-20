@@ -430,9 +430,9 @@ const assignOccupation = (person) => {
 	const occupationDiv = document.getElementById("occupation")
 	occupationDiv.innerHTML = ""
 
-	for (let i = 0; i < person.group.length; i++) {
+	for (let i = 0; i < person.occupation.length; i++) {
 		const occNode = document.createElement("span")
-		const occName = person.group[i]
+		const occName = person.occupation[i]
 		const source = checkSource(occName)
 		if(source !== false) {
 			if(i !== 0) occNode.innerHTML = `, ${source.string}`
@@ -781,7 +781,7 @@ const getResult = () => {
 			}
 		}
 
-		const occupation = person.group
+		const occupation = person.occupation
 		if(occFilter !== "") {
 			for (let i = 0; i < occupation.length; i++) {
 				const occName = occupation[i]
