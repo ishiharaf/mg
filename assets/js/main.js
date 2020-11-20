@@ -432,7 +432,7 @@ const assignGroup = (person) => {
 	groupDiv.innerHTML = ""
 
 	if(person.group[0] !== ""){
-		groupDiv.style.paddingBottom = "0.5rem"
+		groupDiv.style.paddingBottom = "1rem"
 
 		for (let i = 0; i < person.group.length; i++) {
 			const groupNode = document.createElement("span")
