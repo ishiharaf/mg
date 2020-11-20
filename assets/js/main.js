@@ -61,8 +61,8 @@ const defaultLayout = {
 	hierarchical: {
 		enabled: true,
 		direction: "UD",
-		levelSeparation: 30,
-		treeSpacing: 200,
+		levelSeparation: 50,
+		treeSpacing: 500,
 		sortMethod: "hubsize"
 	}
 }
