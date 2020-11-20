@@ -106,7 +106,8 @@ const drawNetwork = (userLayout, userArrows) => {
 		physics:{
 			enabled: true,
 			hierarchicalRepulsion: {
-				avoidOverlap: 1
+				avoidOverlap: 1,
+				nodeDistance: 200
 			}
 		}
 	}
