@@ -984,6 +984,10 @@
 		"id": 36,
 		"type": "Employee",
 		"color": "green"
+	},{
+		"id": 363,
+		"type": "Student",
+		"color": "gray"
 	}],
 	"color": "red",
 	"group": [""],
@@ -12751,4 +12755,37 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Legrenzi.jpg/398px-Legrenzi.jpg"
+},
+{
+	"id": 363,
+	"name": {
+		"first": "Pierre-Gabriel",
+		"last": "Buffardin",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1693",
+		"mm": "03",
+		"dd": "24"
+	},
+	"dateDeath": {
+		"yyyy": "1768",
+		"mm": "01",
+		"dd": "13"
+	},
+	"placeBirth": "Paris, France",
+	"placeDeath": "Toulon, France",
+	"relationship": [{
+		"id": 38,
+		"type": "Acquaintance",
+		"color": "blue"
+	}],
+	"color": "blue",
+	"group": [""],
+	"occupation": ["Flutist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Buffardin_-_portrait.jpg/491px-Buffardin_-_portrait.jpg"
 }]
