@@ -3517,7 +3517,7 @@
 		"color": "green"
 	}],
 	"color": "red",
-	"group": [""],
+	"group": ["Florentine Camerata"],
 	"occupation": ["Singer", "Harpist", "Composer"],
 	"source": [{
 		"citation": "",
@@ -3838,7 +3838,7 @@
 		"color": "green"
 	}],
 	"color": "blue",
-	"group": [""],
+	"group": ["Florentine Camerata"],
 	"occupation": ["Instrumentalist", "Composer", "Diplomat"],
 	"source": [{
 		"citation": "",
@@ -10989,7 +10989,7 @@
 		"color": "green"
 	}],
 	"color": "blue",
-	"group": [""],
+	"group": ["Florentine Camerata"],
 	"occupation": ["Organist", "Composer"],
 	"source": [{
 		"citation": "",
@@ -11022,7 +11022,7 @@
 		"color": ""
 	}],
 	"color": "darkRed",
-	"group": [""],
+	"group": ["Florentine Camerata"],
 	"occupation": ["Count of Vernio", "Literary critic", "Writer", "Composer", "Soldier"],
 	"source": [{
 		"citation": "",
@@ -11033,7 +11033,7 @@
 {
 	"id": 313,
 	"name": {
-		"first": "Piero",
+		"first": "Pietro",
 		"last": "Strozzi",
 		"alt": ["Pietro Strozzi"]
 	},
@@ -11059,7 +11059,7 @@
 		"color": "green"
 	}],
 	"color": "green",
-	"group": [""],
+	"group": ["Florentine Camerata"],
 	"occupation": ["Nobleman", "Composer"],
 	"source": [{
 		"citation": "",
@@ -11092,7 +11092,7 @@
 		"color": "green"
 	}],
 	"color": "gray",
-	"group": [""],
+	"group": ["Florentine Camerata"],
 	"occupation": ["Historian", "Humanist"],
 	"source": [{
 		"citation": "",
@@ -11129,7 +11129,7 @@
 		"color": "gray"
 	}],
 	"color": "blue",
-	"group": [""],
+	"group": ["Florentine Camerata"],
 	"occupation": ["Lutenist", "Composer", "Music theorist"],
 	"source": [{
 		"citation": "",
@@ -11269,7 +11269,7 @@
 		"color": "green"
 	}],
 	"color": "darkRed",
-	"group": [""],
+	"group": ["Florentine Camerata"],
 	"occupation": ["Poet", "Courtier", "Librettist"],
 	"source": [{
 		"citation": "",
@@ -11302,7 +11302,7 @@
 		"color": "blue"
 	}],
 	"color": "blue",
-	"group": [""],
+	"group": ["Florentine Camerata"],
 	"occupation": ["Organist", "Composer", "Dancer", "Choreographer", "Diplomat", "Producer"],
 	"source": [{
 		"citation": "",
