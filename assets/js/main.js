@@ -431,7 +431,7 @@ const assignGroup = (person) => {
 	const groupDiv = document.getElementById("group")
 	groupDiv.innerHTML = ""
 
-	if(person.name.group[0] !== ""){
+	if(person.group[0] !== ""){
 		groupDiv.style.paddingBottom = "0.5rem"
 
 		for (let i = 0; i < person.group.length; i++) {
