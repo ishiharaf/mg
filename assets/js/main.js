@@ -431,27 +431,31 @@ const assignGroup = (person) => {
 	const groupDiv = document.getElementById("group")
 	groupDiv.innerHTML = ""
 
-	for (let i = 0; i < person.group.length; i++) {
-		const groupNode = document.createElement("span")
-		const groupName = person.group[i]
-		const source = checkSource(groupName)
-		groupNode.className = "groupNode"
+	if(person.name.group[0] !== ""){
+		groupDiv.style.paddingBottom = "0.5rem"
 
-		if(source !== false) {
-			if(i !== 0) groupNode.innerHTML = `, ${source.string}`
-			else groupNode.innerHTML = source.string
-			groupNode.addEventListener("click", () => {
-				highlightGroup(source.string)
-			})
-			groupDiv.appendChild(groupNode)
-			groupDiv.appendChild(source.node)
-		} else {
-			if(i !== 0) groupNode.innerHTML += `, ${groupName}`
-			else groupNode.innerHTML = groupName
-			groupNode.addEventListener("click", () => {
-				highlightGroup(groupName)
-			})
-			groupDiv.appendChild(groupNode)
+		for (let i = 0; i < person.group.length; i++) {
+			const groupNode = document.createElement("span")
+			const groupName = person.group[i]
+			const source = checkSource(groupName)
+			groupNode.className = "groupNode"
+
+			if(source !== false) {
+				if(i !== 0) groupNode.innerHTML = `, ${source.string}`
+				else groupNode.innerHTML = source.string
+				groupNode.addEventListener("click", () => {
+					highlightGroup(source.string)
+				})
+				groupDiv.appendChild(groupNode)
+				groupDiv.appendChild(source.node)
+			} else {
+				if(i !== 0) groupNode.innerHTML += `, ${groupName}`
+				else groupNode.innerHTML = groupName
+				groupNode.addEventListener("click", () => {
+					highlightGroup(groupName)
+				})
+				groupDiv.appendChild(groupNode)
+			}
 		}
 	}
 }
