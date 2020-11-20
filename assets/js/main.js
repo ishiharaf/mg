@@ -427,6 +427,27 @@ const assignBirth = (person) => {
 	}
 }
 
+const assignGroup = (person) => {
+	const groupDiv = document.getElementById("group")
+	groupDiv.innerHTML = ""
+
+	for (let i = 0; i < person.group.length; i++) {
+		const groupNode = document.createElement("span")
+		const groupName = person.group[i]
+		const source = checkSource(groupName)
+		if(source !== false) {
+			if(i !== 0) groupNode.innerHTML = `, ${source.string}`
+			else groupNode.innerHTML = source.string
+			groupDiv.appendChild(groupNode)
+			groupDiv.appendChild(source.node)
+		} else {
+			if(i !== 0) groupNode.innerHTML += `, ${groupName}`
+			else groupNode.innerHTML = groupName
+			groupDiv.appendChild(groupNode)
+		}
+	}
+}
+
 const assignOccupation = (person) => {
 	const occupationDiv = document.getElementById("occupation")
 	occupationDiv.innerHTML = ""
@@ -926,6 +947,7 @@ const openInfoCard = (params) => {
 		assignAlt(selPerson)
 		assignBirth(selPerson)
 		assignOccupation(selPerson)
+		assignGroup(selPerson)
 		assignRelation(selPerson, relatedPeople)
 		assignImg(selPerson)
 
