@@ -457,6 +457,8 @@ const assignGroup = (person) => {
 				groupDiv.appendChild(groupNode)
 			}
 		}
+	} else {
+		groupDiv.style.paddingBottom = ""
 	}
 }
 
