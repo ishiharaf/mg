@@ -688,6 +688,56 @@ const highlightResult = (selNodes) => {
 	edges.update(updateEdges)
 }
 
+const getGroup = (name) => {
+	const groupRegExp = new RegExp(name, "ig")
+	let matchAll = []
+
+	for (let i = 0; i < people.length; i++) {
+		const person = people[i]
+		const id = person.id
+		const group = person.group
+
+		for (let i = 0; i < group.length; i++) {
+			const groupName = group[i]
+			if(groupName.match(groupRegExp)) matchAll.push(id)
+		}
+	}
+
+	const result = Array.from(new Set(matchAll))
+	return result
+}
+
+const highlightGroup = (name) => {
+	const selNodes = getGroup(name)
+	highlight = true
+
+	let updateNodes = []
+	for (let nodeId in nodeData) {
+		nodeData[nodeId].opacity = 0.3
+		nodeData[nodeId].label = undefined
+		updateNodes.push(nodeData[nodeId])
+	}
+
+	let updateEdges = []
+	for (let edgeId in edgeData) {
+		edgeData[edgeId].color = {
+			color: edgeColor[edgeId],
+			opacity: 0.3
+		}
+		edgeData[edgeId].width = 1
+		updateEdges.push(edgeData[edgeId])
+	}
+
+	for (let i = 0; i < selNodes.length; i++) {
+		nodeData[selNodes[i]].opacity = 1
+		nodeData[selNodes[i]].label = nodeData[selNodes[i]].hiddenLabel
+	}
+
+	network.selectNodes(selNodes, false)
+	nodes.update(updateNodes)
+	edges.update(updateEdges)
+}
+
 const getArrows = () => {
 	const arrowType = String(document.getElementById("arrowTypeSel").value)
 	const forceDirection = String(document.getElementById("forceDirectionSel").value)
