@@ -3243,6 +3243,10 @@
 		"id": 94,
 		"type": "Employee",
 		"color": "green"
+	},{
+		"id": 364,
+		"type": "Coworker",
+		"color": "green"
 	}],
 	"color": "blue",
 	"group": [""],
@@ -3877,6 +3881,10 @@
 		"id": 108,
 		"type": "Son",
 		"color": "red"
+	},{
+		"id": 364,
+		"type": "Coworker",
+		"color": "green"
 	}],
 	"color": "gray",
 	"group": [""],
@@ -8779,10 +8787,14 @@
 		"id": 311,
 		"type": "Student",
 		"color": "gray"
+	},{
+		"id": 364,
+		"type": "Acquaintance",
+		"color": "blue"
 	}],
 	"color": "red",
 	"group": [""],
-	"occupation": ["Singer", "Composer"],
+	"occupation": ["Tenor", "Organist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -8814,7 +8826,7 @@
 		"color": ""
 	}],
 	"color": "green",
-	"group": [""],
+	"group": ["Accademia degli Alterati"],
 	"occupation": ["Patron", "Composer"],
 	"source": [{
 		"citation": "",
@@ -11026,7 +11038,7 @@
 		"color": ""
 	}],
 	"color": "darkRed",
-	"group": ["Florentine Camerata"],
+	"group": ["Florentine Camerata", "Accademia degli Alterati"],
 	"occupation": ["Count of Vernio", "Literary critic", "Writer", "Composer", "Soldier"],
 	"source": [{
 		"citation": "",
@@ -11096,7 +11108,7 @@
 		"color": "green"
 	}],
 	"color": "gray",
-	"group": ["Florentine Camerata"],
+	"group": ["Florentine Camerata", "Accademia degli Alterati"],
 	"occupation": ["Historian", "Humanist"],
 	"source": [{
 		"citation": "",
@@ -11271,6 +11283,10 @@
 		"id": 312,
 		"type": "Patronee",
 		"color": "green"
+	},{
+		"id": 364,
+		"type": "Acquaintance",
+		"color": "blue"
 	}],
 	"color": "darkRed",
 	"group": ["Florentine Camerata"],
@@ -12788,4 +12804,37 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Buffardin_-_portrait.jpg/491px-Buffardin_-_portrait.jpg"
+},
+{
+	"id": 364,
+	"name": {
+		"first": "Gabriello",
+		"last": "Chiabrebra",
+		"alt": ["Italian Pindar"]
+	},
+	"dateBirth": {
+		"yyyy": "1552",
+		"mm": "06",
+		"dd": "18"
+	},
+	"dateDeath": {
+		"yyyy": "1638",
+		"mm": "10",
+		"dd": "14"
+	},
+	"placeBirth": "Savona, Italy",
+	"placeDeath": "Savona, Italy",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "gray",
+	"group": ["Accademia degli Alterati"],
+	"occupation": ["Poet"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Ottavio_Leoni%2C_Gabriello_Chiabrera%2C_1625%2C_NGA_159736.jpg/469px-Ottavio_Leoni%2C_Gabriello_Chiabrera%2C_1625%2C_NGA_159736.jpg"
 }]
