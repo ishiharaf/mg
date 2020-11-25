@@ -27,7 +27,7 @@
 		"color": "blue"
 	}],
 	"color": "red",
-	"group": [""],
+	"group": ["Accademia dell'Arcadia"],
 	"occupation": ["Violinist", "Composer"],
 	"source": [{
 		"citation": "https://en.wikipedia.org/wiki/Bernardo_Pasquini",
@@ -427,7 +427,7 @@
 	"name": {
 		"first": "Alessandro",
 		"last": "Scarlatti",
-		"alt": ["Pietro Alessandro Gaspare Scarlatti"]
+		"alt": ["Pietro Alessandro Gaspare Scarlatti", "Terpandro Azeriano"]
 	},
 	"dateBirth": {
 		"yyyy": "1660",
@@ -447,7 +447,7 @@
 		"color": "blue"
 	}],
 	"color": "darkBlue",
-	"group": [""],
+	"group": ["Accademia dell'Arcadia"],
 	"occupation": ["Composer"],
 	"source": [{
 		"citation": "https://en.wikipedia.org/wiki/Bernardo_Pasquini",
@@ -769,7 +769,7 @@
 	"name": {
 		"first": "Benedetto",
 		"last": "Marcello",
-		"alt": ["Benedetto Giacomo Marcello"]
+		"alt": ["Benedetto Giacomo Marcello", "Driante Sacreo"]
 	},
 	"dateBirth": {
 		"yyyy": "1686",
@@ -797,7 +797,7 @@
 		"color": "red"
 	}],
 	"color": "darkBlue",
-	"group": [""],
+	"group": ["Accademia dell'Arcadia"],
 	"occupation": ["Composer", "Writer", "Advocate", "Magistrate", "Teacher"],
 	"source": [{
 		"citation": "",
@@ -843,7 +843,7 @@
 	"name": {
 		"first": "Alessandro",
 		"last": "Marcello",
-		"alt": ["Alessandro Ignazio Marcello"]
+		"alt": ["Alessandro Ignazio Marcello", "Eterio Stinfalico"]
 	},
 	"dateBirth": {
 		"yyyy": "1673",
@@ -863,7 +863,7 @@
 		"color": ""
 	}],
 	"color": "green",
-	"group": [""],
+	"group": ["Accademia dell'Arcadia"],
 	"occupation": ["Composer", "Nobleman"],
 	"source": [{
 		"citation": "",
@@ -3142,7 +3142,7 @@
 		"color": "green"
 	}],
 	"color": "darkBlue",
-	"group": [""],
+	"group": ["Accademia dell'Arcadia"],
 	"occupation": ["Composer"],
 	"source": [{
 		"citation": "",
@@ -5588,7 +5588,7 @@
 	"name": {
 		"first": "Giuseppe",
 		"last": "Valentini",
-		"alt": ["Straccioncino (Little Ragamuffin)"]
+		"alt": ["Straccioncino (Little Ragamuffin)", "Euginaspe Leupinto"]
 	},
 	"dateBirth": {
 		"yyyy": "1681",
@@ -5612,7 +5612,7 @@
 		"color": "gray"
 	}],
 	"color": "blue",
-	"group": [""],
+	"group": ["Accademia dell'Arcadia"],
 	"occupation": ["Violinist", "Painter", "Poet", "Composer"],
 	"source": [{
 		"citation": "",
@@ -5657,7 +5657,7 @@
 		"color": "green"
 	}],
 	"color": "blue",
-	"group": [""],
+	"group": ["Accademia dell'Arcadia"],
 	"occupation": ["Cellist", "Singer", "Teacher", "Composer"],
 	"source": [{
 		"citation": "",
@@ -6028,7 +6028,7 @@
 	"name": {
 		"first": "Bernardo",
 		"last": "Pasquini",
-		"alt": [""]
+		"alt": ["Protico Azeriano"]
 	},
 	"dateBirth": {
 		"yyyy": "1637",
@@ -6048,7 +6048,7 @@
 		"color": ""
 	}],
 	"color": "blue",
-	"group": [""],
+	"group": ["Accademia dell'Arcadia"],
 	"occupation": ["Keyboard player", "Composer"],
 	"source": [{
 		"citation": "",
