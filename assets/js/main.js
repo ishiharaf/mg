@@ -705,7 +705,7 @@ const getGroup = (name) => {
 		const group = person.group
 
 		for (let i = 0; i < group.length; i++) {
-			const groupName = group[i]
+			const groupName = group[i].replace("(", "").replace(")", "")
 			if(groupName.match(groupRegExp)) matchAll.push(id)
 		}
 	}
