@@ -8402,7 +8402,7 @@
 		"color": "red"
 	}],
 	"color": "darkGreen",
-	"group": [""],
+	"group": ["Accademia degli Elevati"],
 	"occupation": ["Duke of Mantua", "Duke of Montferrat"],
 	"source": [{
 		"citation": "",
@@ -8793,7 +8793,7 @@
 		"color": "blue"
 	}],
 	"color": "red",
-	"group": [""],
+	"group": ["Accademia degli Elevati"],
 	"occupation": ["Tenor", "Organist", "Composer"],
 	"source": [{
 		"citation": "",
@@ -11038,7 +11038,7 @@
 		"color": ""
 	}],
 	"color": "darkRed",
-	"group": ["Florentine Camerata", "Accademia degli Alterati"],
+	"group": ["Florentine Camerata", "Accademia degli Alterati", "Accademia degli Elevati"],
 	"occupation": ["Count of Vernio", "Literary critic", "Writer", "Composer", "Soldier"],
 	"source": [{
 		"citation": "",
@@ -11075,7 +11075,7 @@
 		"color": "green"
 	}],
 	"color": "green",
-	"group": ["Florentine Camerata"],
+	"group": ["Florentine Camerata", "Accademia degli Elevati"],
 	"occupation": ["Nobleman", "Composer"],
 	"source": [{
 		"citation": "",
@@ -11213,6 +11213,10 @@
 		"id": 318,
 		"type": "Student",
 		"color": "gray"
+	},{
+		"id": 366,
+		"type": "Acquaintance",
+		"color": "gray"
 	}],
 	"color": "darkBlue",
 	"group": ["Accademia degli Elevati"],
@@ -11289,7 +11293,7 @@
 		"color": "blue"
 	}],
 	"color": "darkRed",
-	"group": ["Florentine Camerata", "Accademia degli Alterati"],
+	"group": ["Florentine Camerata", "Accademia degli Alterati", "Accademia degli Elevati"],
 	"occupation": ["Poet", "Courtier", "Librettist"],
 	"source": [{
 		"citation": "",
@@ -12865,6 +12869,39 @@
 	"color": "blue",
 	"group": ["Accademia degli Elevati"],
 	"occupation": ["Violinist", "Conductor", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 366,
+	"name": {
+		"first": "Giovanni",
+		"last": "Cavaccio",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "c1556",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1626",
+		"mm": "08",
+		"dd": "11"
+	},
+	"placeBirth": "Bergamo, Italy",
+	"placeDeath": "Bergamo, Italy",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "blue",
+	"group": ["Accademia degli Elevati"],
+	"occupation": ["Singer", "Organist", "Composer", "Poet"],
 	"source": [{
 		"citation": "",
 		"extract": ""
