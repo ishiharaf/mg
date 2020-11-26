@@ -12837,4 +12837,37 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Ottavio_Leoni%2C_Gabriello_Chiabrera%2C_1625%2C_NGA_159736.jpg/469px-Ottavio_Leoni%2C_Gabriello_Chiabrera%2C_1625%2C_NGA_159736.jpg"
+},
+{
+	"id": 365,
+	"name": {
+		"first": "Marc'Antonio",
+		"last": "dal Violin",
+		"alt": ["Marcus Antonius Furlanus", "Marc'Antonio da Pordenon/dalla Viola"]
+	},
+	"dateBirth": {
+		"yyyy": "c1535",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1586",
+		"mm": "09",
+		"dd": "??"
+	},
+	"placeBirth": "Pordenone, Italy (?)",
+	"placeDeath": "Padua, Italy (?)",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "blue",
+	"group": ["Accademia degli Elevati"],
+	"occupation": ["Violinist", "Conductor", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
 }]
