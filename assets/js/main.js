@@ -695,7 +695,8 @@ const highlightResult = (selNodes) => {
 }
 
 const getGroup = (name) => {
-	const groupRegExp = new RegExp(name, "ig")
+	const parsedName = name.replace("(", "").replace(")", "")
+	const groupRegExp = new RegExp(parsedName, "ig")
 	let matchAll = []
 
 	for (let i = 0; i < people.length; i++) {
