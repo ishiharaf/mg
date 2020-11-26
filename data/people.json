@@ -3277,12 +3277,12 @@
 	"placeBirth": "Verona, Italy",
 	"placeDeath": "Cremona, Italy",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 234,
+		"type": "Acquaintance",
+		"color": "blue"
 	}],
 	"color": "blue",
-	"group": [""],
+	"group": ["Accademia degli Elevati"],
 	"occupation": ["String Player", "Organist", "Composer"],
 	"source": [{
 		"citation": "",
