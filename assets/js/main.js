@@ -796,11 +796,13 @@ const getHierarchy = () => {
 
 const getResult = () => {
 	const nameFilter = String(document.getElementById("nameFilterBox").value)
+	const groupFilter = String(document.getElementById("groupFilterBox").value).replace("(", "").replace(")", "")
 	const occFilter = String(document.getElementById("occFilterBox").value)
 	const placeFilter = String(document.getElementById("birthPlaceFilterBox").value)
 	const dateFilter = String(document.getElementById("birthDateFilterBox").value)
 
 	const nameRegExp = new RegExp(nameFilter, "ig")
+	const groupRegExp = new RegExp(groupFilter, "ig")
 	const occRegExp = new RegExp(occFilter, "ig")
 	const placeRegExp = new RegExp(placeFilter, "ig")
 	let dateRegExp
@@ -865,6 +867,14 @@ const getResult = () => {
 					const altName = alt[i]
 					if(altName.match(nameRegExp)) matchAll.push(id)
 				}
+			}
+		}
+
+		const group = person.group
+		if(groupFilter !== "") {
+			for (let i = 0; i < group.length; i++) {
+				const groupName = group[i].replace("(", "").replace(")", "")
+				if(groupName.match(groupRegExp)) matchAll.push(id)
 			}
 		}
 
