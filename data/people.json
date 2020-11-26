@@ -5410,7 +5410,7 @@
 		"color": ""
 	}],
 	"color": "blue",
-	"group": ["French organ school"],
+	"group": ["French organ school (1st)"],
 	"occupation": ["Organist", "Composer"],
 	"source": [{
 		"citation": "",
@@ -5443,7 +5443,7 @@
 		"color": ""
 	}],
 	"color": "blue",
-	"group": ["French organ school"],
+	"group": ["French organ school (1st)"],
 	"occupation": ["Organist", "Composer"],
 	"source": [{
 		"citation": "",
@@ -9357,7 +9357,7 @@
 		"color": "blue"
 	}],
 	"color": "red",
-	"group": ["French organ school"],
+	"group": ["French organ school (1st)"],
 	"occupation": ["Organist", "Composer", "Priest", "Poet"],
 	"source": [{
 		"citation": "",
@@ -9394,7 +9394,7 @@
 		"color": "blue"
 	}],
 	"color": "red",
-	"group": ["French organ school"],
+	"group": ["French organ school (1st)"],
 	"occupation": ["Organist", "Harpsichordist", "Gambist", "Composer"],
 	"source": [{
 		"citation": "",
@@ -9460,7 +9460,7 @@
 		"color": "lightBlue"
 	}],
 	"color": "blue",
-	"group": ["French organ school"],
+	"group": ["French organ school (1st)"],
 	"occupation": ["Organist", "Composer"],
 	"source": [{
 		"citation": "",
