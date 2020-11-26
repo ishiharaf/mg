@@ -12938,7 +12938,7 @@
 		"dd": "28"
 	},
 	"placeBirth": "Karevo, Russian Empire",
-	"placeDeath": "Saint Petersburg, Russian Empire",
+	"placeDeath": "St. Petersburg, Russian Empire",
 	"relationship": [{
 		"id": 368,
 		"type": "Acquaintance",
@@ -12970,8 +12970,8 @@
 		"mm": "02",
 		"dd": "27"
 	},
-	"placeBirth": "Saint Petersburg, Russian Empire",
-	"placeDeath": "Saint Petersburg, Russian Empire",
+	"placeBirth": "St. Petersburg, Russian Empire",
+	"placeDeath": "St. Petersburg, Russian Empire",
 	"relationship": [{
 		"id": 369,
 		"type": "Student",
@@ -13004,7 +13004,7 @@
 		"dd": "29"
 	},
 	"placeBirth": "Nizhny Novgorod, Russian Empire",
-	"placeDeath": "Saint Petersburg, Russian Empire",
+	"placeDeath": "St. Petersburg, Russian Empire",
 	"relationship": [{
 		"id": 370,
 		"type": "Acquaintance",
