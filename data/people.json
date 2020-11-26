@@ -13006,9 +13006,9 @@
 	"placeBirth": "Nizhny Novgorod, Russian Empire",
 	"placeDeath": "Saint Petersburg, Russian Empire",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 370,
+		"type": "Acquaintance",
+		"color": "blue"
 	}],
 	"color": "darkBlue",
 	"group": ["The Five"],
@@ -13018,4 +13018,37 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Milij_Aleksejevi%C4%8D_Balakirev_%28%D0%9C%D0%B8%D0%BB%D0%B8%D0%B9_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B5%D0%B5%D0%B2%D0%B8%D1%87_%D0%91%D0%B0%D0%BB%D0%B0%CC%81%D0%BA%D0%B8%D1%80%D0%B5%D0%B2%29.jpg"
+},
+{
+	"id": 370,
+	"name": {
+		"first": "César",
+		"last": "Cui",
+		"alt": ["César Antonovich Cui", "Cesarius Benjaminus Cui"]
+	},
+	"dateBirth": {
+		"yyyy": "1835",
+		"mm": "01",
+		"dd": "18"
+	},
+	"dateDeath": {
+		"yyyy": "1918",
+		"mm": "03",
+		"dd": "13"
+	},
+	"placeBirth": "Vilnius, Russian Empire",
+	"placeDeath": "Petrograd, Russian SFSR",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "darkBlue",
+	"group": ["The Five"],
+	"occupation": ["Composer", "Music critic"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Cesar_cui.jpg"
 }]
