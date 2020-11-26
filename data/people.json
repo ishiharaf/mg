@@ -12936,9 +12936,9 @@
 	"placeBirth": "Karevo, Russian Empire",
 	"placeDeath": "Saint Petersburg, Russian Empire",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 368,
+		"type": "Acquaintance",
+		"color": "blue"
 	}],
 	"color": "darkBlue",
 	"group": ["The Five"],
@@ -12948,4 +12948,37 @@
 		"extract": ""
 	}],
 	"picture": "https://upload.wikimedia.org/wikipedia/commons/d/db/Modest_Musorgskiy%2C_1870.jpg"
+},
+{
+	"id": 368,
+	"name": {
+		"first": "Alexander",
+		"last": "Borodin",
+		"alt": ["Alexander Porfiryevich Borodin"]
+	},
+	"dateBirth": {
+		"yyyy": "1833",
+		"mm": "11",
+		"dd": "12"
+	},
+	"dateDeath": {
+		"yyyy": "1887",
+		"mm": "02",
+		"dd": "27"
+	},
+	"placeBirth": "Saint Petersburg, Russian Empire",
+	"placeDeath": "Saint Petersburg, Russian Empire",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "darkBlue",
+	"group": ["The Five"],
+	"occupation": ["Composer", "Chemist"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/7/70/Borodin.jpg"
 }]
