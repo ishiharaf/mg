@@ -8821,9 +8821,17 @@
 	"placeBirth": "Italy",
 	"placeDeath": "Italy",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 318,
+		"type": "Student",
+		"color": "gray"
+	},{
+		"id": 311,
+		"type": "Student",
+		"color": "gray"
+	},{
+		"id": 315,
+		"type": "Student",
+		"color": "black"
 	}],
 	"color": "green",
 	"group": ["Accademia degli Alterati"],
