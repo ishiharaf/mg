@@ -12915,4 +12915,37 @@
 		"extract": ""
 	}],
 	"picture": ""
+},
+{
+	"id": 367,
+	"name": {
+		"first": "Modest",
+		"last": "Mussorgsky",
+		"alt": ["Modest Petrovich Mussorgsky"]
+	},
+	"dateBirth": {
+		"yyyy": "1839",
+		"mm": "03",
+		"dd": "21"
+	},
+	"dateDeath": {
+		"yyyy": "1881",
+		"mm": "03",
+		"dd": "28"
+	},
+	"placeBirth": "Karevo, Russian Empire",
+	"placeDeath": "Saint Petersburg, Russian Empire",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "darkBlue",
+	"group": ["The Five"],
+	"occupation": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/d/db/Modest_Musorgskiy%2C_1870.jpg"
 }]
