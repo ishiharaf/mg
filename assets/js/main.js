@@ -421,8 +421,13 @@ const assignBirth = (person) => {
 			birthDiv.appendChild(birthNode)
 			birthDiv.appendChild(source.node)
 		} else {
-			birthNode.innerHTML = birthStr[i]
-			birthDiv.appendChild(birthNode)
+			if(birthStr[i] === " ~ ") {
+				const breakNode = document.createElement("br")
+				birthDiv.appendChild(breakNode)
+			} else {
+				birthNode.innerHTML = birthStr[i]
+				birthDiv.appendChild(birthNode)
+			}
 		}
 	}
 }
