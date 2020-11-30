@@ -19,6 +19,7 @@ body {
 #infoCard {
 	width: auto;
 	height: auto;
+	max-width: 50%;
 	background-color: #403d39;
 	position: absolute;
 	top: 3.5rem;
@@ -84,7 +85,7 @@ body {
 	font-size: 3rem;
 	padding-bottom: 0.5rem;
 }
-#alt {
+#alt, #group {
 	text-align: center;
 	font-size: 1.3rem;
 	color: #adadad;
@@ -104,6 +105,11 @@ body {
 	font-size: 1.3rem;
 }
 .relatedNode {
+	cursor: pointer;
+	text-decoration: underline;
+	text-decoration-color: #adadad;
+}
+.groupNode {
 	cursor: pointer;
 	text-decoration: underline;
 	text-decoration-color: #adadad;
