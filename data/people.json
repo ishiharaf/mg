@@ -27,7 +27,8 @@
 		"color": "blue"
 	}],
 	"color": "red",
-	"group": ["Violinist", "Composer"],
+	"group": ["Accademia dell'Arcadia"],
+	"occupation": ["Violinist", "Composer"],
 	"source": [{
 		"citation": "https://en.wikipedia.org/wiki/Bernardo_Pasquini",
 		"extract": "Together with Arcangelo Corelli and Alessandro Scarlatti, in 1706 Pasquini became member of the Academy of Arcadia."
@@ -67,7 +68,8 @@
 		"color": "black"
 	}],
 	"color": "red",
-	"group": ["Violinist", "Composer", "Music Theorist"],
+	"group": [""],
+	"occupation": ["Violinist", "Composer", "Music Theorist"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -99,7 +101,8 @@
 		"color": "gray"
 	}],
 	"color": "red",
-	"group": ["Violinist", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -131,7 +134,8 @@
 		"color": "gray"
 	}],
 	"color": "blue",
-	"group": ["Violinist", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -163,7 +167,8 @@
 		"color": "gray"
 	}],
 	"color": "blue",
-	"group": ["Violinist", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -195,7 +200,8 @@
 		"color": "gray"
 	}],
 	"color": "blue",
-	"group": ["Violinist", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -231,7 +237,8 @@
 		"color": "blue"
 	}],
 	"color": "red",
-	"group": ["Violinist", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -267,7 +274,8 @@
 		"color": "black"
 	}],
 	"color": "blue",
-	"group": ["Violinist", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -299,7 +307,8 @@
 		"color": "gray"
 	}],
 	"color": "blue",
-	"group": ["Violinist", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -331,7 +340,8 @@
 		"color": "black"
 	}],
 	"color": "darkBlue",
-	"group": ["Priest", "Composer"],
+	"group": [""],
+	"occupation": ["Priest", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -363,7 +373,8 @@
 		"color": "black"
 	}],
 	"color": "darkBlue",
-	"group": ["Composer"],
+	"group": [""],
+	"occupation": ["Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -393,9 +404,18 @@
 		"id": 1,
 		"type": "Student",
 		"color": "gray"
+	},{
+		"id": 170,
+		"type": "Student",
+		"color": "gray"
+	},{
+		"id": 362,
+		"type": "Student",
+		"color": "gray"
 	}],
 	"color": "darkBlue",
-	"group": ["Composer"],
+	"group": [""],
+	"occupation": ["Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -407,7 +427,7 @@
 	"name": {
 		"first": "Alessandro",
 		"last": "Scarlatti",
-		"alt": ["Pietro Alessandro Gaspare Scarlatti"]
+		"alt": ["Pietro Alessandro Gaspare Scarlatti", "Terpandro Azeriano"]
 	},
 	"dateBirth": {
 		"yyyy": "1660",
@@ -427,7 +447,8 @@
 		"color": "blue"
 	}],
 	"color": "darkBlue",
-	"group": ["Composer"],
+	"group": ["Accademia dell'Arcadia"],
+	"occupation": ["Composer"],
 	"source": [{
 		"citation": "https://en.wikipedia.org/wiki/Bernardo_Pasquini",
 		"extract": "Together with Arcangelo Corelli and Alessandro Scarlatti, in 1706 Pasquini became member of the Academy of Arcadia."
@@ -459,7 +480,8 @@
 		"color": "lightBlue"
 	}],
 	"color": "red",
-	"group": ["Violinist", "Composer", "Singer"],
+	"group": [""],
+	"occupation": ["Violinist", "Composer", "Singer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -491,7 +513,8 @@
 		"color": "gray"
 	}],
 	"color": "darkBlue",
-	"group": ["Composer"],
+	"group": [""],
+	"occupation": ["Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -523,7 +546,8 @@
 		"color": "lightBlue"
 	}],
 	"color": "blue",
-	"group": ["Violinist", "Composer", "Conductor"],
+	"group": [""],
+	"occupation": ["Violinist", "Composer", "Conductor"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -555,7 +579,8 @@
 		"color": "gray"
 	}],
 	"color": "blue",
-	"group": ["Violinist", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -585,9 +610,14 @@
 		"id": 19,
 		"type": "Older Brother",
 		"color": "red"
+	},{
+		"id": 350,
+		"type": "Employee",
+		"color": "green"
 	}],
 	"color": "blue",
-	"group": ["Violinist", "Lutenist", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Lutenist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -619,7 +649,8 @@
 		"color": "gray"
 	}],
 	"color": "blue",
-	"group": ["Violinist", "Lutenist", "Organist"],
+	"group": [""],
+	"occupation": ["Violinist", "Lutenist", "Organist"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -659,7 +690,8 @@
 		"color": "red"
 	}],
 	"color": "blue",
-	"group": ["Singer"],
+	"group": [""],
+	"occupation": ["Singer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -691,7 +723,8 @@
 		"color": "black"
 	}],
 	"color": "gray",
-	"group": ["Poet", "Dramatist", "Songwriter"],
+	"group": [""],
+	"occupation": ["Poet", "Dramatist", "Songwriter"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -723,7 +756,8 @@
 		"color": "gray"
 	}],
 	"color": "blue",
-	"group": ["Violinist", "Violist", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Violist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -735,7 +769,7 @@
 	"name": {
 		"first": "Benedetto",
 		"last": "Marcello",
-		"alt": ["Benedetto Giacomo Marcello"]
+		"alt": ["Benedetto Giacomo Marcello", "Driante Sacreo"]
 	},
 	"dateBirth": {
 		"yyyy": "1686",
@@ -763,7 +797,8 @@
 		"color": "red"
 	}],
 	"color": "darkBlue",
-	"group": ["Composer", "Writer", "Advocate", "Magistrate", "Teacher"],
+	"group": ["Accademia dell'Arcadia"],
+	"occupation": ["Composer", "Writer", "Advocate", "Magistrate", "Teacher"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -795,7 +830,8 @@
 		"color": ""
 	}],
 	"color": "darkBlue",
-	"group": ["Composer"],
+	"group": [""],
+	"occupation": ["Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -807,7 +843,7 @@
 	"name": {
 		"first": "Alessandro",
 		"last": "Marcello",
-		"alt": ["Alessandro Ignazio Marcello"]
+		"alt": ["Alessandro Ignazio Marcello", "Eterio Stinfalico"]
 	},
 	"dateBirth": {
 		"yyyy": "1673",
@@ -827,7 +863,8 @@
 		"color": ""
 	}],
 	"color": "green",
-	"group": ["Composer", "Nobleman"],
+	"group": ["Accademia dell'Arcadia"],
+	"occupation": ["Composer", "Nobleman"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -854,12 +891,13 @@
 	"placeBirth": "Venice, Italy",
 	"placeDeath": "Venice, Italy",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 362,
+		"type": "Student",
+		"color": "black"
 	}],
 	"color": "red",
-	"group": ["Violinist", "Singer", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Singer", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -891,7 +929,8 @@
 		"color": "pink"
 	}],
 	"color": "blue",
-	"group": ["Singer", "Composer"],
+	"group": [""],
+	"occupation": ["Singer", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -945,9 +984,14 @@
 		"id": 36,
 		"type": "Employee",
 		"color": "green"
+	},{
+		"id": 363,
+		"type": "Student",
+		"color": "gray"
 	}],
 	"color": "red",
-	"group": ["Flutist", "Flute maker", "Composer"],
+	"group": [""],
+	"occupation": ["Flutist", "Flute maker", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -983,7 +1027,8 @@
 		"color": "red"
 	}],
 	"color": "darkRed",
-	"group": ["Composer"],
+	"group": [""],
+	"occupation": ["Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -1019,7 +1064,8 @@
 		"color": "red"
 	}],
 	"color": "red",
-	"group": ["Violinist", "Composer", "Teacher", "Impresario", "Priest"],
+	"group": [""],
+	"occupation": ["Violinist", "Composer", "Teacher", "Impresario", "Priest"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -1051,7 +1097,8 @@
 		"color": ""
 	}],
 	"color": "blue",
-	"group": ["Violinist"],
+	"group": [""],
+	"occupation": ["Violinist"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -1095,7 +1142,8 @@
 		"color": "lightBlue"
 	}],
 	"color": "blue",
-	"group": ["Violinist", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Composer"],
 	"source": [{
 		"citation": "Jones (2014), p.499; Randel (1996), p.695; Mason (1917), p.84",
 		"extract": ""
@@ -1139,7 +1187,8 @@
 		"color": "lightBlue"
 	}],
 	"color": "blue",
-	"group": ["Violinist", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -1179,7 +1228,8 @@
 		"color": "green"
 	}],
 	"color": "blue",
-	"group": ["Violinist", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -1203,7 +1253,7 @@
 		"mm": "02",
 		"dd": "26"
 	},
-	"placeBirth": "Piran, Slovenia",
+	"placeBirth": "Piran, Italy",
 	"placeDeath": "Padua, Italy",
 	"relationship": [{
 		"id": 46,
@@ -1211,7 +1261,8 @@
 		"color": "blue"
 	}],
 	"color": "red",
-	"group": ["Violinist", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -1245,9 +1296,14 @@
 		"id": 38,
 		"type": "Student",
 		"color": "green"
+	},{
+		"id": 350,
+		"type": "Brother",
+		"color": "red"
 	}],
 	"color": "green",
-	"group": ["King of Prussia", "Elector of Brandenburg"],
+	"group": [""],
+	"occupation": ["King of Prussia", "Elector of Brandenburg"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -1281,9 +1337,14 @@
 		"id": 38,
 		"type": "Son",
 		"color": "red"
+	},{
+		"id": 351,
+		"type": "Friend",
+		"color": "lightBlue"
 	}],
 	"color": "blue",
-	"group": ["Organist", "Composer"],
+	"group": [""],
+	"occupation": ["Organist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -1315,7 +1376,8 @@
 		"color": "lightBlue"
 	}],
 	"color": "red",
-	"group": ["Organist", "Composer"],
+	"group": ["North German Organ School"],
+	"occupation": ["Organist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -1347,7 +1409,8 @@
 		"color": "gray"
 	}],
 	"color": "darkBlue",
-	"group": ["Composer"],
+	"group": [""],
+	"occupation": ["Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -1379,7 +1442,8 @@
 		"color": "gray"
 	}],
 	"color": "blue",
-	"group": ["Violinist", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -1411,7 +1475,8 @@
 		"color": "gray"
 	}],
 	"color": "red",
-	"group": ["Violinist", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -1443,7 +1508,8 @@
 		"color": "gray"
 	}],
 	"color": "blue",
-	"group": ["Violinist", "Singer", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Singer", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -1479,7 +1545,8 @@
 		"color": "gray"
 	}],
 	"color": "darkBlue",
-	"group": ["Composer", "Conductor", "Kapellmeister"],
+	"group": [""],
+	"occupation": ["Composer", "Conductor", "Kapellmeister"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -1511,7 +1578,8 @@
 		"color": "gray"
 	}],
 	"color": "blue",
-	"group": ["Organist", "Cantor", "Composer"],
+	"group": [""],
+	"occupation": ["Organist", "Cantor", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -1543,7 +1611,8 @@
 		"color": "gray"
 	}],
 	"color": "darkBlue",
-	"group": ["Organist", "Violinist", "Composer", "Teacher"],
+	"group": [""],
+	"occupation": ["Organist", "Violinist", "Composer", "Teacher"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -1579,7 +1648,8 @@
 		"color": "blue"
 	}],
 	"color": "red",
-	"group": ["Violinist", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -1611,7 +1681,8 @@
 		"color": "red"
 	}],
 	"color": "blue",
-	"group": ["Violinist", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -1643,7 +1714,8 @@
 		"color": ""
 	}],
 	"color": "blue",
-	"group": ["Violinist", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -1679,7 +1751,8 @@
 		"color": "gray"
 	}],
 	"color": "blue",
-	"group": ["Harpist", "Composer", "Orchestra Director"],
+	"group": [""],
+	"occupation": ["Harpist", "Composer", "Orchestra Director"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -1711,7 +1784,8 @@
 		"color": ""
 	}],
 	"color": "blue",
-	"group": ["Organist", "Composer"],
+	"group": [""],
+	"occupation": ["Organist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -1743,7 +1817,8 @@
 		"color": "gray"
 	}],
 	"color": "darkBlue",
-	"group": ["Composer"],
+	"group": [""],
+	"occupation": ["Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -1775,7 +1850,8 @@
 		"color": "gray"
 	}],
 	"color": "blue",
-	"group": ["Violinist", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -1811,7 +1887,8 @@
 		"color": "gray"
 	}],
 	"color": "blue",
-	"group": ["Violinist", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -1843,7 +1920,8 @@
 		"color": ""
 	}],
 	"color": "blue",
-	"group": ["Violinist", "Composer", "Conductor"],
+	"group": [""],
+	"occupation": ["Violinist", "Composer", "Conductor"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -1875,7 +1953,8 @@
 		"color": "red"
 	}],
 	"color": "blue",
-	"group": ["Harpsichordist", "Fortepianist", "Composer"],
+	"group": [""],
+	"occupation": ["Harpsichordist", "Fortepianist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -1929,9 +2008,22 @@
 		"id": 208,
 		"type": "Student",
 		"color": "gray"
+	},{
+		"id": 342,
+		"type": "Friend",
+		"color": "lightBlue"
+	},{
+		"id": 344,
+		"type": "Friend",
+		"color": "lightBlue"
+	},{
+		"id": 349,
+		"type": "Friend",
+		"color": "lightBlue"
 	}],
 	"color": "red",
-	"group": ["Violinist", "Fortepianist", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Fortepianist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -1967,7 +2059,8 @@
 		"color": "blue"
 	}],
 	"color": "red",
-	"group": ["Harpsichordist", "Violinist", "Composer"],
+	"group": [""],
+	"occupation": ["Harpsichordist", "Violinist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -2007,7 +2100,8 @@
 		"color": "gray"
 	}],
 	"color": "blue",
-	"group": ["Singer", "Composer"],
+	"group": [""],
+	"occupation": ["Singer", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -2039,7 +2133,8 @@
 		"color": ""
 	}],
 	"color": "darkBlue",
-	"group": ["Composer"],
+	"group": [""],
+	"occupation": ["Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -2071,7 +2166,8 @@
 		"color": ""
 	}],
 	"color": "darkRed",
-	"group": ["Composer", "Teacher"],
+	"group": [""],
+	"occupation": ["Composer", "Teacher"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -2107,7 +2203,8 @@
 		"color": "gray"
 	}],
 	"color": "red",
-	"group": ["Singer"],
+	"group": [""],
+	"occupation": ["Singer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -2143,7 +2240,8 @@
 		"color": "green"
 	}],
 	"color": "blue",
-	"group": ["Singer"],
+	"group": [""],
+	"occupation": ["Singer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -2179,7 +2277,8 @@
 		"color": "lightBlue"
 	}],
 	"color": "red",
-	"group": ["Composer"],
+	"group": [""],
+	"occupation": ["Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -2211,7 +2310,8 @@
 		"color": "gray"
 	}],
 	"color": "darkBlue",
-	"group": ["Composer"],
+	"group": [""],
+	"occupation": ["Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -2243,7 +2343,8 @@
 		"color": "gray"
 	}],
 	"color": "darkBlue",
-	"group": ["Composer"],
+	"group": [""],
+	"occupation": ["Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -2275,7 +2376,8 @@
 		"color": "gray"
 	}],
 	"color": "darkRed",
-	"group": ["Composer"],
+	"group": [""],
+	"occupation": ["Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -2311,7 +2413,8 @@
 		"color": "gray"
 	}],
 	"color": "darkBlue",
-	"group": ["Composer"],
+	"group": [""],
+	"occupation": ["Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -2338,12 +2441,13 @@
 	"placeBirth": "Venice, Italy",
 	"placeDeath": "Venice, Italy",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 322,
+		"type": "Student",
+		"color": "gray"
 	}],
 	"color": "darkBlue",
-	"group": ["Composer"],
+	"group": [""],
+	"occupation": ["Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -2375,7 +2479,8 @@
 		"color": ""
 	}],
 	"color": "darkRed",
-	"group": ["Composer"],
+	"group": ["Franco-Flemish School"],
+	"occupation": ["Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -2407,7 +2512,8 @@
 		"color": "red"
 	}],
 	"color": "blue",
-	"group": ["Organist", "Composer", "Choirmaster"],
+	"group": [""],
+	"occupation": ["Organist", "Composer", "Choirmaster"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -2439,7 +2545,8 @@
 		"color": ""
 	}],
 	"color": "darkBlue",
-	"group": ["Composer"],
+	"group": [""],
+	"occupation": ["Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -2475,7 +2582,8 @@
 		"color": "red"
 	}],
 	"color": "blue",
-	"group": ["Harpsichordist", "Organist", "Singer", "Composer", "Actor"],
+	"group": [""],
+	"occupation": ["Harpsichordist", "Organist", "Singer", "Composer", "Actor"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -2507,7 +2615,8 @@
 		"color": "red"
 	}],
 	"color": "blue",
-	"group": ["Organist", "Composer"],
+	"group": [""],
+	"occupation": ["Organist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -2543,7 +2652,8 @@
 		"color": "pink"
 	}],
 	"color": "blue",
-	"group": ["Singer"],
+	"group": [""],
+	"occupation": ["Singer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -2575,7 +2685,8 @@
 		"color": "red"
 	}],
 	"color": "blue",
-	"group": ["Singer"],
+	"group": [""],
+	"occupation": ["Singer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -2607,7 +2718,8 @@
 		"color": ""
 	}],
 	"color": "blue",
-	"group": ["Organist", "Composer"],
+	"group": [""],
+	"occupation": ["Organist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -2639,7 +2751,8 @@
 		"color": ""
 	}],
 	"color": "blue",
-	"group": ["Composer"],
+	"group": [""],
+	"occupation": ["Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -2675,7 +2788,8 @@
 		"color": "red"
 	}],
 	"color": "blue",
-	"group": ["Organist", "Composer"],
+	"group": [""],
+	"occupation": ["Organist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -2711,7 +2825,8 @@
 		"color": "green"
 	}],
 	"color": "blue",
-	"group": ["Singer", "Actress"],
+	"group": [""],
+	"occupation": ["Singer", "Actress"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -2747,7 +2862,8 @@
 		"color": "green"
 	}],
 	"color": "blue",
-	"group": ["Singer", "Organist"],
+	"group": [""],
+	"occupation": ["Singer", "Organist"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -2779,7 +2895,8 @@
 		"color": "red"
 	}],
 	"color": "blue",
-	"group": ["Singer", "Actress"],
+	"group": [""],
+	"occupation": ["Singer", "Actress"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -2819,7 +2936,8 @@
 		"color": "pink"
 	}],
 	"color": "blue",
-	"group": ["Singer", "Actress"],
+	"group": [""],
+	"occupation": ["Singer", "Actress"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -2851,7 +2969,8 @@
 		"color": ""
 	}],
 	"color": "blue",
-	"group": ["Violinist", "Pedagogue", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Pedagogue", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -2887,7 +3006,8 @@
 		"color": "red"
 	}],
 	"color": "blue",
-	"group": ["Singer", "Pianist", "Organist", "Composer"],
+	"group": [""],
+	"occupation": ["Singer", "Pianist", "Organist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -2919,7 +3039,8 @@
 		"color": "gray"
 	}],
 	"color": "darkBlue",
-	"group": ["Composer"],
+	"group": [""],
+	"occupation": ["Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -2951,7 +3072,8 @@
 		"color": "lightBlue"
 	}],
 	"color": "blue",
-	"group": ["Flutist", "Composer"],
+	"group": [""],
+	"occupation": ["Flutist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -2983,7 +3105,8 @@
 		"color": "green"
 	}],
 	"color": "darkBlue",
-	"group": ["Composer", "Music Theorist", "Pedagogue"],
+	"group": [""],
+	"occupation": ["Composer", "Music Theorist", "Pedagogue"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -3019,7 +3142,8 @@
 		"color": "green"
 	}],
 	"color": "darkBlue",
-	"group": ["Composer"],
+	"group": ["Accademia dell'Arcadia"],
+	"occupation": ["Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -3051,7 +3175,8 @@
 		"color": "gray"
 	}],
 	"color": "darkBlue",
-	"group": ["Composer"],
+	"group": [""],
+	"occupation": ["Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -3083,7 +3208,8 @@
 		"color": ""
 	}],
 	"color": "blue",
-	"group": ["Singer", "Organist", "Composer"],
+	"group": [""],
+	"occupation": ["Singer", "Organist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -3117,9 +3243,14 @@
 		"id": 94,
 		"type": "Employee",
 		"color": "green"
+	},{
+		"id": 364,
+		"type": "Coworker",
+		"color": "green"
 	}],
 	"color": "blue",
-	"group": ["String Player", "Choirmaster", "Composer", "Priest"],
+	"group": [""],
+	"occupation": ["String Player", "Choirmaster", "Composer", "Priest"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -3146,12 +3277,13 @@
 	"placeBirth": "Verona, Italy",
 	"placeDeath": "Cremona, Italy",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 234,
+		"type": "Acquaintance",
+		"color": "blue"
 	}],
 	"color": "blue",
-	"group": ["String Player", "Organist", "Composer"],
+	"group": [""],
+	"occupation": ["String Player", "Organist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -3183,7 +3315,8 @@
 		"color": "red"
 	}],
 	"color": "blue",
-	"group": ["Organist", "Composer"],
+	"group": [""],
+	"occupation": ["Organist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -3215,7 +3348,8 @@
 		"color": ""
 	}],
 	"color": "darkGreen",
-	"group": ["Duke of Mantua"],
+	"group": [""],
+	"occupation": ["Duke of Mantua"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -3247,7 +3381,8 @@
 		"color": "green"
 	}],
 	"color": "darkBlue",
-	"group": ["Composer"],
+	"group": [""],
+	"occupation": ["Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -3279,7 +3414,8 @@
 		"color": "green"
 	}],
 	"color": "blue",
-	"group": ["Violinist", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -3315,7 +3451,8 @@
 		"color": "red"
 	}],
 	"color": "blue",
-	"group": ["Singer"],
+	"group": [""],
+	"occupation": ["Singer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -3351,7 +3488,8 @@
 		"color": "gray"
 	}],
 	"color": "blue",
-	"group": ["Singer", "Chitarrone Player", "Composer"],
+	"group": [""],
+	"occupation": ["Singer", "Chitarrone Player", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -3378,12 +3516,17 @@
 	"placeBirth": "Tivoli, Italy",
 	"placeDeath": "Firenze, Italy",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 312,
+		"type": "Patronee",
+		"color": "green"
+	},{
+		"id": 313,
+		"type": "Patronee",
+		"color": "green"
 	}],
 	"color": "red",
-	"group": ["Singer", "Harpist", "Composer"],
+	"group": ["Florentine Camerata"],
+	"occupation": ["Singer", "Harpist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -3419,7 +3562,8 @@
 		"color": "black"
 	}],
 	"color": "blue",
-	"group": ["Organist", "Composer"],
+	"group": [""],
+	"occupation": ["Organist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -3455,7 +3599,8 @@
 		"color": "gray"
 	}],
 	"color": "darkBlue",
-	"group": ["Composer"],
+	"group": [""],
+	"occupation": ["Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -3491,7 +3636,8 @@
 		"color": "gray"
 	}],
 	"color": "darkBlue",
-	"group": ["Composer"],
+	"group": [""],
+	"occupation": ["Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -3523,7 +3669,8 @@
 		"color": ""
 	}],
 	"color": "darkBlue",
-	"group": ["Choir Director", "Composer"],
+	"group": [""],
+	"occupation": ["Choir Director", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -3555,7 +3702,8 @@
 		"color": ""
 	}],
 	"color": "darkBlue",
-	"group": ["Composer"],
+	"group": [""],
+	"occupation": ["Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -3587,7 +3735,8 @@
 		"color": "green"
 	}],
 	"color": "darkBlue",
-	"group": ["Composer"],
+	"group": [""],
+	"occupation": ["Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -3623,7 +3772,8 @@
 		"color": "gray"
 	}],
 	"color": "blue",
-	"group": ["Organist", "Composer"],
+	"group": [""],
+	"occupation": ["Organist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -3650,12 +3800,17 @@
 	"placeBirth": "Coreggio, Italy",
 	"placeDeath": "Parma, Italy",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 321,
+		"type": "Student",
+		"color": "gray"
+	},{
+		"id": 325,
+		"type": "Friend",
+		"color": "lightBlue"
 	}],
 	"color": "blue",
-	"group": ["Organist", "Composer", "Publisher"],
+	"group": [""],
+	"occupation": ["Organist", "Composer", "Publisher"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -3685,9 +3840,14 @@
 		"id": 94,
 		"type": "Employee",
 		"color": "green"
+	},{
+		"id": 312,
+		"type": "Patronee",
+		"color": "green"
 	}],
 	"color": "blue",
-	"group": ["Instrumentalist", "Composer", "Diplomat"],
+	"group": ["Florentine Camerata"],
+	"occupation": ["Instrumentalist", "Composer", "Diplomat"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -3721,9 +3881,14 @@
 		"id": 108,
 		"type": "Son",
 		"color": "red"
+	},{
+		"id": 364,
+		"type": "Coworker",
+		"color": "green"
 	}],
 	"color": "gray",
-	"group": ["Librettist"],
+	"group": [""],
+	"occupation": ["Librettist"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -3755,7 +3920,8 @@
 		"color": "black"
 	}],
 	"color": "red",
-	"group": ["Violinist", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -3795,7 +3961,8 @@
 		"color": "black"
 	}],
 	"color": "red",
-	"group": ["Violinist", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -3831,7 +3998,8 @@
 		"color": "gray"
 	}],
 	"color": "red",
-	"group": ["Violinist", "Cellist", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Cellist", "Composer"],
 	"source": [{
 		"citation": "Randel (1996), p.192",
 		"extract": ""
@@ -3863,7 +4031,8 @@
 		"color": ""
 	}],
 	"color": "blue",
-	"group": ["Violinist", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -3899,7 +4068,8 @@
 		"color": "blue"
 	}],
 	"color": "blue",
-	"group": ["Violinist", "Conductor", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Conductor", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -3931,7 +4101,8 @@
 		"color": "gray"
 	}],
 	"color": "blue",
-	"group": ["Violinist", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -3963,7 +4134,8 @@
 		"color": "red"
 	}],
 	"color": "blue",
-	"group": ["Harpsichordist", "Music Theorist","Composer"],
+	"group": [""],
+	"occupation": ["Harpsichordist", "Music Theorist","Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -3995,7 +4167,8 @@
 		"color": "green"
 	}],
 	"color": "blue",
-	"group": ["Clockmaker", "Violinist"],
+	"group": [""],
+	"occupation": ["Clockmaker", "Violinist"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -4027,7 +4200,8 @@
 		"color": "pink"
 	}],
 	"color": "blue",
-	"group": ["Violinist", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -4075,7 +4249,8 @@
 		"color": "green"
 	}],
 	"color": "red",
-	"group": ["Instrumentalist", "Dancer", "Composer"],
+	"group": [""],
+	"occupation": ["Instrumentalist", "Dancer", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -4107,7 +4282,8 @@
 		"color": ""
 	}],
 	"color": "red",
-	"group": ["Instrumentalist", "Composer"],
+	"group": [""],
+	"occupation": ["Instrumentalist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -4139,7 +4315,8 @@
 		"color": ""
 	}],
 	"color": "red",
-	"group": ["Violinist", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -4179,7 +4356,8 @@
 		"color": "blue"
 	}],
 	"color": "darkRed",
-	"group": ["Music historian", "Musician", "Composer"],
+	"group": [""],
+	"occupation": ["Music historian", "Musician", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -4219,7 +4397,8 @@
 		"color": "lightBlue"
 	}],
 	"color": "red",
-	"group": ["Musician", "Composer"],
+	"group": [""],
+	"occupation": ["Musician", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -4251,7 +4430,8 @@
 		"color": "green"
 	}],
 	"color": "blue",
-	"group": ["Violinist", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -4283,7 +4463,8 @@
 		"color": "black"
 	}],
 	"color": "blue",
-	"group": ["Violinist", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -4315,7 +4496,8 @@
 		"color": ""
 	}],
 	"color": "blue",
-	"group": ["Violone player", "Composer"],
+	"group": [""],
+	"occupation": ["Violone player", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -4347,7 +4529,8 @@
 		"color": "red"
 	}],
 	"color": "blue",
-	"group": ["Violinist", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -4379,7 +4562,8 @@
 		"color": "gray"
 	}],
 	"color": "blue",
-	"group": ["Violinist", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -4411,7 +4595,8 @@
 		"color": "gray"
 	}],
 	"color": "blue",
-	"group": ["Violinist", "Pianist", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Pianist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -4443,7 +4628,8 @@
 		"color": "gray"
 	}],
 	"color": "blue",
-	"group": ["Violinist", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -4475,7 +4661,8 @@
 		"color": "blue"
 	}],
 	"color": "blue",
-	"group": ["Violinist", "Organist", "Teacher", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Organist", "Teacher", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -4507,7 +4694,8 @@
 		"color": "gray"
 	}],
 	"color": "blue",
-	"group": ["Violinist", "Violist", "Conductor", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Violist", "Conductor", "Composer"],
 	"source": [{
 		"citation": "Mason (1917), p.100",
 		"extract": ""
@@ -4547,7 +4735,8 @@
 		"color": "gray"
 	}],
 	"color": "blue",
-	"group": ["Violinist", "Kapellmeister", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Kapellmeister", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -4579,7 +4768,8 @@
 		"color": "lightBlue"
 	}],
 	"color": "blue",
-	"group": ["Violinist", "Pianist", "Conductor", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Pianist", "Conductor", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -4621,9 +4811,14 @@
 		"id": 210,
 		"type": "Acquaintance",
 		"color": "blue"
+	},{
+		"id": 342,
+		"type": "Student",
+		"color": "gray"
 	}],
 	"color": "red",
-	"group": ["Pianist", "Composer"],
+	"group": [""],
+	"occupation": ["Pianist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -4655,7 +4850,8 @@
 		"color": "red"
 	}],
 	"color": "blue",
-	"group": ["Musician", "Teacher", "Singer"],
+	"group": [""],
+	"occupation": ["Musician", "Teacher", "Singer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -4687,7 +4883,8 @@
 		"color": ""
 	}],
 	"color": "blue",
-	"group": ["Singer", "Music director"],
+	"group": [""],
+	"occupation": ["Singer", "Music director"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -4719,7 +4916,8 @@
 		"color": "red"
 	}],
 	"color": "blue",
-	"group": ["Cellist", "Composer"],
+	"group": [""],
+	"occupation": ["Cellist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -4755,7 +4953,8 @@
 		"color": "green"
 	}],
 	"color": "blue",
-	"group": ["Violinist", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -4787,7 +4986,8 @@
 		"color": "gray"
 	}],
 	"color": "blue",
-	"group": ["Violinist", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -4819,7 +5019,8 @@
 		"color": "blue"
 	}],
 	"color": "blue",
-	"group": ["Harpsichordist", "Composer", "Pastellist"],
+	"group": [""],
+	"occupation": ["Harpsichordist", "Composer", "Pastellist"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -4851,7 +5052,8 @@
 		"color": ""
 	}],
 	"color": "darkBlue",
-	"group": ["Composer", "Music Theorist"],
+	"group": [""],
+	"occupation": ["Composer", "Music Theorist"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -4887,7 +5089,8 @@
 		"color": "gray"
 	}],
 	"color": "blue",
-	"group": ["Harpsichordist", "Organist", "Composer"],
+	"group": ["French organ school (3rd)"],
+	"occupation": ["Harpsichordist", "Organist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -4919,7 +5122,8 @@
 		"color": ""
 	}],
 	"color": "blue",
-	"group": ["Harpsichordist", "Organist", "Composer"],
+	"group": ["French organ school (2nd)"],
+	"occupation": ["Harpsichordist", "Organist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -4951,7 +5155,8 @@
 		"color": "blue"
 	}],
 	"color": "darkBlue",
-	"group": ["Philosopher", "Writer", "Composer"],
+	"group": [""],
+	"occupation": ["Philosopher", "Writer", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -4991,7 +5196,8 @@
 		"color": "gray"
 	}],
 	"color": "blue",
-	"group": ["Harpsichordist", "Composer"],
+	"group": [""],
+	"occupation": ["Harpsichordist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -5027,7 +5233,8 @@
 		"color": "gray"
 	}],
 	"color": "blue",
-	"group": ["Cellist", "Composer"],
+	"group": [""],
+	"occupation": ["Cellist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -5071,7 +5278,8 @@
 		"color": "gray"
 	}],
 	"color": "blue",
-	"group": ["Cellist", "Composer"],
+	"group": [""],
+	"occupation": ["Cellist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -5103,7 +5311,8 @@
 		"color": ""
 	}],
 	"color": "blue",
-	"group": ["Violinist", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -5135,7 +5344,8 @@
 		"color": ""
 	}],
 	"color": "red",
-	"group": ["Cellist", "Composer"],
+	"group": [""],
+	"occupation": ["Cellist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -5167,7 +5377,8 @@
 		"color": ""
 	}],
 	"color": "blue",
-	"group": ["Viol player", "Composer"],
+	"group": [""],
+	"occupation": ["Viol player", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -5199,7 +5410,8 @@
 		"color": ""
 	}],
 	"color": "blue",
-	"group": ["Organist", "Composer"],
+	"group": ["French organ school (1st)"],
+	"occupation": ["Organist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -5231,7 +5443,8 @@
 		"color": ""
 	}],
 	"color": "blue",
-	"group": ["Organist", "Composer"],
+	"group": ["French organ school (1st)"],
+	"occupation": ["Organist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -5263,7 +5476,8 @@
 		"color": "red"
 	}],
 	"color": "blue",
-	"group": ["Musician"],
+	"group": [""],
+	"occupation": ["Musician"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -5295,7 +5509,8 @@
 		"color": "red"
 	}],
 	"color": "blue",
-	"group": ["Musician"],
+	"group": [""],
+	"occupation": ["Musician"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -5327,7 +5542,8 @@
 		"color": "red"
 	}],
 	"color": "blue",
-	"group": ["Musician"],
+	"group": [""],
+	"occupation": ["Musician"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -5359,7 +5575,8 @@
 		"color": "green"
 	}],
 	"color": "red",
-	"group": ["Flautist", "Composer"],
+	"group": [""],
+	"occupation": ["Flautist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -5371,7 +5588,7 @@
 	"name": {
 		"first": "Giuseppe",
 		"last": "Valentini",
-		"alt": ["Straccioncino (Little Ragamuffin)"]
+		"alt": ["Straccioncino (Little Ragamuffin)", "Euginaspe Leupinto"]
 	},
 	"dateBirth": {
 		"yyyy": "1681",
@@ -5395,7 +5612,8 @@
 		"color": "gray"
 	}],
 	"color": "blue",
-	"group": ["Violinist", "Painter", "Poet", "Composer"],
+	"group": ["Accademia dell'Arcadia"],
+	"occupation": ["Violinist", "Painter", "Poet", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -5439,7 +5657,8 @@
 		"color": "green"
 	}],
 	"color": "blue",
-	"group": ["Cellist", "Singer", "Teacher", "Composer"],
+	"group": ["Accademia dell'Arcadia"],
+	"occupation": ["Cellist", "Singer", "Teacher", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -5471,7 +5690,8 @@
 		"color": ""
 	}],
 	"color": "blue",
-	"group": ["Violinist", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -5511,7 +5731,8 @@
 		"color": "gray"
 	}],
 	"color": "blue",
-	"group": ["Cellist", "Composer"],
+	"group": [""],
+	"occupation": ["Cellist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -5543,7 +5764,8 @@
 		"color": "green"
 	}],
 	"color": "darkGreen",
-	"group": ["Cardinal", "Patron", "Librettist"],
+	"group": [""],
+	"occupation": ["Cardinal", "Patron", "Librettist"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -5575,7 +5797,8 @@
 		"color": ""
 	}],
 	"color": "blue",
-	"group": ["Organist", "Teacher", "Composer", "Organ builder"],
+	"group": [""],
+	"occupation": ["Organist", "Teacher", "Composer", "Organ builder"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -5611,7 +5834,8 @@
 		"color": "blue"
 	}],
 	"color": "blue",
-	"group": ["Cellist", "Trombone player", "Composer"],
+	"group": [""],
+	"occupation": ["Cellist", "Trombone player", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -5647,7 +5871,8 @@
 		"color": "red"
 	}],
 	"color": "darkBlue",
-	"group": ["Composer"],
+	"group": [""],
+	"occupation": ["Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -5683,7 +5908,8 @@
 		"color": "green"
 	}],
 	"color": "darkBlue",
-	"group": ["Composer"],
+	"group": [""],
+	"occupation": ["Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -5715,7 +5941,8 @@
 		"color": ""
 	}],
 	"color": "blue",
-	"group": ["Violinist", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -5747,7 +5974,8 @@
 		"color": "red"
 	}],
 	"color": "blue",
-	"group": ["Castrato Singer", "Diplomat", "Spy"],
+	"group": [""],
+	"occupation": ["Castrato Singer", "Diplomat", "Spy"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -5787,7 +6015,8 @@
 		"color": "gray"
 	}],
 	"color": "darkBlue",
-	"group": ["Composer"],
+	"group": [""],
+	"occupation": ["Composer"],
 	"source": [{
 		"citation": "The Art of Partimento: History, Theory, and Practice - Page 23, Giorgio Sanguinetti - 2012",
 		"extract": "One student of Pasquini was Tommaso Bernardo Gaffi, who has left us a manuscript treatise on accompaniment, Regole per sonare su la parte. [...]"
@@ -5799,7 +6028,7 @@
 	"name": {
 		"first": "Bernardo",
 		"last": "Pasquini",
-		"alt": [""]
+		"alt": ["Protico Azeriano"]
 	},
 	"dateBirth": {
 		"yyyy": "1637",
@@ -5819,7 +6048,8 @@
 		"color": ""
 	}],
 	"color": "blue",
-	"group": ["Keyboard player", "Composer"],
+	"group": ["Accademia dell'Arcadia"],
+	"occupation": ["Keyboard player", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -5851,7 +6081,8 @@
 		"color": "gray"
 	}],
 	"color": "darkBlue",
-	"group": ["Music Theorist", "Composer"],
+	"group": [""],
+	"occupation": ["Music Theorist", "Composer"],
 	"source": [{
 		"citation": "The Art of Partimento: History, Theory, and Practice - Page 23, Giorgio Sanguinetti - 2012",
 		"extract": "[...] Gaffi taught Andrea Basili, author of an Italian counterpart of the Well Tempered Clavier, the Musica universale armonico-pratica...1736"
@@ -5883,7 +6114,8 @@
 		"color": "red"
 	}],
 	"color": "darkBlue",
-	"group": ["Conductor", "Composer [1]"],
+	"group": [""],
+	"occupation": ["Conductor", "Composer [1]"],
 	"source": [{
 		"citation": "Casaglia, Gherardo (2005)",
 		"extract": "'Francesco Basili'. L'Almanacco di Gherardo Casaglia (in Italian)."
@@ -5915,7 +6147,8 @@
 		"color": ""
 	}],
 	"color": "blue",
-	"group": ["Violinist", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -5951,7 +6184,8 @@
 		"color": "gray"
 	}],
 	"color": "blue",
-	"group": ["Violinist", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -5983,7 +6217,8 @@
 		"color": "red"
 	}],
 	"color": "blue",
-	"group": ["Violinist", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -6071,7 +6306,8 @@
 		"color": "blue"
 	}],
 	"color": "red",
-	"group": ["Violinist", "Teacher", "Academic", "Conductor", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Teacher", "Academic", "Conductor", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -6103,7 +6339,8 @@
 		"color": "gray"
 	}],
 	"color": "blue",
-	"group": ["Violinist", "Teacher", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Teacher", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -6135,7 +6372,8 @@
 		"color": ""
 	}],
 	"color": "darkBlue",
-	"group": ["Conductor", "Composer"],
+	"group": [""],
+	"occupation": ["Conductor", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -6167,7 +6405,8 @@
 		"color": "gray"
 	}],
 	"color": "blue",
-	"group": ["Violinist", "Teacher", "Conductor", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Teacher", "Conductor", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -6199,7 +6438,8 @@
 		"color": "gray"
 	}],
 	"color": "red",
-	"group": ["Violinist", "Teacher", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Teacher", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -6231,7 +6471,8 @@
 		"color": ""
 	}],
 	"color": "red",
-	"group": ["Violinist", "Conductor", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Conductor", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -6267,7 +6508,8 @@
 		"color": "gray"
 	}],
 	"color": "red",
-	"group": ["Violinist", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -6311,7 +6553,8 @@
 		"color": "blue"
 	}],
 	"color": "red",
-	"group": ["Violinist", "Conductor", "Teacher", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Conductor", "Teacher", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -6343,7 +6586,8 @@
 		"color": ""
 	}],
 	"color": "red",
-	"group": ["Violinist", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -6375,7 +6619,8 @@
 		"color": "blue"
 	}],
 	"color": "blue",
-	"group": ["Pianist", "Conductor", "Composer"],
+	"group": [""],
+	"occupation": ["Pianist", "Conductor", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -6407,7 +6652,8 @@
 		"color": "red"
 	}],
 	"color": "blue",
-	"group": ["Pianist", "Conductor", "Composer"],
+	"group": [""],
+	"occupation": ["Pianist", "Conductor", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -6437,9 +6683,14 @@
 		"id": 186,
 		"type": "Friend",
 		"color": "lightBlue"
+	},{
+		"id": 369,
+		"type": "Friend",
+		"color": "lightBlue"
 	}],
 	"color": "darkRed",
-	"group": ["Composer"],
+	"group": [""],
+	"occupation": ["Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -6471,7 +6722,8 @@
 		"color": "pink"
 	}],
 	"color": "blue",
-	"group": ["Pianist", "Teacher", "Composer"],
+	"group": [""],
+	"occupation": ["Pianist", "Teacher", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -6503,7 +6755,8 @@
 		"color": ""
 	}],
 	"color": "darkBlue",
-	"group": ["Composer"],
+	"group": [""],
+	"occupation": ["Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -6547,7 +6800,8 @@
 		"color": "blue"
 	}],
 	"color": "blue",
-	"group": ["Pianist", "Conductor", "Composer"],
+	"group": [""],
+	"occupation": ["Pianist", "Conductor", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -6579,7 +6833,8 @@
 		"color": ""
 	}],
 	"color": "blue",
-	"group": ["Violinist", "Teacher", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Teacher", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -6611,7 +6866,8 @@
 		"color": ""
 	}],
 	"color": "blue",
-	"group": ["Violinist", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -6643,7 +6899,8 @@
 		"color": "gray"
 	}],
 	"color": "red",
-	"group": ["Violinist", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -6675,7 +6932,8 @@
 		"color": "gray"
 	}],
 	"color": "red",
-	"group": ["Violinist"],
+	"group": [""],
+	"occupation": ["Violinist"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -6707,7 +6965,8 @@
 		"color": ""
 	}],
 	"color": "blue",
-	"group": ["Pianist", "Composer", "Music critic"],
+	"group": [""],
+	"occupation": ["Pianist", "Composer", "Music critic"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -6739,7 +6998,8 @@
 		"color": "gray"
 	}],
 	"color": "red",
-	"group": ["Violinist", "Composer", "Conductor"],
+	"group": [""],
+	"occupation": ["Violinist", "Composer", "Conductor"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -6771,7 +7031,8 @@
 		"color": "gray"
 	}],
 	"color": "blue",
-	"group": ["Violinist", "Composer", "Konzertmeister"],
+	"group": [""],
+	"occupation": ["Violinist", "Composer", "Konzertmeister"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -6803,7 +7064,8 @@
 		"color": ""
 	}],
 	"color": "blue",
-	"group": ["Violinist", "Composer", "Kapellmeister"],
+	"group": [""],
+	"occupation": ["Violinist", "Composer", "Kapellmeister"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -6835,7 +7097,8 @@
 		"color": ""
 	}],
 	"color": "darkBlue",
-	"group": ["Composer", "Music Theorist"],
+	"group": [""],
+	"occupation": ["Composer", "Music Theorist"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -6877,9 +7140,14 @@
 		"id": 238,
 		"type": "Friend",
 		"color": "lightBlue"
+	},{
+		"id": 342,
+		"type": "Student",
+		"color": "gray"
 	}],
 	"color": "red",
-	"group": ["Pianist", "Composer", "Teacher"],
+	"group": [""],
+	"occupation": ["Pianist", "Composer", "Teacher"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -6911,7 +7179,8 @@
 		"color": "gray"
 	}],
 	"color": "red",
-	"group": ["Violinist", "Violist", "Guitarrist", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Violist", "Guitarrist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -6943,7 +7212,8 @@
 		"color": ""
 	}],
 	"color": "darkBlue",
-	"group": ["Composer"],
+	"group": [""],
+	"occupation": ["Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -6975,7 +7245,8 @@
 		"color": "red"
 	}],
 	"color": "darkGreen",
-	"group": ["King of France"],
+	"group": [""],
+	"occupation": ["King of France"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -7007,7 +7278,8 @@
 		"color": "green"
 	}],
 	"color": "blue",
-	"group": ["Harpsichordist", "Dancer", "Composer"],
+	"group": [""],
+	"occupation": ["Harpsichordist", "Dancer", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -7043,7 +7315,8 @@
 		"color": "blue"
 	}],
 	"color": "blue",
-	"group": ["Harpsichordist", "Organist", "Composer"],
+	"group": ["French organ school (2nd)"],
+	"occupation": ["Harpsichordist", "Organist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -7075,7 +7348,8 @@
 		"color": ""
 	}],
 	"color": "darkBlue",
-	"group": ["Composer"],
+	"group": [""],
+	"occupation": ["Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -7107,7 +7381,8 @@
 		"color": ""
 	}],
 	"color": "blue",
-	"group": ["Violinist", "Organist", "Choirmaster", "Teacher", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Organist", "Choirmaster", "Teacher", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -7151,7 +7426,8 @@
 		"color": "blue"
 	}],
 	"color": "darkBlue",
-	"group": ["Composer"],
+	"group": [""],
+	"occupation": ["Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -7183,7 +7459,8 @@
 		"color": "gray"
 	}],
 	"color": "blue",
-	"group": ["Gambist", "Composer"],
+	"group": [""],
+	"occupation": ["Gambist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -7219,7 +7496,8 @@
 		"color": "blue"
 	}],
 	"color": "blue",
-	"group": ["Violinist", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -7251,7 +7529,8 @@
 		"color": "gray"
 	}],
 	"color": "red",
-	"group": ["Violinist", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -7283,7 +7562,8 @@
 		"color": "gray"
 	}],
 	"color": "blue",
-	"group": ["Violinist"],
+	"group": [""],
+	"occupation": ["Violinist"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -7319,7 +7599,8 @@
 		"color": "gray"
 	}],
 	"color": "blue",
-	"group": ["Violinist", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -7355,7 +7636,8 @@
 		"color": "red"
 	}],
 	"color": "blue",
-	"group": ["Singer"],
+	"group": [""],
+	"occupation": ["Singer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -7387,7 +7669,8 @@
 		"color": ""
 	}],
 	"color": "blue",
-	"group": ["Singer", "Teacher", "Composer", "Impresario"],
+	"group": [""],
+	"occupation": ["Singer", "Teacher", "Composer", "Impresario"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -7427,7 +7710,8 @@
 		"color": "gray"
 	}],
 	"color": "blue",
-	"group": ["Singer", "Teacher", "Composer"],
+	"group": [""],
+	"occupation": ["Singer", "Teacher", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -7459,7 +7743,8 @@
 		"color": "red"
 	}],
 	"color": "red",
-	"group": ["Singer", "Teacher", "Pedagogue"],
+	"group": [""],
+	"occupation": ["Singer", "Teacher", "Pedagogue"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -7491,7 +7776,8 @@
 		"color": "red"
 	}],
 	"color": "blue",
-	"group": ["Singer", "Teacher", "Actor", "Pedagogue"],
+	"group": [""],
+	"occupation": ["Singer", "Teacher", "Actor", "Pedagogue"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -7523,7 +7809,8 @@
 		"color": ""
 	}],
 	"color": "green",
-	"group": ["Holy Roman Emperor", "Composer"],
+	"group": [""],
+	"occupation": ["Holy Roman Emperor", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -7555,7 +7842,8 @@
 		"color": ""
 	}],
 	"color": "blue",
-	"group": ["Composer", "Pianist", "Teacher"],
+	"group": [""],
+	"occupation": ["Composer", "Pianist", "Teacher"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -7587,7 +7875,8 @@
 		"color": "gray"
 	}],
 	"color": "darkBlue",
-	"group": ["Musicologist", "Composer", "Teacher", "Music critic"],
+	"group": [""],
+	"occupation": ["Musicologist", "Composer", "Teacher", "Music critic"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -7623,7 +7912,8 @@
 		"color": "lightBlue"
 	}],
 	"color": "darkRed",
-	"group": ["Composer"],
+	"group": [""],
+	"occupation": ["Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -7659,7 +7949,8 @@
 		"color": "blue"
 	}],
 	"color": "blue",
-	"group": ["Violinist", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -7703,7 +7994,8 @@
 		"color": "gray"
 	}],
 	"color": "blue",
-	"group": ["Violinist", "Pianist", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Pianist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -7735,7 +8027,8 @@
 		"color": "black"
 	}],
 	"color": "blue",
-	"group": ["Violinist"],
+	"group": [""],
+	"occupation": ["Violinist"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -7759,7 +8052,7 @@
 		"mm": "02",
 		"dd": "29"
 	},
-	"placeBirth": "Bial/a Podlaska, Poland",
+	"placeBirth": "Biała Podlaska, Poland",
 	"placeDeath": "London, England",
 	"relationship": [{
 		"id": 135,
@@ -7775,7 +8068,8 @@
 		"color": "gray"
 	}],
 	"color": "blue",
-	"group": ["Violinist"],
+	"group": [""],
+	"occupation": ["Violinist"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -7807,7 +8101,8 @@
 		"color": "lightBlue"
 	}],
 	"color": "red",
-	"group": ["Pianist", "Composer"],
+	"group": [""],
+	"occupation": ["Pianist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -7839,7 +8134,8 @@
 		"color": "gray"
 	}],
 	"color": "blue",
-	"group": ["Pianist"],
+	"group": [""],
+	"occupation": ["Pianist"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -7871,7 +8167,8 @@
 		"color": "gray"
 	}],
 	"color": "blue",
-	"group": ["Soprano"],
+	"group": [""],
+	"occupation": ["Soprano"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -7903,7 +8200,8 @@
 		"color": ""
 	}],
 	"color": "blue",
-	"group": ["Violinist", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -7935,7 +8233,8 @@
 		"color": "black"
 	}],
 	"color": "blue",
-	"group": ["Organist", "Composer"],
+	"group": ["North German Organ School"],
+	"occupation": ["Organist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -7975,7 +8274,8 @@
 		"color": "green"
 	}],
 	"color": "blue",
-	"group": ["Organist", "Composer"],
+	"group": [""],
+	"occupation": ["Organist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -8007,7 +8307,8 @@
 		"color": "gray"
 	}],
 	"color": "blue",
-	"group": ["Organist", "Teacher"],
+	"group": [""],
+	"occupation": ["Organist", "Teacher"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -8034,12 +8335,13 @@
 	"placeBirth": "Ronse, Belgium",
 	"placeDeath": "Parma, Italy",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 322,
+		"type": "Student",
+		"color": "gray"
 	}],
 	"color": "darkBlue",
-	"group": ["Composer"],
+	"group": ["Franco-Flemish School"],
+	"occupation": ["Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -8071,7 +8373,8 @@
 		"color": ""
 	}],
 	"color": "darkGreen",
-	"group": ["Cardinal", "Patron"],
+	"group": [""],
+	"occupation": ["Cardinal", "Patron"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -8103,7 +8406,8 @@
 		"color": "red"
 	}],
 	"color": "darkGreen",
-	"group": ["Duke of Mantua", "Duke of Montferrat"],
+	"group": ["Accademia degli Elevati"],
+	"occupation": ["Duke of Mantua", "Duke of Montferrat"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -8135,7 +8439,8 @@
 		"color": ""
 	}],
 	"color": "darkGreen",
-	"group": ["King of England, Scotland and Ireland"],
+	"group": [""],
+	"occupation": ["King of England, Scotland and Ireland"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -8171,7 +8476,8 @@
 		"color": "blue"
 	}],
 	"color": "red",
-	"group": ["Violinist", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -8207,7 +8513,8 @@
 		"color": "green"
 	}],
 	"color": "blue",
-	"group": ["Gambist", "Composer"],
+	"group": [""],
+	"occupation": ["Gambist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -8239,7 +8546,8 @@
 		"color": "red"
 	}],
 	"color": "blue",
-	"group": ["Gambist", "Composer"],
+	"group": [""],
+	"occupation": ["Gambist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -8275,7 +8583,8 @@
 		"color": "lightBlue"
 	}],
 	"color": "blue",
-	"group": ["Violinist", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -8315,7 +8624,8 @@
 		"color": "blue"
 	}],
 	"color": "blue",
-	"group": ["Violinist", "Teacher", "Conductor", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Teacher", "Conductor", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -8347,7 +8657,8 @@
 		"color": "gray"
 	}],
 	"color": "blue",
-	"group": ["Violinist", "Violist", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Violist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -8379,7 +8690,8 @@
 		"color": "gray"
 	}],
 	"color": "blue",
-	"group": ["Violinist", "Violist", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Violist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -8411,7 +8723,8 @@
 		"color": "gray"
 	}],
 	"color": "blue",
-	"group": ["Violinist", "Composer"],
+	"group": [""],
+	"occupation": ["Violinist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -8443,7 +8756,8 @@
 		"color": ""
 	}],
 	"color": "darkRed",
-	"group": ["Music Theorist", "Composer"],
+	"group": [""],
+	"occupation": ["Music Theorist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -8473,9 +8787,18 @@
 		"id": 248,
 		"type": "Patronee",
 		"color": "green"
+	},{
+		"id": 311,
+		"type": "Student",
+		"color": "gray"
+	},{
+		"id": 364,
+		"type": "Acquaintance",
+		"color": "blue"
 	}],
 	"color": "red",
-	"group": ["Singer", "Composer"],
+	"group": ["Accademia degli Elevati"],
+	"occupation": ["Tenor", "Organist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -8502,12 +8825,21 @@
 	"placeBirth": "Italy",
 	"placeDeath": "Italy",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 318,
+		"type": "Student",
+		"color": "gray"
+	},{
+		"id": 311,
+		"type": "Student",
+		"color": "gray"
+	},{
+		"id": 315,
+		"type": "Student",
+		"color": "black"
 	}],
 	"color": "green",
-	"group": ["Patron", "Composer"],
+	"group": ["Accademia degli Alterati"],
+	"occupation": ["Patron", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -8551,7 +8883,8 @@
 		"color": "blue"
 	}],
 	"color": "darkBlue",
-	"group": ["Composer"],
+	"group": ["Chapel Royal"],
+	"occupation": ["Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -8583,7 +8916,8 @@
 		"color": ""
 	}],
 	"color": "darkRed",
-	"group": ["Composer"],
+	"group": ["Chapel Royal"],
+	"occupation": ["Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -8615,7 +8949,8 @@
 		"color": ""
 	}],
 	"color": "darkBlue",
-	"group": ["Composer"],
+	"group": ["Chapel Royal"],
+	"occupation": ["Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -8647,7 +8982,8 @@
 		"color": ""
 	}],
 	"color": "darkBlue",
-	"group": ["Composer"],
+	"group": [""],
+	"occupation": ["Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -8679,7 +9015,8 @@
 		"color": "red"
 	}],
 	"color": "blue",
-	"group": ["Organist", "Virginalist", "Composer"],
+	"group": [""],
+	"occupation": ["Organist", "Virginalist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -8711,7 +9048,8 @@
 		"color": "blue"
 	}],
 	"color": "blue",
-	"group": ["Organist", "Composer"],
+	"group": [""],
+	"occupation": ["Organist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -8743,7 +9081,8 @@
 		"color": "blue"
 	}],
 	"color": "blue",
-	"group": ["Musician", "Theological Writer"],
+	"group": [""],
+	"occupation": ["Musician", "Theological Writer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -8779,7 +9118,8 @@
 		"color": "gray"
 	}],
 	"color": "blue",
-	"group": ["Musician", "Organ builder", "Composer"],
+	"group": ["Chapel Royal"],
+	"occupation": ["Musician", "Organ builder", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -8811,7 +9151,8 @@
 		"color": "blue"
 	}],
 	"color": "blue",
-	"group": ["Organist", "Composer"],
+	"group": ["Chapel Royal"],
+	"occupation": ["Organist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -8843,7 +9184,8 @@
 		"color": ""
 	}],
 	"color": "darkBlue",
-	"group": ["Poet", "Dramatist", "Composer"],
+	"group": [""],
+	"occupation": ["Poet", "Dramatist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -8883,7 +9225,8 @@
 		"color": "blue"
 	}],
 	"color": "blue",
-	"group": ["Violinist", "Teacher"],
+	"group": [""],
+	"occupation": ["Violinist", "Teacher"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -8915,7 +9258,8 @@
 		"color": ""
 	}],
 	"color": "blue",
-	"group": ["Soprano"],
+	"group": [""],
+	"occupation": ["Soprano"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -8947,7 +9291,8 @@
 		"color": "red"
 	}],
 	"color": "red",
-	"group": ["Organist", "Composer", "Author"],
+	"group": ["French organ school (3rd)"],
+	"occupation": ["Organist", "Composer", "Author"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -8979,7 +9324,8 @@
 		"color": "lightBlue"
 	}],
 	"color": "blue",
-	"group": ["Organist", "Composer"],
+	"group": ["French organ school (2nd)"],
+	"occupation": ["Organist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -9011,7 +9357,8 @@
 		"color": "blue"
 	}],
 	"color": "red",
-	"group": ["Organist", "Composer", "Priest", "Poet"],
+	"group": ["French organ school (1st)"],
+	"occupation": ["Organist", "Composer", "Priest", "Poet"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -9047,7 +9394,8 @@
 		"color": "blue"
 	}],
 	"color": "red",
-	"group": ["Organist", "Harpsichordist", "Gambist", "Composer"],
+	"group": ["French organ school (1st)"],
+	"occupation": ["Organist", "Harpsichordist", "Gambist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -9079,7 +9427,8 @@
 		"color": "blue"
 	}],
 	"color": "red",
-	"group": ["Organist", "Composer", "Music Theorist"],
+	"group": ["French organ school (2nd)"],
+	"occupation": ["Organist", "Composer", "Music Theorist"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -9111,7 +9460,8 @@
 		"color": "lightBlue"
 	}],
 	"color": "blue",
-	"group": ["Organist", "Composer"],
+	"group": ["French organ school (1st)"],
+	"occupation": ["Organist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -9143,7 +9493,8 @@
 		"color": "black"
 	}],
 	"color": "blue",
-	"group": ["Organist", "Harpsichordist"],
+	"group": ["French organ school (2nd)"],
+	"occupation": ["Organist", "Harpsichordist"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -9175,7 +9526,8 @@
 		"color": "red"
 	}],
 	"color": "blue",
-	"group": ["Organist", "Harpsichordist", "Composer"],
+	"group": ["French organ school (2nd)"],
+	"occupation": ["Organist", "Harpsichordist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -9207,7 +9559,8 @@
 		"color": ""
 	}],
 	"color": "blue",
-	"group": ["Organist", "Composer"],
+	"group": ["French organ school (2nd)"],
+	"occupation": ["Organist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -9239,7 +9592,8 @@
 		"color": ""
 	}],
 	"color": "blue",
-	"group": ["Organist", "Composer"],
+	"group": ["French organ school (2nd)"],
+	"occupation": ["Organist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -9271,7 +9625,8 @@
 		"color": ""
 	}],
 	"color": "blue",
-	"group": ["Organist", "Composer"],
+	"group": ["French organ school (2nd)"],
+	"occupation": ["Organist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -9303,7 +9658,8 @@
 		"color": ""
 	}],
 	"color": "blue",
-	"group": ["Organist", "Composer"],
+	"group": ["French organ school (2nd)"],
+	"occupation": ["Organist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -9335,7 +9691,8 @@
 		"color": ""
 	}],
 	"color": "blue",
-	"group": ["Organist", "Harpsichordist", "Composer"],
+	"group": ["French organ school (2nd)"],
+	"occupation": ["Organist", "Harpsichordist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -9367,7 +9724,8 @@
 		"color": ""
 	}],
 	"color": "blue",
-	"group": ["Organist", "Composer", "Priest"],
+	"group": ["French organ school (2nd)"],
+	"occupation": ["Organist", "Composer", "Priest"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -9407,7 +9765,8 @@
 		"color": "black"
 	}],
 	"color": "blue",
-	"group": ["Organist", "Composer"],
+	"group": ["French organ school (2nd)"],
+	"occupation": ["Organist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -9439,7 +9798,8 @@
 		"color": ""
 	}],
 	"color": "blue",
-	"group": ["Organist", "Harpsichordist", "Composer"],
+	"group": ["French organ school (2nd)"],
+	"occupation": ["Organist", "Harpsichordist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -9471,7 +9831,8 @@
 		"color": "gray"
 	}],
 	"color": "blue",
-	"group": ["Organist", "Composer"],
+	"group": ["French organ school (2nd)"],
+	"occupation": ["Organist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -9503,7 +9864,8 @@
 		"color": "blue"
 	}],
 	"color": "blue",
-	"group": ["Singing Teacher", "Composer"],
+	"group": [""],
+	"occupation": ["Singing Teacher", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -9535,7 +9897,8 @@
 		"color": "red"
 	}],
 	"color": "blue",
-	"group": ["Singing Teacher"],
+	"group": [""],
+	"occupation": ["Singing Teacher"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -9571,7 +9934,8 @@
 		"color": "green"
 	}],
 	"color": "blue",
-	"group": ["Castrato", "Composer", "Singing Teacher"],
+	"group": [""],
+	"occupation": ["Castrato", "Composer", "Singing Teacher"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -9603,7 +9967,8 @@
 		"color": ""
 	}],
 	"color": "blue",
-	"group": ["Singer", "Composer", "Librettist"],
+	"group": [""],
+	"occupation": ["Singer", "Composer", "Librettist"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -9635,7 +10000,8 @@
 		"color": ""
 	}],
 	"color": "gray",
-	"group": ["Organ builder"],
+	"group": [""],
+	"occupation": ["Organ builder"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -9667,7 +10033,8 @@
 		"color": "lightBlue"
 	}],
 	"color": "gray",
-	"group": ["Music Theorist", "Mathematician", "Philosopher", "Theologian"],
+	"group": [""],
+	"occupation": ["Music Theorist", "Mathematician", "Philosopher", "Theologian"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -9703,7 +10070,8 @@
 		"color": "red"
 	}],
 	"color": "blue",
-	"group": ["Lutenist", "Composer"],
+	"group": [""],
+	"occupation": ["Lutenist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -9735,7 +10103,8 @@
 		"color": ""
 	}],
 	"color": "blue",
-	"group": ["Organist", "Composer"],
+	"group": [""],
+	"occupation": ["Organist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -9771,7 +10140,8 @@
 		"color": "gray"
 	}],
 	"color": "blue",
-	"group": ["Organist", "Composer"],
+	"group": ["French organ school (3rd)"],
+	"occupation": ["Organist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -9803,7 +10173,8 @@
 		"color": "green"
 	}],
 	"color": "darkBlue",
-	"group": ["Composer"],
+	"group": [""],
+	"occupation": ["Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -9839,7 +10210,8 @@
 		"color": "red"
 	}],
 	"color": "blue",
-	"group": ["Organist", "Harpsichordist", "Composer"],
+	"group": ["French organ school (3rd)"],
+	"occupation": ["Organist", "Harpsichordist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -9871,7 +10243,8 @@
 		"color": "gray"
 	}],
 	"color": "blue",
-	"group": ["Organist", "Harpsichordist", "Composer"],
+	"group": [""],
+	"occupation": ["Organist", "Harpsichordist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -9903,7 +10276,8 @@
 		"color": ""
 	}],
 	"color": "blue",
-	"group": ["Violinist", "Music editor"],
+	"group": [""],
+	"occupation": ["Violinist", "Music editor"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -9930,12 +10304,13 @@
 	"placeBirth": "Champigny-sur-Veude, France",
 	"placeDeath": "Paris, France",
 	"relationship": [{
-		"id": "",
-		"type": "",
-		"color": ""
+		"id": 356,
+		"type": "Student",
+		"color": "gray"
 	}],
 	"color": "blue",
-	"group": ["Singing master", "Theorbist", "Composer"],
+	"group": [""],
+	"occupation": ["Singing master", "Theorbist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -9967,7 +10342,8 @@
 		"color": ""
 	}],
 	"color": "darkBlue",
-	"group": ["Composer"],
+	"group": [""],
+	"occupation": ["Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -9999,7 +10375,8 @@
 		"color": "gray"
 	}],
 	"color": "blue",
-	"group": ["Lutenist", "Composer"],
+	"group": [""],
+	"occupation": ["Lutenist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
@@ -10031,10 +10408,2680 @@
 		"color": ""
 	}],
 	"color": "blue",
-	"group": ["Lutenist", "Composer"],
+	"group": [""],
+	"occupation": ["Lutenist", "Composer"],
 	"source": [{
 		"citation": "",
 		"extract": ""
 	}],
 	"picture": ""
+},
+{
+	"id": 295,
+	"name": {
+		"first": "Mischa",
+		"last": "Elman",
+		"alt": ["Mischa Mikhail Saulovich Elman", "Moses/Moishe Elman"]
+	},
+	"dateBirth": {
+		"yyyy": "1891",
+		"mm": "01",
+		"dd": "20"
+	},
+	"dateDeath": {
+		"yyyy": "1967",
+		"mm": "04",
+		"dd": "05"
+	},
+	"placeBirth": "Talnoye, Russia",
+	"placeDeath": "Manhattan, USA",
+	"relationship": [{
+		"id": 176,
+		"type": "Student",
+		"color": "gray"
+	},{
+		"id": 296,
+		"type": "Acquaintance",
+		"color": "blue"
+	},{
+		"id": 300,
+		"type": "Acquaintance",
+		"color": "blue"
+	}],
+	"color": "blue",
+	"group": [""],
+	"occupation": ["Violinist"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/a/af/Mischa_Elman_with_violin_in_1916.jpg"
+},
+{
+	"id": 296,
+	"name": {
+		"first": "Pablo de",
+		"last": "Sarasate",
+		"alt": ["Martín Melitón Pablo de Sarasate y Navascués"]
+	},
+	"dateBirth": {
+		"yyyy": "1844",
+		"mm": "03",
+		"dd": "10"
+	},
+	"dateDeath": {
+		"yyyy": "1908",
+		"mm": "09",
+		"dd": "20"
+	},
+	"placeBirth": "Pamplona, Spain",
+	"placeDeath": "Biarritz, France",
+	"relationship": [{
+		"id": 297,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "blue",
+	"group": [""],
+	"occupation": ["Violinist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://vignette.wikia.nocookie.net/bakerstreet/images/6/6e/Sarasate.jpg"
+},
+{
+	"id": 297,
+	"name": {
+		"first": "Jean-Delphin",
+		"last": "Alard",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1815",
+		"mm": "03",
+		"dd": "08"
+	},
+	"dateDeath": {
+		"yyyy": "1888",
+		"mm": "02",
+		"dd": "22"
+	},
+	"placeBirth": "Bayonne, France",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": 298,
+		"type": "Son-in-law",
+		"color": "red"
+	},{
+		"id": 221,
+		"type": "Student",
+		"color": "gray"
+	},{
+		"id": 299,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "blue",
+	"group": [""],
+	"occupation": ["Violinist", "Composer", "Teacher"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/en/2/2d/Jean-DelphinAlard.png"
+},
+{
+	"id": 298,
+	"name": {
+		"first": "Jean-Baptiste",
+		"last": "Vuillaume",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1798",
+		"mm": "10",
+		"dd": "07"
+	},
+	"dateDeath": {
+		"yyyy": "1875",
+		"mm": "03",
+		"dd": "19"
+	},
+	"placeBirth": "Mirecourt, France",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": 201,
+		"type": "Acquaintance",
+		"color": "blue"
+	}],
+	"color": "gray",
+	"group": [""],
+	"occupation": ["Luthier", "Businessman", "Inventor"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/J.B.Vuillaume_photo_1860_Moulin_Workshop.jpg/402px-J.B.Vuillaume_photo_1860_Moulin_Workshop.jpg"
+},
+{
+	"id": 299,
+	"name": {
+		"first": "François",
+		"last": "Habeneck",
+		"alt": ["François Antoine Habeneck"]
+	},
+	"dateBirth": {
+		"yyyy": "1781",
+		"mm": "01",
+		"dd": "22"
+	},
+	"dateDeath": {
+		"yyyy": "1849",
+		"mm": "02",
+		"dd": "08"
+	},
+	"placeBirth": "Mézières, France",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "blue",
+	"group": [""],
+	"occupation": ["Violinist", "Conductor"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Fran%C3%A7ois-Antoine_Habeneck_01.jpg"
+},
+{
+	"id": 300,
+	"name": {
+		"first": "Édouard",
+		"last": "Colonne",
+		"alt": ["Édouard Juda Colonne"]
+	},
+	"dateBirth": {
+		"yyyy": "1838",
+		"mm": "07",
+		"dd": "23"
+	},
+	"dateDeath": {
+		"yyyy": "1910",
+		"mm": "03",
+		"dd": "28"
+	},
+	"placeBirth": "Bordeaux, France",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "blue",
+	"group": [""],
+	"occupation": ["Violinist", "Conductor"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Edouard_Colonne_par_F%C3%A9lix_Nadar.JPEG/435px-Edouard_Colonne_par_F%C3%A9lix_Nadar.JPEG"
+},
+{
+	"id": 301,
+	"name": {
+		"first": "Konstanty",
+		"last": "Gorski",
+		"alt": ["Konstanty Antoni Gorski"]
+	},
+	"dateBirth": {
+		"yyyy": "1859",
+		"mm": "06",
+		"dd": "13"
+	},
+	"dateDeath": {
+		"yyyy": "1924",
+		"mm": "05",
+		"dd": "31"
+	},
+	"placeBirth": "Lida, Poland",
+	"placeDeath": "Poznań, Poland",
+	"relationship": [{
+		"id": 176,
+		"type": "Student",
+		"color": "gray"
+	},{
+		"id": 302,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "blue",
+	"group": [""],
+	"occupation": ["Violinist", "Organist", "Composer", "Teacher"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Gorski-foto1.JPG/538px-Gorski-foto1.JPG"
+},
+{
+	"id": 302,
+	"name": {
+		"first": "Nikolai",
+		"last": "Rimsky-Korsakov",
+		"alt": ["Nikolai Andreyevich Rimsky-Korsakov"]
+	},
+	"dateBirth": {
+		"yyyy": "1844",
+		"mm": "03",
+		"dd": "18"
+	},
+	"dateDeath": {
+		"yyyy": "1908",
+		"mm": "06",
+		"dd": "21"
+	},
+	"placeBirth": "Tikhvin, Russia",
+	"placeDeath": "Lubensk estate, Russia",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "darkBlue",
+	"group": ["The Five", "Belyayev circle"],
+	"occupation": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Rimsky-Korsakov_Serow_crop.png/424px-Rimsky-Korsakov_Serow_crop.png"
+},
+{
+	"id": 303,
+	"name": {
+		"first": "Nathan",
+		"last": "Milstein",
+		"alt": ["Nathan Mironovich Milstein"]
+	},
+	"dateBirth": {
+		"yyyy": "1904",
+		"mm": "01",
+		"dd": "13"
+	},
+	"dateDeath": {
+		"yyyy": "1992",
+		"mm": "12",
+		"dd": "21"
+	},
+	"placeBirth": "Odessa, Russian Empire",
+	"placeDeath": "London, England",
+	"relationship": [{
+		"id": 176,
+		"type": "Student",
+		"color": "gray"
+	},{
+		"id": 304,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "blue",
+	"group": [""],
+	"occupation": ["Violinist"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/en/6/6e/Nathan_Milstein.jpg"
+},
+{
+	"id": 304,
+	"name": {
+		"first": "Pyotr",
+		"last": "Stolyarsky",
+		"alt": ["Pyotr Solomonovich Stolyarsky"]
+	},
+	"dateBirth": {
+		"yyyy": "1871",
+		"mm": "11",
+		"dd": "18"
+	},
+	"dateDeath": {
+		"yyyy": "1944",
+		"mm": "04",
+		"dd": "29"
+	},
+	"placeBirth": "Lypovets, Russian Empire",
+	"placeDeath": "Sverdlovsk, USSR",
+	"relationship": [{
+		"id": 305,
+		"type": "Student",
+		"color": "gray"
+	},{
+		"id": 307,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "blue",
+	"group": [""],
+	"occupation": ["Violinist", "Pedagogue"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 305,
+	"name": {
+		"first": "Emil",
+		"last": "Młynarski",
+		"alt": ["Emil Szymon Młynarski"]
+	},
+	"dateBirth": {
+		"yyyy": "1870",
+		"mm": "07",
+		"dd": "18"
+	},
+	"dateDeath": {
+		"yyyy": "1935",
+		"mm": "04",
+		"dd": "05"
+	},
+	"placeBirth": "Kibarty, Russian Empire",
+	"placeDeath": "Warsaw, Poland",
+	"relationship": [{
+		"id": 176,
+		"type": "Student",
+		"color": "gray"
+	},{
+		"id": 302,
+		"type": "Student",
+		"color": "gray"
+	},{
+		"id": 306,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "blue",
+	"group": [""],
+	"occupation": ["Violinist", "Conductor", "Composer", "Pedagogue"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Emil_Mlynarski_1870_-_1935.jpg/561px-Emil_Mlynarski_1870_-_1935.jpg"
+},
+{
+	"id": 306,
+	"name": {
+		"first": "Anatoly",
+		"last": "Lyadov",
+		"alt": ["Anatoly Konstantinovich Lyadov/Liadov"]
+	},
+	"dateBirth": {
+		"yyyy": "1855",
+		"mm": "05",
+		"dd": "12"
+	},
+	"dateDeath": {
+		"yyyy": "1914",
+		"mm": "08",
+		"dd": "28"
+	},
+	"placeBirth": "St. Petersburg, Russian Empire",
+	"placeDeath": "Polynovka, Novgorod Governorate",
+	"relationship": [{
+		"id": 302,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "blue",
+	"group": ["Belyayev circle"],
+	"occupation": ["Conductor", "Composer", "Teacher"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/7/77/Anatoly_Lyadov.jpg"
+},
+{
+	"id": 307,
+	"name": {
+		"first": "Stanisław",
+		"last": "Barcewicz",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1858",
+		"mm": "04",
+		"dd": "16"
+	},
+	"dateDeath": {
+		"yyyy": "1929",
+		"mm": "09",
+		"dd": "01"
+	},
+	"placeBirth": "Warsaw, Poland",
+	"placeDeath": "Warsaw, Poland",
+	"relationship": [{
+		"id": 187,
+		"type": "Student",
+		"color": "gray"
+	},{
+		"id": 192,
+		"type": "Student",
+		"color": "gray"
+	},{
+		"id": 308,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "blue",
+	"group": [""],
+	"occupation": ["Violinist", "Conductor", "Teacher"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Stanis%C5%82aw_Barcewicz_foto_%28cropped%29.jpg/442px-Stanis%C5%82aw_Barcewicz_foto_%28cropped%29.jpg"
+},
+{
+	"id": 308,
+	"name": {
+		"first": "Jan",
+		"last": "Hřímalý",
+		"alt": ["Voitsekhovich Grzhimali"]
+	},
+	"dateBirth": {
+		"yyyy": "1844",
+		"mm": "04",
+		"dd": "13"
+	},
+	"dateDeath": {
+		"yyyy": "1915",
+		"mm": "01",
+		"dd": "24"
+	},
+	"placeBirth": "Pilsen, Bohemia",
+	"placeDeath": "Moscow, USSR",
+	"relationship": [{
+		"id": 187,
+		"type": "Acquaintance",
+		"color": "blue"
+	}],
+	"color": "blue",
+	"group": [""],
+	"occupation": ["Violinist", "Teacher"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Jan_H%C5%99%C3%ADmal%C3%BD.jpg"
+},
+{
+	"id": 309,
+	"name": {
+		"first": "David",
+		"last": "Oistrakh",
+		"alt": ["David Fyodorovich Oistrakh/Eustrach"]
+	},
+	"dateBirth": {
+		"yyyy": "1908",
+		"mm": "09",
+		"dd": "30"
+	},
+	"dateDeath": {
+		"yyyy": "1974",
+		"mm": "10",
+		"dd": "24"
+	},
+	"placeBirth": "Odessa, Russian Empire",
+	"placeDeath": "Amsterdam, Netherlands",
+	"relationship": [{
+		"id": 304,
+		"type": "Student",
+		"color": "gray"
+	},{
+		"id": 303,
+		"type": "Friend",
+		"color": "lightBlue"
+	}],
+	"color": "blue",
+	"group": [""],
+	"occupation": ["Violinist", "Violist", "Conductor"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/a/af/Bundesarchiv_Bild_183-23447-0001%2C_Dresden%2C_Konzert_David_Oistrach_%28crop%29.jpg"
+},
+{
+	"id": 310,
+	"name": {
+		"first": "Georg",
+		"last": "Rhau",
+		"alt": ["Georg Rhaw"]
+	},
+	"dateBirth": {
+		"yyyy": "1488",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1548",
+		"mm": "08",
+		"dd": "06"
+	},
+	"placeBirth": "Eisfeld, Germany",
+	"placeDeath": "Wittenberg, Germany",
+	"relationship": [{
+		"id": 246,
+		"type": "Friend",
+		"color": "lightBlue"
+	}],
+	"color": "darkBlue",
+	"group": [""],
+	"occupation": ["Composer", "Publisher"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Georg_Rhau.jpg/480px-Georg_Rhau.jpg"
+},
+{
+	"id": 311,
+	"name": {
+		"first": "Cristofano",
+		"last": "Malvezzi",
+		"alt": ["Cristoforo Malvezzi"]
+	},
+	"dateBirth": {
+		"yyyy": "b1547",
+		"mm": "06",
+		"dd": "28"
+	},
+	"dateDeath": {
+		"yyyy": "1599",
+		"mm": "01",
+		"dd": "22"
+	},
+	"placeBirth": "Lucca, Italy",
+	"placeDeath": "Florence, Italy",
+	"relationship": [{
+		"id": 312,
+		"type": "Patronee",
+		"color": "green"
+	}],
+	"color": "blue",
+	"group": ["Florentine Camerata"],
+	"occupation": ["Organist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 312,
+	"name": {
+		"first": "Giovanni de'",
+		"last": "Bardi",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1534",
+		"mm": "02",
+		"dd": "05"
+	},
+	"dateDeath": {
+		"yyyy": "1612",
+		"mm": "09",
+		"dd": "??"
+	},
+	"placeBirth": "Florence, Italy",
+	"placeDeath": "Florence, Italy",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "darkRed",
+	"group": ["Florentine Camerata", "Accademia degli Alterati", "Accademia degli Elevati"],
+	"occupation": ["Count of Vernio", "Literary critic", "Writer", "Composer", "Soldier"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 313,
+	"name": {
+		"first": "Pietro",
+		"last": "Strozzi",
+		"alt": ["Pietro Strozzi"]
+	},
+	"dateBirth": {
+		"yyyy": "1550",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1609",
+		"mm": "09",
+		"dd": "01"
+	},
+	"placeBirth": "Florence, Italy",
+	"placeDeath": "Florence, Italy",
+	"relationship": [{
+		"id": 312,
+		"type": "Patronee",
+		"color": "green"
+	},{
+		"id": 248,
+		"type": "Patronee",
+		"color": "green"
+	}],
+	"color": "green",
+	"group": ["Florentine Camerata", "Accademia degli Elevati"],
+	"occupation": ["Nobleman", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 314,
+	"name": {
+		"first": "Girolamo",
+		"last": "Mei",
+		"alt": ["Decimo Corinella da Peretola"]
+	},
+	"dateBirth": {
+		"yyyy": "1519",
+		"mm": "05",
+		"dd": "27"
+	},
+	"dateDeath": {
+		"yyyy": "1594",
+		"mm": "07",
+		"dd": "??"
+	},
+	"placeBirth": "Florence, Italy",
+	"placeDeath": "Rome, Italy",
+	"relationship": [{
+		"id": 312,
+		"type": "Patronee",
+		"color": "green"
+	}],
+	"color": "gray",
+	"group": ["Florentine Camerata", "Accademia degli Alterati"],
+	"occupation": ["Historian", "Humanist"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 315,
+	"name": {
+		"first": "Vincenzo",
+		"last": "Galilei",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1520",
+		"mm": "04",
+		"dd": "03"
+	},
+	"dateDeath": {
+		"yyyy": "1591",
+		"mm": "07",
+		"dd": "02"
+	},
+	"placeBirth": "Santa Maria a Monte, Italy",
+	"placeDeath": "Florence, Italy",
+	"relationship": [{
+		"id": 312,
+		"type": "Patronee",
+		"color": "green"
+	},{
+		"id": 321,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "blue",
+	"group": ["Florentine Camerata"],
+	"occupation": ["Lutenist", "Composer", "Music theorist"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 316,
+	"name": {
+		"first": "Michelagnolo",
+		"last": "Galilei",
+		"alt": ["Michelangelo Galilei"]
+	},
+	"dateBirth": {
+		"yyyy": "1575",
+		"mm": "12",
+		"dd": "18"
+	},
+	"dateDeath": {
+		"yyyy": "1631",
+		"mm": "01",
+		"dd": "03"
+	},
+	"placeBirth": "Florence, Italy",
+	"placeDeath": "Munich, Germany",
+	"relationship": [{
+		"id": 315,
+		"type": "Son",
+		"color": "red"
+	}],
+	"color": "blue",
+	"group": [""],
+	"occupation": ["Lutenist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 317,
+	"name": {
+		"first": "Marco da",
+		"last": "Gagliano",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1582",
+		"mm": "05",
+		"dd": "01"
+	},
+	"dateDeath": {
+		"yyyy": "1643",
+		"mm": "02",
+		"dd": "25"
+	},
+	"placeBirth": "Florence, Italy",
+	"placeDeath": "Florence, Italy",
+	"relationship": [{
+		"id": 247,
+		"type": "Acquaintance",
+		"color": "blue"
+	},{
+		"id": 318,
+		"type": "Student",
+		"color": "gray"
+	},{
+		"id": 366,
+		"type": "Acquaintance",
+		"color": "gray"
+	}],
+	"color": "darkBlue",
+	"group": ["Accademia degli Elevati", "Compagnia dell'Arcangelo Raffaello"],
+	"occupation": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 318,
+	"name": {
+		"first": "Luca",
+		"last": "Bati",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "c1546",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1608",
+		"mm": "10",
+		"dd": "17"
+	},
+	"placeBirth": "Florence, Italy",
+	"placeDeath": "Florence, Italy",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "darkBlue",
+	"group": [""],
+	"occupation": ["Composer", "Teacher"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 319,
+	"name": {
+		"first": "Ottavio",
+		"last": "Rinuccini",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1562",
+		"mm": "01",
+		"dd": "20"
+	},
+	"dateDeath": {
+		"yyyy": "1621",
+		"mm": "03",
+		"dd": "28"
+	},
+	"placeBirth": "Florence, Italy",
+	"placeDeath": "Florence, Italy",
+	"relationship": [{
+		"id": 247,
+		"type": "Librettist",
+		"color": "green"
+	},{
+		"id": 312,
+		"type": "Patronee",
+		"color": "green"
+	},{
+		"id": 364,
+		"type": "Acquaintance",
+		"color": "blue"
+	}],
+	"color": "darkRed",
+	"group": ["Florentine Camerata", "Accademia degli Alterati", "Accademia degli Elevati"],
+	"occupation": ["Poet", "Courtier", "Librettist"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 320,
+	"name": {
+		"first": "Emilio de'",
+		"last": "Cavalieri",
+		"alt": ["Emilio dei Cavalieri"]
+	},
+	"dateBirth": {
+		"yyyy": "c1550",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1602",
+		"mm": "03",
+		"dd": "11"
+	},
+	"placeBirth": "Rome, Italy",
+	"placeDeath": "Rome, Italy",
+	"relationship": [{
+		"id": 312,
+		"type": "Acquaintance",
+		"color": "blue"
+	}],
+	"color": "blue",
+	"group": ["Florentine Camerata"],
+	"occupation": ["Organist", "Composer", "Dancer", "Choreographer", "Diplomat", "Producer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 321,
+	"name": {
+		"first": "Gioseffo",
+		"last": "Zarlino",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1517",
+		"mm": "01",
+		"dd": "31"
+	},
+	"dateDeath": {
+		"yyyy": "1590",
+		"mm": "02",
+		"dd": "04"
+	},
+	"placeBirth": "Chioggia, Italy",
+	"placeDeath": "Venice, Italy",
+	"relationship": [{
+		"id": 322,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "darkRed",
+	"group": [""],
+	"occupation": ["Composer", "Music theorist"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/2/22/Gioseffo_Zarlino.jpg"
+},
+{
+	"id": 322,
+	"name": {
+		"first": "Adrian",
+		"last": "Willaert",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "c1490",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1562",
+		"mm": "12",
+		"dd": "07"
+	},
+	"placeBirth": "Rumbeke, Flanders",
+	"placeDeath": "Venice, Italy",
+	"relationship": [{
+		"id": 323,
+		"type": "Student",
+		"color": "gray"
+	},{
+		"id": 324,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "darkRed",
+	"group": ["Franco-Flemish School"],
+	"occupation": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/5/57/Adrian_Willaert.jpg"
+},
+{
+	"id": 323,
+	"name": {
+		"first": "Jean",
+		"last": "Mouton",
+		"alt": ["Jean de Hollingue"]
+	},
+	"dateBirth": {
+		"yyyy": "c1459",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1522",
+		"mm": "10",
+		"dd": "30"
+	},
+	"placeBirth": "Haut-Wignes, France (?)",
+	"placeDeath": "Saint-Quentin, France",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "darkBlue",
+	"group": ["Franco-Flemish School"],
+	"occupation": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 324,
+	"name": {
+		"first": "Josquin des",
+		"last": "Prez",
+		"alt": ["Josquin Lebloitte", "Iosquinus Pratensis", "Iodocus a Prato"]
+	},
+	"dateBirth": {
+		"yyyy": "c1450",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1521",
+		"mm": "08",
+		"dd": "27"
+	},
+	"placeBirth": "Beaurevoir, France (?)",
+	"placeDeath": "Condé-sur-l'Escaut, France",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "darkRed",
+	"group": ["Franco-Flemish School"],
+	"occupation": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 325,
+	"name": {
+		"first": "Constanzo",
+		"last": "Porta",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "c1528",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1601",
+		"mm": "05",
+		"dd": "19"
+	},
+	"placeBirth": "Cremona, Italy",
+	"placeDeath": "Padua, Italy",
+	"relationship": [{
+		"id": 322,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "darkBlue",
+	"group": [""],
+	"occupation": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 326,
+	"name": {
+		"first": "Francesco dalla",
+		"last": "Viola",
+		"alt": ["Francesco Viola"]
+	},
+	"dateBirth": {
+		"yyyy": "c1508",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1568",
+		"mm": "03",
+		"dd": "??"
+	},
+	"placeBirth": "Ferrare, Italy",
+	"placeDeath": "Ferrare, Italy",
+	"relationship": [{
+		"id": 322,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "darkBlue",
+	"group": [""],
+	"occupation": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 327,
+	"name": {
+		"first": "Charles",
+		"last": "Dieupart",
+		"alt": ["François Dieupart"]
+	},
+	"dateBirth": {
+		"yyyy": "c1667",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1740",
+		"mm": "??",
+		"dd": "??"
+	},
+	"placeBirth": "Paris, France (?)",
+	"placeDeath": "London, England",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "blue",
+	"group": [""],
+	"occupation": ["Harpsichordist", "Violinist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 328,
+	"name": {
+		"first": "Thomas",
+		"last": "Clayton",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1673",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1725",
+		"mm": "??",
+		"dd": "??"
+	},
+	"placeBirth": "London, England",
+	"placeDeath": "London, England",
+	"relationship": [{
+		"id": 327,
+		"type": "Acquaintance",
+		"color": "blue"
+	}],
+	"color": "blue",
+	"group": [""],
+	"occupation": ["Violinist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 329,
+	"name": {
+		"first": "Nicola Francesco",
+		"last": "Haym",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1678",
+		"mm": "07",
+		"dd": "06"
+	},
+	"dateDeath": {
+		"yyyy": "1729",
+		"mm": "07",
+		"dd": "31"
+	},
+	"placeBirth": "Rome, Italy",
+	"placeDeath": "London, England",
+	"relationship": [{
+		"id": 328,
+		"type": "Acquaintance",
+		"color": "blue"
+	},{
+		"id": 63,
+		"type": "Librettist",
+		"color": "green"
+	},{
+		"id": 159,
+		"type": "Librettist",
+		"color": "green"
+	}],
+	"color": "darkBlue",
+	"group": [""],
+	"occupation": ["Librettist", "Composer", "Theatre manager", "Literary editor", "Numismatist"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 330,
+	"name": {
+		"first": "Élisabeth",
+		"last": "Jacquet de La Guerre",
+		"alt": ["Élisabeth-Claude Jacquet de La Guerre", "Élisabeth Jacquet"]
+	},
+	"dateBirth": {
+		"yyyy": "1665",
+		"mm": "03",
+		"dd": "17"
+	},
+	"dateDeath": {
+		"yyyy": "1729",
+		"mm": "06",
+		"dd": "27"
+	},
+	"placeBirth": "Paris, France",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": 203,
+		"type": "Patronee",
+		"color": "green"
+	}],
+	"color": "blue",
+	"group": [""],
+	"occupation": ["Harpsichordist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Elisabeth_Jacquet_de_La_Guerre-full.jpg/371px-Elisabeth_Jacquet_de_La_Guerre-full.jpg"
+},
+{
+	"id": 331,
+	"name": {
+		"first": "Settimia",
+		"last": "Caccini",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1591",
+		"mm": "10",
+		"dd": "06"
+	},
+	"dateDeath": {
+		"yyyy": "c1638",
+		"mm": "??",
+		"dd": "??"
+	},
+	"placeBirth": "Florence, Italy",
+	"placeDeath": "Florence, Italy",
+	"relationship": [{
+		"id": 99,
+		"type": "Daughter",
+		"color": "red"
+	}],
+	"color": "blue",
+	"group": [""],
+	"occupation": ["Singer", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 332,
+	"name": {
+		"first": "Francesca",
+		"last": "Caccini",
+		"alt": ["La Cecchina"]
+	},
+	"dateBirth": {
+		"yyyy": "1591",
+		"mm": "10",
+		"dd": "06"
+	},
+	"dateDeath": {
+		"yyyy": "c1638",
+		"mm": "??",
+		"dd": "??"
+	},
+	"placeBirth": "Florence, Italy",
+	"placeDeath": "Florence, Italy",
+	"relationship": [{
+		"id": 99,
+		"type": "Daughter",
+		"color": "red"
+	}],
+	"color": "blue",
+	"group": [""],
+	"occupation": ["Singer", "Lutenist", "Poet", "Music teacher", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/La_Bella_by_Palma_il_Vecchio.png/416px-La_Bella_by_Palma_il_Vecchio.png"
+},
+{
+	"id": 333,
+	"name": {
+		"first": "Barbara",
+		"last": "Strozzi",
+		"alt": ["La Greghetta", "Isabella Griega/Garzoni", "Barbara Valle"]
+	},
+	"dateBirth": {
+		"yyyy": "b1619",
+		"mm": "08",
+		"dd": "06"
+	},
+	"dateDeath": {
+		"yyyy": "1677",
+		"mm": "11",
+		"dd": "11"
+	},
+	"placeBirth": "Venice, Italy",
+	"placeDeath": "Padua, Italy",
+	"relationship": [{
+		"id": 89,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "blue",
+	"group": [""],
+	"occupation": ["Singer", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bernardo_Strozzi_001.jpg/465px-Bernardo_Strozzi_001.jpg"
+},
+{
+	"id": 334,
+	"name": {
+		"first": "Maria Carolina",
+		"last": "Wolf",
+		"alt": ["Maria Carolina Benda"]
+	},
+	"dateBirth": {
+		"yyyy": "1742",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1820",
+		"mm": "08",
+		"dd": "02"
+	},
+	"placeBirth": "Potsdam, Germany",
+	"placeDeath": "Weimar, Germany",
+	"relationship": [{
+		"id": 33,
+		"type": "Daughter, Student",
+		"color": "red"
+	},{
+		"id": 336,
+		"type": "Spouse",
+		"color": "pink"
+	}],
+	"color": "blue",
+	"group": [""],
+	"occupation": ["Pianist", "Singer", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 335,
+	"name": {
+		"first": "Georg",
+		"last": "Benda",
+		"alt": ["Georg Anton Benda", "Jiří Antonín Benda"]
+	},
+	"dateBirth": {
+		"yyyy": "1722",
+		"mm": "06",
+		"dd": "30"
+	},
+	"dateDeath": {
+		"yyyy": "1795",
+		"mm": "11",
+		"dd": "06"
+	},
+	"placeBirth": "Old Benatek, Bohemia",
+	"placeDeath": "Köstritz, Saxe-Gotha-Altenburg",
+	"relationship": [{
+		"id": 33,
+		"type": "Brother",
+		"color": "red"
+	}],
+	"color": "blue",
+	"group": [""],
+	"occupation": ["Violinist", "Kapellmeister", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/en/1/1d/Georg_Benda_%28c._1752%29.jpg"
+},
+{
+	"id": 336,
+	"name": {
+		"first": "Ernst Wilhelm",
+		"last": "Wolf",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1735",
+		"mm": "02",
+		"dd": "25"
+	},
+	"dateDeath": {
+		"yyyy": "1792",
+		"mm": "11",
+		"dd": "29"
+	},
+	"placeBirth": "Grossen Behringen, Germany",
+	"placeDeath": "Weimar, Germany",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "darkBlue",
+	"group": [""],
+	"occupation": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Ernst_Wilhelm_Wolf.JPG/505px-Ernst_Wilhelm_Wolf.JPG"
+},
+{
+	"id": 337,
+	"name": {
+		"first": "Juliane",
+		"last": "Reichardt",
+		"alt": ["Juliane Benda"]
+	},
+	"dateBirth": {
+		"yyyy": "1752",
+		"mm": "05",
+		"dd": "14"
+	},
+	"dateDeath": {
+		"yyyy": "1783",
+		"mm": "05",
+		"dd": "11"
+	},
+	"placeBirth": "Potsdam, Germany",
+	"placeDeath": "Berlin, Germany",
+	"relationship": [{
+		"id": 33,
+		"type": "Daughter",
+		"color": "red"
+	},{
+		"id": 338,
+		"type": "Spouse",
+		"color": "pink"
+	}],
+	"color": "blue",
+	"group": [""],
+	"occupation": ["Pianist", "Singer", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 338,
+	"name": {
+		"first": "Johann Friedrich",
+		"last": "Reichardt",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1752",
+		"mm": "11",
+		"dd": "25"
+	},
+	"dateDeath": {
+		"yyyy": "1814",
+		"mm": "06",
+		"dd": "27"
+	},
+	"placeBirth": "Königsberg, East Prussia",
+	"placeDeath": "Giebichenstein, Germany",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "blue",
+	"group": [""],
+	"occupation": ["Composer", "Writer", "Music critic"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/f/fc/JohannFriedrichReichardtMusikerS130.jpg"
+},
+{
+	"id": 339,
+	"name": {
+		"first": "Anna",
+		"last": "Amalia",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1723",
+		"mm": "11",
+		"dd": "09"
+	},
+	"dateDeath": {
+		"yyyy": "1787",
+		"mm": "03",
+		"dd": "30"
+	},
+	"placeBirth": "Berlin, Germany",
+	"placeDeath": "Berlin, Germany",
+	"relationship": [{
+		"id": 36,
+		"type": "Sister, Student",
+		"color": "red"
+	},{
+		"id": 340,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "green",
+	"group": [""],
+	"occupation": ["Princess-Abbess of Quedlinburg"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Antoine_Pesne_hofdame_%3B_Prinzessin_Amalia_von_Preussen_als_Amazone.jpg/570px-Antoine_Pesne_hofdame_%3B_Prinzessin_Amalia_von_Preussen_als_Amazone.jpg"
+},
+{
+	"id": 340,
+	"name": {
+		"first": "Johann",
+		"last": "Kirnberger",
+		"alt": ["Johann Philipp Kirnberger/Kernberg"]
+	},
+	"dateBirth": {
+		"yyyy": "1721",
+		"mm": "04",
+		"dd": "24"
+	},
+	"dateDeath": {
+		"yyyy": "1783",
+		"mm": "07",
+		"dd": "27"
+	},
+	"placeBirth": "Saalfeld, Germany",
+	"placeDeath": "Berlin, Germany",
+	"relationship": [{
+		"id": 38,
+		"type": "Student",
+		"color": "gray"
+	},{
+		"id": 36,
+		"type": "Employee",
+		"color": "green"
+	}],
+	"color": "blue",
+	"group": [""],
+	"occupation": ["Musician", "Composer", "Music theorist"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Johann_Philipp_Kirnberger.jpg/400px-Johann_Philipp_Kirnberger.jpg"
+},
+{
+	"id": 341,
+	"name": {
+		"first": "Maria Theresia von",
+		"last": "Paradis",
+		"alt": ["Maria Theresia von Paradies"]
+	},
+	"dateBirth": {
+		"yyyy": "1759",
+		"mm": "05",
+		"dd": "15"
+	},
+	"dateDeath": {
+		"yyyy": "1824",
+		"mm": "02",
+		"dd": "01"
+	},
+	"placeBirth": "Vienna, Austria",
+	"placeDeath": "Vienna, Austria",
+	"relationship": [{
+		"id": 123,
+		"type": "Acquaintance",
+		"color": "blue"
+	},{
+		"id": 342,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "red",
+	"group": [""],
+	"occupation": ["Musician", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/0/09/F._Parmanti%C3%A9%2C_1784_-_Maria_Theresia_Paradis.jpg"
+},
+{
+	"id": 342,
+	"name": {
+		"first": "Antonio",
+		"last": "Salieri",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1750",
+		"mm": "08",
+		"dd": "18"
+	},
+	"dateDeath": {
+		"yyyy": "1825",
+		"mm": "05",
+		"dd": "07"
+	},
+	"placeBirth": "Legnano, Italy",
+	"placeDeath": "Vienna, Austria",
+	"relationship": [{
+		"id": 343,
+		"type": "Student",
+		"color": "gray"
+	},{
+		"id": 345,
+		"type": "Acquaintance",
+		"color": "blue"
+	}],
+	"color": "darkBlue",
+	"group": [""],
+	"occupation": ["Composer", "Conductor", "Teacher"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Antonio_Salieri_painted_by_Joseph_Willibrord_M%C3%A4hler.jpg/463px-Antonio_Salieri_painted_by_Joseph_Willibrord_M%C3%A4hler.jpg"
+},
+{
+	"id": 343,
+	"name": {
+		"first": "Giovanni Battista",
+		"last": "Pescetti",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "c1704",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1766",
+		"mm": "03",
+		"dd": "20"
+	},
+	"placeBirth": "Venice, Italy",
+	"placeDeath": "Venice, Italy",
+	"relationship": [{
+		"id": 24,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "blue",
+	"group": [""],
+	"occupation": ["Organist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 344,
+	"name": {
+		"first": "Josef",
+		"last": "Mysliveček",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1737",
+		"mm": "03",
+		"dd": "09"
+	},
+	"dateDeath": {
+		"yyyy": "1781",
+		"mm": "02",
+		"dd": "04"
+	},
+	"placeBirth": "Prague, Czech Republic",
+	"placeDeath": "Rome, Italy",
+	"relationship": [{
+		"id": 343,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "darkBlue",
+	"group": [""],
+	"occupation": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Jan_Vil%C3%ADmek_-_Josef_Myslive%C4%8Dek.jpg/400px-Jan_Vil%C3%ADmek_-_Josef_Myslive%C4%8Dek.jpg"
+},
+{
+	"id": 345,
+	"name": {
+		"first": "Christoph Willibald",
+		"last": "Gluck",
+		"alt": ["Christoph Willibald Ritter von Gluck", "Christophorus Willibaldus"]
+	},
+	"dateBirth": {
+		"yyyy": "1714",
+		"mm": "07",
+		"dd": "02"
+	},
+	"dateDeath": {
+		"yyyy": "1787",
+		"mm": "11",
+		"dd": "15"
+	},
+	"placeBirth": "Berching, Germany",
+	"placeDeath": "Vienna, Austria",
+	"relationship": [{
+		"id": 207,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "darkBlue",
+	"group": [""],
+	"occupation": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Joseph_Siffred_Duplessis_-_Christoph_Willibald_Gluck_-_Google_Art_Project.jpg/387px-Joseph_Siffred_Duplessis_-_Christoph_Willibald_Gluck_-_Google_Art_Project.jpg"
+},
+{
+	"id": 346,
+	"name": {
+		"first": "Carl",
+		"last": "Czerny",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1791",
+		"mm": "02",
+		"dd": "21"
+	},
+	"dateDeath": {
+		"yyyy": "1857",
+		"mm": "07",
+		"dd": "15"
+	},
+	"placeBirth": "Vienna, Austria",
+	"placeDeath": "Vienna, Austria",
+	"relationship": [{
+		"id": 342,
+		"type": "Student",
+		"color": "gray"
+	},{
+		"id": 135,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "blue",
+	"group": [""],
+	"occupation": ["Pianist", "Composer", "Teacher"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Czerny_2.jpg/400px-Czerny_2.jpg"
+},
+{
+	"id": 347,
+	"name": {
+		"first": "Giacomo",
+		"last": "Meyerbeer",
+		"alt": ["Jacob Liebmann Beer"]
+	},
+	"dateBirth": {
+		"yyyy": "1791",
+		"mm": "09",
+		"dd": "05"
+	},
+	"dateDeath": {
+		"yyyy": "1864",
+		"mm": "05",
+		"dd": "02"
+	},
+	"placeBirth": "Tasdorf, Germany",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": 342,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "darkBlue",
+	"group": [""],
+	"occupation": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Meyerbeer_d%27apr%C3%A8s_P._Petit_b_1865.jpg/457px-Meyerbeer_d%27apr%C3%A8s_P._Petit_b_1865.jpg"
+},
+{
+	"id": 348,
+	"name": {
+		"first": "Franz",
+		"last": "Schubert",
+		"alt": ["Franz Peter Schubert"]
+	},
+	"dateBirth": {
+		"yyyy": "1797",
+		"mm": "01",
+		"dd": "31"
+	},
+	"dateDeath": {
+		"yyyy": "1828",
+		"mm": "11",
+		"dd": "19"
+	},
+	"placeBirth": "Himmelpfortgrund, Austria",
+	"placeDeath": "Vienna, Austria",
+	"relationship": [{
+		"id": 342,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "darkBlue",
+	"group": [""],
+	"occupation": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Franz_Schubert_by_Wilhelm_August_Rieder_1875.jpg/331px-Franz_Schubert_by_Wilhelm_August_Rieder_1875.jpg"
+},
+{
+	"id": 349,
+	"name": {
+		"first": "Franz Xaver",
+		"last": "Süssmayr",
+		"alt": ["Franz Xaver Süßmayr/Suessmayr"]
+	},
+	"dateBirth": {
+		"yyyy": "1766",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1803",
+		"mm": "09",
+		"dd": "17"
+	},
+	"placeBirth": "Schwanenstadt, Austria",
+	"placeDeath": "Vienna, Austria",
+	"relationship": [{
+		"id": 342,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "darkBlue",
+	"group": [""],
+	"occupation": ["Composer", "Conductor"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/b/b8/S%C3%BCssmayr.jpg"
+},
+{
+	"id": 350,
+	"name": {
+		"first": "Friederike Sophie",
+		"last": "Wilhelmine",
+		"alt": ["Princess Wilhelmine of Prussia"]
+	},
+	"dateBirth": {
+		"yyyy": "1709",
+		"mm": "07",
+		"dd": "03"
+	},
+	"dateDeath": {
+		"yyyy": "1758",
+		"mm": "10",
+		"dd": "14"
+	},
+	"placeBirth": "Berlin, Germany",
+	"placeDeath": "Bayeruth, Germany",
+	"relationship": [{
+		"id": 351,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "green",
+	"group": [""],
+	"occupation": ["Princess of Prussia", "Margravine of Brandenburg-Bayreuth"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/1709_Sophie_Wilhelmine.JPG/367px-1709_Sophie_Wilhelmine.JPG"
+},
+{
+	"id": 351,
+	"name": {
+		"first": "Sylvius Leopold",
+		"last": "Weiss",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1687",
+		"mm": "10",
+		"dd": "12"
+	},
+	"dateDeath": {
+		"yyyy": "1750",
+		"mm": "10",
+		"dd": "16"
+	},
+	"placeBirth": "Grottkau, Germany",
+	"placeDeath": "Dresden, Germany",
+	"relationship": [{
+		"id": 38,
+		"type": "Acquaintance",
+		"color": "blue"
+	}],
+	"color": "red",
+	"group": [""],
+	"occupation": ["Lutenist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Silvius_Leopold_Weiss.jpg/526px-Silvius_Leopold_Weiss.jpg"
+},
+{
+	"id": 352,
+	"name": {
+		"first": "Santa",
+		"last": "della Pietà",
+		"alt": ["Sanza/Samaritana della Pietà"]
+	},
+	"dateBirth": {
+		"yyyy": "f1725",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1774",
+		"mm": "??",
+		"dd": "??"
+	},
+	"placeBirth": "Venice, Italy (?)",
+	"placeDeath": "Italy (?)",
+	"relationship": [{
+		"id": 353,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "blue",
+	"group": [""],
+	"occupation": ["Violinist", "Singer", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 353,
+	"name": {
+		"first": "Anna Maria",
+		"last": "della Pietà",
+		"alt": ["Anna Maria dal Violin"]
+	},
+	"dateBirth": {
+		"yyyy": "c1696",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1782",
+		"mm": "08",
+		"dd": "10"
+	},
+	"placeBirth": "Venice, Italy (?)",
+	"placeDeath": "Venice, Italy",
+	"relationship": [{
+		"id": 30,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "blue",
+	"group": [""],
+	"occupation": ["Violinist", "Composer", "Teacher"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 354,
+	"name": {
+		"first": "Chiara",
+		"last": "della Pietà",
+		"alt": ["Chiaretta", "Chiara dal Violin"]
+	},
+	"dateBirth": {
+		"yyyy": "1718",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1791",
+		"mm": "??",
+		"dd": "??"
+	},
+	"placeBirth": "Venice, Italy (?)",
+	"placeDeath": "Venice, Italy",
+	"relationship": [{
+		"id": 353,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "blue",
+	"group": [""],
+	"occupation": ["Violinist", "Teacher"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 355,
+	"name": {
+		"first": "Bertrand de",
+		"last": "Bacilly",
+		"alt": ["Bertrand Bénigne de Bacilly/Bacilli/Bassilly"]
+	},
+	"dateBirth": {
+		"yyyy": "1621",
+		"mm": "12",
+		"dd": "21"
+	},
+	"dateDeath": {
+		"yyyy": "1690",
+		"mm": "09",
+		"dd": "27"
+	},
+	"placeBirth": "Lolif, France",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": 284,
+		"type": "Student",
+		"color": "black"
+	},{
+		"id": 356,
+		"type": "Student",
+		"color": "black"
+	}],
+	"color": "blue",
+	"group": [""],
+	"occupation": ["Singer", "Composer", "Music theorist"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 356,
+	"name": {
+		"first": "Pierre de",
+		"last": "Nyert",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1597",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1682",
+		"mm": "??",
+		"dd": "??"
+	},
+	"placeBirth": "Bayonne, France",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "blue",
+	"group": [""],
+	"occupation": ["Singer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 357,
+	"name": {
+		"first": "Anne Chabanceau de",
+		"last": "La Barre",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "b1628",
+		"mm": "09",
+		"dd": "03"
+	},
+	"dateDeath": {
+		"yyyy": "1688",
+		"mm": "03",
+		"dd": "07"
+	},
+	"placeBirth": "Paris, France",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": 356,
+		"type": "Student",
+		"color": "gray"
+	},{
+		"id": 291,
+		"type": "Student",
+		"color": "gray"
+	},{
+		"id": 358,
+		"type": "Daughter",
+		"color": "red"
+	}],
+	"color": "blue",
+	"group": [""],
+	"occupation": ["Singer", "Lutenist", "Harpsichordist", "Dancer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 358,
+	"name": {
+		"first": "Pierre III Chabanceau de",
+		"last": "La Barre",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "b1592",
+		"mm": "01",
+		"dd": "27"
+	},
+	"dateDeath": {
+		"yyyy": "1656",
+		"mm": "03",
+		"dd": "31"
+	},
+	"placeBirth": "Paris, France",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "blue",
+	"group": [""],
+	"occupation": ["Lutenist", "Organist", "Harpsichordist"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 359,
+	"name": {
+		"first": "Joseph Chabanceau de",
+		"last": "La Barre",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "b1633",
+		"mm": "05",
+		"dd": "21"
+	},
+	"dateDeath": {
+		"yyyy": "1678",
+		"mm": "05",
+		"dd": "06"
+	},
+	"placeBirth": "Paris, France",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": 358,
+		"type": "Son",
+		"color": "red"
+	}],
+	"color": "blue",
+	"group": [""],
+	"occupation": ["Organist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 360,
+	"name": {
+		"first": "Pierre",
+		"last": "Dumage",
+		"alt": ["Pierre du Mage"]
+	},
+	"dateBirth": {
+		"yyyy": "b1674",
+		"mm": "11",
+		"dd": "23"
+	},
+	"dateDeath": {
+		"yyyy": "1751",
+		"mm": "10",
+		"dd": "02"
+	},
+	"placeBirth": "Beauvais, France",
+	"placeDeath": "Laon, France",
+	"relationship": [{
+		"id": 276,
+		"type": "Student",
+		"color": "gray"
+	},{
+		"id": 144,
+		"type": "Friend",
+		"color": "lightBlue"
+	}],
+	"color": "blue",
+	"group": ["French organ school (2nd)"],
+	"occupation": ["Organist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 361,
+	"name": {
+		"first": "Louis-Claude",
+		"last": "Daquin",
+		"alt": ["Louis-Claude D'Aquino/d'Aquin/d'Acquin"]
+	},
+	"dateBirth": {
+		"yyyy": "1694",
+		"mm": "07",
+		"dd": "04"
+	},
+	"dateDeath": {
+		"yyyy": "1772",
+		"mm": "06",
+		"dd": "15"
+	},
+	"placeBirth": "Paris, France",
+	"placeDeath": "Paris, France",
+	"relationship": [{
+		"id": 276,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "blue",
+	"group": ["French organ school (3rd)"],
+	"occupation": ["Organist", "Harpsichordist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Louis-Claude_Daquin.jpg/326px-Louis-Claude_Daquin.jpg"
+},
+{
+	"id": 362,
+	"name": {
+		"first": "Giovanni",
+		"last": "Legrenzi",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "b1626",
+		"mm": "08",
+		"dd": "12"
+	},
+	"dateDeath": {
+		"yyyy": "1690",
+		"mm": "05",
+		"dd": "27"
+	},
+	"placeBirth": "Clusone, Italy",
+	"placeDeath": "Venice, Italy",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "blue",
+	"group": [""],
+	"occupation": ["Organist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Legrenzi.jpg/398px-Legrenzi.jpg"
+},
+{
+	"id": 363,
+	"name": {
+		"first": "Pierre-Gabriel",
+		"last": "Buffardin",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1693",
+		"mm": "03",
+		"dd": "24"
+	},
+	"dateDeath": {
+		"yyyy": "1768",
+		"mm": "01",
+		"dd": "13"
+	},
+	"placeBirth": "Paris, France",
+	"placeDeath": "Toulon, France",
+	"relationship": [{
+		"id": 38,
+		"type": "Acquaintance",
+		"color": "blue"
+	}],
+	"color": "blue",
+	"group": [""],
+	"occupation": ["Flutist", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Buffardin_-_portrait.jpg/491px-Buffardin_-_portrait.jpg"
+},
+{
+	"id": 364,
+	"name": {
+		"first": "Gabriello",
+		"last": "Chiabrebra",
+		"alt": ["Italian Pindar"]
+	},
+	"dateBirth": {
+		"yyyy": "1552",
+		"mm": "06",
+		"dd": "18"
+	},
+	"dateDeath": {
+		"yyyy": "1638",
+		"mm": "10",
+		"dd": "14"
+	},
+	"placeBirth": "Savona, Italy",
+	"placeDeath": "Savona, Italy",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "gray",
+	"group": ["Accademia degli Alterati"],
+	"occupation": ["Poet"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Ottavio_Leoni%2C_Gabriello_Chiabrera%2C_1625%2C_NGA_159736.jpg/469px-Ottavio_Leoni%2C_Gabriello_Chiabrera%2C_1625%2C_NGA_159736.jpg"
+},
+{
+	"id": 365,
+	"name": {
+		"first": "Marc'Antonio",
+		"last": "Pordenon",
+		"alt": ["Marcusantonius Furlanus", "Marc'Antonio dal Violin/dalla Viola"]
+	},
+	"dateBirth": {
+		"yyyy": "c1535",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1586",
+		"mm": "09",
+		"dd": "??"
+	},
+	"placeBirth": "Pordenone, Italy (?)",
+	"placeDeath": "Padua, Italy (?)",
+	"relationship": [{
+		"id": 92,
+		"type": "Acquaintance",
+		"color": "black"
+	}],
+	"color": "blue",
+	"group": ["Accademia degli Elevati"],
+	"occupation": ["Violinist", "Conductor", "Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 366,
+	"name": {
+		"first": "Giovanni",
+		"last": "Cavaccio",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "c1556",
+		"mm": "??",
+		"dd": "??"
+	},
+	"dateDeath": {
+		"yyyy": "1626",
+		"mm": "08",
+		"dd": "11"
+	},
+	"placeBirth": "Bergamo, Italy",
+	"placeDeath": "Bergamo, Italy",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "blue",
+	"group": ["Accademia degli Elevati"],
+	"occupation": ["Singer", "Organist", "Composer", "Poet"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": ""
+},
+{
+	"id": 367,
+	"name": {
+		"first": "Modest",
+		"last": "Mussorgsky",
+		"alt": ["Modest Petrovich Mussorgsky"]
+	},
+	"dateBirth": {
+		"yyyy": "1839",
+		"mm": "03",
+		"dd": "21"
+	},
+	"dateDeath": {
+		"yyyy": "1881",
+		"mm": "03",
+		"dd": "28"
+	},
+	"placeBirth": "Karevo, Russian Empire",
+	"placeDeath": "St. Petersburg, Russian Empire",
+	"relationship": [{
+		"id": 368,
+		"type": "Acquaintance",
+		"color": "blue"
+	}],
+	"color": "darkBlue",
+	"group": ["The Five"],
+	"occupation": ["Composer"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/d/db/Modest_Musorgskiy%2C_1870.jpg"
+},
+{
+	"id": 368,
+	"name": {
+		"first": "Alexander",
+		"last": "Borodin",
+		"alt": ["Alexander Porfiryevich Borodin"]
+	},
+	"dateBirth": {
+		"yyyy": "1833",
+		"mm": "11",
+		"dd": "12"
+	},
+	"dateDeath": {
+		"yyyy": "1887",
+		"mm": "02",
+		"dd": "27"
+	},
+	"placeBirth": "St. Petersburg, Russian Empire",
+	"placeDeath": "St. Petersburg, Russian Empire",
+	"relationship": [{
+		"id": 369,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "darkBlue",
+	"group": ["The Five"],
+	"occupation": ["Composer", "Chemist"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/7/70/Borodin.jpg"
+},
+{
+	"id": 369,
+	"name": {
+		"first": "Mily",
+		"last": "Balakirev",
+		"alt": ["Mily Alexeyevich Balakirev"]
+	},
+	"dateBirth": {
+		"yyyy": "1837",
+		"mm": "01",
+		"dd": "02"
+	},
+	"dateDeath": {
+		"yyyy": "1910",
+		"mm": "05",
+		"dd": "29"
+	},
+	"placeBirth": "Nizhny Novgorod, Russian Empire",
+	"placeDeath": "St. Petersburg, Russian Empire",
+	"relationship": [{
+		"id": 370,
+		"type": "Acquaintance",
+		"color": "blue"
+	}],
+	"color": "blue",
+	"group": ["The Five"],
+	"occupation": ["Pianist", "Composer", "Conductor"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Milij_Aleksejevi%C4%8D_Balakirev_%28%D0%9C%D0%B8%D0%BB%D0%B8%D0%B9_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B5%D0%B5%D0%B2%D0%B8%D1%87_%D0%91%D0%B0%D0%BB%D0%B0%CC%81%D0%BA%D0%B8%D1%80%D0%B5%D0%B2%29.jpg"
+},
+{
+	"id": 370,
+	"name": {
+		"first": "César",
+		"last": "Cui",
+		"alt": ["César Antonovich Cui", "Cesarius Benjaminus Cui"]
+	},
+	"dateBirth": {
+		"yyyy": "1835",
+		"mm": "01",
+		"dd": "18"
+	},
+	"dateDeath": {
+		"yyyy": "1918",
+		"mm": "03",
+		"dd": "13"
+	},
+	"placeBirth": "Vilnius, Russian Empire",
+	"placeDeath": "Petrograd, Russian SFSR",
+	"relationship": [{
+		"id": 371,
+		"type": "Student",
+		"color": "gray"
+	}],
+	"color": "darkBlue",
+	"group": ["The Five"],
+	"occupation": ["Composer", "Music critic"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Cesar_cui.jpg"
+},
+{
+	"id": 371,
+	"name": {
+		"first": "Stanisław",
+		"last": "Moniuszko",
+		"alt": [""]
+	},
+	"dateBirth": {
+		"yyyy": "1819",
+		"mm": "05",
+		"dd": "05"
+	},
+	"dateDeath": {
+		"yyyy": "1872",
+		"mm": "06",
+		"dd": "04"
+	},
+	"placeBirth": "Ubiel, Minsk Governorate",
+	"placeDeath": "Warsaw, Congress Poland",
+	"relationship": [{
+		"id": "",
+		"type": "",
+		"color": ""
+	}],
+	"color": "darkRed",
+	"group": [""],
+	"occupation": ["Composer", "Conductor", "Teacher"],
+	"source": [{
+		"citation": "",
+		"extract": ""
+	}],
+	"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Stanis%C5%82a%C5%AD_Maniu%C5%A1ka._%D0%A1%D1%82%D0%B0%D0%BD%D1%96%D1%81%D0%BB%D0%B0%D1%9E_%D0%9C%D0%B0%D0%BD%D1%8E%D1%88%D0%BA%D0%B0_%28T._Maleszewski%2C_1865%29.jpg/361px-Stanis%C5%82a%C5%AD_Maniu%C5%A1ka._%D0%A1%D1%82%D0%B0%D0%BD%D1%96%D1%81%D0%BB%D0%B0%D1%9E_%D0%9C%D0%B0%D0%BD%D1%8E%D1%88%D0%BA%D0%B0_%28T._Maleszewski%2C_1865%29.jpg"
 }]
