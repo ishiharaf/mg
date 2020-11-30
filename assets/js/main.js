@@ -61,8 +61,8 @@ const defaultLayout = {
 	hierarchical: {
 		enabled: true,
 		direction: "UD",
-		levelSeparation: 30,
-		treeSpacing: 200,
+		levelSeparation: 50,
+		treeSpacing: 500,
 		sortMethod: "hubsize"
 	}
 }
@@ -106,7 +106,8 @@ const drawNetwork = (userLayout, userArrows) => {
 		physics:{
 			enabled: true,
 			hierarchicalRepulsion: {
-				avoidOverlap: 1
+				avoidOverlap: 1,
+				nodeDistance: 200
 			}
 		}
 	}
@@ -426,13 +427,48 @@ const assignBirth = (person) => {
 	}
 }
 
+const assignGroup = (person) => {
+	const groupDiv = document.getElementById("group")
+	groupDiv.innerHTML = ""
+
+	if(person.group[0] !== ""){
+		groupDiv.style.paddingBottom = "1rem"
+
+		for (let i = 0; i < person.group.length; i++) {
+			const groupNode = document.createElement("span")
+			const groupName = person.group[i]
+			const source = checkSource(groupName)
+			groupNode.className = "groupNode"
+
+			if(source !== false) {
+				if(i !== 0) groupNode.innerHTML = `, ${source.string}`
+				else groupNode.innerHTML = source.string
+				groupNode.addEventListener("click", () => {
+					highlightGroup(source.string)
+				})
+				groupDiv.appendChild(groupNode)
+				groupDiv.appendChild(source.node)
+			} else {
+				if(i !== 0) groupNode.innerHTML += `, ${groupName}`
+				else groupNode.innerHTML = groupName
+				groupNode.addEventListener("click", () => {
+					highlightGroup(groupName)
+				})
+				groupDiv.appendChild(groupNode)
+			}
+		}
+	} else {
+		groupDiv.style.paddingBottom = ""
+	}
+}
+
 const assignOccupation = (person) => {
 	const occupationDiv = document.getElementById("occupation")
 	occupationDiv.innerHTML = ""
 
-	for (let i = 0; i < person.group.length; i++) {
+	for (let i = 0; i < person.occupation.length; i++) {
 		const occNode = document.createElement("span")
-		const occName = person.group[i]
+		const occName = person.occupation[i]
 		const source = checkSource(occName)
 		if(source !== false) {
 			if(i !== 0) occNode.innerHTML = `, ${source.string}`
@@ -658,6 +694,57 @@ const highlightResult = (selNodes) => {
 	edges.update(updateEdges)
 }
 
+const getGroup = (name) => {
+	const parsedName = name.replace("(", "").replace(")", "")
+	const groupRegExp = new RegExp(parsedName, "ig")
+	let matchAll = []
+
+	for (let i = 0; i < people.length; i++) {
+		const person = people[i]
+		const id = person.id
+		const group = person.group
+
+		for (let i = 0; i < group.length; i++) {
+			const groupName = group[i].replace("(", "").replace(")", "")
+			if(groupName.match(groupRegExp)) matchAll.push(id)
+		}
+	}
+
+	const result = Array.from(new Set(matchAll))
+	return result
+}
+
+const highlightGroup = (name) => {
+	const selNodes = getGroup(name)
+	highlight = true
+
+	let updateNodes = []
+	for (let nodeId in nodeData) {
+		nodeData[nodeId].opacity = 0.3
+		nodeData[nodeId].label = undefined
+		updateNodes.push(nodeData[nodeId])
+	}
+
+	let updateEdges = []
+	for (let edgeId in edgeData) {
+		edgeData[edgeId].color = {
+			color: edgeColor[edgeId],
+			opacity: 0.3
+		}
+		edgeData[edgeId].width = 1
+		updateEdges.push(edgeData[edgeId])
+	}
+
+	for (let i = 0; i < selNodes.length; i++) {
+		nodeData[selNodes[i]].opacity = 1
+		nodeData[selNodes[i]].label = nodeData[selNodes[i]].hiddenLabel
+	}
+
+	network.selectNodes(selNodes, false)
+	nodes.update(updateNodes)
+	edges.update(updateEdges)
+}
+
 const getArrows = () => {
 	const arrowType = String(document.getElementById("arrowTypeSel").value)
 	const forceDirection = String(document.getElementById("forceDirectionSel").value)
@@ -709,11 +796,13 @@ const getHierarchy = () => {
 
 const getResult = () => {
 	const nameFilter = String(document.getElementById("nameFilterBox").value)
+	const groupFilter = String(document.getElementById("groupFilterBox").value).replace("(", "").replace(")", "")
 	const occFilter = String(document.getElementById("occFilterBox").value)
 	const placeFilter = String(document.getElementById("birthPlaceFilterBox").value)
 	const dateFilter = String(document.getElementById("birthDateFilterBox").value)
 
 	const nameRegExp = new RegExp(nameFilter, "ig")
+	const groupRegExp = new RegExp(groupFilter, "ig")
 	const occRegExp = new RegExp(occFilter, "ig")
 	const placeRegExp = new RegExp(placeFilter, "ig")
 	let dateRegExp
@@ -781,7 +870,15 @@ const getResult = () => {
 			}
 		}
 
-		const occupation = person.group
+		const group = person.group
+		if(groupFilter !== "") {
+			for (let i = 0; i < group.length; i++) {
+				const groupName = group[i].replace("(", "").replace(")", "")
+				if(groupName.match(groupRegExp)) matchAll.push(id)
+			}
+		}
+
+		const occupation = person.occupation
 		if(occFilter !== "") {
 			for (let i = 0; i < occupation.length; i++) {
 				const occName = occupation[i]
@@ -925,6 +1022,7 @@ const openInfoCard = (params) => {
 		assignAlt(selPerson)
 		assignBirth(selPerson)
 		assignOccupation(selPerson)
+		assignGroup(selPerson)
 		assignRelation(selPerson, relatedPeople)
 		assignImg(selPerson)
 
